@@ -250,7 +250,7 @@ export default function JSONFormatterTool() {
                 ref={textareaRef}
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder={t("input.placeholder")}
+                placeholder={t.raw("input.placeholder")}
                 className={`h-52 px-5 py-4 rounded-2xl border text-sm leading-relaxed font-mono resize-none focus:outline-none focus:ring-2 transition-all duration-200 shadow-sm bg-card text-foreground placeholder:text-muted-foreground/50 ${input && !parsed.ok
                   ? "border-red-300 dark:border-red-800 focus:border-red-400 focus:ring-red-100 dark:focus:ring-red-900/30"
                   : input && parsed.ok
