@@ -1,0 +1,124 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Add Watermark"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Add Watermark to Images — Text & Logo Watermark Online",
+    "description": "Free online watermark tool to add text or logo watermarks to your images. Customize position, opacity, rotation, size, and font. Protect your photos and artwork from unauthorized use — 100% client-side, your files never leave your browser.",
+    "keywords": "add watermark, watermark image, photo watermark, text watermark, logo watermark, protect images, watermark photos online, image copyright tool"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "clickOrDrag": "Click or drag & drop your image",
+    "privacyNote": "Your image never leaves your device.",
+    "imageOnly": "Images only",
+    "formatsSupported": "Supported formats: JPG, PNG, GIF, WebP",
+    "processedLocally": "Processed locally · JPG, PNG, WebP, GIF"
+  },
+  "options": {
+    "type": "Type",
+    "text": "Text",
+    "image": "Image",
+    "position": "Position",
+    "textOptions": "Text Options",
+    "font": "Font",
+    "fontSize": "Font Size",
+    "color": "Color",
+    "opacity": "Opacity",
+    "bold": "Bold",
+    "italic": "Italic",
+    "rotation": "Rotation",
+    "imageOptions": "Image Options",
+    "scale": "Scale",
+    "watermarkText": "Your watermark text...",
+    "remove": "Remove",
+    "tile": "Tile (Repeat all over)",
+    "fineTuneOffset": "Fine-tune Offset",
+    "xOffset": "X Offset",
+    "yOffset": "Y Offset",
+    "resetOffset": "Reset offset",
+    "outputFormat": "Output Format",
+    "quality": "Quality",
+    "autoApply": "Auto Apply",
+    "uploadNewImage": "Upload New Image",
+    "label": "Click or drag & drop your image",
+    "privacyNote": "Your image never leaves your device."
+  },
+  "apply": {
+    "button": "Apply Watermark",
+    "applying": "Applying..."
+  },
+  "download": "Download Image",
+  "preview": {
+    "originalSize": "Original Size",
+    "dimensions": "Dimensions",
+    "outputSize": "Output Size",
+    "original": "Original",
+    "withWatermark": "With Watermark",
+    "watermarkWillAppear": "Watermark will appear here",
+    "fullPreview": "Full Preview",
+    "tiled": "Tiled"
+  },
+  "positions": {
+    "top-left": "Top Left",
+    "top-center": "Top Center",
+    "top-right": "Top Right",
+    "middle-left": "Middle Left",
+    "middle-center": "Middle Center",
+    "middle-right": "Middle Right",
+    "bottom-left": "Bottom Left",
+    "bottom-center": "Bottom Center",
+    "bottom-right": "Bottom Right"
+  },
+  "howToUse": {
+    "title": "How to Use Add Watermark",
+    "step1Title": "Upload Your Image",
+    "step1Desc": "Click the upload area or drag and drop an image from your computer.",
+    "step2Title": "Enter Watermark Text or Logo",
+    "step2Desc": "Type the text you want to overlay or upload a logo image to use as a watermark.",
+    "step3Title": "Customize Position and Style",
+    "step3Desc": "Choose where to place the watermark and adjust font size, color, opacity, and rotation.",
+    "step4Title": "Apply and Download",
+    "step4Desc": "Click Apply Watermark, then download your watermarked image in your preferred format."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Can I use an image as a watermark?",
+        "answer": "Yes. Switch to the Image type in the options panel and upload a logo or graphic to use as your watermark."
+      },
+      {
+        "question": "Is the watermark applied permanently?",
+        "answer": "Yes, once you apply and download the image, the watermark is permanently rendered onto the image."
+      },
+      {
+        "question": "Can I adjust the opacity of the watermark?",
+        "answer": "Absolutely. Use the opacity slider to make your watermark fully opaque or semi-transparent."
+      },
+      {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, PNG, GIF, and WebP for both input and output."
+      },
+      {
+        "question": "Is my image safe and private?",
+        "answer": "Yes. All processing happens entirely in your browser — your images are never uploaded to any server."
+      },
+      {
+        "question": "Can I tile the watermark across the image?",
+        "answer": "Yes. Enable the Tile option to repeat the watermark across the entire image."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Copyright Notice",
+    "sampleText": "© 2025 Your Name",
+    "stats": "Position: bottom-right · Opacity: 50%",
+    "result": "A semi-transparent copyright notice appears at the bottom-right corner of your image."
+  }
+}

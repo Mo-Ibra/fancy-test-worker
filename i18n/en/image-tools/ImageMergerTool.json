@@ -1,0 +1,81 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image Merger"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image Merger — Combine Images Horizontally, Vertically & Grid",
+    "description": "Free online image merger to combine multiple images into a single picture. Stack images horizontally, vertically, or arrange them in a custom grid layout. Adjust spacing, alignment, and background color — 100% client-side, nothing uploaded.",
+    "keywords": "image merger, combine images, merge photos, join images, image combiner, photo merger, merge pictures online, image grid creator"
+  },
+  "dropzone": {
+    "dropHere": "Drop images here",
+    "hint": "You can add multiple images at once"
+  },
+  "options": {
+    "layout": "Layout",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "grid": "Grid",
+    "alignment": "Alignment",
+    "gap": "Gap",
+    "backgroundColor": "Background Color",
+    "gridCols": "Columns",
+    "fitMode": "Fit Mode"
+  },
+  "merge": {
+    "button": "Merge Images",
+    "merging": "Merging…"
+  },
+  "download": "Download",
+  "clear": "Clear All",
+  "howToUse": {
+    "title": "How to Use Image Merger",
+    "step1Title": "Upload Images",
+    "step1Desc": "Drag and drop multiple images onto the merger tool.",
+    "step2Title": "Choose a Layout",
+    "step2Desc": "Select Horizontal, Vertical, or Grid layout for the merged result.",
+    "step3Title": "Customize Spacing and Alignment",
+    "step3Desc": "Set gap size, alignment, background color, and grid columns if using Grid layout.",
+    "step4Title": "Merge and Download",
+    "step4Desc": "Click Merge Images, then download the combined single image."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "How many images can I merge?",
+        "answer": "You can merge as many images as you need. There is no hard limit."
+      },
+      {
+        "question": "What layout options are available?",
+        "answer": "You can merge images horizontally, vertically, or in a grid layout with configurable columns."
+      },
+      {
+        "question": "Can I adjust spacing between images?",
+        "answer": "Yes. Use the Gap setting to add or remove space between images."
+      },
+      {
+        "question": "What happens if images have different sizes?",
+        "answer": "You can choose an alignment mode to control how differently-sized images are positioned."
+      },
+      {
+        "question": "Can I set a background color?",
+        "answer": "Yes. Choose any background color for areas not covered by images."
+      },
+      {
+        "question": "Is my data safe?",
+        "answer": "Yes. All processing happens locally in your browser — nothing is uploaded."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Side-by-Side Comparison",
+    "sampleText": "Merge before and after photos horizontally for a comparison view.",
+    "stats": "Layout: Horizontal · Gap: 4px",
+    "result": "Two images merged side-by-side into a single before-and-after comparison."
+  }
+}

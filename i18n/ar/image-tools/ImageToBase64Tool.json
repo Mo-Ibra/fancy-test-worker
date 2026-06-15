@@ -1,0 +1,117 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات الصور",
+    "current": "الصورة إلى Base64"
+  },
+  "header": {
+    "badge": "أدوات الصور",
+    "title": "محول Base64 — تشفير وفك تشفير الصور إلى Base64 أونلاين",
+    "description": "أداة مجانية لتحويل الصور إلى Base64 أونلاين لتشفير الصور إلى نصوص Base64 وفك تشفيرها والعودة إلى صور. يدعم JPG وPNG وGIF وWebP. مثالية لمطوري الويب لتضمين الصور في HTML أو CSS أو JavaScript — 100% على جانب العميل.",
+    "keywords": "تحويل الصورة إلى base64, تشفير base64, فك تشفير base64, image to base64, محول base64 للصور"
+  },
+  "tabs": {
+    "encode": "ترميز",
+    "decode": "فك التشفير",
+    "encodeLabel": "صورة ← Base64",
+    "decodeLabel": "Base64 ← صورة"
+  },
+  "dropzone": {
+    "dropHere": "أسقط صورة هنا",
+    "orClick": "أو انقر للتصفح",
+    "clickOrDrag": "انقر أو اسحب وأفلت صورتك",
+    "privacyNote": "صورتك لا تغادر جهازك أبداً — معالجة محلية 100%.",
+    "fileFormats": "JPG, PNG, WebP, GIF, SVG · معالجة محلية"
+  },
+  "encode": {
+    "outputFormat": "تنسيق الإخراج",
+    "imageInfo": "معلومات الصورة",
+    "filename": "اسم الملف",
+    "type": "النوع",
+    "dimensions": "الأبعاد",
+    "fileSize": "حجم الملف",
+    "base64Size": "حجم Base64",
+    "sizeRatio": "{ratio}% من الأصلي",
+    "uploadNewImage": "رفع صورة جديدة",
+    "charsCount": "{count} حرف",
+    "collapse": "طي",
+    "expand": "توسيع",
+    "copy": "نسخ",
+    "copyWrapper": "نسخ {label}"
+  },
+  "decode": {
+    "input": "إدخال Base64",
+    "inputPlaceholder": "الصق سلسلة base64 أو data URL هنا...\n\nأمثلة:\n  data:image/png;base64,iVBORw0KGgo...\n  /9j/4AAQSkZJRgAB... (base64 خام)",
+    "invalid": "سلسلة Base64 غير صالحة. تأكد أنها صورة مرمزة بـ base64 صالحة.",
+    "button": "فك التشفير إلى صورة",
+    "clear": "مسح",
+    "acceptedFormats": "الصيغ المقبولة",
+    "dataUrl": "Data URL",
+    "rawBase64": "Base64 خام",
+    "decodedImage": "الصورة المفككة",
+    "emptyPreview": "ستظهر الصورة المفككة هنا",
+    "format": "التنسيق",
+    "size": "الحجم",
+    "dimensions": "الأبعاد",
+    "download": "تحميل الصورة"
+  },
+  "preview": {
+    "label": "المعاينة"
+  },
+  "stats": {
+    "original": "الأصلي",
+    "base64Size": "حجم Base64",
+    "overhead": "النفقات"
+  },
+  "common": {
+    "copy": "نسخ",
+    "copied": "تم النسخ!"
+  },
+  "howToUse": {
+    "title": "طريقة استخدام محول Base64",
+    "step1Title": "اختيار الوضع",
+    "step1Desc": "اختر ترميز لتحويل صورة إلى Base64 أو فك تشفير للعكس.",
+    "step2Title": "رفع أو لصق",
+    "step2Desc": "اسحب صورة للترميز أو الصق نص Base64 لفك التشفير.",
+    "step3Title": "اختيار التنسيق",
+    "step3Desc": "اختر تنسيق الصورة للإخراج المشفر.",
+    "step4Title": "نسخ أو تحميل",
+    "step4Desc": "انسخ نص Base64 إلى الحافظة أو حمّل الصورة المفككة."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      {
+        "question": "ما هو ترميز Base64؟",
+        "answer": "Base64 هي طريقة ترميز تحول البيانات الثنائية (مثل الصور) إلى سلسلة نصية من أحرف ASCII."
+      },
+      {
+        "question": "متى يجب استخدام صور Base64؟",
+        "answer": "Base64 مفيدة لتضمين الصور الصغيرة مباشرة في HTML أو CSS أو JavaScript لتقليل طلبات HTTP."
+      },
+      {
+        "question": "هل يزيد Base64 من حجم الملف؟",
+        "answer": "نعم. يزيد ترميز Base64 الحجم بنسبة 33% تقريباً مقارنة بالملف الثنائي الأصلي."
+      },
+      {
+        "question": "هل يمكنني فك تشفير Base64 إلى صورة؟",
+        "answer": "نعم. حوّل إلى تبويب \"فك التشفير\"، الصق النص، وانقر على \"فك التشفير إلى صورة\"."
+      },
+      {
+        "question": "ما تنسيقات الصور المدعومة؟",
+        "answer": "ندعم JPG وPNG وWebP وGIF وSVG للترميز وفك التشفير."
+      },
+      {
+        "question": "هل بيانات صورتي خاصة؟",
+        "answer": "نعم. جميع المعالجة تحدث محلياً في متصفحك — لا شيء يُرفع إلى أي خادم."
+      }
+    ]
+  },
+  "examples": {
+    "title": "جرب مثالاً",
+    "sampleLabel": "تضمين صورة في HTML",
+    "sampleText": "data:image/png;base64,...",
+    "stats": "ترميز: PNG ← Base64",
+    "result": "نص Base64 جاهز للتضمين في HTML أو CSS أو JavaScript."
+  }
+}

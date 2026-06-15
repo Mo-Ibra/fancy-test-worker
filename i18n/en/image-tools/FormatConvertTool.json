@@ -1,0 +1,102 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image Format Converter"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image Format Converter — Convert JPG, PNG, WebP & More",
+    "description": "Free online image format converter to convert between JPG, PNG, WebP, GIF, BMP, TIFF, and other image formats. Change file type without losing quality. Batch convert and resize — 100% client-side, your files stay private.",
+    "keywords": "image format converter, convert image format, jpg to png, png to webp, image type converter, change image format, photo format converter, batch image converter"
+  },
+  "dropzone": {
+    "dropHere": "Drop images here",
+    "orClick": "or click to browse",
+    "clickOrDrag": "Click or drag & drop images",
+    "formatsSupported": "Supports JPG, PNG, WebP, GIF, BMP · Multiple files supported"
+  },
+  "options": {
+    "outputFormat": "Output Format",
+    "quality": "Quality",
+    "maxWidth": "Max Width",
+    "maxHeight": "Max Height",
+    "resizeOnConvert": "Resize on Convert",
+    "smallestFile": "Smallest file",
+    "bestQuality": "Best quality"
+  },
+  "formatTypes": {
+    "lossy": "Lossy",
+    "lossless": "Lossless"
+  },
+  "summary": {
+    "convertingTo": "Converting to",
+    "atQuality": "at {quality}% quality",
+    "lossless": "(lossless)",
+    "maxDimensions": "max {width}×{height}"
+  },
+  "privacy": {
+    "note": "All conversions happen locally in your browser. Your images are never uploaded to any server."
+  },
+  "files": {
+    "fileCount": "{count} file",
+    "fileCount_plural": "{count} files",
+    "converted": "{count} converted"
+  },
+  "convert": {
+    "button": "Convert All",
+    "converting": "Converting…"
+  },
+  "download": {
+    "downloadAll": "Download All",
+    "download": "Download"
+  },
+  "clear": "Clear All",
+  "howToUse": {
+    "title": "How to Use Format Converter",
+    "step1Title": "Upload Images",
+    "step1Desc": "Drag and drop one or more images onto the upload area.",
+    "step2Title": "Choose Output Format",
+    "step2Desc": "Select the target format from the dropdown menu.",
+    "step3Title": "Adjust Settings",
+    "step3Desc": "Optionally set quality, max width, and max height for the output.",
+    "step4Title": "Convert and Download",
+    "step4Desc": "Click Convert All to process all images, then download individually or as a zip."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, PNG, WebP, GIF, BMP, and TIFF for conversion."
+      },
+      {
+        "question": "Can I convert multiple images at once?",
+        "answer": "Yes. You can upload and batch convert multiple images simultaneously."
+      },
+      {
+        "question": "Does the conversion reduce quality?",
+        "answer": "You can control the quality setting. Lossless formats like PNG preserve full quality."
+      },
+      {
+        "question": "Can I resize images during conversion?",
+        "answer": "Yes. Enable the Resize on Convert option and set max width and height."
+      },
+      {
+        "question": "Is my data safe?",
+        "answer": "Yes. All conversions happen locally in your browser. Your images are never uploaded."
+      },
+      {
+        "question": "What is the difference between lossy and lossless?",
+        "answer": "Lossy formats (like JPEG) reduce file size by discarding some data. Lossless formats (like PNG) preserve all original data."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "PNG to WebP",
+    "sampleText": "Convert a PNG screenshot to WebP for faster web loading.",
+    "stats": "Format: WebP · Quality: 80%",
+    "result": "A high-quality WebP image with significantly smaller file size."
+  }
+}

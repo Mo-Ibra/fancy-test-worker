@@ -1,0 +1,120 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image Rotator"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image Rotator — Rotate & Flip Images at Any Angle Online",
+    "description": "Free online image rotator to rotate images by 90, 180, 270 degrees or any custom angle. Flip images horizontally or vertically. Fix orientation of photos taken from any angle — 100% client-side, nothing uploaded.",
+    "keywords": "image rotator, rotate image, rotate photo, flip image, image rotation tool, rotate picture, custom angle rotate, photo orientation fixer"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "fileTypes": "JPG, PNG, WebP, GIF, BMP · Processed locally"
+  },
+  "privacy": {
+    "localProcessing": "Your image never leaves your device."
+  },
+  "options": {
+    "quickRotate": "Quick Rotate",
+    "angle": "Angle",
+    "rotationAngle": "Rotation Angle",
+    "customAngle": "Custom Angle",
+    "presetAngles": "Preset Angles",
+    "outputFormat": "Output Format",
+    "quality": "Quality",
+    "background": "Background",
+    "backgroundFill": "Background Fill",
+    "degrees": "degrees",
+    "smallest": "Smallest",
+    "bestQuality": "Best quality"
+  },
+  "rotate": {
+    "button": "Rotate Image",
+    "rotating": "Rotating...",
+    "processing": "Processing...",
+    "ccw": "90° CCW",
+    "cw": "90° CW"
+  },
+  "download": "Download",
+  "result": {
+    "original": "Original",
+    "result": "Result",
+    "dimensions": "Dimensions",
+    "size": "Size",
+    "angle": "Angle",
+    "original2": "Original",
+    "output": "Output",
+    "outputSize": "Output Size",
+    "noRotation": "No rotation",
+    "clockwise": "Clockwise",
+    "counterClockwise": "Counter-clockwise",
+    "clickToPreview": "Click \"Rotate Image\" to preview",
+    "rotated": "rotated",
+    "transparentBg": "Transparent bg",
+    "whiteBg": "White bg",
+    "blackBg": "Black bg"
+  },
+  "stats": {
+    "angle": "Angle",
+    "original": "Original",
+    "output": "Output",
+    "outputSize": "Output Size"
+  },
+  "actions": {
+    "uploadNew": "Upload New Image"
+  },
+  "warnings": {
+    "jpegNoTransparency": "JPEG doesn't support transparency — use PNG or WebP for transparent backgrounds."
+  },
+  "howToUse": {
+    "title": "How to Use Image Rotator",
+    "step1Title": "Upload an Image",
+    "step1Desc": "Drag and drop an image or click to browse from your device.",
+    "step2Title": "Choose Rotation Angle",
+    "step2Desc": "Select a preset angle (90°, 180°, 270°) or enter a custom angle.",
+    "step3Title": "Set Background and Output",
+    "step3Desc": "Choose a background fill color and select output format and quality.",
+    "step4Title": "Rotate and Download",
+    "step4Desc": "Click Rotate Image, then download your rotated image."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Can I rotate by a custom angle?",
+        "answer": "Yes. Enter any custom angle between -360 and 360 degrees."
+      },
+      {
+        "question": "What happens to the background after rotation?",
+        "answer": "Rotated images may have transparent or blank areas. You can fill these with a solid color or leave them transparent."
+      },
+      {
+        "question": "Does rotation affect image quality?",
+        "answer": "90°, 180°, and 270° rotations are lossless. Custom angles may require interpolation which can slightly affect quality."
+      },
+      {
+        "question": "Can I flip and rotate at the same time?",
+        "answer": "This tool focuses on rotation. Use the Image Flipper tool for flipping operations."
+      },
+      {
+        "question": "What formats are supported?",
+        "answer": "We support JPG, PNG, WebP, GIF, and BMP."
+      },
+      {
+        "question": "Why does JPEG not support transparency?",
+        "answer": "JPEG format does not support alpha channels. Use PNG or WebP if you need transparent backgrounds."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Upside Down Fix",
+    "sampleText": "Correct a photo taken upside down by rotating it 180°.",
+    "stats": "Angle: 180° · Background: Transparent",
+    "result": "An upright photo with correct orientation, ready to download."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Grayscale Converter"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Grayscale Converter — Turn Images to Black & White Online",
+    "description": "Free online grayscale converter to turn your images into black and white. Choose from multiple grayscale algorithms including luminosity, average, and desaturation. Adjust contrast and brightness for the perfect monochrome effect — 100% client-side.",
+    "keywords": "grayscale converter, convert to grayscale, black and white converter, image to grayscale, grayscale image, black and white photo converter, desaturate image, grayscale filter"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "clickOrDrag": "Click or drag & drop an image",
+    "formats": "JPG, PNG, WebP, GIF · Processed locally"
+  },
+  "options": {
+    "method": "Method",
+    "luminance": "Luminance",
+    "average": "Average",
+    "lightness": "Lightness",
+    "intensity": "Intensity",
+    "contrast": "Contrast",
+    "brightness": "Brightness",
+    "outputFormat": "Output Format",
+    "quality": "Quality",
+    "conversionMethod": "Conversion Method",
+    "adjustments": "Adjustments",
+    "resetAdjustments": "Reset Adjustments",
+    "autoApply": "Auto Apply",
+    "updatePreview": "Update preview on every change."
+  },
+  "preview": {
+    "original": "Original",
+    "result": "Result",
+    "beforeAfter": "Before / After",
+    "dragSlider": "Drag slider to compare"
+  },
+  "convert": {
+    "button": "Convert to Grayscale",
+    "converting": "Converting…",
+    "apply": "Apply",
+    "processing": "Processing..."
+  },
+  "download": {
+    "button": "Download",
+    "uploadNew": "Upload New Image"
+  },
+  "privacy": "Your image never leaves your device.",
+  "howToUse": {
+    "title": "How to Use Grayscale Converter",
+    "step1Title": "Upload an Image",
+    "step1Desc": "Drag and drop an image or click to browse from your device.",
+    "step2Title": "Choose Conversion Method",
+    "step2Desc": "Select from Luminance, Average, Lightness, or Intensity algorithms.",
+    "step3Title": "Fine-Tune the Look",
+    "step3Desc": "Adjust contrast and brightness for the perfect monochrome effect.",
+    "step4Title": "Apply and Download",
+    "step4Desc": "Click Convert to Grayscale, compare with the original, then download."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What is the difference between grayscale methods?",
+        "answer": "Luminance weights colors by human perception, Average takes a simple mean, Lightness uses the midpoint of RGB extremes, and Intensity uses a fixed weighted formula."
+      },
+      {
+        "question": "Can I adjust contrast and brightness?",
+        "answer": "Yes. Use the sliders to fine-tune contrast and brightness before converting."
+      },
+      {
+        "question": "Does this work on any image format?",
+        "answer": "Yes. We support JPG, PNG, WebP, GIF, and other common formats."
+      },
+      {
+        "question": "Is the processing done locally?",
+        "answer": "Yes. Your image never leaves your device — all processing is done in your browser."
+      },
+      {
+        "question": "Can I save in different formats?",
+        "answer": "Yes. You can choose the output format and quality before downloading."
+      },
+      {
+        "question": "What is the best method for photos?",
+        "answer": "The Luminance method is generally best for photos as it accounts for how humans perceive brightness."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Luminance Grayscale",
+    "sampleText": "Convert a color portrait to a classic black and white photo using the Luminance method.",
+    "stats": "Method: Luminance · Contrast: +15",
+    "result": "A natural-looking black and white photo that preserves human-perceived brightness."
+  }
+}

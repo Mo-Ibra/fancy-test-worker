@@ -1,0 +1,122 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image Compressor"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image Compressor — Reduce Image File Size Online Free",
+    "description": "Free online image compressor to reduce image file size while preserving quality. Compress JPG, PNG, WebP, and GIF images with adjustable compression levels. Optimize images for web, email, and storage — 100% client-side.",
+    "keywords": "image compressor, compress image, reduce image size, image optimizer, compress jpg, compress png, image file size reducer, photo compressor"
+  },
+  "dropzone": {
+    "dropHere": "Drop images here",
+    "orClick": "or click to browse",
+    "imageOnly": "Images only",
+    "dropToCompress": "Drop images to compress",
+    "clickOrDrag": "Click or drag & drop images",
+    "formatsSupported": "JPG, PNG, WebP · Multiple files supported"
+  },
+  "options": {
+    "title": "Compression Options",
+    "mode": "Mode",
+    "modeLabel": "Compression Mode",
+    "byQuality": "By Quality",
+    "bySize": "By Size",
+    "quality": "Quality",
+    "qualityMaxCompression": "Max compression",
+    "qualityBestQuality": "Best quality",
+    "qualityLow": "Low",
+    "qualityMed": "Med",
+    "qualityHigh": "High",
+    "qualityMax": "Max",
+    "targetSize": "Target Size (KB)",
+    "targetSizeLabel": "Target Size",
+    "targetSizeDesc": "Uses binary search to find the best quality that fits the target.",
+    "outputFormat": "Output Format",
+    "maxWidth": "Max Width",
+    "limitWidth": "Limit Width",
+    "stripMetadata": "Strip metadata"
+  },
+  "fileRow": {
+    "queued": "Queued",
+    "working": "Working...",
+    "failed": "Failed",
+    "larger": "Larger",
+    "saved": "Saved",
+    "save": "Save"
+  },
+  "compress": {
+    "button": "Compress All",
+    "compressing": "Compressing…"
+  },
+  "download": {
+    "downloadAll": "Download All",
+    "download": "Download"
+  },
+  "clear": "Clear All",
+  "result": {
+    "original": "Original",
+    "compressed": "Compressed",
+    "saved": "Saved",
+    "files": "Files",
+    "avg": "Avg",
+    "showComparison": "Show before/after",
+    "hideComparison": "Hide comparison",
+    "dragToCompare": "Before / After — drag to compare"
+  },
+  "fileList": {
+    "fileCount": "{count} file",
+    "fileCountPlural": "{count} files",
+    "compressedCount": "{count} compressed",
+    "clearAll": "Clear all"
+  },
+  "howToUse": {
+    "title": "How to Use Image Compressor",
+    "step1Title": "Upload Images",
+    "step1Desc": "Drag and drop one or more images onto the compressor.",
+    "step2Title": "Choose Compression Mode",
+    "step2Desc": "Select By Quality for direct control or By Size to target a specific file size.",
+    "step3Title": "Adjust Settings",
+    "step3Desc": "Set quality level, output format, max dimensions, and strip metadata if needed.",
+    "step4Title": "Compress and Download",
+    "step4Desc": "Click Compress All, compare sizes, then download individually or as a zip."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "How much can I compress an image?",
+        "answer": "It depends on the image content and format. Typically you can reduce file size by 50-80% without noticeable quality loss."
+      },
+      {
+        "question": "What is the difference between By Quality and By Size?",
+        "answer": "By Quality lets you set a fixed quality level. By Size uses binary search to find the optimal quality that meets your target file size."
+      },
+      {
+        "question": "Does compression reduce image dimensions?",
+        "answer": "By default, no. But you can enable the Limit Width option to resize during compression."
+      },
+      {
+        "question": "What does Strip Metadata do?",
+        "answer": "It removes EXIF data, camera info, and other metadata from the image to reduce file size."
+      },
+      {
+        "question": "Can I compress multiple images at once?",
+        "answer": "Yes. Upload multiple images and compress them all in one click."
+      },
+      {
+        "question": "Is the compression lossless?",
+        "answer": "Lossy compression reduces quality. For maximum quality, use high quality settings or lossless formats like PNG."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Web Optimization",
+    "sampleText": "Compress a high-res photo to 80% quality for fast web loading.",
+    "stats": "Quality: 80% · Format: JPEG",
+    "result": "A dramatically smaller file with minimal visible quality loss."
+  }
+}

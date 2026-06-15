@@ -1,0 +1,128 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image Resizer"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image Resizer — Resize Photos by Pixels or Percentage Online",
+    "description": "Free online image resizer to resize photos by exact pixels, percentage, or preset dimensions. Maintain aspect ratio or crop freely to fit your needs. Perfect for social media, websites, and printing — 100% client-side.",
+    "keywords": "image resizer, resize image, resize photo, image resizing tool, photo resizer, change image dimensions, resize picture online, image scaler"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "imageOnly": "Image only"
+  },
+  "privacy": {
+    "localProcessing": "Your image never leaves your device — 100% local processing."
+  },
+  "options": {
+    "title": "Resize Options",
+    "mode": "Mode",
+    "resizeMode": "Resize Mode",
+    "dimensions": "Dimensions",
+    "width": "Width",
+    "height": "Height",
+    "widthPx": "Width (px)",
+    "heightPx": "Height (px)",
+    "percentage": "Percentage",
+    "scale": "Scale",
+    "lockAspect": "Lock aspect ratio",
+    "unlockAspect": "Unlock aspect ratio",
+    "locked": "Locked",
+    "free": "Free",
+    "fitMode": "Fit Mode",
+    "quality": "Quality",
+    "smallest": "Smallest",
+    "bestQuality": "Best quality",
+    "outputFormat": "Output Format"
+  },
+  "presets": {
+    "title": "Presets",
+    "choosePreset": "Choose Preset",
+    "hd": "HD",
+    "fullHd": "Full HD",
+    "4k": "4K",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "thumbnail": "Thumbnail",
+    "avatar": "Avatar",
+    "a4": "A4 @72dpi",
+    "icon": "Icon"
+  },
+  "resize": {
+    "button": "Resize Image",
+    "resizing": "Resizing…",
+    "processing": "Processing...",
+    "uploadNew": "Upload New Image"
+  },
+  "download": "Download",
+  "downloadResized": "Download Resized Image",
+  "result": {
+    "originalSize": "Original Size",
+    "dimensions": "Dimensions",
+    "target": "Target",
+    "outputSize": "Output Size",
+    "format": "Format",
+    "original": "Original",
+    "result": "Result",
+    "clickResize": "Click \"Resize Image\"",
+    "sizeReduction": "-{ratio}% size"
+  },
+  "howToUse": {
+    "title": "How to Use Image Resizer",
+    "step1Title": "Upload an Image",
+    "step1Desc": "Drag and drop an image or click to browse from your device.",
+    "step2Title": "Choose Resize Mode",
+    "step2Desc": "Select pixel dimensions, percentage scale, or a preset size.",
+    "step3Title": "Set Dimensions",
+    "step3Desc": "Enter width and height. Lock aspect ratio to maintain proportions.",
+    "step4Title": "Resize and Download",
+    "step4Desc": "Click Resize Image, then download your resized image in the chosen format."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Can I resize by percentage?",
+        "answer": "Yes. Switch to Percentage mode to resize by a percentage of the original dimensions."
+      },
+      {
+        "question": "What is the aspect ratio lock?",
+        "answer": "When locked, changing one dimension automatically adjusts the other to maintain the original proportions."
+      },
+      {
+        "question": "Are there preset sizes?",
+        "answer": "Yes. Choose from presets like HD, Full HD, 4K, Instagram, Facebook, Twitter, avatar, and more."
+      },
+      {
+        "question": "Does resizing affect image quality?",
+        "answer": "Resizing to smaller dimensions reduces detail. The quality setting also affects the output file size and appearance."
+      },
+      {
+        "question": "What is Fit Mode?",
+        "answer": "Fit Mode controls how the image is fitted into the specified dimensions — such as contain, cover, or fill."
+      },
+      {
+        "question": "What formats can I save to?",
+        "answer": "You can save the resized image as JPG, PNG, WebP, or other supported formats."
+      },
+      {
+        "question": "Is the processing done locally?",
+        "answer": "Yes. Your image never leaves your device — 100% local processing."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Instagram Square",
+    "sampleText": "Resize a photo to 1080×1080px for Instagram square posts.",
+    "stats": "Dimensions: 1080×1080 · Aspect ratio locked",
+    "result": "A perfectly cropped 1080×1080 square image ready for Instagram."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image to Base64"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image to Base64 — Encode & Decode Base64 Images Online",
+    "description": "Free online image to Base64 converter to encode images into Base64 strings and decode Base64 strings back to images. Supports JPG, PNG, GIF, and WebP. Ideal for web developers embedding images directly in HTML, CSS, or JavaScript — 100% client-side.",
+    "keywords": "image to base64, base64 encoder, base64 decoder, convert image to base64, base64 image converter, image encoder, base64 string generator, image to base64 online"
+  },
+  "tabs": {
+    "encode": "Encode",
+    "decode": "Decode",
+    "encodeLabel": "Image → Base64",
+    "decodeLabel": "Base64 → Image"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "clickOrDrag": "Click or drag & drop your image",
+    "privacyNote": "Your image never leaves your device — 100% local processing.",
+    "fileFormats": "JPG, PNG, WebP, GIF, SVG · Processed locally"
+  },
+  "encode": {
+    "outputFormat": "Output Format",
+    "imageInfo": "Image Info",
+    "filename": "Filename",
+    "type": "Type",
+    "dimensions": "Dimensions",
+    "fileSize": "File Size",
+    "base64Size": "Base64 Size",
+    "sizeRatio": "{ratio}% of original",
+    "uploadNewImage": "Upload New Image",
+    "charsCount": "{count} chars",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "copy": "Copy",
+    "copyWrapper": "Copy {label}"
+  },
+  "decode": {
+    "input": "Base64 Input",
+    "inputPlaceholder": "Paste a base64 string or data URL here...\n\nExamples:\n  data:image/png;base64,iVBORw0KGgo...\n  /9j/4AAQSkZJRgAB... (raw base64)",
+    "invalid": "Invalid Base64 string. Make sure it's a valid base64-encoded image.",
+    "button": "Decode to Image",
+    "clear": "Clear",
+    "acceptedFormats": "Accepted Formats",
+    "dataUrl": "Data URL",
+    "rawBase64": "Raw Base64",
+    "decodedImage": "Decoded Image",
+    "emptyPreview": "Decoded image will appear here",
+    "format": "Format",
+    "size": "Size",
+    "dimensions": "Dimensions",
+    "download": "Download Image"
+  },
+  "preview": {
+    "label": "Preview"
+  },
+  "stats": {
+    "original": "Original",
+    "base64Size": "Base64 Size",
+    "overhead": "Overhead"
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "howToUse": {
+    "title": "How to Use Image to Base64",
+    "step1Title": "Choose Encode or Decode",
+    "step1Desc": "Select Encode to convert an image to Base64, or Decode to convert Base64 back to an image.",
+    "step2Title": "Upload or Paste Input",
+    "step2Desc": "Drag and drop an image to encode, or paste a Base64 string to decode.",
+    "step3Title": "Select Format Options",
+    "step3Desc": "Choose the image format for the encoded output or download the decoded image.",
+    "step4Title": "Copy and Use",
+    "step4Desc": "Copy the Base64 string to your clipboard and embed it in HTML, CSS, or JavaScript."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What is Base64 encoding?",
+        "answer": "Base64 is an encoding method that converts binary data (like images) into a text string of ASCII characters."
+      },
+      {
+        "question": "When should I use Base64 images?",
+        "answer": "Base64 is useful for embedding small images directly in HTML, CSS, or JavaScript to reduce HTTP requests."
+      },
+      {
+        "question": "Does Base64 increase file size?",
+        "answer": "Yes. Base64 encoding increases the size by approximately 33% compared to the original binary file."
+      },
+      {
+        "question": "Can I decode a Base64 string back to an image?",
+        "answer": "Yes. Switch to the Decode tab, paste the Base64 string, and click Decode to Image."
+      },
+      {
+        "question": "What image formats are supported?",
+        "answer": "We support JPG, PNG, WebP, GIF, and SVG for encoding and decoding."
+      },
+      {
+        "question": "Is my image data private?",
+        "answer": "Yes. All processing happens locally in your browser — nothing is uploaded to any server."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "HTML Image Embed",
+    "sampleText": "Encode a small icon as Base64 and embed it directly in HTML using a data URL.",
+    "stats": "Format: PNG · Size: ~33% overhead",
+    "result": "A complete data URL string ready to paste into your HTML src attribute."
+  }
+}

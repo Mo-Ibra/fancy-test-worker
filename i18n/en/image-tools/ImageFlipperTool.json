@@ -1,0 +1,108 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Image Flipper"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Image Flipper — Flip Photos Horizontally or Vertically Online",
+    "description": "Free online image flipper to flip photos horizontally or vertically with a single click. Mirror images for perfect reflections, reverse selfies, or create symmetrical compositions — 100% client-side, your images stay private.",
+    "keywords": "image flipper, flip image, flip photo, mirror image, horizontal flip, vertical flip, photo flipper, mirror photo online"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "clickOrDrag": "Click or drag & drop your image",
+    "fileFormats": "JPG, PNG, WebP, GIF, BMP · Processed locally"
+  },
+  "flip": {
+    "direction": "Flip Direction",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "both": "Both",
+    "mirrorLeftRight": "Mirror left ↔ right",
+    "mirrorTopBottom": "Mirror top ↕ bottom",
+    "bothAxes": "Flip on both axes",
+    "processing": "Flipping..."
+  },
+  "options": {
+    "outputFormat": "Output Format",
+    "quality": "Quality",
+    "smallest": "Smallest",
+    "bestQuality": "Best quality"
+  },
+  "result": {
+    "imageInfo": "Image Info",
+    "filename": "Filename",
+    "dimensions": "Dimensions",
+    "fileSize": "File Size",
+    "flipMode": "Flip Mode",
+    "originalSize": "Original Size",
+    "outputSize": "Output Size",
+    "original": "Original",
+    "result": "Result",
+    "flippedHorizontally": "Flipped Horizontally",
+    "flippedVertically": "Flipped Vertically",
+    "flippedBothAxes": "Flipped Both Axes",
+    "clickToPreview": "Click \"Flip Image\" to preview"
+  },
+  "summary": {
+    "flip": "Flip"
+  },
+  "actions": {
+    "uploadNew": "Upload New Image"
+  },
+  "button": {
+    "flip": "Flip Image",
+    "flipping": "Flipping…"
+  },
+  "download": "Download",
+  "howToUse": {
+    "title": "How to Use Image Flipper",
+    "step1Title": "Upload an Image",
+    "step1Desc": "Drag and drop an image or click to browse from your device.",
+    "step2Title": "Choose Flip Direction",
+    "step2Desc": "Select Horizontal, Vertical, or Both to flip on both axes at once.",
+    "step3Title": "Set Output Options",
+    "step3Desc": "Choose the output format and quality for the flipped image.",
+    "step4Title": "Flip and Download",
+    "step4Desc": "Click Flip Image, preview the result, then download."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What is the difference between horizontal and vertical flip?",
+        "answer": "Horizontal flip mirrors the image left-to-right. Vertical flip mirrors it top-to-bottom."
+      },
+      {
+        "question": "Does flipping change image dimensions?",
+        "answer": "No. Flipping preserves the original dimensions and resolution."
+      },
+      {
+        "question": "Can I flip multiple images at once?",
+        "answer": "This tool processes one image at a time. For batch flipping, process images individually."
+      },
+      {
+        "question": "What formats are supported?",
+        "answer": "We support JPG, PNG, WebP, GIF, and BMP."
+      },
+      {
+        "question": "Is the processing done locally?",
+        "answer": "Yes. Your image never leaves your device."
+      },
+      {
+        "question": "Can I flip both horizontally and vertically at once?",
+        "answer": "Yes. Select the Both option to flip on both axes simultaneously."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Mirror Selfie",
+    "sampleText": "Flip a selfie horizontally to correct the mirror image effect.",
+    "stats": "Direction: Horizontal · Format: JPEG",
+    "result": "A correctly oriented selfie with no mirror reversal."
+  }
+}

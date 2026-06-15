@@ -1,0 +1,83 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Image Tools",
+    "current": "Color Picker"
+  },
+  "header": {
+    "badge": "Image Tools",
+    "title": "Color Picker — Extract Colors from Images Online Free",
+    "description": "Free online color picker to extract colors from images. Use the eyedropper tool to pick any color, view HEX, RGB, HSL, and CMYK values, and generate harmonious color palettes. Perfect for designers and developers — 100% client-side.",
+    "keywords": "color picker, extract colors from image, color dropper, hex color picker, color palette generator, image color extractor, pick color from photo, eyedropper tool"
+  },
+  "dropzone": {
+    "dropHere": "Drop an image here",
+    "orClick": "or click to browse",
+    "label": "Click or drag & drop your image",
+    "privacyNote": "All processing happens in your browser — images are never uploaded."
+  },
+  "options": {
+    "format": "Color Format",
+    "paletteSize": "Palette Size",
+    "gradientPreview": "Gradient Preview",
+    "copyAllValues": "Copy All {format} Values",
+    "pickedColor": "Picked Color",
+    "uploadNewImage": "Upload New Image",
+    "allValues": "All Values",
+    "colorsCount": "{count} colors"
+  },
+  "tabs": {
+    "palette": "Palette",
+    "eyedropper": "Eyedropper"
+  },
+  "eyedropper": {
+    "clickToPick": "Click anywhere on the image to pick a color"
+  },
+  "howToUse": {
+    "title": "How to Use Color Picker",
+    "step1Title": "Upload an Image",
+    "step1Desc": "Upload an image to extract colors from it.",
+    "step2Title": "Pick Colors with Eyedropper",
+    "step2Desc": "Click anywhere on the image with the eyedropper to pick a color.",
+    "step3Title": "View and Copy Color Values",
+    "step3Desc": "See the picked color in HEX, RGB, HSL, and CMYK formats, then copy any value.",
+    "step4Title": "Generate and Use Palettes",
+    "step4Desc": "Switch to the Palette tab to generate harmonious color palettes and copy them."
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "What color formats are supported?",
+        "answer": "The color picker displays colors in HEX, RGB, HSL, and CMYK formats."
+      },
+      {
+        "question": "How is the color palette generated?",
+        "answer": "The palette is generated using color extraction algorithms that identify the most prominent colors in your image."
+      },
+      {
+        "question": "Can I copy a color value?",
+        "answer": "Yes. Click the copy button next to any color value to copy it to your clipboard."
+      },
+      {
+        "question": "Is the processing done locally?",
+        "answer": "Yes. All processing happens in your browser — images are never uploaded."
+      },
+      {
+        "question": "What image formats can I use?",
+        "answer": "You can use JPG, PNG, WebP, GIF, and other common image formats."
+      },
+      {
+        "question": "Can I adjust the palette size?",
+        "answer": "Yes. Use the Palette Size option to control how many colors are extracted."
+      }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Brand Color",
+    "sampleText": "#FF6B35",
+    "stats": "HEX · RGB · HSL · CMYK",
+    "result": "Extract brand colors from any logo or image with a single click."
+  }
+}

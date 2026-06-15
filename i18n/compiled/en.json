@@ -1489,6 +1489,1102 @@
       }
     }
   },
+  "image-tools": {
+    "AddWatermarkTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Add Watermark"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Add Watermark to Images — Text & Logo Watermark Online",
+        "description": "Free online watermark tool to add text or logo watermarks to your images. Customize position, opacity, rotation, size, and font. Protect your photos and artwork from unauthorized use — 100% client-side, your files never leave your browser.",
+        "keywords": "add watermark, watermark image, photo watermark, text watermark, logo watermark, protect images, watermark photos online, image copyright tool"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "clickOrDrag": "Click or drag & drop your image",
+        "privacyNote": "Your image never leaves your device.",
+        "imageOnly": "Images only",
+        "formatsSupported": "Supported formats: JPG, PNG, GIF, WebP",
+        "processedLocally": "Processed locally · JPG, PNG, WebP, GIF"
+      },
+      "options": {
+        "type": "Type",
+        "text": "Text",
+        "image": "Image",
+        "position": "Position",
+        "textOptions": "Text Options",
+        "font": "Font",
+        "fontSize": "Font Size",
+        "color": "Color",
+        "opacity": "Opacity",
+        "bold": "Bold",
+        "italic": "Italic",
+        "rotation": "Rotation",
+        "imageOptions": "Image Options",
+        "scale": "Scale",
+        "watermarkText": "Your watermark text...",
+        "remove": "Remove",
+        "tile": "Tile (Repeat all over)",
+        "fineTuneOffset": "Fine-tune Offset",
+        "xOffset": "X Offset",
+        "yOffset": "Y Offset",
+        "resetOffset": "Reset offset",
+        "outputFormat": "Output Format",
+        "quality": "Quality",
+        "autoApply": "Auto Apply",
+        "uploadNewImage": "Upload New Image",
+        "label": "Click or drag & drop your image",
+        "privacyNote": "Your image never leaves your device."
+      },
+      "apply": {
+        "button": "Apply Watermark",
+        "applying": "Applying..."
+      },
+      "download": "Download Image",
+      "preview": {
+        "originalSize": "Original Size",
+        "dimensions": "Dimensions",
+        "outputSize": "Output Size",
+        "original": "Original",
+        "withWatermark": "With Watermark",
+        "watermarkWillAppear": "Watermark will appear here",
+        "fullPreview": "Full Preview",
+        "tiled": "Tiled"
+      },
+      "positions": {
+        "top-left": "Top Left",
+        "top-center": "Top Center",
+        "top-right": "Top Right",
+        "middle-left": "Middle Left",
+        "middle-center": "Middle Center",
+        "middle-right": "Middle Right",
+        "bottom-left": "Bottom Left",
+        "bottom-center": "Bottom Center",
+        "bottom-right": "Bottom Right"
+      },
+      "howToUse": {
+        "title": "How to Use Add Watermark",
+        "step1Title": "Upload Your Image",
+        "step1Desc": "Click the upload area or drag and drop an image from your computer.",
+        "step2Title": "Enter Watermark Text or Logo",
+        "step2Desc": "Type the text you want to overlay or upload a logo image to use as a watermark.",
+        "step3Title": "Customize Position and Style",
+        "step3Desc": "Choose where to place the watermark and adjust font size, color, opacity, and rotation.",
+        "step4Title": "Apply and Download",
+        "step4Desc": "Click Apply Watermark, then download your watermarked image in your preferred format."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Can I use an image as a watermark?",
+            "answer": "Yes. Switch to the Image type in the options panel and upload a logo or graphic to use as your watermark."
+          },
+          {
+            "question": "Is the watermark applied permanently?",
+            "answer": "Yes, once you apply and download the image, the watermark is permanently rendered onto the image."
+          },
+          {
+            "question": "Can I adjust the opacity of the watermark?",
+            "answer": "Absolutely. Use the opacity slider to make your watermark fully opaque or semi-transparent."
+          },
+          {
+            "question": "What image formats are supported?",
+            "answer": "We support JPG, PNG, GIF, and WebP for both input and output."
+          },
+          {
+            "question": "Is my image safe and private?",
+            "answer": "Yes. All processing happens entirely in your browser — your images are never uploaded to any server."
+          },
+          {
+            "question": "Can I tile the watermark across the image?",
+            "answer": "Yes. Enable the Tile option to repeat the watermark across the entire image."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Copyright Notice",
+        "sampleText": "© 2025 Your Name",
+        "stats": "Position: bottom-right · Opacity: 50%",
+        "result": "A semi-transparent copyright notice appears at the bottom-right corner of your image."
+      }
+    },
+    "ColorPickerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Color Picker"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Color Picker — Extract Colors from Images Online Free",
+        "description": "Free online color picker to extract colors from images. Use the eyedropper tool to pick any color, view HEX, RGB, HSL, and CMYK values, and generate harmonious color palettes. Perfect for designers and developers — 100% client-side.",
+        "keywords": "color picker, extract colors from image, color dropper, hex color picker, color palette generator, image color extractor, pick color from photo, eyedropper tool"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "label": "Click or drag & drop your image",
+        "privacyNote": "All processing happens in your browser — images are never uploaded."
+      },
+      "options": {
+        "format": "Color Format",
+        "paletteSize": "Palette Size",
+        "gradientPreview": "Gradient Preview",
+        "copyAllValues": "Copy All {format} Values",
+        "pickedColor": "Picked Color",
+        "uploadNewImage": "Upload New Image",
+        "allValues": "All Values",
+        "colorsCount": "{count} colors"
+      },
+      "tabs": {
+        "palette": "Palette",
+        "eyedropper": "Eyedropper"
+      },
+      "eyedropper": {
+        "clickToPick": "Click anywhere on the image to pick a color"
+      },
+      "howToUse": {
+        "title": "How to Use Color Picker",
+        "step1Title": "Upload an Image",
+        "step1Desc": "Upload an image to extract colors from it.",
+        "step2Title": "Pick Colors with Eyedropper",
+        "step2Desc": "Click anywhere on the image with the eyedropper to pick a color.",
+        "step3Title": "View and Copy Color Values",
+        "step3Desc": "See the picked color in HEX, RGB, HSL, and CMYK formats, then copy any value.",
+        "step4Title": "Generate and Use Palettes",
+        "step4Desc": "Switch to the Palette tab to generate harmonious color palettes and copy them."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What color formats are supported?",
+            "answer": "The color picker displays colors in HEX, RGB, HSL, and CMYK formats."
+          },
+          {
+            "question": "How is the color palette generated?",
+            "answer": "The palette is generated using color extraction algorithms that identify the most prominent colors in your image."
+          },
+          {
+            "question": "Can I copy a color value?",
+            "answer": "Yes. Click the copy button next to any color value to copy it to your clipboard."
+          },
+          {
+            "question": "Is the processing done locally?",
+            "answer": "Yes. All processing happens in your browser — images are never uploaded."
+          },
+          {
+            "question": "What image formats can I use?",
+            "answer": "You can use JPG, PNG, WebP, GIF, and other common image formats."
+          },
+          {
+            "question": "Can I adjust the palette size?",
+            "answer": "Yes. Use the Palette Size option to control how many colors are extracted."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Brand Color",
+        "sampleText": "#FF6B35",
+        "stats": "HEX · RGB · HSL · CMYK",
+        "result": "Extract brand colors from any logo or image with a single click."
+      }
+    },
+    "FormatConvertTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image Format Converter"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image Format Converter — Convert JPG, PNG, WebP & More",
+        "description": "Free online image format converter to convert between JPG, PNG, WebP, GIF, BMP, TIFF, and other image formats. Change file type without losing quality. Batch convert and resize — 100% client-side, your files stay private.",
+        "keywords": "image format converter, convert image format, jpg to png, png to webp, image type converter, change image format, photo format converter, batch image converter"
+      },
+      "dropzone": {
+        "dropHere": "Drop images here",
+        "orClick": "or click to browse",
+        "clickOrDrag": "Click or drag & drop images",
+        "formatsSupported": "Supports JPG, PNG, WebP, GIF, BMP · Multiple files supported"
+      },
+      "options": {
+        "outputFormat": "Output Format",
+        "quality": "Quality",
+        "maxWidth": "Max Width",
+        "maxHeight": "Max Height",
+        "resizeOnConvert": "Resize on Convert",
+        "smallestFile": "Smallest file",
+        "bestQuality": "Best quality"
+      },
+      "formatTypes": {
+        "lossy": "Lossy",
+        "lossless": "Lossless"
+      },
+      "summary": {
+        "convertingTo": "Converting to",
+        "atQuality": "at {quality}% quality",
+        "lossless": "(lossless)",
+        "maxDimensions": "max {width}×{height}"
+      },
+      "privacy": {
+        "note": "All conversions happen locally in your browser. Your images are never uploaded to any server."
+      },
+      "files": {
+        "fileCount": "{count} file",
+        "fileCount_plural": "{count} files",
+        "converted": "{count} converted"
+      },
+      "convert": {
+        "button": "Convert All",
+        "converting": "Converting…"
+      },
+      "download": {
+        "downloadAll": "Download All",
+        "download": "Download"
+      },
+      "clear": "Clear All",
+      "howToUse": {
+        "title": "How to Use Format Converter",
+        "step1Title": "Upload Images",
+        "step1Desc": "Drag and drop one or more images onto the upload area.",
+        "step2Title": "Choose Output Format",
+        "step2Desc": "Select the target format from the dropdown menu.",
+        "step3Title": "Adjust Settings",
+        "step3Desc": "Optionally set quality, max width, and max height for the output.",
+        "step4Title": "Convert and Download",
+        "step4Desc": "Click Convert All to process all images, then download individually or as a zip."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What image formats are supported?",
+            "answer": "We support JPG, PNG, WebP, GIF, BMP, and TIFF for conversion."
+          },
+          {
+            "question": "Can I convert multiple images at once?",
+            "answer": "Yes. You can upload and batch convert multiple images simultaneously."
+          },
+          {
+            "question": "Does the conversion reduce quality?",
+            "answer": "You can control the quality setting. Lossless formats like PNG preserve full quality."
+          },
+          {
+            "question": "Can I resize images during conversion?",
+            "answer": "Yes. Enable the Resize on Convert option and set max width and height."
+          },
+          {
+            "question": "Is my data safe?",
+            "answer": "Yes. All conversions happen locally in your browser. Your images are never uploaded."
+          },
+          {
+            "question": "What is the difference between lossy and lossless?",
+            "answer": "Lossy formats (like JPEG) reduce file size by discarding some data. Lossless formats (like PNG) preserve all original data."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "PNG to WebP",
+        "sampleText": "Convert a PNG screenshot to WebP for faster web loading.",
+        "stats": "Format: WebP · Quality: 80%",
+        "result": "A high-quality WebP image with significantly smaller file size."
+      }
+    },
+    "GrayscaleConverterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Grayscale Converter"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Grayscale Converter — Turn Images to Black & White Online",
+        "description": "Free online grayscale converter to turn your images into black and white. Choose from multiple grayscale algorithms including luminosity, average, and desaturation. Adjust contrast and brightness for the perfect monochrome effect — 100% client-side.",
+        "keywords": "grayscale converter, convert to grayscale, black and white converter, image to grayscale, grayscale image, black and white photo converter, desaturate image, grayscale filter"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "clickOrDrag": "Click or drag & drop an image",
+        "formats": "JPG, PNG, WebP, GIF · Processed locally"
+      },
+      "options": {
+        "method": "Method",
+        "luminance": "Luminance",
+        "average": "Average",
+        "lightness": "Lightness",
+        "intensity": "Intensity",
+        "contrast": "Contrast",
+        "brightness": "Brightness",
+        "outputFormat": "Output Format",
+        "quality": "Quality",
+        "conversionMethod": "Conversion Method",
+        "adjustments": "Adjustments",
+        "resetAdjustments": "Reset Adjustments",
+        "autoApply": "Auto Apply",
+        "updatePreview": "Update preview on every change."
+      },
+      "preview": {
+        "original": "Original",
+        "result": "Result",
+        "beforeAfter": "Before / After",
+        "dragSlider": "Drag slider to compare"
+      },
+      "convert": {
+        "button": "Convert to Grayscale",
+        "converting": "Converting…",
+        "apply": "Apply",
+        "processing": "Processing..."
+      },
+      "download": {
+        "button": "Download",
+        "uploadNew": "Upload New Image"
+      },
+      "privacy": "Your image never leaves your device.",
+      "howToUse": {
+        "title": "How to Use Grayscale Converter",
+        "step1Title": "Upload an Image",
+        "step1Desc": "Drag and drop an image or click to browse from your device.",
+        "step2Title": "Choose Conversion Method",
+        "step2Desc": "Select from Luminance, Average, Lightness, or Intensity algorithms.",
+        "step3Title": "Fine-Tune the Look",
+        "step3Desc": "Adjust contrast and brightness for the perfect monochrome effect.",
+        "step4Title": "Apply and Download",
+        "step4Desc": "Click Convert to Grayscale, compare with the original, then download."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What is the difference between grayscale methods?",
+            "answer": "Luminance weights colors by human perception, Average takes a simple mean, Lightness uses the midpoint of RGB extremes, and Intensity uses a fixed weighted formula."
+          },
+          {
+            "question": "Can I adjust contrast and brightness?",
+            "answer": "Yes. Use the sliders to fine-tune contrast and brightness before converting."
+          },
+          {
+            "question": "Does this work on any image format?",
+            "answer": "Yes. We support JPG, PNG, WebP, GIF, and other common formats."
+          },
+          {
+            "question": "Is the processing done locally?",
+            "answer": "Yes. Your image never leaves your device — all processing is done in your browser."
+          },
+          {
+            "question": "Can I save in different formats?",
+            "answer": "Yes. You can choose the output format and quality before downloading."
+          },
+          {
+            "question": "What is the best method for photos?",
+            "answer": "The Luminance method is generally best for photos as it accounts for how humans perceive brightness."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Luminance Grayscale",
+        "sampleText": "Convert a color portrait to a classic black and white photo using the Luminance method.",
+        "stats": "Method: Luminance · Contrast: +15",
+        "result": "A natural-looking black and white photo that preserves human-perceived brightness."
+      }
+    },
+    "ImageCompressorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image Compressor"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image Compressor — Reduce Image File Size Online Free",
+        "description": "Free online image compressor to reduce image file size while preserving quality. Compress JPG, PNG, WebP, and GIF images with adjustable compression levels. Optimize images for web, email, and storage — 100% client-side.",
+        "keywords": "image compressor, compress image, reduce image size, image optimizer, compress jpg, compress png, image file size reducer, photo compressor"
+      },
+      "dropzone": {
+        "dropHere": "Drop images here",
+        "orClick": "or click to browse",
+        "imageOnly": "Images only",
+        "dropToCompress": "Drop images to compress",
+        "clickOrDrag": "Click or drag & drop images",
+        "formatsSupported": "JPG, PNG, WebP · Multiple files supported"
+      },
+      "options": {
+        "title": "Compression Options",
+        "mode": "Mode",
+        "modeLabel": "Compression Mode",
+        "byQuality": "By Quality",
+        "bySize": "By Size",
+        "quality": "Quality",
+        "qualityMaxCompression": "Max compression",
+        "qualityBestQuality": "Best quality",
+        "qualityLow": "Low",
+        "qualityMed": "Med",
+        "qualityHigh": "High",
+        "qualityMax": "Max",
+        "targetSize": "Target Size (KB)",
+        "targetSizeLabel": "Target Size",
+        "targetSizeDesc": "Uses binary search to find the best quality that fits the target.",
+        "outputFormat": "Output Format",
+        "maxWidth": "Max Width",
+        "limitWidth": "Limit Width",
+        "stripMetadata": "Strip metadata"
+      },
+      "fileRow": {
+        "queued": "Queued",
+        "working": "Working...",
+        "failed": "Failed",
+        "larger": "Larger",
+        "saved": "Saved",
+        "save": "Save"
+      },
+      "compress": {
+        "button": "Compress All",
+        "compressing": "Compressing…"
+      },
+      "download": {
+        "downloadAll": "Download All",
+        "download": "Download"
+      },
+      "clear": "Clear All",
+      "result": {
+        "original": "Original",
+        "compressed": "Compressed",
+        "saved": "Saved",
+        "files": "Files",
+        "avg": "Avg",
+        "showComparison": "Show before/after",
+        "hideComparison": "Hide comparison",
+        "dragToCompare": "Before / After — drag to compare"
+      },
+      "fileList": {
+        "fileCount": "{count} file",
+        "fileCountPlural": "{count} files",
+        "compressedCount": "{count} compressed",
+        "clearAll": "Clear all"
+      },
+      "howToUse": {
+        "title": "How to Use Image Compressor",
+        "step1Title": "Upload Images",
+        "step1Desc": "Drag and drop one or more images onto the compressor.",
+        "step2Title": "Choose Compression Mode",
+        "step2Desc": "Select By Quality for direct control or By Size to target a specific file size.",
+        "step3Title": "Adjust Settings",
+        "step3Desc": "Set quality level, output format, max dimensions, and strip metadata if needed.",
+        "step4Title": "Compress and Download",
+        "step4Desc": "Click Compress All, compare sizes, then download individually or as a zip."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "How much can I compress an image?",
+            "answer": "It depends on the image content and format. Typically you can reduce file size by 50-80% without noticeable quality loss."
+          },
+          {
+            "question": "What is the difference between By Quality and By Size?",
+            "answer": "By Quality lets you set a fixed quality level. By Size uses binary search to find the optimal quality that meets your target file size."
+          },
+          {
+            "question": "Does compression reduce image dimensions?",
+            "answer": "By default, no. But you can enable the Limit Width option to resize during compression."
+          },
+          {
+            "question": "What does Strip Metadata do?",
+            "answer": "It removes EXIF data, camera info, and other metadata from the image to reduce file size."
+          },
+          {
+            "question": "Can I compress multiple images at once?",
+            "answer": "Yes. Upload multiple images and compress them all in one click."
+          },
+          {
+            "question": "Is the compression lossless?",
+            "answer": "Lossy compression reduces quality. For maximum quality, use high quality settings or lossless formats like PNG."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Web Optimization",
+        "sampleText": "Compress a high-res photo to 80% quality for fast web loading.",
+        "stats": "Quality: 80% · Format: JPEG",
+        "result": "A dramatically smaller file with minimal visible quality loss."
+      }
+    },
+    "ImageFlipperTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image Flipper"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image Flipper — Flip Photos Horizontally or Vertically Online",
+        "description": "Free online image flipper to flip photos horizontally or vertically with a single click. Mirror images for perfect reflections, reverse selfies, or create symmetrical compositions — 100% client-side, your images stay private.",
+        "keywords": "image flipper, flip image, flip photo, mirror image, horizontal flip, vertical flip, photo flipper, mirror photo online"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "clickOrDrag": "Click or drag & drop your image",
+        "fileFormats": "JPG, PNG, WebP, GIF, BMP · Processed locally"
+      },
+      "flip": {
+        "direction": "Flip Direction",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "both": "Both",
+        "mirrorLeftRight": "Mirror left ↔ right",
+        "mirrorTopBottom": "Mirror top ↕ bottom",
+        "bothAxes": "Flip on both axes",
+        "processing": "Flipping..."
+      },
+      "options": {
+        "outputFormat": "Output Format",
+        "quality": "Quality",
+        "smallest": "Smallest",
+        "bestQuality": "Best quality"
+      },
+      "result": {
+        "imageInfo": "Image Info",
+        "filename": "Filename",
+        "dimensions": "Dimensions",
+        "fileSize": "File Size",
+        "flipMode": "Flip Mode",
+        "originalSize": "Original Size",
+        "outputSize": "Output Size",
+        "original": "Original",
+        "result": "Result",
+        "flippedHorizontally": "Flipped Horizontally",
+        "flippedVertically": "Flipped Vertically",
+        "flippedBothAxes": "Flipped Both Axes",
+        "clickToPreview": "Click \"Flip Image\" to preview"
+      },
+      "summary": {
+        "flip": "Flip"
+      },
+      "actions": {
+        "uploadNew": "Upload New Image"
+      },
+      "button": {
+        "flip": "Flip Image",
+        "flipping": "Flipping…"
+      },
+      "download": "Download",
+      "howToUse": {
+        "title": "How to Use Image Flipper",
+        "step1Title": "Upload an Image",
+        "step1Desc": "Drag and drop an image or click to browse from your device.",
+        "step2Title": "Choose Flip Direction",
+        "step2Desc": "Select Horizontal, Vertical, or Both to flip on both axes at once.",
+        "step3Title": "Set Output Options",
+        "step3Desc": "Choose the output format and quality for the flipped image.",
+        "step4Title": "Flip and Download",
+        "step4Desc": "Click Flip Image, preview the result, then download."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What is the difference between horizontal and vertical flip?",
+            "answer": "Horizontal flip mirrors the image left-to-right. Vertical flip mirrors it top-to-bottom."
+          },
+          {
+            "question": "Does flipping change image dimensions?",
+            "answer": "No. Flipping preserves the original dimensions and resolution."
+          },
+          {
+            "question": "Can I flip multiple images at once?",
+            "answer": "This tool processes one image at a time. For batch flipping, process images individually."
+          },
+          {
+            "question": "What formats are supported?",
+            "answer": "We support JPG, PNG, WebP, GIF, and BMP."
+          },
+          {
+            "question": "Is the processing done locally?",
+            "answer": "Yes. Your image never leaves your device."
+          },
+          {
+            "question": "Can I flip both horizontally and vertically at once?",
+            "answer": "Yes. Select the Both option to flip on both axes simultaneously."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Mirror Selfie",
+        "sampleText": "Flip a selfie horizontally to correct the mirror image effect.",
+        "stats": "Direction: Horizontal · Format: JPEG",
+        "result": "A correctly oriented selfie with no mirror reversal."
+      }
+    },
+    "ImageMergerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image Merger"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image Merger — Combine Images Horizontally, Vertically & Grid",
+        "description": "Free online image merger to combine multiple images into a single picture. Stack images horizontally, vertically, or arrange them in a custom grid layout. Adjust spacing, alignment, and background color — 100% client-side, nothing uploaded.",
+        "keywords": "image merger, combine images, merge photos, join images, image combiner, photo merger, merge pictures online, image grid creator"
+      },
+      "dropzone": {
+        "dropHere": "Drop images here",
+        "hint": "You can add multiple images at once"
+      },
+      "options": {
+        "layout": "Layout",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "grid": "Grid",
+        "alignment": "Alignment",
+        "gap": "Gap",
+        "backgroundColor": "Background Color",
+        "gridCols": "Columns",
+        "fitMode": "Fit Mode"
+      },
+      "merge": {
+        "button": "Merge Images",
+        "merging": "Merging…"
+      },
+      "download": "Download",
+      "clear": "Clear All",
+      "howToUse": {
+        "title": "How to Use Image Merger",
+        "step1Title": "Upload Images",
+        "step1Desc": "Drag and drop multiple images onto the merger tool.",
+        "step2Title": "Choose a Layout",
+        "step2Desc": "Select Horizontal, Vertical, or Grid layout for the merged result.",
+        "step3Title": "Customize Spacing and Alignment",
+        "step3Desc": "Set gap size, alignment, background color, and grid columns if using Grid layout.",
+        "step4Title": "Merge and Download",
+        "step4Desc": "Click Merge Images, then download the combined single image."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "How many images can I merge?",
+            "answer": "You can merge as many images as you need. There is no hard limit."
+          },
+          {
+            "question": "What layout options are available?",
+            "answer": "You can merge images horizontally, vertically, or in a grid layout with configurable columns."
+          },
+          {
+            "question": "Can I adjust spacing between images?",
+            "answer": "Yes. Use the Gap setting to add or remove space between images."
+          },
+          {
+            "question": "What happens if images have different sizes?",
+            "answer": "You can choose an alignment mode to control how differently-sized images are positioned."
+          },
+          {
+            "question": "Can I set a background color?",
+            "answer": "Yes. Choose any background color for areas not covered by images."
+          },
+          {
+            "question": "Is my data safe?",
+            "answer": "Yes. All processing happens locally in your browser — nothing is uploaded."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Side-by-Side Comparison",
+        "sampleText": "Merge before and after photos horizontally for a comparison view.",
+        "stats": "Layout: Horizontal · Gap: 4px",
+        "result": "Two images merged side-by-side into a single before-and-after comparison."
+      }
+    },
+    "ImageResizerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image Resizer"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image Resizer — Resize Photos by Pixels or Percentage Online",
+        "description": "Free online image resizer to resize photos by exact pixels, percentage, or preset dimensions. Maintain aspect ratio or crop freely to fit your needs. Perfect for social media, websites, and printing — 100% client-side.",
+        "keywords": "image resizer, resize image, resize photo, image resizing tool, photo resizer, change image dimensions, resize picture online, image scaler"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "imageOnly": "Image only"
+      },
+      "privacy": {
+        "localProcessing": "Your image never leaves your device — 100% local processing."
+      },
+      "options": {
+        "title": "Resize Options",
+        "mode": "Mode",
+        "resizeMode": "Resize Mode",
+        "dimensions": "Dimensions",
+        "width": "Width",
+        "height": "Height",
+        "widthPx": "Width (px)",
+        "heightPx": "Height (px)",
+        "percentage": "Percentage",
+        "scale": "Scale",
+        "lockAspect": "Lock aspect ratio",
+        "unlockAspect": "Unlock aspect ratio",
+        "locked": "Locked",
+        "free": "Free",
+        "fitMode": "Fit Mode",
+        "quality": "Quality",
+        "smallest": "Smallest",
+        "bestQuality": "Best quality",
+        "outputFormat": "Output Format"
+      },
+      "presets": {
+        "title": "Presets",
+        "choosePreset": "Choose Preset",
+        "hd": "HD",
+        "fullHd": "Full HD",
+        "4k": "4K",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "thumbnail": "Thumbnail",
+        "avatar": "Avatar",
+        "a4": "A4 @72dpi",
+        "icon": "Icon"
+      },
+      "resize": {
+        "button": "Resize Image",
+        "resizing": "Resizing…",
+        "processing": "Processing...",
+        "uploadNew": "Upload New Image"
+      },
+      "download": "Download",
+      "downloadResized": "Download Resized Image",
+      "result": {
+        "originalSize": "Original Size",
+        "dimensions": "Dimensions",
+        "target": "Target",
+        "outputSize": "Output Size",
+        "format": "Format",
+        "original": "Original",
+        "result": "Result",
+        "clickResize": "Click \"Resize Image\"",
+        "sizeReduction": "-{ratio}% size"
+      },
+      "howToUse": {
+        "title": "How to Use Image Resizer",
+        "step1Title": "Upload an Image",
+        "step1Desc": "Drag and drop an image or click to browse from your device.",
+        "step2Title": "Choose Resize Mode",
+        "step2Desc": "Select pixel dimensions, percentage scale, or a preset size.",
+        "step3Title": "Set Dimensions",
+        "step3Desc": "Enter width and height. Lock aspect ratio to maintain proportions.",
+        "step4Title": "Resize and Download",
+        "step4Desc": "Click Resize Image, then download your resized image in the chosen format."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Can I resize by percentage?",
+            "answer": "Yes. Switch to Percentage mode to resize by a percentage of the original dimensions."
+          },
+          {
+            "question": "What is the aspect ratio lock?",
+            "answer": "When locked, changing one dimension automatically adjusts the other to maintain the original proportions."
+          },
+          {
+            "question": "Are there preset sizes?",
+            "answer": "Yes. Choose from presets like HD, Full HD, 4K, Instagram, Facebook, Twitter, avatar, and more."
+          },
+          {
+            "question": "Does resizing affect image quality?",
+            "answer": "Resizing to smaller dimensions reduces detail. The quality setting also affects the output file size and appearance."
+          },
+          {
+            "question": "What is Fit Mode?",
+            "answer": "Fit Mode controls how the image is fitted into the specified dimensions — such as contain, cover, or fill."
+          },
+          {
+            "question": "What formats can I save to?",
+            "answer": "You can save the resized image as JPG, PNG, WebP, or other supported formats."
+          },
+          {
+            "question": "Is the processing done locally?",
+            "answer": "Yes. Your image never leaves your device — 100% local processing."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Instagram Square",
+        "sampleText": "Resize a photo to 1080×1080px for Instagram square posts.",
+        "stats": "Dimensions: 1080×1080 · Aspect ratio locked",
+        "result": "A perfectly cropped 1080×1080 square image ready for Instagram."
+      }
+    },
+    "ImageRotatorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image Rotator"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image Rotator — Rotate & Flip Images at Any Angle Online",
+        "description": "Free online image rotator to rotate images by 90, 180, 270 degrees or any custom angle. Flip images horizontally or vertically. Fix orientation of photos taken from any angle — 100% client-side, nothing uploaded.",
+        "keywords": "image rotator, rotate image, rotate photo, flip image, image rotation tool, rotate picture, custom angle rotate, photo orientation fixer"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "fileTypes": "JPG, PNG, WebP, GIF, BMP · Processed locally"
+      },
+      "privacy": {
+        "localProcessing": "Your image never leaves your device."
+      },
+      "options": {
+        "quickRotate": "Quick Rotate",
+        "angle": "Angle",
+        "rotationAngle": "Rotation Angle",
+        "customAngle": "Custom Angle",
+        "presetAngles": "Preset Angles",
+        "outputFormat": "Output Format",
+        "quality": "Quality",
+        "background": "Background",
+        "backgroundFill": "Background Fill",
+        "degrees": "degrees",
+        "smallest": "Smallest",
+        "bestQuality": "Best quality"
+      },
+      "rotate": {
+        "button": "Rotate Image",
+        "rotating": "Rotating...",
+        "processing": "Processing...",
+        "ccw": "90° CCW",
+        "cw": "90° CW"
+      },
+      "download": "Download",
+      "result": {
+        "original": "Original",
+        "result": "Result",
+        "dimensions": "Dimensions",
+        "size": "Size",
+        "angle": "Angle",
+        "original2": "Original",
+        "output": "Output",
+        "outputSize": "Output Size",
+        "noRotation": "No rotation",
+        "clockwise": "Clockwise",
+        "counterClockwise": "Counter-clockwise",
+        "clickToPreview": "Click \"Rotate Image\" to preview",
+        "rotated": "rotated",
+        "transparentBg": "Transparent bg",
+        "whiteBg": "White bg",
+        "blackBg": "Black bg"
+      },
+      "stats": {
+        "angle": "Angle",
+        "original": "Original",
+        "output": "Output",
+        "outputSize": "Output Size"
+      },
+      "actions": {
+        "uploadNew": "Upload New Image"
+      },
+      "warnings": {
+        "jpegNoTransparency": "JPEG doesn't support transparency — use PNG or WebP for transparent backgrounds."
+      },
+      "howToUse": {
+        "title": "How to Use Image Rotator",
+        "step1Title": "Upload an Image",
+        "step1Desc": "Drag and drop an image or click to browse from your device.",
+        "step2Title": "Choose Rotation Angle",
+        "step2Desc": "Select a preset angle (90°, 180°, 270°) or enter a custom angle.",
+        "step3Title": "Set Background and Output",
+        "step3Desc": "Choose a background fill color and select output format and quality.",
+        "step4Title": "Rotate and Download",
+        "step4Desc": "Click Rotate Image, then download your rotated image."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "Can I rotate by a custom angle?",
+            "answer": "Yes. Enter any custom angle between -360 and 360 degrees."
+          },
+          {
+            "question": "What happens to the background after rotation?",
+            "answer": "Rotated images may have transparent or blank areas. You can fill these with a solid color or leave them transparent."
+          },
+          {
+            "question": "Does rotation affect image quality?",
+            "answer": "90°, 180°, and 270° rotations are lossless. Custom angles may require interpolation which can slightly affect quality."
+          },
+          {
+            "question": "Can I flip and rotate at the same time?",
+            "answer": "This tool focuses on rotation. Use the Image Flipper tool for flipping operations."
+          },
+          {
+            "question": "What formats are supported?",
+            "answer": "We support JPG, PNG, WebP, GIF, and BMP."
+          },
+          {
+            "question": "Why does JPEG not support transparency?",
+            "answer": "JPEG format does not support alpha channels. Use PNG or WebP if you need transparent backgrounds."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Upside Down Fix",
+        "sampleText": "Correct a photo taken upside down by rotating it 180°.",
+        "stats": "Angle: 180° · Background: Transparent",
+        "result": "An upright photo with correct orientation, ready to download."
+      }
+    },
+    "ImageToBase64Tool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Image Tools",
+        "current": "Image to Base64"
+      },
+      "header": {
+        "badge": "Image Tools",
+        "title": "Image to Base64 — Encode & Decode Base64 Images Online",
+        "description": "Free online image to Base64 converter to encode images into Base64 strings and decode Base64 strings back to images. Supports JPG, PNG, GIF, and WebP. Ideal for web developers embedding images directly in HTML, CSS, or JavaScript — 100% client-side.",
+        "keywords": "image to base64, base64 encoder, base64 decoder, convert image to base64, base64 image converter, image encoder, base64 string generator, image to base64 online"
+      },
+      "tabs": {
+        "encode": "Encode",
+        "decode": "Decode",
+        "encodeLabel": "Image → Base64",
+        "decodeLabel": "Base64 → Image"
+      },
+      "dropzone": {
+        "dropHere": "Drop an image here",
+        "orClick": "or click to browse",
+        "clickOrDrag": "Click or drag & drop your image",
+        "privacyNote": "Your image never leaves your device — 100% local processing.",
+        "fileFormats": "JPG, PNG, WebP, GIF, SVG · Processed locally"
+      },
+      "encode": {
+        "outputFormat": "Output Format",
+        "imageInfo": "Image Info",
+        "filename": "Filename",
+        "type": "Type",
+        "dimensions": "Dimensions",
+        "fileSize": "File Size",
+        "base64Size": "Base64 Size",
+        "sizeRatio": "{ratio}% of original",
+        "uploadNewImage": "Upload New Image",
+        "charsCount": "{count} chars",
+        "collapse": "Collapse",
+        "expand": "Expand",
+        "copy": "Copy",
+        "copyWrapper": "Copy {label}"
+      },
+      "decode": {
+        "input": "Base64 Input",
+        "inputPlaceholder": "Paste a base64 string or data URL here...\n\nExamples:\n  data:image/png;base64,iVBORw0KGgo...\n  /9j/4AAQSkZJRgAB... (raw base64)",
+        "invalid": "Invalid Base64 string. Make sure it's a valid base64-encoded image.",
+        "button": "Decode to Image",
+        "clear": "Clear",
+        "acceptedFormats": "Accepted Formats",
+        "dataUrl": "Data URL",
+        "rawBase64": "Raw Base64",
+        "decodedImage": "Decoded Image",
+        "emptyPreview": "Decoded image will appear here",
+        "format": "Format",
+        "size": "Size",
+        "dimensions": "Dimensions",
+        "download": "Download Image"
+      },
+      "preview": {
+        "label": "Preview"
+      },
+      "stats": {
+        "original": "Original",
+        "base64Size": "Base64 Size",
+        "overhead": "Overhead"
+      },
+      "common": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "howToUse": {
+        "title": "How to Use Image to Base64",
+        "step1Title": "Choose Encode or Decode",
+        "step1Desc": "Select Encode to convert an image to Base64, or Decode to convert Base64 back to an image.",
+        "step2Title": "Upload or Paste Input",
+        "step2Desc": "Drag and drop an image to encode, or paste a Base64 string to decode.",
+        "step3Title": "Select Format Options",
+        "step3Desc": "Choose the image format for the encoded output or download the decoded image.",
+        "step4Title": "Copy and Use",
+        "step4Desc": "Copy the Base64 string to your clipboard and embed it in HTML, CSS, or JavaScript."
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "question": "What is Base64 encoding?",
+            "answer": "Base64 is an encoding method that converts binary data (like images) into a text string of ASCII characters."
+          },
+          {
+            "question": "When should I use Base64 images?",
+            "answer": "Base64 is useful for embedding small images directly in HTML, CSS, or JavaScript to reduce HTTP requests."
+          },
+          {
+            "question": "Does Base64 increase file size?",
+            "answer": "Yes. Base64 encoding increases the size by approximately 33% compared to the original binary file."
+          },
+          {
+            "question": "Can I decode a Base64 string back to an image?",
+            "answer": "Yes. Switch to the Decode tab, paste the Base64 string, and click Decode to Image."
+          },
+          {
+            "question": "What image formats are supported?",
+            "answer": "We support JPG, PNG, WebP, GIF, and SVG for encoding and decoding."
+          },
+          {
+            "question": "Is my image data private?",
+            "answer": "Yes. All processing happens locally in your browser — nothing is uploaded to any server."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "HTML Image Embed",
+        "sampleText": "Encode a small icon as Base64 and embed it directly in HTML using a data URL.",
+        "stats": "Format: PNG · Size: ~33% overhead",
+        "result": "A complete data URL string ready to paste into your HTML src attribute."
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related Image Tools",
+        "resizer": "Image Resizer",
+        "compressor": "Image Compressor",
+        "converter": "Format Converter",
+        "colorPicker": "Color Picker",
+        "watermark": "Add Watermark"
+      }
+    }
+  },
   "pages": {
     "about": {
       "metadata": {
