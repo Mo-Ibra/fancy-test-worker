@@ -1,0 +1,119 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "PDF Compressor"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "PDF Compressor — Reduce PDF File Size Online Free",
+    "description": "Free online PDF compressor to reduce PDF file size without losing quality. Compress images, remove metadata, and optimize documents for email or web upload. Choose compression level and shrink your PDF instantly — 100% client-side and private.",
+    "keywords": "pdf compressor, compress pdf, reduce pdf size, pdf file size reducer, shrink pdf, pdf optimizer, compress pdf online, free pdf compressor"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your PDF is compressed entirely in the browser — nothing is uploaded to any server."
+  },
+  "compressionLevel": {
+    "title": "Compression Level",
+    "light": {
+      "label": "Light",
+      "desc": "Metadata only, high image quality",
+      "badge": "Low loss"
+    },
+    "medium": {
+      "label": "Medium",
+      "desc": "Remove annotations + compress images",
+      "badge": "Balanced"
+    },
+    "aggressive": {
+      "label": "Aggressive",
+      "desc": "Max compression, lower image quality",
+      "badge": "Max size"
+    }
+  },
+  "advanced": {
+    "title": "Advanced Options",
+    "removeMetadata": "Remove metadata",
+    "removeMetadataSub": "Title, author, keywords, dates",
+    "removeAnnotations": "Remove annotations",
+    "removeAnnotationsSub": "Comments, highlights, links",
+    "removeForms": "Remove form fields",
+    "removeFormsSub": "Interactive AcroForm fields"
+  },
+  "imageOptions": {
+    "title": "Image Compression",
+    "downsample": "Downsample images",
+    "downsampleSub": "Scale images above max DPI threshold",
+    "quality": "JPEG quality",
+    "maxDpi": "Max image DPI",
+    "tiny": "tiny",
+    "rec": "rec",
+    "web": "web",
+    "print": "print"
+  },
+  "output": {
+    "label": "Output filename"
+  },
+  "whatGetsCompressed": {
+    "title": "What gets compressed",
+    "metadata": "PDF metadata (title, author, keywords)",
+    "objectCompression": "Object stream compression (pdf-lib)",
+    "jpegReencode": "Re-encode embedded JPEG images",
+    "annotations": "Optional: annotations, form fields",
+    "not1": "Cannot re-compress FlateDecode streams (browser limitation)",
+    "not2": "Cannot render pages to bitmap (requires full PDF renderer)"
+  },
+  "dropzone": {
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "pdfOnly": ".pdf only"
+  },
+  "file": {
+    "error": "Could not read file"
+  },
+  "compress": {
+    "button": "Compress PDF",
+    "compressing": "Compressing…",
+    "processing": "Processing…"
+  },
+  "result": {
+    "title": "Compression Result",
+    "smaller": "smaller",
+    "original": "Original",
+    "compressed": "Compressed",
+    "saved": "Saved",
+    "noReduction": "No significant reduction achieved. The PDF may already be compressed, contain no JPEG images, or have minimal metadata.",
+    "download": "Download Compressed PDF",
+    "recompress": "Re-compress with different settings"
+  },
+  "howToUse": {
+    "title": "How to Use PDF Compressor",
+    "step1Title": "Upload a PDF",
+    "step1Desc": "Drop or upload the PDF file you want to compress.",
+    "step2Title": "Choose compression level",
+    "step2Desc": "Select Light, Medium, or Aggressive compression depending on your quality vs size preference.",
+    "step3Title": "Configure advanced options",
+    "step3Desc": "Optionally remove metadata, annotations, or form fields. Adjust image quality and DPI settings.",
+    "step4Title": "Download compressed PDF",
+    "step4Desc": "Click 'Compress PDF' and download your optimized file — no uploads, 100% private."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "How much can I reduce the PDF file size?", "answer": "Reduction depends on the original file. PDFs with large embedded JPEG images can shrink 50-80% with Aggressive compression. Metadata-only PDFs may see only minor gains." },
+      { "question": "Does PDF compression reduce image quality?", "answer": "Light mode removes metadata only with no quality loss. Medium re-encodes JPEGs with good quality. Aggressive uses lower JPEG quality for maximum size reduction." },
+      { "question": "Are my files uploaded to a server?", "answer": "No. Everything runs client-side in your browser using pdf-lib. Your file never leaves your device." },
+      { "question": "How long does compression take?", "answer": "Most files under 50 MB complete in seconds. Larger files with many images may take longer since all processing happens locally." },
+      { "question": "What is the maximum file size I can compress?", "answer": "There is no hard limit, but extremely large files may be limited by browser memory. Files up to 100 MB generally work well in modern browsers." },
+      { "question": "Can I compress scanned PDFs?", "answer": "Yes, but scanned PDFs often contain FlateDecode-encoded images which cannot be re-compressed client-side. You may see limited reduction on these files." },
+      { "question": "What metadata is removed?", "answer": "Advanced options can remove title, author, keywords, creation date metadata, annotations (comments, highlights), and interactive form fields." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "my report.pdf",
+    "stats": "~5.2 MB → ~2.1 MB with Medium compression",
+    "result": "60% size reduction achieved"
+  }
+}

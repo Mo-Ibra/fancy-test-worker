@@ -1,0 +1,145 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Math Tools",
+    "current": "Date Difference"
+  },
+  "header": {
+    "badge": "Math Tools",
+    "title": "Date Difference Calculator — Calculate Days Between Dates Online",
+    "description": "Free online date difference calculator to find the exact number of days, weeks, months, and years between two dates. Add or subtract time from any date, calculate business days, and measure date intervals instantly.",
+    "keywords": "date difference calculator, days between dates, calculate days between two dates, date calculator, time between dates, date duration calculator, business days calculator, date math"
+  },
+  "tabs": {
+    "diff": "Date Difference",
+    "addSub": "Add / Subtract"
+  },
+  "date1": "Start Date",
+  "date2": "End Date",
+  "swap": "Swap",
+  "result": {
+    "years": "years",
+    "months": "months",
+    "weeks": "weeks",
+    "days": "days",
+    "totalDays": "Total days",
+    "weekdays": "Weekdays"
+  },
+  "addSub": {
+    "baseDate": "Base Date",
+    "amount": "Amount",
+    "unit": "Unit",
+    "days": "days",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "result": "Result",
+    "afterAdding": "After adding",
+    "afterSubtracting": "After subtracting"
+  },
+  "presets": {
+    "title": "Quick Presets",
+    "yesterday": "Yesterday",
+    "today": "Today",
+    "lastWeek": "Last week",
+    "lastMonth": "Last month",
+    "lastYear": "Last year",
+    "nextWeek": "Next week",
+    "nextMonth": "Next month",
+    "nextYear": "Next year",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "last90Days": "Last 90 days",
+    "thisYear": "This year",
+    "year2000": "2000 → today"
+  },
+  "workingDays": {
+    "title": "Working Days",
+    "excludeWeekends": "Exclude weekends",
+    "excludeHolidays": "Exclude holidays"
+  },
+  "notableDates": {
+    "title": "Notable Dates",
+    "unixEpoch": "Unix Epoch",
+    "y2k": "Y2K",
+    "sept11": "9/11",
+    "iphoneLaunch": "iPhone Launch",
+    "newYear2025": "New Year 2025",
+    "newYear2030": "New Year 2030"
+  },
+  "quickAmounts": "Quick Amounts",
+  "duration": "Duration",
+  "durationReversed": "Duration (reversed)",
+  "forward": "▶ Forward",
+  "backward": "◀ Backward",
+  "years": "Years",
+  "months": "Months",
+  "weeksRem": "Weeks (rem)",
+  "daysRem": "Days (rem)",
+  "totalDuration": "Total Duration",
+  "hours": "Hours",
+  "minutes": "Minutes",
+  "seconds": "Seconds",
+  "secondsLive": "🔴 seconds update live",
+  "summary": "Summary",
+  "selectDates": "Select two dates to calculate the difference",
+  "enterBaseDate": "Enter a base date and amount above",
+  "yearProgress": "Progress",
+  "todayLabel": "Today:",
+  "businessDays": "Business Days",
+  "workingDaysLabel": "Working days",
+  "weekendDays": "Weekend days",
+  "totalDaysLabel": "Total days",
+  "monFri": "Mon–Fri",
+  "satSun": "Sat–Sun",
+  "inclWeekends": "incl. weekends",
+  "noteHolidays": "Note: Does not account for public holidays",
+  "durationUnits": {
+    "years_one": "{count} year",
+    "years_two": "{count} years",
+    "years_few": "{count} years",
+    "years_many": "{count} years",
+    "years_other": "{count} years",
+    "months_one": "{count} month",
+    "months_two": "{count} months",
+    "months_few": "{count} months",
+    "months_many": "{count} months",
+    "months_other": "{count} months",
+    "days_one": "{count} day",
+    "days_two": "{count} days",
+    "days_few": "{count} days",
+    "days_many": "{count} days",
+    "days_other": "{count} days",
+    "separator": ", ",
+    "sameDay": "Same day"
+  },
+  "howToUse": {
+    "title": "How to Use Date Difference Calculator",
+    "step1Title": "Select Start Date",
+    "step1Desc": "Choose the beginning date using the date picker or type it in manually.",
+    "step2Title": "Select End Date",
+    "step2Desc": "Pick the ending date to measure the difference between the two dates.",
+    "step3Title": "View Duration Details",
+    "step3Desc": "See the difference in years, months, weeks, days, hours, minutes, and seconds with a full breakdown.",
+    "step4Title": "Try Add or Subtract",
+    "step4Desc": "Switch to the Add/Subtract tab to add or subtract time (days, weeks, months, years) from any date."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Does the calculation include both start and end dates?", "answer": "The calculator counts full 24-hour periods between dates. You can see both the total duration broken into years/months/days and the raw total days, hours, minutes, and seconds." },
+      { "question": "Can I calculate business days between dates?", "answer": "Yes, enable the Working Days toggle to exclude weekends (Saturday and Sunday) from the calculation. Note that public holidays are not automatically excluded." },
+      { "question": "How does the add/subtract feature work?", "answer": "Enter a base date, then specify an amount and unit (days, weeks, months, or years) to add or subtract. The result shows the new date instantly." },
+      { "question": "Does the calculator account for leap years?", "answer": "Yes, all date calculations automatically account for leap years, varying month lengths, and daylight saving time boundaries when calculating precise durations." },
+      { "question": "What are notable dates used for?", "answer": "Notable dates provide quick references to historically significant dates like Unix Epoch, Y2K, 9/11, iPhone Launch, and future New Years. Click any to load it instantly." },
+      { "question": "Can I use this tool to plan events or projects?", "answer": "Absolutely. Calculate the exact duration between two dates for project timelines, count down to events, or add/subtract time to schedule deadlines and milestones." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "From",
+    "sampleText": "2024-01-01",
+    "stats": "To 2024-12-31 · 365 days · 52 weeks · 12 months",
+    "result": "1 year · Weekdays: 261 · Weekend days: 104"
+  }
+}

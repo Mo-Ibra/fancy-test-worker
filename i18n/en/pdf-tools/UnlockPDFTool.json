@@ -1,0 +1,129 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "Unlock PDF"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "Unlock PDF — Remove Password from PDF Files Online",
+    "description": "Free online PDF unlocker to remove password protection from your PDF files. Enter the document password to decrypt and download an unprotected copy instantly. Unlock secured PDFs for editing, printing, or viewing — 100% client-side, files never uploaded.",
+    "keywords": "unlock pdf, remove pdf password, pdf password remover, unlock pdf online, pdf unlocker, remove protection from pdf, decrypt pdf, free pdf unlocker"
+  },
+  "legal": {
+    "notice": "<strong>You must own or have permission to unlock this PDF.</strong> Only use this tool on PDFs you own or are authorized to decrypt. Bypassing protection on others' documents may violate copyright law."
+  },
+  "privacy": {
+    "notice": "<strong>100% client-side.</strong> Your PDF and password never leave your browser — everything runs locally using pdf-lib."
+  },
+  "dropzone": {
+    "dropProtected": "Drop a protected PDF here",
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "pdfOnly": ".pdf only"
+  },
+  "fileInfo": {
+    "noEncryption": "No encryption detected",
+    "protected": "Password protected"
+  },
+  "encryptionDetails": {
+    "title": "Encryption Details",
+    "algorithm": "Algorithm",
+    "revision": "Revision",
+    "keyLength": "Key length",
+    "fileId": "File ID"
+  },
+  "password": {
+    "label": "Password",
+    "placeholder": "Enter the PDF password…",
+    "hint": "Enter the document's password to unlock",
+    "notNeeded": "No password needed — file is not encrypted",
+    "correct": "Password is correct",
+    "incorrect": "Incorrect password",
+    "liveVerificationUnavailable": "(Live verification not available for AES-encrypted PDFs — try unlocking directly)"
+  },
+  "output": {
+    "filename": "Output filename",
+    "placeholder": "unlocked",
+    "extension": ".pdf"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "step1": "Upload your password-protected PDF",
+    "step2": "Enter the correct user or owner password",
+    "step3": "The tool decrypts and re-saves the PDF without any password",
+    "step4": "Download the unlocked copy"
+  },
+  "status": {
+    "protected": "PDF is password-protected",
+    "notProtected": "PDF has no password protection",
+    "protectedDesc": "Encryption: {algorithm} · Enter the password to remove it",
+    "notProtectedDesc": "You can still remove permission restrictions by clicking Unlock below",
+    "rc4": "Supports RC4-40/128",
+    "aes": "Supports AES-128/256",
+    "liveVerify": "Live pw verification",
+    "noServer": "No server required"
+  },
+  "progress": {
+    "decrypting": "Decrypting & removing protection…"
+  },
+  "button": {
+    "unlock": "Unlock & Download PDF",
+    "unlocking": "Unlocking…",
+    "downloadAgain": "Download again"
+  },
+  "result": {
+    "success": "PDF unlocked successfully!",
+    "noPasswordRequired": "No password required to open",
+    "download": "Download Unlocked PDF"
+  },
+  "errors": {
+    "unlockFailed": "Could not unlock PDF",
+    "checkPassword": "Make sure you entered the correct user or owner password.",
+    "wrongPassword": "Wrong password. Please try again.",
+    "default": "Could not unlock PDF"
+  },
+  "capabilities": {
+    "title": "What this tool can do",
+    "removePassword": "Remove password when you know it",
+    "stripPermissions": "Strip permission restrictions",
+    "rc4": "RC4-40, RC4-128 encrypted PDFs",
+    "aes": "AES-128, AES-256 encrypted PDFs",
+    "ownerOnly": "Owner-only protected PDFs"
+  },
+  "limitations": {
+    "title": "What it cannot do",
+    "crack": "Crack or guess unknown passwords",
+    "unknownOwner": "Bypass unknown owner passwords",
+    "recover": "Recover lost or forgotten passwords",
+    "bruteForce": "Break AES-256 brute-force"
+  },
+  "howToUse": {
+    "title": "How to Use Unlock PDF",
+    "step1Title": "Upload a protected PDF",
+    "step1Desc": "Drop or upload the password-protected PDF file you want to unlock.",
+    "step2Title": "Enter the password",
+    "step2Desc": "Type the correct user or owner password. The tool will verify it when possible.",
+    "step3Title": "Review encryption details",
+    "step3Desc": "Check the algorithm, key length, and file ID to understand the protection type.",
+    "step4Title": "Download unlocked PDF",
+    "step4Desc": "Click 'Unlock & Download PDF' to get a password-free copy — all decryption happens in your browser."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What encryption types are supported?", "answer": "RC4-40, RC4-128, AES-128, and AES-256 encrypted PDFs are all supported. Live password verification works for RC4; AES PDFs require trying the unlock directly." },
+      { "question": "Can this tool crack or guess passwords?", "answer": "No. You must enter the correct password to unlock the PDF. This tool cannot crack, brute-force, or recover forgotten passwords." },
+      { "question": "What is the difference between user and owner unlock?", "answer": "A user password lets you open the document. An owner password also strips permission restrictions. Either one can unlock the PDF." },
+      { "question": "Is my password sent to a server?", "answer": "No. Everything runs client-side using pdf-lib. Your PDF and password never leave your browser." },
+      { "question": "Can I remove permission restrictions without a password?", "answer": "If the PDF has no user password but has owner-only protection, you can strip permission restrictions without entering a password." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "protected_report.pdf",
+    "stats": "1 file · RC4-128 encrypted → unlocked PDF",
+    "result": "Password-free PDF ready for editing"
+  }
+}

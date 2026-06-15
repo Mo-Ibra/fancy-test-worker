@@ -1,0 +1,50 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Math Tools",
+    "current": "Unit Converter"
+  },
+  "header": {
+    "badge": "Math Tools",
+    "title": "Unit Converter — Length, Weight, Temp & More Online Free",
+    "description": "Free online unit converter supporting length, weight, temperature, volume, area, speed, time, pressure, energy, and more measurement categories. Convert between metric and imperial units instantly.",
+    "keywords": "unit converter, measurement converter, length converter, weight converter, temperature converter, metric to imperial, conversion calculator, units of measurement"
+  },
+  "from": "From",
+  "to": "To",
+  "swap": "Swap",
+  "formula": "Formula",
+  "copyResult": "Copy result",
+  "quickReference": "Quick Reference",
+  "allConversions": "All {category} Conversions",
+  "filter": "Filter units…",
+  "howToUse": {
+    "title": "How to Use Unit Converter",
+    "step1Title": "Select a Category",
+    "step1Desc": "Choose a measurement category such as Length, Weight, Temperature, Volume, Area, Speed, Time, Pressure, or Energy.",
+    "step2Title": "Pick From and To Units",
+    "step2Desc": "Select the unit you want to convert from and the unit you want to convert to.",
+    "step3Title": "Enter Your Value",
+    "step3Desc": "Type the measurement value in the input field. The converted result updates instantly.",
+    "step4Title": "View the Formula",
+    "step4Desc": "See the conversion formula used to calculate the result, helpful for learning how units relate."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What measurement categories are supported?", "answer": "The converter supports Length, Weight, Temperature, Volume, Area, Speed, Time, Pressure, Energy, Power, Force, and Data Storage. More categories can be added over time." },
+      { "question": "How accurate are the conversions?", "answer": "All conversions use standard international conversion factors with high-precision decimal arithmetic, ensuring results are accurate to at least 10 decimal places for most conversions." },
+      { "question": "Can I convert between metric and imperial units?", "answer": "Yes, every supported category includes both metric and imperial units. For example, you can convert kilometers to miles, kilograms to pounds, or Celsius to Fahrenheit." },
+      { "question": "How does temperature conversion work?", "answer": "Temperature conversions use the exact mathematical formulas: Celsius to Fahrenheit (°C × 9/5 + 32), Fahrenheit to Celsius ((°F − 32) × 5/9), and Kelvin conversions using the standard offset." },
+      { "question": "Can I see the formula used for each conversion?", "answer": "Yes, the conversion formula is displayed alongside the result. It shows the mathematical relationship between the two units, including any conversion factors and constants." },
+      { "question": "What should I do if a unit I need is missing?", "answer": "The unit list is regularly updated. If you need a specific unit that isn't listed, please provide feedback so it can be added in a future update." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Value",
+    "sampleText": "100",
+    "stats": "From cm → in · 100 cm = 39.37 in",
+    "result": "Formula: value ÷ 2.54"
+  }
+}

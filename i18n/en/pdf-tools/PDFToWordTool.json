@@ -1,0 +1,108 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "PDF to Word"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "PDF to Word — Convert PDF to Editable DOCX Online Free",
+    "description": "Free online PDF to Word converter to transform PDF files into editable DOCX documents. Extract text with layout preservation for easy editing in Microsoft Word or Google Docs — 100% client-side, your files never leave your browser.",
+    "keywords": "pdf to word, convert pdf to word, pdf to docx, pdf to editable word, pdf to word converter, extract text from pdf, pdf to doc, free pdf to word"
+  },
+  "notice": {
+    "title": "Text-based PDFs only.",
+    "description": "This tool extracts selectable text from PDF files using PDF.js. Scanned/image-based PDFs require OCR (not available in-browser). Complex layouts (multi-column, tables) may not preserve perfectly."
+  },
+  "privacy": {
+    "title": "100% client-side.",
+    "description": "Your PDF never leaves your browser. Conversion is done entirely in JavaScript."
+  },
+  "dropzone": {
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "pdfOnly": ".pdf only",
+    "textBasedOnly": "Text-based PDFs only"
+  },
+  "options": {
+    "title": "Output Options",
+    "typography": "Typography",
+    "preserveLineBreaks": "Preserve line breaks",
+    "addPageBreaks": "Page breaks between pages",
+    "addPageBreaksSub": "Inserts a DOCX page break after each PDF page",
+    "addPageNumbers": "Add page headings",
+    "addPageNumbersSub": "Adds 'Page N' heading before each page",
+    "cleanWhitespace": "Clean extra whitespace",
+    "cleanWhitespaceSub": "Merge multiple blank lines into one",
+    "font": "Font",
+    "fontSize": "Font size",
+    "fontFamily": "Font family",
+    "sansSerif": "Sans-serif",
+    "serif": "Serif",
+    "mono": "Mono",
+    "outputFilename": "Output filename"
+  },
+  "convert": {
+    "button": "Convert to Word (.docx)",
+    "converting": "Converting..."
+  },
+  "progress": {
+    "loading": "Loading PDF.js...",
+    "extracting": "Extracting text from page {page} of {total}...",
+    "building": "Building DOCX...",
+    "done": "Done!"
+  },
+  "result": {
+    "complete": "Conversion Complete",
+    "pagesExtracted": "{count} page{plural} extracted",
+    "download": "Download {filename}.docx",
+    "downloadAgain": "Download again",
+    "pages": "Pages",
+    "words": "Words",
+    "characters": "Characters"
+  },
+  "preview": {
+    "title": "Text Preview",
+    "pageInfo": "Page {pageNum} — {charCount} chars",
+    "moreChars": "...{count} more chars",
+    "noText": "No text extracted from this page (may be an image-only page)"
+  },
+  "breakdown": {
+    "title": "Pages Breakdown",
+    "words": "words",
+    "empty": "empty"
+  },
+  "errors": {
+    "conversionFailed": "Conversion failed"
+  },
+  "howToUse": {
+    "title": "How to Use PDF to Word",
+    "step1Title": "Upload a PDF",
+    "step1Desc": "Drop or upload a text-based PDF file you want to convert to DOCX.",
+    "step2Title": "Configure output options",
+    "step2Desc": "Choose typography settings: font family, font size, line breaks, page breaks, and page headings.",
+    "step3Title": "Preview extracted text",
+    "step3Desc": "Review the extracted text preview per page to check quality before downloading.",
+    "step4Title": "Download DOCX",
+    "step4Desc": "Click 'Convert to Word' and download your editable .docx file — 100% client-side."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What types of PDFs work best?", "answer": "Text-based PDFs with selectable text produce the best results. Scanned or image-based PDFs require OCR which is not available in-browser." },
+      { "question": "Does the tool preserve formatting?", "answer": "Basic formatting like font, font size, and line breaks are preserved. Complex layouts such as multi-column text and tables may not convert perfectly." },
+      { "question": "What is the maximum PDF size?", "answer": "Most PDFs under 50 MB work well. Larger files take longer to process since text extraction and DOCX generation happen entirely in the browser." },
+      { "question": "Can I convert password-protected PDFs?", "answer": "No. You must remove the password first using the Unlock PDF tool before converting to Word." },
+      { "question": "What font options are available?", "answer": "You can choose between Sans-serif, Serif, and Mono font families, and adjust the font size. The selected font is embedded in the DOCX output." },
+      { "question": "Can I add page breaks between PDF pages?", "answer": "Yes. The 'Page breaks between pages' option inserts a DOCX page break after each PDF page for a more accurate page-by-page layout." },
+      { "question": "Is my PDF uploaded to a server?", "answer": "No. Everything runs client-side using PDF.js for text extraction and a DOCX builder library. Your file never leaves your browser." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "article.pdf",
+    "stats": "1 file · 5 pages · ~3,200 words → .docx file",
+    "result": "DOCX with 5 pages, 3,200 words extracted"
+  }
+}

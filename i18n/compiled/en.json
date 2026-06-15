@@ -2618,6 +2618,846 @@
       }
     }
   },
+  "math-tools": {
+    "AgeCalculatorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Age Calculator"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Age Calculator — Calculate Your Exact Age Online Free",
+        "description": "Free online age calculator to find your exact age in years, months, days, hours, minutes, and seconds. Discover birthday facts, zodiac signs, and fun historical events from your birth date.",
+        "keywords": "age calculator, calculate age, how old am i, birthday calculator, age in years, exact age calculator, age from birthdate, find my age"
+      },
+      "birthDate": "Birth Date",
+      "targetDate": "Calculate Age On",
+      "useToday": "Use today",
+      "birthFacts": "Birth Facts",
+      "dayOfWeek": "Day of week",
+      "season": "Season",
+      "zodiac": "Zodiac",
+      "chineseZodiac": "Chinese Zodiac",
+      "generation": "Generation",
+      "daysUntil": "Days until next birthday",
+      "age": {
+        "years": "years",
+        "months": "months",
+        "days": "days",
+        "totalDays": "total days",
+        "yearsOld": "years old"
+      },
+      "timeAlive": {
+        "title": "Time Alive",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds"
+      },
+      "totalStats": {
+        "totalDays": "Total Days",
+        "totalWeeks": "Total Weeks",
+        "totalMonths": "Total Months",
+        "totalHours": "Total Hours",
+        "totalMinutes": "Total Minutes",
+        "seconds": "Seconds"
+      },
+      "nextBirthday": {
+        "title": "Next Birthday",
+        "in": "in",
+        "days": "days",
+        "happyBirthday": "Happy Birthday!",
+        "nextBirthdayIn": "Next Birthday in"
+      },
+      "birthdayFacts": {
+        "title": "Same Birthday",
+        "famous": "Famous people born on this day"
+      },
+      "lifeJourney": "Life Journey",
+      "ageMilestones": "Age Milestones",
+      "lifeExpectancy": "Based on global average life expectancy (~72 years)",
+      "secondsUpdate": "seconds update live",
+      "enterDob": "Enter a date of birth to calculate age",
+      "turning": "Turning",
+      "inDays": "in",
+      "daysAgo": "d ago",
+      "exactAge": "Exact Age",
+      "dateInputs": {
+        "dateOfBirth": "Date of Birth",
+        "calculateAgeAt": "Calculate Age At",
+        "today": "Today"
+      },
+      "errors": {
+        "birthBeforeTarget": "Birth date must be before the target date."
+      },
+      "howToUse": {
+        "title": "How to Use Age Calculator",
+        "step1Title": "Enter Your Birth Date",
+        "step1Desc": "Select your date of birth using the date picker or type it in manually.",
+        "step2Title": "Choose Calculate Age At",
+        "step2Desc": "Pick a target date or leave it as today to calculate your current age.",
+        "step3Title": "View Your Exact Age",
+        "step3Desc": "See your age in years, months, days, hours, minutes, and seconds.",
+        "step4Title": "Explore Bonus Facts",
+        "step4Desc": "Check your zodiac sign, Chinese zodiac, generation, and birthday milestones."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How is my exact age calculated?",
+            "answer": "Your exact age is calculated by subtracting your birth date from the target date. The result shows the precise difference in years, months, days, hours, minutes, and seconds, accounting for leap years and varying month lengths."
+          },
+          {
+            "question": "Can I calculate my age for a future date?",
+            "answer": "Yes, you can enter any future date in the \"Calculate Age On\" field to see how old you will be on that date. This is useful for planning birthdays, anniversaries, or retirement."
+          },
+          {
+            "question": "What does the live seconds counter do?",
+            "answer": "The seconds counter updates in real time to show exactly how old you are down to the second. Watch your age increase as you stay on the page."
+          },
+          {
+            "question": "How is my zodiac sign determined?",
+            "answer": "Your zodiac sign is determined by your birth month and day. The tool uses traditional Western astrology date ranges to match your birth date to the correct sign."
+          },
+          {
+            "question": "What generation am I part of?",
+            "answer": "The tool determines your generation based on your birth year using widely accepted range definitions, such as Gen Z (1997-2012), Millennials (1981-1996), Gen X (1965-1980), and others."
+          },
+          {
+            "question": "Can I use this calculator for other people?",
+            "answer": "Absolutely. Enter any person's date of birth to calculate their exact age, birthday facts, and milestones. It works for children, parents, grandparents, or historical figures."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Born",
+        "sampleText": "2000-01-15",
+        "stats": "24 years, 7 months, 12 days | 8,987 total days",
+        "result": "Capricorn · Year of the Dragon · Millennial"
+      }
+    },
+    "AverageCalculatorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Average Calculator"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Average Calculator — Mean, Median, Mode & Range Online",
+        "description": "Free online average calculator to compute mean, median, mode, range, and geometric mean from any set of numbers. Enter data with spaces or new lines and get instant statistical results with visual breakdown.",
+        "keywords": "average calculator, mean calculator, median calculator, mode calculator, find average, calculate mean, statistics calculator, average finder"
+      },
+      "input": {
+        "title": "Input Numbers",
+        "placeholder": "Enter numbers separated by spaces or new lines",
+        "addNumber": "Add number",
+        "clear": "Clear",
+        "numbers": "Numbers",
+        "numbersCount": "{count} numbers",
+        "paste": "Paste"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Numbers",
+        "sampleText": "85 92 78 95 88",
+        "stats": "Mean: 87.6 · Median: 88 · Mode: No mode",
+        "result": "5 numbers · Range: 17 · Std Dev: 6.02"
+      },
+      "stats": {
+        "count": "Count",
+        "sum": "Sum",
+        "mean": "Mean",
+        "median": "Median",
+        "mode": "Mode",
+        "range": "Range",
+        "min": "Min",
+        "max": "Max",
+        "stdDev": "Std Dev",
+        "variance": "Variance",
+        "coreStatistics": "Core Statistics",
+        "meanAverage": "Mean (Average)",
+        "arithmeticMean": "Arithmetic mean",
+        "middleValue": "Middle value",
+        "noMode": "No mode",
+        "allUnique": "All unique",
+        "appearsTimes": "Appears {count} times",
+        "to": "to",
+        "n": "n",
+        "sigmaX": "Σx",
+        "smallest": "Smallest",
+        "largest": "Largest",
+        "q1": "Q1",
+        "q3": "Q3",
+        "q1Sub": "25th percentile",
+        "q3Sub": "75th percentile",
+        "spread": "Spread & Dispersion",
+        "iqr": "IQR (Q3 − Q1)",
+        "iqrSub": "Interquartile range",
+        "stdDevPop": "Std Dev (Population)",
+        "stdDevPopSub": "σ — based on all n values",
+        "stdDevSample": "Std Dev (Sample)",
+        "stdDevSampleSub": "s — divide by n−1",
+        "varPop": "Variance (Population)",
+        "varPopSub": "σ²",
+        "varSample": "Variance (Sample)",
+        "varSampleSub": "s²",
+        "rms": "RMS",
+        "rmsSub": "Root Mean Square",
+        "otherMeans": "Other Means",
+        "arithmeticMeanFull": "Arithmetic Mean",
+        "arithmeticMeanSub": "(a+b+c…)/n",
+        "geometricMean": "Geometric Mean",
+        "geometricMeanSub": "ⁿ√(a×b×c…)",
+        "naPositive": "N/A (needs all positive)",
+        "harmonicMean": "Harmonic Mean",
+        "harmonicMeanSub": "n / (1/a + 1/b…)",
+        "naZero": "N/A (zero in set)",
+        "distribution": "Distribution",
+        "skewness": "Skewness (Pearson)",
+        "skewnessSymmetric": "Roughly symmetric",
+        "skewnessRight": "Right-skewed (positive)",
+        "skewnessLeft": "Left-skewed (negative)",
+        "outliers": "Outliers (Tukey)",
+        "outliersSub": "{count} value{s} outside Q1−1.5IQR / Q3+1.5IQR",
+        "outliersNone": "Outliers",
+        "noneDetected": "None detected",
+        "noneDetectedSub": "All values within Tukey fences",
+        "boxPlot": "Box Plot",
+        "iqrBox": "IQR box",
+        "outlier": "Outlier",
+        "frequency": "Frequency Distribution",
+        "uniqueValues": "{count} unique values",
+        "value": "Value",
+        "freqPercent": "Freq %",
+        "copySummary": "Copy Summary",
+        "sorted": "Sorted",
+        "originalOrder": "Original order",
+        "values": "Values",
+        "chipView": "Showing chip view for ≤50 numbers",
+        "outlierChip": "Outlier",
+        "clickRemove": "· click to remove",
+        "clickToRemove": "Click to remove",
+        "enterNumbers": "Enter numbers to calculate statistics",
+        "addPlaceholder": "Add a number…",
+        "ignored": "{count} ignored:",
+        "add": "Add"
+      },
+      "howToUse": {
+        "title": "How to Use Average Calculator",
+        "step1Title": "Enter Your Numbers",
+        "step1Desc": "Type or paste numbers separated by spaces, commas, or new lines into the input field.",
+        "step2Title": "View Core Statistics",
+        "step2Desc": "Instantly see the mean, median, mode, range, minimum, maximum, and count of your data set.",
+        "step3Title": "Explore Advanced Metrics",
+        "step3Desc": "Scroll down to view standard deviation, variance, quartiles, RMS, geometric mean, and harmonic mean.",
+        "step4Title": "Analyze Distribution",
+        "step4Desc": "Check the frequency distribution chart, skewness, and outliers detected using the Tukey method."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is the difference between mean and median?",
+            "answer": "The mean is the arithmetic average of all numbers. The median is the middle value when numbers are sorted. The median is less affected by outliers, making it a better measure of central tendency for skewed data."
+          },
+          {
+            "question": "Why is my standard deviation showing as zero?",
+            "answer": "A standard deviation of zero means all numbers in your data set are identical. There is no variation among the values."
+          },
+          {
+            "question": "What does \"no mode\" mean?",
+            "answer": "\"No mode\" means no number appears more than once in your data set. The mode is the most frequently occurring value, and if all values are unique, there is no mode."
+          },
+          {
+            "question": "Can I use decimal and negative numbers?",
+            "answer": "Yes, the calculator supports decimal numbers, negative numbers, and zero. All statistics including mean, median, and standard deviation work correctly with these values."
+          },
+          {
+            "question": "What are RMS, geometric mean, and harmonic mean?",
+            "answer": "RMS (Root Mean Square) is used in physics and signal processing. Geometric mean is useful for growth rates and requires all positive numbers. Harmonic mean is used for rates and averages of ratios."
+          },
+          {
+            "question": "How are outliers detected?",
+            "answer": "Outliers are detected using the Tukey method. Any value below Q1 − 1.5×IQR or above Q3 + 1.5×IQR is flagged as a potential outlier, where IQR is the interquartile range."
+          }
+        ]
+      }
+    },
+    "DateDifferenceTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Date Difference"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Date Difference Calculator — Calculate Days Between Dates Online",
+        "description": "Free online date difference calculator to find the exact number of days, weeks, months, and years between two dates. Add or subtract time from any date, calculate business days, and measure date intervals instantly.",
+        "keywords": "date difference calculator, days between dates, calculate days between two dates, date calculator, time between dates, date duration calculator, business days calculator, date math"
+      },
+      "tabs": {
+        "diff": "Date Difference",
+        "addSub": "Add / Subtract"
+      },
+      "date1": "Start Date",
+      "date2": "End Date",
+      "swap": "Swap",
+      "result": {
+        "years": "years",
+        "months": "months",
+        "weeks": "weeks",
+        "days": "days",
+        "totalDays": "Total days",
+        "weekdays": "Weekdays"
+      },
+      "addSub": {
+        "baseDate": "Base Date",
+        "amount": "Amount",
+        "unit": "Unit",
+        "days": "days",
+        "weeks": "weeks",
+        "months": "months",
+        "years": "years",
+        "result": "Result",
+        "afterAdding": "After adding",
+        "afterSubtracting": "After subtracting"
+      },
+      "presets": {
+        "title": "Quick Presets",
+        "yesterday": "Yesterday",
+        "today": "Today",
+        "lastWeek": "Last week",
+        "lastMonth": "Last month",
+        "lastYear": "Last year",
+        "nextWeek": "Next week",
+        "nextMonth": "Next month",
+        "nextYear": "Next year",
+        "last7Days": "Last 7 days",
+        "last30Days": "Last 30 days",
+        "last90Days": "Last 90 days",
+        "thisYear": "This year",
+        "year2000": "2000 → today"
+      },
+      "workingDays": {
+        "title": "Working Days",
+        "excludeWeekends": "Exclude weekends",
+        "excludeHolidays": "Exclude holidays"
+      },
+      "notableDates": {
+        "title": "Notable Dates",
+        "unixEpoch": "Unix Epoch",
+        "y2k": "Y2K",
+        "sept11": "9/11",
+        "iphoneLaunch": "iPhone Launch",
+        "newYear2025": "New Year 2025",
+        "newYear2030": "New Year 2030"
+      },
+      "quickAmounts": "Quick Amounts",
+      "duration": "Duration",
+      "durationReversed": "Duration (reversed)",
+      "forward": "▶ Forward",
+      "backward": "◀ Backward",
+      "years": "Years",
+      "months": "Months",
+      "weeksRem": "Weeks (rem)",
+      "daysRem": "Days (rem)",
+      "totalDuration": "Total Duration",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "secondsLive": "🔴 seconds update live",
+      "summary": "Summary",
+      "selectDates": "Select two dates to calculate the difference",
+      "enterBaseDate": "Enter a base date and amount above",
+      "yearProgress": "Progress",
+      "todayLabel": "Today:",
+      "businessDays": "Business Days",
+      "workingDaysLabel": "Working days",
+      "weekendDays": "Weekend days",
+      "totalDaysLabel": "Total days",
+      "monFri": "Mon–Fri",
+      "satSun": "Sat–Sun",
+      "inclWeekends": "incl. weekends",
+      "noteHolidays": "Note: Does not account for public holidays",
+      "durationUnits": {
+        "years_one": "{count} year",
+        "years_two": "{count} years",
+        "years_few": "{count} years",
+        "years_many": "{count} years",
+        "years_other": "{count} years",
+        "months_one": "{count} month",
+        "months_two": "{count} months",
+        "months_few": "{count} months",
+        "months_many": "{count} months",
+        "months_other": "{count} months",
+        "days_one": "{count} day",
+        "days_two": "{count} days",
+        "days_few": "{count} days",
+        "days_many": "{count} days",
+        "days_other": "{count} days",
+        "separator": ", ",
+        "sameDay": "Same day"
+      },
+      "howToUse": {
+        "title": "How to Use Date Difference Calculator",
+        "step1Title": "Select Start Date",
+        "step1Desc": "Choose the beginning date using the date picker or type it in manually.",
+        "step2Title": "Select End Date",
+        "step2Desc": "Pick the ending date to measure the difference between the two dates.",
+        "step3Title": "View Duration Details",
+        "step3Desc": "See the difference in years, months, weeks, days, hours, minutes, and seconds with a full breakdown.",
+        "step4Title": "Try Add or Subtract",
+        "step4Desc": "Switch to the Add/Subtract tab to add or subtract time (days, weeks, months, years) from any date."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Does the calculation include both start and end dates?",
+            "answer": "The calculator counts full 24-hour periods between dates. You can see both the total duration broken into years/months/days and the raw total days, hours, minutes, and seconds."
+          },
+          {
+            "question": "Can I calculate business days between dates?",
+            "answer": "Yes, enable the Working Days toggle to exclude weekends (Saturday and Sunday) from the calculation. Note that public holidays are not automatically excluded."
+          },
+          {
+            "question": "How does the add/subtract feature work?",
+            "answer": "Enter a base date, then specify an amount and unit (days, weeks, months, or years) to add or subtract. The result shows the new date instantly."
+          },
+          {
+            "question": "Does the calculator account for leap years?",
+            "answer": "Yes, all date calculations automatically account for leap years, varying month lengths, and daylight saving time boundaries when calculating precise durations."
+          },
+          {
+            "question": "What are notable dates used for?",
+            "answer": "Notable dates provide quick references to historically significant dates like Unix Epoch, Y2K, 9/11, iPhone Launch, and future New Years. Click any to load it instantly."
+          },
+          {
+            "question": "Can I use this tool to plan events or projects?",
+            "answer": "Absolutely. Calculate the exact duration between two dates for project timelines, count down to events, or add/subtract time to schedule deadlines and milestones."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "From",
+        "sampleText": "2024-01-01",
+        "stats": "To 2024-12-31 · 365 days · 52 weeks · 12 months",
+        "result": "1 year · Weekdays: 261 · Weekend days: 104"
+      }
+    },
+    "NumberBaseConverterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Number Base Converter"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Number Base Converter — Binary, Octal, Decimal & Hex Online",
+        "description": "Free online number base converter to convert numbers between binary, octal, decimal, hexadecimal, and any base from 2 to 36. Instantly translate between numbering systems with step-by-step conversion.",
+        "keywords": "number base converter, binary converter, octal converter, hexadecimal converter, base converter, decimal to binary, hex to decimal, number system converter"
+      },
+      "input": {
+        "title": "Input",
+        "base": "Input Base",
+        "value": "Value in {base}",
+        "custom": "Custom",
+        "baseLabel": "Base {base}",
+        "decimalValue": "Decimal value",
+        "accepts": "Base {base} accepts"
+      },
+      "output": {
+        "title": "Output",
+        "customBase": "Custom Base",
+        "base": "Base",
+        "chars": "Chars"
+      },
+      "bitInfo": {
+        "title": "Bit Analysis",
+        "bits": "bits",
+        "bytes": "bytes",
+        "nibbles": "nibbles",
+        "unsignedMax": "Unsigned max",
+        "signedMin": "Signed min",
+        "signedMax": "Signed max",
+        "bitWidth": "Bit width",
+        "setBits": "Set bits",
+        "zeroBits": "Zero bits",
+        "lsb": "LSB",
+        "msbPos": "MSB pos",
+        "powerOf2": "Power of 2",
+        "byteSegments": "Byte Segments"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Enter",
+        "sampleText": "255",
+        "stats": "Binary: 11111111 · Octal: 377 · Hex: FF",
+        "result": "8 bits · 1 byte · Unsigned max: 255"
+      },
+      "allBases": {
+        "title": "All Bases",
+        "dec": "dec",
+        "chars": "chars",
+        "enterToConvert": "Enter a number above to convert"
+      },
+      "binary": {
+        "title": "Binary Visualization",
+        "bits": "{count} bits",
+        "oneSet": "1 (set)",
+        "zeroClear": "0 (clear)",
+        "nibbleSeparator": "· = nibble separator (4 bits)"
+      },
+      "arithmetic": {
+        "title": "Base Arithmetic",
+        "description": "Perform addition, subtraction, multiplication and division in any base:",
+        "base": "Base {base}"
+      },
+      "reference": {
+        "title": "Quick Reference (0–15)",
+        "clickRow": "Click any row to load that value",
+        "dec": "Dec",
+        "bin": "Bin",
+        "oct": "Oct",
+        "hex": "Hex",
+        "b32": "B32"
+      },
+      "bases": {
+        "Binary": "Binary",
+        "Octal": "Octal",
+        "Decimal": "Decimal",
+        "Hexadecimal": "Hexadecimal",
+        "Base 32": "Base 32",
+        "Base 36": "Base 36",
+        "Base 64": "Base 64"
+      },
+      "copy": "Copy",
+      "copied": "Copied!",
+      "clear": "Clear",
+      "showArithmetic": "Show Base Arithmetic",
+      "hideArithmetic": "Hide Base Arithmetic",
+      "howToUse": {
+        "title": "How to Use Number Base Converter",
+        "step1Title": "Enter a Number",
+        "step1Desc": "Type the number you want to convert in the input field.",
+        "step2Title": "Select Input Base",
+        "step2Desc": "Choose the base of your input number from the dropdown, ranging from binary (2) to base 36.",
+        "step3Title": "Choose Output Base",
+        "step3Desc": "Pick the target base for conversion. All other bases update instantly.",
+        "step4Title": "Explore Bit Analysis",
+        "step4Desc": "View bit width, byte segments, LSB, MSB position, and whether the number is a power of two."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What number bases are supported?",
+            "answer": "The converter supports all bases from 2 (binary) to 36, including octal (8), decimal (10), and hexadecimal (16). You can also convert between any two custom bases."
+          },
+          {
+            "question": "What happens if I enter an invalid character for the selected base?",
+            "answer": "The tool will highlight invalid characters and prevent conversion. For example, entering \"1G\" in base 16 is invalid because G is not a hexadecimal digit (0-9 and A-F only)."
+          },
+          {
+            "question": "How does custom base conversion work?",
+            "answer": "Select \"Custom\" from the base dropdown and enter your desired base number (2-36). The converter will handle the conversion using standard radix algorithms."
+          },
+          {
+            "question": "What is bit analysis used for?",
+            "answer": "Bit analysis shows the binary representation of your number, including bit width, number of set and zero bits, LSB and MSB positions, and whether the number is a power of two. Useful for low-level programming and digital logic."
+          },
+          {
+            "question": "Can I perform arithmetic in different bases?",
+            "answer": "Yes, enable \"Base Arithmetic\" to perform addition, subtraction, multiplication, and division directly in any base. Results are shown in the same base."
+          },
+          {
+            "question": "What characters are used for bases above 10?",
+            "answer": "Base 11 to 36 use digits 0-9 followed by letters A-Z. For example, base 16 uses 0-9 and A-F, while base 36 uses 0-9 and A-Z."
+          }
+        ]
+      }
+    },
+    "PercentageCalculatorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Percentage Calculator"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Percentage Calculator — Calculate Percentages Online Free",
+        "description": "Free online percentage calculator to compute percentages, percentage increases and decreases, reverse percentages, and percentage differences. Quick calculations for discounts, tips, taxes, and data analysis.",
+        "keywords": "percentage calculator, calculate percentage, percent calculator, percentage increase, percentage decrease, reverse percentage, percentage difference, percent change"
+      },
+      "modes": {
+        "percentOf": "Percent Of",
+        "whatPercent": "What Percent",
+        "increase": "Increase/Decrease",
+        "percentChange": "Percent Change",
+        "reversePercent": "Reverse Percent",
+        "percentDiff": "Percent Difference",
+        "markup": "Markup",
+        "split": "Split Bill"
+      },
+      "input": {
+        "value": "Value",
+        "percentage": "Percentage",
+        "total": "Total",
+        "parts": "Number of people",
+        "ofNumber": "Of Number",
+        "valueX": "Value (X)",
+        "totalY": "Total (Y)",
+        "percentageChange": "Percentage Change",
+        "originalValue": "Original Value",
+        "originalValueFrom": "Original Value (from)",
+        "newValueTo": "New Value (to)",
+        "isThisValue": "Is this value",
+        "valueA": "Value A",
+        "valueB": "Value B",
+        "costPrice": "Cost Price",
+        "markupPercentage": "Markup Percentage",
+        "totalAmount": "Total Amount",
+        "firstShare": "First Share %",
+        "secondShare": "Second Share % (optional)"
+      },
+      "results": {
+        "remainder": "Remainder (100% − part)",
+        "fraction": "Fraction",
+        "asDecimal": "As a decimal",
+        "remainderPercent": "Remainder %",
+        "increased": "increased by",
+        "decreased": "decreased by",
+        "theChange": "(the change)",
+        "absoluteDifference": "Absolute difference",
+        "signedPercent": "Signed % change",
+        "ratio": "Ratio (new / old)",
+        "verification": "Verification",
+        "symmetric": "symmetric, uses average as base",
+        "relativeChange": "uses first value as base",
+        "average": "Average",
+        "markupAmount": "Markup amount",
+        "profitMargin": "Profit margin %",
+        "profitMarginSub": "markup on selling price",
+        "priceMultiplier": "Price multiplier",
+        "recoversOriginal": "recovers original cost",
+        "remaining": "remaining",
+        "increase": "increase",
+        "decrease": "decrease",
+        "positive": "positive",
+        "negative": "negative",
+        "tipAmount": "Tip amount",
+        "totalPerPerson": "Total per person",
+        "tipPerPerson": "Tip per person"
+      },
+      "tips": {
+        "percentOf": "e.g. 20% of 500 = 100",
+        "whatPercent": "e.g. 75 is 25% of 300",
+        "increase": "e.g. 200 increased by 15% = 230, decreased = 170",
+        "percentChange": "e.g. from 80 to 100 = 25% increase",
+        "reversePercent": "e.g. 75 is 25% of 300",
+        "percentDiff": "Symmetric difference: uses average as base. Different from % change.",
+        "markup": "Markup is on cost. Margin is on selling price. A 40% markup ≠ 40% margin.",
+        "split": "Leave second share empty to auto-split into 2 parts (X% and (100-X)%)"
+      },
+      "ui": {
+        "reset": "Reset",
+        "allModes": "All Modes",
+        "results": "Results",
+        "formula": "Formula",
+        "quickReference": "Common Percentage Reference",
+        "enterValues": "Enter values to calculate"
+      },
+      "howToUse": {
+        "title": "How to Use Percentage Calculator",
+        "step1Title": "Choose Your Mode",
+        "step1Desc": "Pick from Percentage Of, What Percent, Increase/Decrease, Percent Change, Reverse Percent, Percent Difference, Markup, or Split Bill.",
+        "step2Title": "Enter Your Values",
+        "step2Desc": "Fill in the required numbers based on the selected mode. Labels update dynamically to guide you.",
+        "step3Title": "View Results Instantly",
+        "step3Desc": "See the calculated result, formula breakdown, verification, and the result as a decimal and fraction.",
+        "step4Title": "Switch Modes to Compare",
+        "step4Desc": "Try different percentage modes on the same numbers to understand relationships between calculations."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is the difference between percentage increase and percent change?",
+            "answer": "Percentage increase shows how much a value grew relative to its original size. Percent change is a broader term that can be positive (increase) or negative (decrease), showing the signed relative change between two values."
+          },
+          {
+            "question": "How do I calculate reverse percentage?",
+            "answer": "Reverse percentage finds the original value when you know a percentage of it. For example, if 75 is 25% of a number, the original is 300. Enter the part (75) and the percentage (25%) to find the total."
+          },
+          {
+            "question": "What is percentage difference?",
+            "answer": "Percentage difference is a symmetric measure that compares two values using their average as the base. It is different from percent change, which uses the first value as the base. Percentage difference is always positive."
+          },
+          {
+            "question": "How does the split bill feature work?",
+            "answer": "Enter the total amount and number of people to split evenly. Optionally set a tip percentage and specify unequal shares. The calculator shows each person's share including tip."
+          },
+          {
+            "question": "What is the markup mode used for?",
+            "answer": "Markup mode calculates the selling price based on the cost price plus a markup percentage. For example, a $50 item with 40% markup sells for $70. It also shows the profit margin percentage."
+          },
+          {
+            "question": "How is profit margin different from markup?",
+            "answer": "Markup is the percentage added to the cost price. Margin is the percentage of the selling price that is profit. A 40% markup equals approximately 28.6% margin, not 40%. The calculator shows both for clarity."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Expression",
+        "sampleText": "20% of 500",
+        "stats": "Part = 100 · Remainder = 400 · Fraction = 1/5",
+        "result": "100 (20% of 500)"
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related Math Tools",
+        "unitConverter": "Unit Converter",
+        "percentage": "Percentage Calculator",
+        "age": "Age Calculator",
+        "dateDiff": "Date Difference",
+        "average": "Average Calculator"
+      }
+    },
+    "ScientificCalculatorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Scientific Calculator"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Scientific Calculator — Advanced Math Calculator Online Free",
+        "description": "Free online scientific calculator for advanced mathematical calculations. Perform trigonometric functions, logarithms, exponentials, factorials, and complex equations. Supports degrees and radians with a clean, full-featured interface.",
+        "keywords": "scientific calculator, online scientific calculator, advanced calculator, trig calculator, logarithm calculator, exponential calculator, math solver, free scientific calculator"
+      },
+      "howToUse": {
+        "title": "How to Use the Scientific Calculator",
+        "step1Title": "Enter Your Expression",
+        "step1Desc": "Click the buttons or use your keyboard to type mathematical expressions. The calculator supports basic arithmetic, trigonometry, logarithms, and more.",
+        "step2Title": "Select Operation Mode",
+        "step2Desc": "Toggle between degrees (DEG) and radians (RAD) for trigonometric functions. Use SHIFT to access secondary functions like inverse trig and hyperbolic functions.",
+        "step3Title": "Perform Advanced Operations",
+        "step3Desc": "Use buttons like sin, cos, tan, log, ln, sqrt, x², x³, xʸ, n!, and π for advanced calculations. The display shows your full expression in real time.",
+        "step4Title": "Review Your Result",
+        "step4Desc": "Press = to compute the result, or use ANS to reference the previous answer in a new calculation. Press AC to clear everything or C to clear the current entry."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What operations does this scientific calculator support?",
+            "answer": "It supports addition, subtraction, multiplication, division, trigonometric functions (sin, cos, tan), logarithms (log, ln), exponentials (xʸ, eˣ), square roots, factorials, percentages, and constants like π and e."
+          },
+          {
+            "question": "How do I switch between degrees and radians?",
+            "answer": "Use the DEG/RAD toggle button on the calculator. DEG is for angle measurements in degrees, RAD is for radians. This affects trigonometric function calculations."
+          },
+          {
+            "question": "Is the scientific calculator free to use?",
+            "answer": "Yes, this scientific calculator is completely free to use with no limitations, registration, or hidden fees. All functions are available online."
+          },
+          {
+            "question": "Can I use my keyboard instead of clicking buttons?",
+            "answer": "Yes, the calculator supports keyboard input. You can type numbers, operators (+, -, *, /), decimal points, and function names directly using your keyboard."
+          },
+          {
+            "question": "How accurate are the calculations?",
+            "answer": "The calculator uses JavaScript's floating-point arithmetic with high precision, suitable for most educational, professional, and everyday use cases."
+          },
+          {
+            "question": "Does it support parentheses and order of operations?",
+            "answer": "Yes, the calculator correctly handles parentheses and follows standard order of operations (PEMDAS/BODMAS)."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Example: sin(30) in degrees",
+        "sampleText": "sin 3 0 =",
+        "stats": "Trigonometric function in degree mode",
+        "result": "Returns 0.5"
+      }
+    },
+    "UnitConverterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Math Tools",
+        "current": "Unit Converter"
+      },
+      "header": {
+        "badge": "Math Tools",
+        "title": "Unit Converter — Length, Weight, Temp & More Online Free",
+        "description": "Free online unit converter supporting length, weight, temperature, volume, area, speed, time, pressure, energy, and more measurement categories. Convert between metric and imperial units instantly.",
+        "keywords": "unit converter, measurement converter, length converter, weight converter, temperature converter, metric to imperial, conversion calculator, units of measurement"
+      },
+      "from": "From",
+      "to": "To",
+      "swap": "Swap",
+      "formula": "Formula",
+      "copyResult": "Copy result",
+      "quickReference": "Quick Reference",
+      "allConversions": "All {category} Conversions",
+      "filter": "Filter units…",
+      "howToUse": {
+        "title": "How to Use Unit Converter",
+        "step1Title": "Select a Category",
+        "step1Desc": "Choose a measurement category such as Length, Weight, Temperature, Volume, Area, Speed, Time, Pressure, or Energy.",
+        "step2Title": "Pick From and To Units",
+        "step2Desc": "Select the unit you want to convert from and the unit you want to convert to.",
+        "step3Title": "Enter Your Value",
+        "step3Desc": "Type the measurement value in the input field. The converted result updates instantly.",
+        "step4Title": "View the Formula",
+        "step4Desc": "See the conversion formula used to calculate the result, helpful for learning how units relate."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What measurement categories are supported?",
+            "answer": "The converter supports Length, Weight, Temperature, Volume, Area, Speed, Time, Pressure, Energy, Power, Force, and Data Storage. More categories can be added over time."
+          },
+          {
+            "question": "How accurate are the conversions?",
+            "answer": "All conversions use standard international conversion factors with high-precision decimal arithmetic, ensuring results are accurate to at least 10 decimal places for most conversions."
+          },
+          {
+            "question": "Can I convert between metric and imperial units?",
+            "answer": "Yes, every supported category includes both metric and imperial units. For example, you can convert kilometers to miles, kilograms to pounds, or Celsius to Fahrenheit."
+          },
+          {
+            "question": "How does temperature conversion work?",
+            "answer": "Temperature conversions use the exact mathematical formulas: Celsius to Fahrenheit (°C × 9/5 + 32), Fahrenheit to Celsius ((°F − 32) × 5/9), and Kelvin conversions using the standard offset."
+          },
+          {
+            "question": "Can I see the formula used for each conversion?",
+            "answer": "Yes, the conversion formula is displayed alongside the result. It shows the mathematical relationship between the two units, including any conversion factors and constants."
+          },
+          {
+            "question": "What should I do if a unit I need is missing?",
+            "answer": "The unit list is regularly updated. If you need a specific unit that isn't listed, please provide feedback so it can be added in a future update."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Value",
+        "sampleText": "100",
+        "stats": "From cm → in · 100 cm = 39.37 in",
+        "result": "Formula: value ÷ 2.54"
+      }
+    }
+  },
   "pages": {
     "about": {
       "metadata": {
@@ -2815,6 +3655,1244 @@
             "body": "We reserve the right to modify these terms at any time. Continued use of the site after changes constitutes acceptance of the new terms."
           }
         ]
+      }
+    }
+  },
+  "pdf-tools": {
+    "ImagesToPDFTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "Images to PDF"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "Images to PDF — Convert JPG, PNG & WebP to PDF Online",
+        "description": "Free online tool to convert images to PDF. Combine JPG, PNG, WebP, and other image formats into a single PDF document. Arrange and reorder images before conversion — 100% client-side, your files never leave your browser.",
+        "keywords": "images to pdf, convert image to pdf, jpg to pdf, png to pdf, webp to pdf, image to pdf converter, combine images to pdf, picture to pdf"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your images are converted entirely in the browser — nothing is uploaded to any server."
+      },
+      "dropzone": {
+        "dropHere": "Drop images here",
+        "orClick": "or click to browse",
+        "imageFormats": "JPG · PNG · WebP · GIF · BMP — multiple files"
+      },
+      "options": {
+        "title": "Output Options",
+        "pageSize": "Page size",
+        "orientation": "Orientation",
+        "portrait": "Portrait",
+        "landscape": "Landscape",
+        "imageFit": "Image fit",
+        "margin": "Margin",
+        "background": "Background",
+        "pageNumbers": "Add page numbers",
+        "quality": "Image Quality"
+      },
+      "pageSize": {
+        "a4": "A4 (210×297 mm)",
+        "a3": "A3 (297×420 mm)",
+        "letter": "Letter (8.5×11 in)",
+        "legal": "Legal (8.5×14 in)",
+        "fit": "Fit to image size"
+      },
+      "imageFit": {
+        "contain": {
+          "label": "Contain",
+          "desc": "Fit inside page, keep aspect ratio"
+        },
+        "cover": {
+          "label": "Cover",
+          "desc": "Fill page, may crop edges"
+        },
+        "fill": {
+          "label": "Fill",
+          "desc": "Stretch to fill, ignores ratio"
+        },
+        "center": {
+          "label": "Center",
+          "desc": "Original size, centered"
+        }
+      },
+      "margin": {
+        "none": "0 (none)",
+        "recommended": "20 (rec)",
+        "oneInch": "72 (1 inch)"
+      },
+      "quality": {
+        "original": "Original quality (larger file)",
+        "lower": "Lower = smaller PDF"
+      },
+      "moreOptions": "More Options",
+      "backgroundColor": "Background color",
+      "white": "White",
+      "black": "Black",
+      "gray": "Gray",
+      "cream": "Cream",
+      "none": "None",
+      "addPageNumbersSub": "Small number at bottom center",
+      "outputLabel": "Output filename",
+      "imageList": {
+        "title": "{ready} / {total} images ready",
+        "size": "({size})",
+        "addMore": "+ Add more",
+        "clear": "Clear"
+      },
+      "progress": {
+        "processing": "Processing image {current} of {total}…",
+        "done": "Done!"
+      },
+      "result": {
+        "created": "PDF created!",
+        "size": "· {size}",
+        "redownload": "Re-download PDF"
+      },
+      "convertButton": {
+        "create": "Create PDF ({count} image)",
+        "create_plural": "Create PDF ({count} images)",
+        "converting": "Creating PDF…"
+      },
+      "empty": {
+        "message": "Add images above to combine into a PDF"
+      },
+      "errors": {
+        "conversionFailed": "Conversion failed"
+      },
+      "howToUse": {
+        "title": "How to Use Images to PDF",
+        "step1Title": "Upload images",
+        "step1Desc": "Drop or upload JPG, PNG, WebP, GIF, or BMP images. You can add multiple files at once.",
+        "step2Title": "Arrange and configure",
+        "step2Desc": "Drag to reorder images. Choose page size, orientation, image fit, margins, and background color.",
+        "step3Title": "Set output options",
+        "step3Desc": "Optionally enable page numbers, adjust image quality, and enter a custom output filename.",
+        "step4Title": "Create and download PDF",
+        "step4Desc": "Click 'Create PDF' and download your combined document — all processing happens in your browser."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What image formats are supported?",
+            "answer": "JPG, PNG, WebP, GIF, and BMP are supported. All images are converted and embedded into a single PDF document."
+          },
+          {
+            "question": "Can I mix different image formats in one PDF?",
+            "answer": "Yes. You can combine JPG, PNG, WebP, and other supported formats in any order within the same PDF."
+          },
+          {
+            "question": "How do I reorder images before conversion?",
+            "answer": "Use the up/down arrows or drag and drop to rearrange images in the list before clicking 'Create PDF'."
+          },
+          {
+            "question": "What page sizes are available?",
+            "answer": "A4, A3, Letter, Legal, and 'Fit to image size' which creates a page matching each image's dimensions."
+          },
+          {
+            "question": "Will my images be compressed?",
+            "answer": "Images can be kept at original quality (larger PDF) or compressed (smaller PDF). The quality slider lets you control the JPEG compression level."
+          },
+          {
+            "question": "Is there a limit on the number of images?",
+            "answer": "There is no hard limit, but browser memory may constrain very large batches (100+ high-resolution images)."
+          },
+          {
+            "question": "Are my images uploaded to a server?",
+            "answer": "No. Everything runs client-side in your browser. Your images never leave your device."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample images",
+        "sampleText": "photo1.jpg, photo2.png, photo3.webp",
+        "stats": "3 images · 8.4 MB total → 1 PDF · 7.1 MB",
+        "result": "Single PDF with 3 pages created"
+      }
+    },
+    "PDFCompressorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "PDF Compressor"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "PDF Compressor — Reduce PDF File Size Online Free",
+        "description": "Free online PDF compressor to reduce PDF file size without losing quality. Compress images, remove metadata, and optimize documents for email or web upload. Choose compression level and shrink your PDF instantly — 100% client-side and private.",
+        "keywords": "pdf compressor, compress pdf, reduce pdf size, pdf file size reducer, shrink pdf, pdf optimizer, compress pdf online, free pdf compressor"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your PDF is compressed entirely in the browser — nothing is uploaded to any server."
+      },
+      "compressionLevel": {
+        "title": "Compression Level",
+        "light": {
+          "label": "Light",
+          "desc": "Metadata only, high image quality",
+          "badge": "Low loss"
+        },
+        "medium": {
+          "label": "Medium",
+          "desc": "Remove annotations + compress images",
+          "badge": "Balanced"
+        },
+        "aggressive": {
+          "label": "Aggressive",
+          "desc": "Max compression, lower image quality",
+          "badge": "Max size"
+        }
+      },
+      "advanced": {
+        "title": "Advanced Options",
+        "removeMetadata": "Remove metadata",
+        "removeMetadataSub": "Title, author, keywords, dates",
+        "removeAnnotations": "Remove annotations",
+        "removeAnnotationsSub": "Comments, highlights, links",
+        "removeForms": "Remove form fields",
+        "removeFormsSub": "Interactive AcroForm fields"
+      },
+      "imageOptions": {
+        "title": "Image Compression",
+        "downsample": "Downsample images",
+        "downsampleSub": "Scale images above max DPI threshold",
+        "quality": "JPEG quality",
+        "maxDpi": "Max image DPI",
+        "tiny": "tiny",
+        "rec": "rec",
+        "web": "web",
+        "print": "print"
+      },
+      "output": {
+        "label": "Output filename"
+      },
+      "whatGetsCompressed": {
+        "title": "What gets compressed",
+        "metadata": "PDF metadata (title, author, keywords)",
+        "objectCompression": "Object stream compression (pdf-lib)",
+        "jpegReencode": "Re-encode embedded JPEG images",
+        "annotations": "Optional: annotations, form fields",
+        "not1": "Cannot re-compress FlateDecode streams (browser limitation)",
+        "not2": "Cannot render pages to bitmap (requires full PDF renderer)"
+      },
+      "dropzone": {
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "pdfOnly": ".pdf only"
+      },
+      "file": {
+        "error": "Could not read file"
+      },
+      "compress": {
+        "button": "Compress PDF",
+        "compressing": "Compressing…",
+        "processing": "Processing…"
+      },
+      "result": {
+        "title": "Compression Result",
+        "smaller": "smaller",
+        "original": "Original",
+        "compressed": "Compressed",
+        "saved": "Saved",
+        "noReduction": "No significant reduction achieved. The PDF may already be compressed, contain no JPEG images, or have minimal metadata.",
+        "download": "Download Compressed PDF",
+        "recompress": "Re-compress with different settings"
+      },
+      "howToUse": {
+        "title": "How to Use PDF Compressor",
+        "step1Title": "Upload a PDF",
+        "step1Desc": "Drop or upload the PDF file you want to compress.",
+        "step2Title": "Choose compression level",
+        "step2Desc": "Select Light, Medium, or Aggressive compression depending on your quality vs size preference.",
+        "step3Title": "Configure advanced options",
+        "step3Desc": "Optionally remove metadata, annotations, or form fields. Adjust image quality and DPI settings.",
+        "step4Title": "Download compressed PDF",
+        "step4Desc": "Click 'Compress PDF' and download your optimized file — no uploads, 100% private."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How much can I reduce the PDF file size?",
+            "answer": "Reduction depends on the original file. PDFs with large embedded JPEG images can shrink 50-80% with Aggressive compression. Metadata-only PDFs may see only minor gains."
+          },
+          {
+            "question": "Does PDF compression reduce image quality?",
+            "answer": "Light mode removes metadata only with no quality loss. Medium re-encodes JPEGs with good quality. Aggressive uses lower JPEG quality for maximum size reduction."
+          },
+          {
+            "question": "Are my files uploaded to a server?",
+            "answer": "No. Everything runs client-side in your browser using pdf-lib. Your file never leaves your device."
+          },
+          {
+            "question": "How long does compression take?",
+            "answer": "Most files under 50 MB complete in seconds. Larger files with many images may take longer since all processing happens locally."
+          },
+          {
+            "question": "What is the maximum file size I can compress?",
+            "answer": "There is no hard limit, but extremely large files may be limited by browser memory. Files up to 100 MB generally work well in modern browsers."
+          },
+          {
+            "question": "Can I compress scanned PDFs?",
+            "answer": "Yes, but scanned PDFs often contain FlateDecode-encoded images which cannot be re-compressed client-side. You may see limited reduction on these files."
+          },
+          {
+            "question": "What metadata is removed?",
+            "answer": "Advanced options can remove title, author, keywords, creation date metadata, annotations (comments, highlights), and interactive form fields."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "my report.pdf",
+        "stats": "~5.2 MB → ~2.1 MB with Medium compression",
+        "result": "60% size reduction achieved"
+      }
+    },
+    "PDFMergerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "PDF Merger"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "PDF Merger — Combine PDF Files into One Online Free",
+        "description": "Free online PDF merger to combine multiple PDF files into a single document. Drag, reorder, and select specific pages from each file before merging. Join PDFs quickly with custom page selection — 100% client-side, your files stay private.",
+        "keywords": "pdf merger, combine pdf, merge pdf files, join pdf, pdf combiner, merge pdfs online, combine pdf documents, free pdf merger"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your PDFs are processed locally using pdf-lib — no files are uploaded to any server."
+      },
+      "output": {
+        "title": "Output File"
+      },
+      "summary": {
+        "title": "Summary",
+        "files": "Files",
+        "ready": "Ready",
+        "totalPages": "Total pages",
+        "totalSize": "Total size"
+      },
+      "instructions": {
+        "title": "How to use",
+        "step1": "Drop or upload 2 or more PDF files",
+        "step2": "Drag to reorder using ↑ ↓ arrows",
+        "step3": "Optionally select custom page ranges per file",
+        "step4": "Click 'Merge & Download'"
+      },
+      "fileList": {
+        "title": "{count} file(s) added",
+        "addMore": "Add more",
+        "clearAll": "Clear all"
+      },
+      "merge": {
+        "button": "Merge & Download PDF",
+        "merging": "Merging…",
+        "waiting": "Waiting for all PDFs to finish loading…",
+        "success": "Merged successfully!",
+        "saved": "{name}.pdf saved · {size}",
+        "downloadAgain": "Download again"
+      },
+      "error": {
+        "mergeFailed": "Merge failed"
+      },
+      "dropzone": {
+        "dropHere": "Drop PDF files here",
+        "orClick": "or click to browse — multiple files supported",
+        "pdfOnly": ".pdf files only"
+      },
+      "empty": {
+        "message": "Add at least 2 PDF files to merge"
+      },
+      "howToUse": {
+        "title": "How to Use PDF Merger",
+        "step1Title": "Upload PDF files",
+        "step1Desc": "Drop or upload two or more PDF files. You can add multiple files at once.",
+        "step2Title": "Reorder and configure",
+        "step2Desc": "Drag to reorder files. Optionally select specific page ranges from each file instead of merging all pages.",
+        "step3Title": "Review summary",
+        "step3Desc": "Check the file count, total pages, and total size before merging.",
+        "step4Title": "Merge and download",
+        "step4Desc": "Click 'Merge & Download PDF' to combine all files into a single document — 100% client-side."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How many PDF files can I merge at once?",
+            "answer": "There is no set limit, but browser performance may decrease with very large numbers of files. Most users merge 2-10 files comfortably."
+          },
+          {
+            "question": "Can I select specific pages from each file?",
+            "answer": "Yes. Click on a file to expand page range options. You can enter custom ranges like '1-3, 5' to include only certain pages."
+          },
+          {
+            "question": "What is the maximum file size for merging?",
+            "answer": "Files up to 100 MB typically work well. Extremely large files may hit browser memory limits since everything runs client-side."
+          },
+          {
+            "question": "Does merging preserve bookmarks and links?",
+            "answer": "Basic merging preserves page content. Some PDF features like bookmarks, internal links, and form fields may not carry over perfectly."
+          },
+          {
+            "question": "Can I merge password-protected PDFs?",
+            "answer": "No. You must remove passwords from protected PDFs first using the Unlock PDF tool before merging."
+          },
+          {
+            "question": "Is my data uploaded to a server?",
+            "answer": "No. All merging is done locally in your browser using pdf-lib. Your files never leave your device."
+          },
+          {
+            "question": "What happens to duplicate page sizes?",
+            "answer": "Each page retains its original dimensions. The merged PDF will contain pages of varying sizes if the source files use different page sizes."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample files",
+        "sampleText": "chapter1.pdf, chapter2.pdf, chapter3.pdf",
+        "stats": "3 files · 28 pages · 12.3 MB → 1 merged PDF",
+        "result": "Single merged PDF with all 28 pages"
+      }
+    },
+    "PDFSplitterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "PDF Splitter"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "PDF Splitter — Split PDF into Multiple Files Online",
+        "description": "Free online PDF splitter to divide PDF into multiple files. Split by every page, fixed page chunks, or custom page ranges. Extract specific pages and create separate PDFs in seconds — 100% client-side, nothing is uploaded.",
+        "keywords": "pdf splitter, split pdf, separate pdf pages, extract pdf pages, pdf divider, split pdf into multiple files, pdf page extractor, free pdf splitter"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your PDF is processed entirely in the browser — nothing is uploaded to any server."
+      },
+      "file": {
+        "loading": "Reading…",
+        "pages": "pages",
+        "readError": "Could not read PDF"
+      },
+      "splitMode": {
+        "title": "Split Mode",
+        "everyPage": {
+          "label": "Every Page",
+          "desc": "One PDF per page"
+        },
+        "fixedPages": {
+          "label": "Fixed Chunks",
+          "desc": "Every N pages"
+        },
+        "ranges": {
+          "label": "Custom Ranges",
+          "desc": "Define your own page groups"
+        }
+      },
+      "chunkSize": {
+        "label": "Pages per chunk"
+      },
+      "output": {
+        "label": "Output file prefix",
+        "placeholder": "split"
+      },
+      "plan": {
+        "title": "Split Plan",
+        "outputFiles": "output file(s)",
+        "andMore": "… and {count} more"
+      },
+      "pageRanges": {
+        "title": "Page Ranges",
+        "totalPages": "total pages",
+        "addRange": "Add range",
+        "pageRange": "Page range (e.g. 1-5, 8)",
+        "outputLabel": "Output file label",
+        "addRangeEmpty": "Add a range to split into",
+        "quickAdd": "Quick add:",
+        "firstHalf": "First half",
+        "secondHalf": "Second half",
+        "oddPages": "Odd pages",
+        "evenPages": "Even pages"
+      },
+      "button": {
+        "split": "Split into {count} file(s)",
+        "splitting": "Splitting…",
+        "splitError": "Split failed"
+      },
+      "result": {
+        "title": "{count} file(s) ready",
+        "downloadZip": "Download all as ZIP",
+        "downloadAll": "Download all",
+        "splitComplete": "Split complete · {count} files · {size} total"
+      },
+      "dropzone": {
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "pdfOnly": ".pdf only"
+      },
+      "empty": {
+        "addFile": "Add a PDF file to start splitting"
+      },
+      "howToUse": {
+        "title": "How to Use PDF Splitter",
+        "step1Title": "Upload a PDF",
+        "step1Desc": "Drop or upload the PDF file you want to split.",
+        "step2Title": "Choose split mode",
+        "step2Desc": "Select 'Every Page', 'Fixed Chunks', or 'Custom Ranges' depending on how you want to divide the PDF.",
+        "step3Title": "Configure split options",
+        "step3Desc": "For chunks, set pages per group. For custom ranges, define each page group with labels.",
+        "step4Title": "Download split files",
+        "step4Desc": "Click 'Split' and download individual PDFs or a ZIP archive — no uploads, 100% private."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What split modes are available?",
+            "answer": "Three modes: 'Every Page' creates one PDF per page, 'Fixed Chunks' splits by every N pages, and 'Custom Ranges' lets you define page groups manually."
+          },
+          {
+            "question": "How do I use custom ranges?",
+            "answer": "Enter page ranges like '1-3' or '1-3, 5' and give each group a label. Use Quick Add for first half, second half, odd pages, or even pages."
+          },
+          {
+            "question": "What is the maximum PDF size I can split?",
+            "answer": "Files up to 100 MB typically work well. Since processing is client-side, very large files may be limited by browser memory."
+          },
+          {
+            "question": "Can I split a password-protected PDF?",
+            "answer": "No. Remove the password first using the Unlock PDF tool before splitting."
+          },
+          {
+            "question": "How are the output files named?",
+            "answer": "Files are named using your prefix (default 'split') followed by a number or your custom range label, e.g., 'split-1.pdf', 'split-2.pdf'."
+          },
+          {
+            "question": "Can I download all split files at once?",
+            "answer": "Yes. Use 'Download all as ZIP' to get a single archive containing all split PDFs, or download them individually."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "large_document.pdf",
+        "stats": "1 file · 20 pages → 20 individual PDFs",
+        "result": "Split into 20 separate page files"
+      }
+    },
+    "PDFToImagesTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "PDF to Images"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "PDF to Images — Convert PDF Pages to PNG & JPEG Online",
+        "description": "Free online PDF to image converter to turn PDF pages into high-quality PNG or JPEG images. Customize resolution, quality, and page range. Extract images from PDF documents for easy sharing and publishing — 100% client-side, nothing uploaded.",
+        "keywords": "pdf to image, convert pdf to image, pdf to png, pdf to jpeg, pdf page to image, pdf to jpg converter, extract images from pdf, pdf image converter"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your PDF is converted entirely in the browser — nothing is uploaded to any server."
+      },
+      "dropzone": {
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "hint": "Works with any PDF — text or scanned"
+      },
+      "fileInfo": {
+        "pages": "pages"
+      },
+      "options": {
+        "title": "Output Options",
+        "format": "Output Format",
+        "quality": "Quality",
+        "dpi": "Resolution (DPI)",
+        "background": "Background",
+        "pages": "Pages"
+      },
+      "format": {
+        "png": "Lossless",
+        "jpeg": "Smaller",
+        "webp": "Best ratio"
+      },
+      "dpi": {
+        "screen": "Screen quality",
+        "good": "Good quality",
+        "high": "High quality",
+        "print": "Print quality",
+        "a4Size": "~{width}×{height}px (A4)"
+      },
+      "quality": {
+        "tiny": "10% (tiny)",
+        "recommended": "85% (rec)",
+        "max": "100%"
+      },
+      "background": {
+        "white": "White",
+        "black": "Black",
+        "lightGray": "Light gray",
+        "transparent": "Transparent (PNG only)"
+      },
+      "pageSelection": {
+        "all": "All {count} pages",
+        "custom": "Custom range",
+        "placeholder": "e.g. 1-3, 5, 8-{max}"
+      },
+      "render": {
+        "button": "Convert to Images",
+        "rendering": "Rendering…"
+      },
+      "progress": {
+        "rendering": "Rendering page {page} of {total}…",
+        "done": "Done!"
+      },
+      "errors": {
+        "renderFailed": "Rendering failed"
+      },
+      "result": {
+        "title": "{count} images ready",
+        "totalSize": "Total size: {size}",
+        "imagesLabel": "Images",
+        "totalSizeLabel": "Total size",
+        "downloadZip": "Download as ZIP",
+        "downloadAll": "Download All",
+        "downloadSelected": "Download Selected ({count})",
+        "selectAll": "Select all",
+        "deselectAll": "Deselect"
+      },
+      "howToUse": {
+        "title": "How to Use PDF to Images",
+        "step1Title": "Upload a PDF",
+        "step1Desc": "Drop or upload the PDF file you want to convert to images.",
+        "step2Title": "Choose output settings",
+        "step2Desc": "Select format (PNG, JPEG, WebP), quality, DPI resolution, and background color.",
+        "step3Title": "Select pages",
+        "step3Desc": "Choose all pages or a custom range like '1-3, 5, 8-10' to convert only specific pages.",
+        "step4Title": "Download your images",
+        "step4Desc": "Click 'Convert to Images' and download individual images or a ZIP archive — all processing is client-side."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What image formats can I export to?",
+            "answer": "PNG (lossless), JPEG (smaller file size), and WebP (best compression-to-quality ratio) are supported."
+          },
+          {
+            "question": "What DPI settings are available?",
+            "answer": "Screen (72 DPI), Good (150 DPI), High (200 DPI), and Print (300 DPI). Higher DPI produces larger images with more detail."
+          },
+          {
+            "question": "Can I convert specific pages only?",
+            "answer": "Yes. Use the custom range option to specify pages, e.g., '1-3, 5, 8-10'. You can also convert all pages at once."
+          },
+          {
+            "question": "What is the maximum PDF size?",
+            "answer": "Files up to 100 MB generally work well. Larger files may be limited by browser memory since rendering happens client-side."
+          },
+          {
+            "question": "Are text PDFs supported?",
+            "answer": "Yes. Both text-based and scanned PDFs are supported. Pages are rendered using the browser's built-in PDF renderer."
+          },
+          {
+            "question": "Can I download all images at once?",
+            "answer": "Yes. Use 'Download as ZIP' to get a single archive containing all converted images."
+          },
+          {
+            "question": "Is my PDF uploaded to a server?",
+            "answer": "No. Everything runs locally in your browser. Your file never leaves your device."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "presentation.pdf",
+        "stats": "1 file · 10 pages → 10 PNG images at 300 DPI",
+        "result": "10 images exported, 24.6 MB total"
+      }
+    },
+    "PDFToWordTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "PDF to Word"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "PDF to Word — Convert PDF to Editable DOCX Online Free",
+        "description": "Free online PDF to Word converter to transform PDF files into editable DOCX documents. Extract text with layout preservation for easy editing in Microsoft Word or Google Docs — 100% client-side, your files never leave your browser.",
+        "keywords": "pdf to word, convert pdf to word, pdf to docx, pdf to editable word, pdf to word converter, extract text from pdf, pdf to doc, free pdf to word"
+      },
+      "notice": {
+        "title": "Text-based PDFs only.",
+        "description": "This tool extracts selectable text from PDF files using PDF.js. Scanned/image-based PDFs require OCR (not available in-browser). Complex layouts (multi-column, tables) may not preserve perfectly."
+      },
+      "privacy": {
+        "title": "100% client-side.",
+        "description": "Your PDF never leaves your browser. Conversion is done entirely in JavaScript."
+      },
+      "dropzone": {
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "pdfOnly": ".pdf only",
+        "textBasedOnly": "Text-based PDFs only"
+      },
+      "options": {
+        "title": "Output Options",
+        "typography": "Typography",
+        "preserveLineBreaks": "Preserve line breaks",
+        "addPageBreaks": "Page breaks between pages",
+        "addPageBreaksSub": "Inserts a DOCX page break after each PDF page",
+        "addPageNumbers": "Add page headings",
+        "addPageNumbersSub": "Adds 'Page N' heading before each page",
+        "cleanWhitespace": "Clean extra whitespace",
+        "cleanWhitespaceSub": "Merge multiple blank lines into one",
+        "font": "Font",
+        "fontSize": "Font size",
+        "fontFamily": "Font family",
+        "sansSerif": "Sans-serif",
+        "serif": "Serif",
+        "mono": "Mono",
+        "outputFilename": "Output filename"
+      },
+      "convert": {
+        "button": "Convert to Word (.docx)",
+        "converting": "Converting..."
+      },
+      "progress": {
+        "loading": "Loading PDF.js...",
+        "extracting": "Extracting text from page {page} of {total}...",
+        "building": "Building DOCX...",
+        "done": "Done!"
+      },
+      "result": {
+        "complete": "Conversion Complete",
+        "pagesExtracted": "{count} page{plural} extracted",
+        "download": "Download {filename}.docx",
+        "downloadAgain": "Download again",
+        "pages": "Pages",
+        "words": "Words",
+        "characters": "Characters"
+      },
+      "preview": {
+        "title": "Text Preview",
+        "pageInfo": "Page {pageNum} — {charCount} chars",
+        "moreChars": "...{count} more chars",
+        "noText": "No text extracted from this page (may be an image-only page)"
+      },
+      "breakdown": {
+        "title": "Pages Breakdown",
+        "words": "words",
+        "empty": "empty"
+      },
+      "errors": {
+        "conversionFailed": "Conversion failed"
+      },
+      "howToUse": {
+        "title": "How to Use PDF to Word",
+        "step1Title": "Upload a PDF",
+        "step1Desc": "Drop or upload a text-based PDF file you want to convert to DOCX.",
+        "step2Title": "Configure output options",
+        "step2Desc": "Choose typography settings: font family, font size, line breaks, page breaks, and page headings.",
+        "step3Title": "Preview extracted text",
+        "step3Desc": "Review the extracted text preview per page to check quality before downloading.",
+        "step4Title": "Download DOCX",
+        "step4Desc": "Click 'Convert to Word' and download your editable .docx file — 100% client-side."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What types of PDFs work best?",
+            "answer": "Text-based PDFs with selectable text produce the best results. Scanned or image-based PDFs require OCR which is not available in-browser."
+          },
+          {
+            "question": "Does the tool preserve formatting?",
+            "answer": "Basic formatting like font, font size, and line breaks are preserved. Complex layouts such as multi-column text and tables may not convert perfectly."
+          },
+          {
+            "question": "What is the maximum PDF size?",
+            "answer": "Most PDFs under 50 MB work well. Larger files take longer to process since text extraction and DOCX generation happen entirely in the browser."
+          },
+          {
+            "question": "Can I convert password-protected PDFs?",
+            "answer": "No. You must remove the password first using the Unlock PDF tool before converting to Word."
+          },
+          {
+            "question": "What font options are available?",
+            "answer": "You can choose between Sans-serif, Serif, and Mono font families, and adjust the font size. The selected font is embedded in the DOCX output."
+          },
+          {
+            "question": "Can I add page breaks between PDF pages?",
+            "answer": "Yes. The 'Page breaks between pages' option inserts a DOCX page break after each PDF page for a more accurate page-by-page layout."
+          },
+          {
+            "question": "Is my PDF uploaded to a server?",
+            "answer": "No. Everything runs client-side using PDF.js for text extraction and a DOCX builder library. Your file never leaves your browser."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "article.pdf",
+        "stats": "1 file · 5 pages · ~3,200 words → .docx file",
+        "result": "DOCX with 5 pages, 3,200 words extracted"
+      }
+    },
+    "ProtectPDFTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "Protect PDF"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "Protect PDF — Add Password to PDF Files Online Free",
+        "description": "Free online PDF protection tool to add password security to your documents. Encrypt PDFs with user passwords and set owner permissions for printing, copying, or editing. Secure sensitive files instantly — 100% client-side, nothing uploaded.",
+        "keywords": "protect pdf, add password to pdf, pdf encryption, password protect pdf, pdf locker, secure pdf, lock pdf file, encrypt pdf online"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your PDF is encrypted entirely in the browser — nothing is uploaded to any server."
+      },
+      "dropzone": {
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "pdfOnly": ".pdf only"
+      },
+      "passwords": {
+        "title": "Passwords",
+        "userPassword": "User password",
+        "userPasswordPlaceholder": "Password to open the PDF",
+        "userPasswordHint": "Required to open the PDF",
+        "userPasswordRequired": "Required",
+        "ownerPassword": "Owner password (optional)",
+        "ownerPasswordPlaceholder": "Admin password",
+        "ownerPasswordHint": "Required for full permissions",
+        "ownerPasswordCanChange": "Can change restrictions",
+        "confirm": "Confirm password",
+        "confirmPlaceholder": "Repeat password",
+        "matchError": "Passwords do not match",
+        "ownerAdmin": "Owner (admin) password",
+        "ownerAdminHint": "Override permission restrictions"
+      },
+      "permissions": {
+        "title": "Permissions",
+        "whatUsersCanDo": "What users can do after opening",
+        "printLowQuality": "Print (low quality)",
+        "printLowQualitySub": "Allow low-res printing",
+        "printHighQuality": "Print (high quality)",
+        "printHighQualitySub": "High-res printing",
+        "copyTextImages": "Copy text & images",
+        "copyTextImagesSub": "Select and copy content",
+        "modifyContent": "Modify content",
+        "modifyContentSub": "Edit the PDF",
+        "addAnnotations": "Add annotations",
+        "addAnnotationsSub": "Comments and markups",
+        "fillFormFields": "Fill form fields",
+        "fillFormFieldsSub": "Fill interactive forms",
+        "assembleDocument": "Assemble document",
+        "assembleDocumentSub": "Insert/delete pages",
+        "printing": "Printing",
+        "printHQ": "High quality printing",
+        "printHighRes": "High-res print",
+        "modifying": "Modifying content",
+        "modify": "Modify",
+        "copying": "Copying text/images",
+        "copyContent": "Copy content",
+        "annotating": "Adding annotations",
+        "annotations": "Annotations",
+        "fillingForms": "Filling form fields",
+        "fillForms": "Fill forms",
+        "assembling": "Assembling pages"
+      },
+      "button": {
+        "protect": "Protect PDF",
+        "protecting": "Protecting…"
+      },
+      "outputFilename": "Output filename",
+      "result": {
+        "success": "PDF protected successfully!",
+        "download": "Download Protected PDF",
+        "downloadAgain": "Download again"
+      },
+      "errors": {
+        "encryptionFailed": "Encryption failed"
+      },
+      "passwordReminder": {
+        "title": "Remember your password.",
+        "description": "There is no way to recover a forgotten PDF password. Save it in a password manager."
+      },
+      "strength": {
+        "noPassword": "No password set",
+        "passwordLabel": "Password: {label}",
+        "password": "Password:"
+      },
+      "placeholder": {
+        "outputFilename": "protected"
+      },
+      "filename": {
+        "default": "protected",
+        "extension": ".pdf"
+      },
+      "howItWorks": {
+        "title": "How PDF Protection Works",
+        "userPassword": "User password",
+        "userPasswordDesc": "required to open the PDF. Key derived via MD5 (50 rounds) then RC4-128 encryption is applied to all content.",
+        "ownerPassword": "Owner password",
+        "ownerPasswordDesc": "separate admin password that can bypass permission restrictions.",
+        "permissions": "Permissions",
+        "permissionsDesc": "restrict printing, copying, editing, and annotations even after the PDF is opened.",
+        "compatibility": "Compatibility",
+        "compatibilityDesc": "RC4-128 (PDF 1.4) is the most widely supported encryption format, accepted by every PDF viewer."
+      },
+      "encryption": {
+        "title": "RC4-128 Encryption",
+        "description": "PDF Standard Security Handler r3. Works in every PDF viewer: Chrome, Firefox, Edge, Safari, Acrobat, Preview."
+      },
+      "howToUse": {
+        "title": "How to Use Protect PDF",
+        "step1Title": "Upload a PDF",
+        "step1Desc": "Drop or upload the PDF file you want to password-protect.",
+        "step2Title": "Set passwords",
+        "step2Desc": "Enter a user password (required to open) and optionally an owner password (admin access).",
+        "step3Title": "Configure permissions",
+        "step3Desc": "Set what users can do after opening: printing, copying, modifying, annotating, and form filling.",
+        "step4Title": "Download protected PDF",
+        "step4Desc": "Click 'Protect PDF' and download your encrypted file — all encryption happens locally in your browser."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What encryption algorithm is used?",
+            "answer": "PDF Standard Security Handler r3 with RC4-128 encryption. This is the most widely compatible format supported by every major PDF viewer."
+          },
+          {
+            "question": "What is the difference between user and owner password?",
+            "answer": "The user password is required to open the PDF. The owner password is an optional admin password that bypasses permission restrictions."
+          },
+          {
+            "question": "Can I recover a forgotten password?",
+            "answer": "No. There is no way to recover a forgotten PDF password. Always save passwords in a password manager."
+          },
+          {
+            "question": "What permissions can I restrict?",
+            "answer": "Printing (low or high quality), copying text and images, modifying content, adding annotations, filling forms, and assembling pages."
+          },
+          {
+            "question": "Will the protected PDF open in any viewer?",
+            "answer": "Yes. RC4-128 encryption is supported in Chrome, Firefox, Edge, Safari, Adobe Acrobat, and Apple Preview."
+          },
+          {
+            "question": "Is my PDF uploaded during encryption?",
+            "answer": "No. All encryption is performed locally in your browser using pdf-lib. Your file never leaves your device."
+          },
+          {
+            "question": "Can I remove protection later?",
+            "answer": "Yes. Use the Unlock PDF tool if you know the password. Always keep a backup of the unprotected original."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "confidential_document.pdf",
+        "stats": "1 file encrypted with user password and restricted printing",
+        "result": "Password-protected PDF ready for distribution"
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related PDF Tools",
+        "merger": "PDF Merger",
+        "splitter": "PDF Splitter",
+        "compressor": "PDF Compressor",
+        "pdfToImages": "PDF to Images",
+        "imagesToPdf": "Images to PDF"
+      }
+    },
+    "RotatePDFTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "Rotate PDF"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "Rotate PDF — Rotate Pages 90, 180, 270 Degrees Online",
+        "description": "Free online PDF rotator to rotate pages by 90, 180, or 270 degrees. Rotate all pages at once or select specific pages individually. Fix scanned PDF orientation and save permanently — 100% client-side, files never uploaded.",
+        "keywords": "rotate pdf, pdf page rotator, rotate pdf pages, pdf rotation tool, rotate pdf 90 degrees, fix pdf orientation, pdf page orientation, free pdf rotator"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your PDF is processed entirely in the browser — nothing is uploaded to any server."
+      },
+      "dropzone": {
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "pdfOnly": ".pdf only"
+      },
+      "pageActions": {
+        "rotateLeft": "Rotate left",
+        "rotateRight": "Rotate right",
+        "selectAll": "Select all",
+        "deselectAll": "Deselect all",
+        "selected": "{count} selected"
+      },
+      "result": {
+        "download": "Download Rotated PDF",
+        "downloadAgain": "Download again"
+      },
+      "bulkRotate": {
+        "180": "180°",
+        "title": "Bulk Rotate",
+        "allPages": "All pages",
+        "90CW": "90° CW",
+        "90CCW": "90° CCW",
+        "resetAll": "Reset all",
+        "evenOdd": "Even / Odd pages",
+        "even90CW": "Even 90° CW",
+        "odd90CW": "Odd 90° CW",
+        "even90CCW": "Even 90° CCW",
+        "odd90CCW": "Odd 90° CCW",
+        "selectedPages": "Selected pages",
+        "CW90": "CW 90°",
+        "CCW90": "CCW 90°"
+      },
+      "selection": {
+        "title": "Selection",
+        "selectAll": "Select all",
+        "deselect": "Deselect",
+        "pageSelected": "1 page selected",
+        "pagesSelected": "{count} pages selected"
+      },
+      "changes": {
+        "title": "Pending Changes",
+        "pagesModified": "pages modified"
+      },
+      "output": {
+        "title": "Output filename",
+        "placeholder": "rotated"
+      },
+      "loading": {
+        "message": "Loading PDF and generating thumbnails…"
+      },
+      "grid": {
+        "pages": "{count} pages · click to select"
+      },
+      "apply": {
+        "button": "Apply Rotation",
+        "applying": "Applying rotations…",
+        "saving": "Saving…",
+        "downloadAndApply": "Apply Rotations & Download",
+        "rotateFirst": "Rotate pages above, then save",
+        "success": "PDF rotated successfully!"
+      },
+      "success": {
+        "saved": "Saved!"
+      },
+      "pages": {
+        "count": "pages"
+      },
+      "howToUse": {
+        "title": "How to Use Rotate PDF",
+        "step1Title": "Upload a PDF",
+        "step1Desc": "Drop or upload the PDF file whose pages you want to rotate.",
+        "step2Title": "Rotate pages",
+        "step2Desc": "Click individual pages to rotate them, or use bulk rotate options for all, even, or odd pages.",
+        "step3Title": "Review changes",
+        "step3Desc": "Check the pending changes panel to see which pages are modified before applying.",
+        "step4Title": "Download rotated PDF",
+        "step4Desc": "Click 'Apply Rotations & Download' to save your rotated PDF — all processing is client-side."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What rotation angles are supported?",
+            "answer": "90° clockwise, 90° counter-clockwise, and 180° rotation are all supported."
+          },
+          {
+            "question": "Can I rotate multiple pages at once?",
+            "answer": "Yes. Use bulk rotate to apply rotation to all pages, or select specific pages and rotate them together."
+          },
+          {
+            "question": "Can I rotate even and odd pages differently?",
+            "answer": "Yes. The bulk rotate panel has options to rotate even pages or odd pages by 90° CW or 90° CCW independently."
+          },
+          {
+            "question": "Does rotation permanently modify the PDF?",
+            "answer": "The downloaded PDF will have the rotation applied permanently. The page content is physically rotated in the file."
+          },
+          {
+            "question": "What is the maximum PDF size?",
+            "answer": "Files up to 100 MB typically work well. Very large files may be limited by browser memory."
+          },
+          {
+            "question": "Is my PDF uploaded to a server?",
+            "answer": "No. All rotation is done locally in your browser using pdf-lib. Your file never leaves your device."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "scanned_document.pdf",
+        "stats": "1 file · 8 pages → 2 rotated 90° CW, 6 unchanged",
+        "result": "Corrected orientation for all pages"
+      }
+    },
+    "UnlockPDFTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "PDF Tools",
+        "current": "Unlock PDF"
+      },
+      "header": {
+        "badge": "PDF Tools",
+        "title": "Unlock PDF — Remove Password from PDF Files Online",
+        "description": "Free online PDF unlocker to remove password protection from your PDF files. Enter the document password to decrypt and download an unprotected copy instantly. Unlock secured PDFs for editing, printing, or viewing — 100% client-side, files never uploaded.",
+        "keywords": "unlock pdf, remove pdf password, pdf password remover, unlock pdf online, pdf unlocker, remove protection from pdf, decrypt pdf, free pdf unlocker"
+      },
+      "legal": {
+        "notice": "<strong>You must own or have permission to unlock this PDF.</strong> Only use this tool on PDFs you own or are authorized to decrypt. Bypassing protection on others' documents may violate copyright law."
+      },
+      "privacy": {
+        "notice": "<strong>100% client-side.</strong> Your PDF and password never leave your browser — everything runs locally using pdf-lib."
+      },
+      "dropzone": {
+        "dropProtected": "Drop a protected PDF here",
+        "dropHere": "Drop a PDF file here",
+        "orClick": "or click to browse",
+        "pdfOnly": ".pdf only"
+      },
+      "fileInfo": {
+        "noEncryption": "No encryption detected",
+        "protected": "Password protected"
+      },
+      "encryptionDetails": {
+        "title": "Encryption Details",
+        "algorithm": "Algorithm",
+        "revision": "Revision",
+        "keyLength": "Key length",
+        "fileId": "File ID"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter the PDF password…",
+        "hint": "Enter the document's password to unlock",
+        "notNeeded": "No password needed — file is not encrypted",
+        "correct": "Password is correct",
+        "incorrect": "Incorrect password",
+        "liveVerificationUnavailable": "(Live verification not available for AES-encrypted PDFs — try unlocking directly)"
+      },
+      "output": {
+        "filename": "Output filename",
+        "placeholder": "unlocked",
+        "extension": ".pdf"
+      },
+      "howItWorks": {
+        "title": "How it works",
+        "step1": "Upload your password-protected PDF",
+        "step2": "Enter the correct user or owner password",
+        "step3": "The tool decrypts and re-saves the PDF without any password",
+        "step4": "Download the unlocked copy"
+      },
+      "status": {
+        "protected": "PDF is password-protected",
+        "notProtected": "PDF has no password protection",
+        "protectedDesc": "Encryption: {algorithm} · Enter the password to remove it",
+        "notProtectedDesc": "You can still remove permission restrictions by clicking Unlock below",
+        "rc4": "Supports RC4-40/128",
+        "aes": "Supports AES-128/256",
+        "liveVerify": "Live pw verification",
+        "noServer": "No server required"
+      },
+      "progress": {
+        "decrypting": "Decrypting & removing protection…"
+      },
+      "button": {
+        "unlock": "Unlock & Download PDF",
+        "unlocking": "Unlocking…",
+        "downloadAgain": "Download again"
+      },
+      "result": {
+        "success": "PDF unlocked successfully!",
+        "noPasswordRequired": "No password required to open",
+        "download": "Download Unlocked PDF"
+      },
+      "errors": {
+        "unlockFailed": "Could not unlock PDF",
+        "checkPassword": "Make sure you entered the correct user or owner password.",
+        "wrongPassword": "Wrong password. Please try again.",
+        "default": "Could not unlock PDF"
+      },
+      "capabilities": {
+        "title": "What this tool can do",
+        "removePassword": "Remove password when you know it",
+        "stripPermissions": "Strip permission restrictions",
+        "rc4": "RC4-40, RC4-128 encrypted PDFs",
+        "aes": "AES-128, AES-256 encrypted PDFs",
+        "ownerOnly": "Owner-only protected PDFs"
+      },
+      "limitations": {
+        "title": "What it cannot do",
+        "crack": "Crack or guess unknown passwords",
+        "unknownOwner": "Bypass unknown owner passwords",
+        "recover": "Recover lost or forgotten passwords",
+        "bruteForce": "Break AES-256 brute-force"
+      },
+      "howToUse": {
+        "title": "How to Use Unlock PDF",
+        "step1Title": "Upload a protected PDF",
+        "step1Desc": "Drop or upload the password-protected PDF file you want to unlock.",
+        "step2Title": "Enter the password",
+        "step2Desc": "Type the correct user or owner password. The tool will verify it when possible.",
+        "step3Title": "Review encryption details",
+        "step3Desc": "Check the algorithm, key length, and file ID to understand the protection type.",
+        "step4Title": "Download unlocked PDF",
+        "step4Desc": "Click 'Unlock & Download PDF' to get a password-free copy — all decryption happens in your browser."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What encryption types are supported?",
+            "answer": "RC4-40, RC4-128, AES-128, and AES-256 encrypted PDFs are all supported. Live password verification works for RC4; AES PDFs require trying the unlock directly."
+          },
+          {
+            "question": "Can this tool crack or guess passwords?",
+            "answer": "No. You must enter the correct password to unlock the PDF. This tool cannot crack, brute-force, or recover forgotten passwords."
+          },
+          {
+            "question": "What is the difference between user and owner unlock?",
+            "answer": "A user password lets you open the document. An owner password also strips permission restrictions. Either one can unlock the PDF."
+          },
+          {
+            "question": "Is my password sent to a server?",
+            "answer": "No. Everything runs client-side using pdf-lib. Your PDF and password never leave your browser."
+          },
+          {
+            "question": "Can I remove permission restrictions without a password?",
+            "answer": "If the PDF has no user password but has owner-only protection, you can strip permission restrictions without entering a password."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample file",
+        "sampleText": "protected_report.pdf",
+        "stats": "1 file · RC4-128 encrypted → unlocked PDF",
+        "result": "Password-free PDF ready for editing"
       }
     }
   },

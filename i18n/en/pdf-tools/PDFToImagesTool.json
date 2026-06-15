@@ -1,0 +1,112 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "PDF to Images"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "PDF to Images — Convert PDF Pages to PNG & JPEG Online",
+    "description": "Free online PDF to image converter to turn PDF pages into high-quality PNG or JPEG images. Customize resolution, quality, and page range. Extract images from PDF documents for easy sharing and publishing — 100% client-side, nothing uploaded.",
+    "keywords": "pdf to image, convert pdf to image, pdf to png, pdf to jpeg, pdf page to image, pdf to jpg converter, extract images from pdf, pdf image converter"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your PDF is converted entirely in the browser — nothing is uploaded to any server."
+  },
+  "dropzone": {
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "hint": "Works with any PDF — text or scanned"
+  },
+  "fileInfo": {
+    "pages": "pages"
+  },
+  "options": {
+    "title": "Output Options",
+    "format": "Output Format",
+    "quality": "Quality",
+    "dpi": "Resolution (DPI)",
+    "background": "Background",
+    "pages": "Pages"
+  },
+  "format": {
+    "png": "Lossless",
+    "jpeg": "Smaller",
+    "webp": "Best ratio"
+  },
+  "dpi": {
+    "screen": "Screen quality",
+    "good": "Good quality",
+    "high": "High quality",
+    "print": "Print quality",
+    "a4Size": "~{width}×{height}px (A4)"
+  },
+  "quality": {
+    "tiny": "10% (tiny)",
+    "recommended": "85% (rec)",
+    "max": "100%"
+  },
+  "background": {
+    "white": "White",
+    "black": "Black",
+    "lightGray": "Light gray",
+    "transparent": "Transparent (PNG only)"
+  },
+  "pageSelection": {
+    "all": "All {count} pages",
+    "custom": "Custom range",
+    "placeholder": "e.g. 1-3, 5, 8-{max}"
+  },
+  "render": {
+    "button": "Convert to Images",
+    "rendering": "Rendering…"
+  },
+  "progress": {
+    "rendering": "Rendering page {page} of {total}…",
+    "done": "Done!"
+  },
+  "errors": {
+    "renderFailed": "Rendering failed"
+  },
+  "result": {
+    "title": "{count} images ready",
+    "totalSize": "Total size: {size}",
+    "imagesLabel": "Images",
+    "totalSizeLabel": "Total size",
+    "downloadZip": "Download as ZIP",
+    "downloadAll": "Download All",
+    "downloadSelected": "Download Selected ({count})",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect"
+  },
+  "howToUse": {
+    "title": "How to Use PDF to Images",
+    "step1Title": "Upload a PDF",
+    "step1Desc": "Drop or upload the PDF file you want to convert to images.",
+    "step2Title": "Choose output settings",
+    "step2Desc": "Select format (PNG, JPEG, WebP), quality, DPI resolution, and background color.",
+    "step3Title": "Select pages",
+    "step3Desc": "Choose all pages or a custom range like '1-3, 5, 8-10' to convert only specific pages.",
+    "step4Title": "Download your images",
+    "step4Desc": "Click 'Convert to Images' and download individual images or a ZIP archive — all processing is client-side."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What image formats can I export to?", "answer": "PNG (lossless), JPEG (smaller file size), and WebP (best compression-to-quality ratio) are supported." },
+      { "question": "What DPI settings are available?", "answer": "Screen (72 DPI), Good (150 DPI), High (200 DPI), and Print (300 DPI). Higher DPI produces larger images with more detail." },
+      { "question": "Can I convert specific pages only?", "answer": "Yes. Use the custom range option to specify pages, e.g., '1-3, 5, 8-10'. You can also convert all pages at once." },
+      { "question": "What is the maximum PDF size?", "answer": "Files up to 100 MB generally work well. Larger files may be limited by browser memory since rendering happens client-side." },
+      { "question": "Are text PDFs supported?", "answer": "Yes. Both text-based and scanned PDFs are supported. Pages are rendered using the browser's built-in PDF renderer." },
+      { "question": "Can I download all images at once?", "answer": "Yes. Use 'Download as ZIP' to get a single archive containing all converted images." },
+      { "question": "Is my PDF uploaded to a server?", "answer": "No. Everything runs locally in your browser. Your file never leaves your device." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "presentation.pdf",
+    "stats": "1 file · 10 pages → 10 PNG images at 300 DPI",
+    "result": "10 images exported, 24.6 MB total"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "Rotate PDF"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "Rotate PDF — Rotate Pages 90, 180, 270 Degrees Online",
+    "description": "Free online PDF rotator to rotate pages by 90, 180, or 270 degrees. Rotate all pages at once or select specific pages individually. Fix scanned PDF orientation and save permanently — 100% client-side, files never uploaded.",
+    "keywords": "rotate pdf, pdf page rotator, rotate pdf pages, pdf rotation tool, rotate pdf 90 degrees, fix pdf orientation, pdf page orientation, free pdf rotator"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your PDF is processed entirely in the browser — nothing is uploaded to any server."
+  },
+  "dropzone": {
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "pdfOnly": ".pdf only"
+  },
+  "pageActions": {
+    "rotateLeft": "Rotate left",
+    "rotateRight": "Rotate right",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "selected": "{count} selected"
+  },
+  "result": {
+    "download": "Download Rotated PDF",
+    "downloadAgain": "Download again"
+  },
+  "bulkRotate": {
+    "title": "Bulk Rotate",
+    "allPages": "All pages",
+    "90CW": "90° CW",
+    "90CCW": "90° CCW",
+    "180": "180°",
+    "resetAll": "Reset all",
+    "evenOdd": "Even / Odd pages",
+    "even90CW": "Even 90° CW",
+    "odd90CW": "Odd 90° CW",
+    "even90CCW": "Even 90° CCW",
+    "odd90CCW": "Odd 90° CCW",
+    "selectedPages": "Selected pages",
+    "CW90": "CW 90°",
+    "CCW90": "CCW 90°"
+  },
+  "selection": {
+    "title": "Selection",
+    "selectAll": "Select all",
+    "deselect": "Deselect",
+    "pageSelected": "1 page selected",
+    "pagesSelected": "{count} pages selected"
+  },
+  "changes": {
+    "title": "Pending Changes",
+    "pagesModified": "pages modified"
+  },
+  "output": {
+    "title": "Output filename",
+    "placeholder": "rotated"
+  },
+  "loading": {
+    "message": "Loading PDF and generating thumbnails…"
+  },
+  "grid": {
+    "pages": "{count} pages · click to select"
+  },
+  "apply": {
+    "button": "Apply Rotation",
+    "applying": "Applying rotations…",
+    "saving": "Saving…",
+    "downloadAndApply": "Apply Rotations & Download",
+    "rotateFirst": "Rotate pages above, then save",
+    "success": "PDF rotated successfully!"
+  },
+  "success": {
+    "saved": "Saved!"
+  },
+  "pages": {
+    "count": "pages"
+  },
+  "howToUse": {
+    "title": "How to Use Rotate PDF",
+    "step1Title": "Upload a PDF",
+    "step1Desc": "Drop or upload the PDF file whose pages you want to rotate.",
+    "step2Title": "Rotate pages",
+    "step2Desc": "Click individual pages to rotate them, or use bulk rotate options for all, even, or odd pages.",
+    "step3Title": "Review changes",
+    "step3Desc": "Check the pending changes panel to see which pages are modified before applying.",
+    "step4Title": "Download rotated PDF",
+    "step4Desc": "Click 'Apply Rotations & Download' to save your rotated PDF — all processing is client-side."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What rotation angles are supported?", "answer": "90° clockwise, 90° counter-clockwise, and 180° rotation are all supported." },
+      { "question": "Can I rotate multiple pages at once?", "answer": "Yes. Use bulk rotate to apply rotation to all pages, or select specific pages and rotate them together." },
+      { "question": "Can I rotate even and odd pages differently?", "answer": "Yes. The bulk rotate panel has options to rotate even pages or odd pages by 90° CW or 90° CCW independently." },
+      { "question": "Does rotation permanently modify the PDF?", "answer": "The downloaded PDF will have the rotation applied permanently. The page content is physically rotated in the file." },
+      { "question": "What is the maximum PDF size?", "answer": "Files up to 100 MB typically work well. Very large files may be limited by browser memory." },
+      { "question": "Is my PDF uploaded to a server?", "answer": "No. All rotation is done locally in your browser using pdf-lib. Your file never leaves your device." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "scanned_document.pdf",
+    "stats": "1 file · 8 pages → 2 rotated 90° CW, 6 unchanged",
+    "result": "Corrected orientation for all pages"
+  }
+}

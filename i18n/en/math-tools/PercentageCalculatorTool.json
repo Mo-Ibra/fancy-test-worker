@@ -1,0 +1,120 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Math Tools",
+    "current": "Percentage Calculator"
+  },
+  "header": {
+    "badge": "Math Tools",
+    "title": "Percentage Calculator — Calculate Percentages Online Free",
+    "description": "Free online percentage calculator to compute percentages, percentage increases and decreases, reverse percentages, and percentage differences. Quick calculations for discounts, tips, taxes, and data analysis.",
+    "keywords": "percentage calculator, calculate percentage, percent calculator, percentage increase, percentage decrease, reverse percentage, percentage difference, percent change"
+  },
+  "modes": {
+    "percentOf": "Percent Of",
+    "whatPercent": "What Percent",
+    "increase": "Increase/Decrease",
+    "percentChange": "Percent Change",
+    "reversePercent": "Reverse Percent",
+    "percentDiff": "Percent Difference",
+    "markup": "Markup",
+    "split": "Split Bill"
+  },
+  "input": {
+    "value": "Value",
+    "percentage": "Percentage",
+    "total": "Total",
+    "parts": "Number of people",
+    "ofNumber": "Of Number",
+    "valueX": "Value (X)",
+    "totalY": "Total (Y)",
+    "percentageChange": "Percentage Change",
+    "originalValue": "Original Value",
+    "originalValueFrom": "Original Value (from)",
+    "newValueTo": "New Value (to)",
+    "isThisValue": "Is this value",
+    "valueA": "Value A",
+    "valueB": "Value B",
+    "costPrice": "Cost Price",
+    "markupPercentage": "Markup Percentage",
+    "totalAmount": "Total Amount",
+    "firstShare": "First Share %",
+    "secondShare": "Second Share % (optional)"
+  },
+  "results": {
+    "remainder": "Remainder (100% − part)",
+    "fraction": "Fraction",
+    "asDecimal": "As a decimal",
+    "remainderPercent": "Remainder %",
+    "increased": "increased by",
+    "decreased": "decreased by",
+    "theChange": "(the change)",
+    "absoluteDifference": "Absolute difference",
+    "signedPercent": "Signed % change",
+    "ratio": "Ratio (new / old)",
+    "verification": "Verification",
+    "symmetric": "symmetric, uses average as base",
+    "relativeChange": "uses first value as base",
+    "average": "Average",
+    "markupAmount": "Markup amount",
+    "profitMargin": "Profit margin %",
+    "profitMarginSub": "markup on selling price",
+    "priceMultiplier": "Price multiplier",
+    "recoversOriginal": "recovers original cost",
+    "remaining": "remaining",
+    "increase": "increase",
+    "decrease": "decrease",
+    "positive": "positive",
+    "negative": "negative",
+    "tipAmount": "Tip amount",
+    "totalPerPerson": "Total per person",
+    "tipPerPerson": "Tip per person"
+  },
+  "tips": {
+    "percentOf": "e.g. 20% of 500 = 100",
+    "whatPercent": "e.g. 75 is 25% of 300",
+    "increase": "e.g. 200 increased by 15% = 230, decreased = 170",
+    "percentChange": "e.g. from 80 to 100 = 25% increase",
+    "reversePercent": "e.g. 75 is 25% of 300",
+    "percentDiff": "Symmetric difference: uses average as base. Different from % change.",
+    "markup": "Markup is on cost. Margin is on selling price. A 40% markup ≠ 40% margin.",
+    "split": "Leave second share empty to auto-split into 2 parts (X% and (100-X)%)"
+  },
+  "ui": {
+    "reset": "Reset",
+    "allModes": "All Modes",
+    "results": "Results",
+    "formula": "Formula",
+    "quickReference": "Common Percentage Reference",
+    "enterValues": "Enter values to calculate"
+  },
+  "howToUse": {
+    "title": "How to Use Percentage Calculator",
+    "step1Title": "Choose Your Mode",
+    "step1Desc": "Pick from Percentage Of, What Percent, Increase/Decrease, Percent Change, Reverse Percent, Percent Difference, Markup, or Split Bill.",
+    "step2Title": "Enter Your Values",
+    "step2Desc": "Fill in the required numbers based on the selected mode. Labels update dynamically to guide you.",
+    "step3Title": "View Results Instantly",
+    "step3Desc": "See the calculated result, formula breakdown, verification, and the result as a decimal and fraction.",
+    "step4Title": "Switch Modes to Compare",
+    "step4Desc": "Try different percentage modes on the same numbers to understand relationships between calculations."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is the difference between percentage increase and percent change?", "answer": "Percentage increase shows how much a value grew relative to its original size. Percent change is a broader term that can be positive (increase) or negative (decrease), showing the signed relative change between two values." },
+      { "question": "How do I calculate reverse percentage?", "answer": "Reverse percentage finds the original value when you know a percentage of it. For example, if 75 is 25% of a number, the original is 300. Enter the part (75) and the percentage (25%) to find the total." },
+      { "question": "What is percentage difference?", "answer": "Percentage difference is a symmetric measure that compares two values using their average as the base. It is different from percent change, which uses the first value as the base. Percentage difference is always positive." },
+      { "question": "How does the split bill feature work?", "answer": "Enter the total amount and number of people to split evenly. Optionally set a tip percentage and specify unequal shares. The calculator shows each person's share including tip." },
+      { "question": "What is the markup mode used for?", "answer": "Markup mode calculates the selling price based on the cost price plus a markup percentage. For example, a $50 item with 40% markup sells for $70. It also shows the profit margin percentage." },
+      { "question": "How is profit margin different from markup?", "answer": "Markup is the percentage added to the cost price. Margin is the percentage of the selling price that is profit. A 40% markup equals approximately 28.6% margin, not 40%. The calculator shows both for clarity." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Expression",
+    "sampleText": "20% of 500",
+    "stats": "Part = 100 · Remainder = 400 · Fraction = 1/5",
+    "result": "100 (20% of 500)"
+  }
+}

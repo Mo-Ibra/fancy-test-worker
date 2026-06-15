@@ -1,0 +1,42 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Math Tools",
+    "current": "Scientific Calculator"
+  },
+  "header": {
+    "badge": "Math Tools",
+    "title": "Scientific Calculator — Advanced Math Calculator Online Free",
+    "description": "Free online scientific calculator for advanced mathematical calculations. Perform trigonometric functions, logarithms, exponentials, factorials, and complex equations. Supports degrees and radians with a clean, full-featured interface.",
+    "keywords": "scientific calculator, online scientific calculator, advanced calculator, trig calculator, logarithm calculator, exponential calculator, math solver, free scientific calculator"
+  },
+  "howToUse": {
+    "title": "How to Use the Scientific Calculator",
+    "step1Title": "Enter Your Expression",
+    "step1Desc": "Click the buttons or use your keyboard to type mathematical expressions. The calculator supports basic arithmetic, trigonometry, logarithms, and more.",
+    "step2Title": "Select Operation Mode",
+    "step2Desc": "Toggle between degrees (DEG) and radians (RAD) for trigonometric functions. Use SHIFT to access secondary functions like inverse trig and hyperbolic functions.",
+    "step3Title": "Perform Advanced Operations",
+    "step3Desc": "Use buttons like sin, cos, tan, log, ln, sqrt, x², x³, xʸ, n!, and π for advanced calculations. The display shows your full expression in real time.",
+    "step4Title": "Review Your Result",
+    "step4Desc": "Press = to compute the result, or use ANS to reference the previous answer in a new calculation. Press AC to clear everything or C to clear the current entry."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What operations does this scientific calculator support?", "answer": "It supports addition, subtraction, multiplication, division, trigonometric functions (sin, cos, tan), logarithms (log, ln), exponentials (xʸ, eˣ), square roots, factorials, percentages, and constants like π and e." },
+      { "question": "How do I switch between degrees and radians?", "answer": "Use the DEG/RAD toggle button on the calculator. DEG is for angle measurements in degrees, RAD is for radians. This affects trigonometric function calculations." },
+      { "question": "Is the scientific calculator free to use?", "answer": "Yes, this scientific calculator is completely free to use with no limitations, registration, or hidden fees. All functions are available online." },
+      { "question": "Can I use my keyboard instead of clicking buttons?", "answer": "Yes, the calculator supports keyboard input. You can type numbers, operators (+, -, *, /), decimal points, and function names directly using your keyboard." },
+      { "question": "How accurate are the calculations?", "answer": "The calculator uses JavaScript's floating-point arithmetic with high precision, suitable for most educational, professional, and everyday use cases." },
+      { "question": "Does it support parentheses and order of operations?", "answer": "Yes, the calculator correctly handles parentheses and follows standard order of operations (PEMDAS/BODMAS)." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Example: sin(30) in degrees",
+    "sampleText": "sin 3 0 =",
+    "stats": "Trigonometric function in degree mode",
+    "result": "Returns 0.5"
+  }
+}

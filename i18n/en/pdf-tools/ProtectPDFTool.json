@@ -1,0 +1,141 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "Protect PDF"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "Protect PDF — Add Password to PDF Files Online Free",
+    "description": "Free online PDF protection tool to add password security to your documents. Encrypt PDFs with user passwords and set owner permissions for printing, copying, or editing. Secure sensitive files instantly — 100% client-side, nothing uploaded.",
+    "keywords": "protect pdf, add password to pdf, pdf encryption, password protect pdf, pdf locker, secure pdf, lock pdf file, encrypt pdf online"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your PDF is encrypted entirely in the browser — nothing is uploaded to any server."
+  },
+  "dropzone": {
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "pdfOnly": ".pdf only"
+  },
+  "passwords": {
+    "title": "Passwords",
+    "userPassword": "User password",
+    "userPasswordPlaceholder": "Password to open the PDF",
+    "userPasswordHint": "Required to open the PDF",
+    "userPasswordRequired": "Required",
+    "ownerPassword": "Owner password (optional)",
+    "ownerPasswordPlaceholder": "Admin password",
+    "ownerPasswordHint": "Required for full permissions",
+    "ownerPasswordCanChange": "Can change restrictions",
+    "confirm": "Confirm password",
+    "confirmPlaceholder": "Repeat password",
+    "matchError": "Passwords do not match",
+    "ownerAdmin": "Owner (admin) password",
+    "ownerAdminHint": "Override permission restrictions"
+  },
+  "permissions": {
+    "title": "Permissions",
+    "whatUsersCanDo": "What users can do after opening",
+    "printLowQuality": "Print (low quality)",
+    "printLowQualitySub": "Allow low-res printing",
+    "printHighQuality": "Print (high quality)",
+    "printHighQualitySub": "High-res printing",
+    "copyTextImages": "Copy text & images",
+    "copyTextImagesSub": "Select and copy content",
+    "modifyContent": "Modify content",
+    "modifyContentSub": "Edit the PDF",
+    "addAnnotations": "Add annotations",
+    "addAnnotationsSub": "Comments and markups",
+    "fillFormFields": "Fill form fields",
+    "fillFormFieldsSub": "Fill interactive forms",
+    "assembleDocument": "Assemble document",
+    "assembleDocumentSub": "Insert/delete pages",
+    "printing": "Printing",
+    "printHQ": "High quality printing",
+    "printHighRes": "High-res print",
+    "modifying": "Modifying content",
+    "modify": "Modify",
+    "copying": "Copying text/images",
+    "copyContent": "Copy content",
+    "annotating": "Adding annotations",
+    "annotations": "Annotations",
+    "fillingForms": "Filling form fields",
+    "fillForms": "Fill forms",
+    "assembling": "Assembling pages"
+  },
+  "button": {
+    "protect": "Protect PDF",
+    "protecting": "Protecting…"
+  },
+  "outputFilename": "Output filename",
+  "result": {
+    "success": "PDF protected successfully!",
+    "download": "Download Protected PDF",
+    "downloadAgain": "Download again"
+  },
+  "errors": {
+    "encryptionFailed": "Encryption failed"
+  },
+  "passwordReminder": {
+    "title": "Remember your password.",
+    "description": "There is no way to recover a forgotten PDF password. Save it in a password manager."
+  },
+  "strength": {
+    "noPassword": "No password set",
+    "passwordLabel": "Password: {label}",
+    "password": "Password:"
+  },
+  "placeholder": {
+    "outputFilename": "protected"
+  },
+  "filename": {
+    "default": "protected",
+    "extension": ".pdf"
+  },
+  "howItWorks": {
+    "title": "How PDF Protection Works",
+    "userPassword": "User password",
+    "userPasswordDesc": "required to open the PDF. Key derived via MD5 (50 rounds) then RC4-128 encryption is applied to all content.",
+    "ownerPassword": "Owner password",
+    "ownerPasswordDesc": "separate admin password that can bypass permission restrictions.",
+    "permissions": "Permissions",
+    "permissionsDesc": "restrict printing, copying, editing, and annotations even after the PDF is opened.",
+    "compatibility": "Compatibility",
+    "compatibilityDesc": "RC4-128 (PDF 1.4) is the most widely supported encryption format, accepted by every PDF viewer."
+  },
+  "encryption": {
+    "title": "RC4-128 Encryption",
+    "description": "PDF Standard Security Handler r3. Works in every PDF viewer: Chrome, Firefox, Edge, Safari, Acrobat, Preview."
+  },
+  "howToUse": {
+    "title": "How to Use Protect PDF",
+    "step1Title": "Upload a PDF",
+    "step1Desc": "Drop or upload the PDF file you want to password-protect.",
+    "step2Title": "Set passwords",
+    "step2Desc": "Enter a user password (required to open) and optionally an owner password (admin access).",
+    "step3Title": "Configure permissions",
+    "step3Desc": "Set what users can do after opening: printing, copying, modifying, annotating, and form filling.",
+    "step4Title": "Download protected PDF",
+    "step4Desc": "Click 'Protect PDF' and download your encrypted file — all encryption happens locally in your browser."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What encryption algorithm is used?", "answer": "PDF Standard Security Handler r3 with RC4-128 encryption. This is the most widely compatible format supported by every major PDF viewer." },
+      { "question": "What is the difference between user and owner password?", "answer": "The user password is required to open the PDF. The owner password is an optional admin password that bypasses permission restrictions." },
+      { "question": "Can I recover a forgotten password?", "answer": "No. There is no way to recover a forgotten PDF password. Always save passwords in a password manager." },
+      { "question": "What permissions can I restrict?", "answer": "Printing (low or high quality), copying text and images, modifying content, adding annotations, filling forms, and assembling pages." },
+      { "question": "Will the protected PDF open in any viewer?", "answer": "Yes. RC4-128 encryption is supported in Chrome, Firefox, Edge, Safari, Adobe Acrobat, and Apple Preview." },
+      { "question": "Is my PDF uploaded during encryption?", "answer": "No. All encryption is performed locally in your browser using pdf-lib. Your file never leaves your device." },
+      { "question": "Can I remove protection later?", "answer": "Yes. Use the Unlock PDF tool if you know the password. Always keep a backup of the unprotected original." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "confidential_document.pdf",
+    "stats": "1 file encrypted with user password and restricted printing",
+    "result": "Password-protected PDF ready for distribution"
+  }
+}

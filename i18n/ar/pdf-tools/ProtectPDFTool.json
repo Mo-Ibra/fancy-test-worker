@@ -1,0 +1,141 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات PDF",
+    "current": "حماية PDF"
+  },
+  "header": {
+    "badge": "أدوات PDF",
+    "title": "حماية PDF — إضافة كلمة مرور إلى ملفات PDF أونلاين",
+    "description": "أداة مجانية لحماية PDF أونلاين لإضافة كلمة مرور وأمان لمستنداتك. شفر PDFs بكلمة مرور للمستخدم وحدد أذونات المالك للطباعة أو النسخ أو التحرير. احم ملفاتك الحساسة فوراً — 100% على جانب العميل.",
+    "keywords": "حماية pdf, إضافة كلمة مرور pdf, تشفير pdf, قفل pdf, تأمين ملف pdf"
+  },
+  "privacy": {
+    "notice": "100% على جانب العميل. ملف PDF الخاص بك يُشفر بالكامل في المتصفح — لا يتم رفع أي شيء إلى أي خادم."
+  },
+  "dropzone": {
+    "dropHere": "أسقط ملف PDF هنا",
+    "orClick": "أو انقر للتصفح",
+    "pdfOnly": ".pdf فقط"
+  },
+  "passwords": {
+    "title": "كلمات المرور",
+    "userPassword": "كلمة مرور المستخدم",
+    "userPasswordPlaceholder": "كلمة مرور لفتح PDF",
+    "userPasswordHint": "مطلوبة لفتح PDF",
+    "userPasswordRequired": "مطلوب",
+    "ownerPassword": "كلمة مرور المالك (اختياري)",
+    "ownerPasswordPlaceholder": "كلمة مرور المسؤول",
+    "ownerPasswordHint": "مطلوبة للصلاحيات الكاملة",
+    "ownerPasswordCanChange": "يمكن تغيير القيود",
+    "confirm": "تأكيد كلمة المرور",
+    "confirmPlaceholder": "إعادة كلمة المرور",
+    "matchError": "كلمات المرور غير متطابقة",
+    "ownerAdmin": "كلمة مرور المالك (مسؤول)",
+    "ownerAdminHint": "تجاوز قيود الأذونات"
+  },
+  "permissions": {
+    "title": "الأذونات",
+    "whatUsersCanDo": "ما يمكن للمستخدمين فعله بعد الفتح",
+    "printLowQuality": "طباعة (جودة منخفضة)",
+    "printLowQualitySub": "السماح بالطباعة منخفضة الدقة",
+    "printHighQuality": "طباعة (جودة عالية)",
+    "printHighQualitySub": "طباعة عالية الدقة",
+    "copyTextImages": "نسخ النص والصور",
+    "copyTextImagesSub": "تحديد ونسخ المحتوى",
+    "modifyContent": "تعديل المحتوى",
+    "modifyContentSub": "تحرير PDF",
+    "addAnnotations": "إضافة تعليقات",
+    "addAnnotationsSub": "تعليقات وعلامات",
+    "fillFormFields": "ملء حقول النموذج",
+    "fillFormFieldsSub": "ملء النماذج التفاعلية",
+    "assembleDocument": "تجميع المستند",
+    "assembleDocumentSub": "إدراج/حذف الصفحات",
+    "printing": "الطباعة",
+    "printHQ": "طباعة عالية الجودة",
+    "printHighRes": "طباعة عالية الدقة",
+    "modifying": "تعديل المحتوى",
+    "modify": "تعديل",
+    "copying": "نسخ النص/الصور",
+    "copyContent": "نسخ المحتوى",
+    "annotating": "إضافة تعليقات",
+    "annotations": "التعليقات",
+    "fillingForms": "ملء حقول النموذج",
+    "fillForms": "ملء النماذج",
+    "assembling": "تجميع الصفحات"
+  },
+  "button": {
+    "protect": "حماية PDF",
+    "protecting": "جاري الحماية..."
+  },
+  "outputFilename": "اسم ملف الإخراج",
+  "result": {
+    "success": "تم حماية PDF بنجاح!",
+    "download": "تحميل PDF المحمي",
+    "downloadAgain": "تحميل مرة أخرى"
+  },
+  "errors": {
+    "encryptionFailed": "فشل التشفير"
+  },
+  "passwordReminder": {
+    "title": "تذكر كلمة المرور.",
+    "description": "لا توجد طريقة لاستعادة كلمة مرور PDF المنسية. احفظها في مدير كلمات المرور."
+  },
+  "strength": {
+    "noPassword": "لم يتم تعيين كلمة مرور",
+    "passwordLabel": "كلمة المرور: {label}",
+    "password": "كلمة المرور:"
+  },
+  "placeholder": {
+    "outputFilename": "محمي"
+  },
+  "filename": {
+    "default": "محمي",
+    "extension": ".pdf"
+  },
+  "howItWorks": {
+    "title": "كيف تعمل حماية PDF",
+    "userPassword": "كلمة مرور المستخدم",
+    "userPasswordDesc": "مطلوبة لفتح PDF. المفتاح مشتق عبر MD5 (50 جولة) ثم يتم تطبيق تشفير RC4-128 على جميع المحتوى.",
+    "ownerPassword": "كلمة مرور المالك",
+    "ownerPasswordDesc": "كلمة مرور مسؤول منفصلة يمكنها تجاوز قيود الأذونات.",
+    "permissions": "الأذونات",
+    "permissionsDesc": "تقييد الطباعة والنسخ والتعليقات حتى بعد فتح PDF.",
+    "compatibility": "التوافق",
+    "compatibilityDesc": "RC4-128 (PDF 1.4) هو تنسيق التشفير الأكثر دعماً على نطاق واسع، مقبول من كل عارض PDF."
+  },
+  "encryption": {
+    "title": "تشفير RC4-128",
+    "description": "معالج الأمان القياسي لـ PDF r3. يعمل في كل عارض PDF: Chrome وFirefox وEdge وSafari وAcrobat وPreview."
+  },
+  "howToUse": {
+    "title": "طريقة استخدام حامي PDF",
+    "step1Title": "ارفع ملف PDF",
+    "step1Desc": "اسحب وأفلت ملف PDF في منطقة الإفلات أو انقر لاختياره.",
+    "step2Title": "أدخل كلمة المرور",
+    "step2Desc": "اكتب كلمة مرور المستخدم لفتح PDF، وأكدها. يمكنك أيضاً إضافة كلمة مرور المالك للصلاحيات الكاملة.",
+    "step3Title": "حدد الأذونات",
+    "step3Desc": "اختر ما يمكن للمستخدمين فعله بعد فتح PDF: الطباعة، النسخ، التعديل، إضافة التعليقات، وغيرها.",
+    "step4Title": "احم وحمل",
+    "step4Desc": "انقر على 'حماية PDF'، انتظر حتى اكتمال التشفير، ثم حمل الملف المحمي."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما الفرق بين كلمة مرور المستخدم وكلمة مرور المالك؟", "answer": "كلمة مرور المستخدم مطلوبة لفتح PDF. كلمة مرور المالك اختيارية وتسمح بتجاوز قيود الأذونات (طباعة، نسخ، تعديل) وتغيير إعدادات الأمان." },
+      { "question": "ما نوع التشفير المستخدم؟", "answer": "الأداة تستخدم تشفير RC4-128 (PDF 1.4) وهو معيار تشفير PDF الأكثر توافقاً مع جميع عارضي PDF الحديثين." },
+      { "question": "هل يمكن إزالة الحماية لاحقاً؟", "answer": "نعم، يمكنك استخدام أداة 'فتح قفل PDF' لإزالة كلمة المرور إذا كنت تعرف كلمة مرور المستخدم أو المالك." },
+      { "question": "ماذا لو نسيت كلمة المرور؟", "answer": "لا توجد طريقة لاستعادة كلمة مرور PDF المنسية. توصي الأداة باستخدام مدير كلمات المرور لحفظها." },
+      { "question": "هل يعمل التشفير مع كل عارضي PDF؟", "answer": "نعم، تشفير RC4-128 مدعوم من Chrome و Firefox و Edge و Safari و Adobe Acrobat و Apple Preview." },
+      { "question": "هل يمكن حماية PDF بدون كلمة مرور؟", "answer": "لا، يجب تعيين كلمة مرور مستخدم على الأقل لتشفير الملف. يمكنك ترك كلمة مرور المالك فارغة إذا أردت." },
+      { "question": "هل يمكن إزالة الحماية لاحقاً؟", "answer": "نعم. يمكنك استخدام أداة 'إلغاء حماية PDF' إذا كنت تعرف كلمة المرور. احتفظ دائماً بنسخة احتياطية من الملف الأصلي غير المحمي." }
+    ]
+  },
+  "examples": {
+    "title": "جرب مثالاً",
+    "sampleLabel": "ملف PDF تجريبي",
+    "sampleText": "مستند PDF سري لإضافة كلمة مرور وقيود الأذونات",
+    "stats": "PDF محمي بكلمة مرور + قيود طباعة ونسخ",
+    "result": "تم تشفير PDF بنجاح! الملف أصبح آمناً بكلمة مرور."
+  }
+}

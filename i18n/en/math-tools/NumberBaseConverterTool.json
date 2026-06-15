@@ -1,0 +1,114 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Math Tools",
+    "current": "Number Base Converter"
+  },
+  "header": {
+    "badge": "Math Tools",
+    "title": "Number Base Converter — Binary, Octal, Decimal & Hex Online",
+    "description": "Free online number base converter to convert numbers between binary, octal, decimal, hexadecimal, and any base from 2 to 36. Instantly translate between numbering systems with step-by-step conversion.",
+    "keywords": "number base converter, binary converter, octal converter, hexadecimal converter, base converter, decimal to binary, hex to decimal, number system converter"
+  },
+  "input": {
+    "title": "Input",
+    "base": "Input Base",
+    "value": "Value in {base}",
+    "custom": "Custom",
+    "baseLabel": "Base {base}",
+    "decimalValue": "Decimal value",
+    "accepts": "Base {base} accepts"
+  },
+  "output": {
+    "title": "Output",
+    "customBase": "Custom Base",
+    "base": "Base",
+    "chars": "Chars"
+  },
+  "bitInfo": {
+    "title": "Bit Analysis",
+    "bits": "bits",
+    "bytes": "bytes",
+    "nibbles": "nibbles",
+    "unsignedMax": "Unsigned max",
+    "signedMin": "Signed min",
+    "signedMax": "Signed max",
+    "bitWidth": "Bit width",
+    "setBits": "Set bits",
+    "zeroBits": "Zero bits",
+    "lsb": "LSB",
+    "msbPos": "MSB pos",
+    "powerOf2": "Power of 2",
+    "byteSegments": "Byte Segments"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Enter",
+    "sampleText": "255",
+    "stats": "Binary: 11111111 · Octal: 377 · Hex: FF",
+    "result": "8 bits · 1 byte · Unsigned max: 255"
+  },
+  "allBases": {
+    "title": "All Bases",
+    "dec": "dec",
+    "chars": "chars",
+    "enterToConvert": "Enter a number above to convert"
+  },
+  "binary": {
+    "title": "Binary Visualization",
+    "bits": "{count} bits",
+    "oneSet": "1 (set)",
+    "zeroClear": "0 (clear)",
+    "nibbleSeparator": "· = nibble separator (4 bits)"
+  },
+  "arithmetic": {
+    "title": "Base Arithmetic",
+    "description": "Perform addition, subtraction, multiplication and division in any base:",
+    "base": "Base {base}"
+  },
+  "reference": {
+    "title": "Quick Reference (0–15)",
+    "clickRow": "Click any row to load that value",
+    "dec": "Dec",
+    "bin": "Bin",
+    "oct": "Oct",
+    "hex": "Hex",
+    "b32": "B32"
+  },
+  "bases": {
+    "Binary": "Binary",
+    "Octal": "Octal",
+    "Decimal": "Decimal",
+    "Hexadecimal": "Hexadecimal",
+    "Base 32": "Base 32",
+    "Base 36": "Base 36",
+    "Base 64": "Base 64"
+  },
+  "copy": "Copy",
+  "copied": "Copied!",
+  "clear": "Clear",
+  "showArithmetic": "Show Base Arithmetic",
+  "hideArithmetic": "Hide Base Arithmetic",
+  "howToUse": {
+    "title": "How to Use Number Base Converter",
+    "step1Title": "Enter a Number",
+    "step1Desc": "Type the number you want to convert in the input field.",
+    "step2Title": "Select Input Base",
+    "step2Desc": "Choose the base of your input number from the dropdown, ranging from binary (2) to base 36.",
+    "step3Title": "Choose Output Base",
+    "step3Desc": "Pick the target base for conversion. All other bases update instantly.",
+    "step4Title": "Explore Bit Analysis",
+    "step4Desc": "View bit width, byte segments, LSB, MSB position, and whether the number is a power of two."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What number bases are supported?", "answer": "The converter supports all bases from 2 (binary) to 36, including octal (8), decimal (10), and hexadecimal (16). You can also convert between any two custom bases." },
+      { "question": "What happens if I enter an invalid character for the selected base?", "answer": "The tool will highlight invalid characters and prevent conversion. For example, entering \"1G\" in base 16 is invalid because G is not a hexadecimal digit (0-9 and A-F only)." },
+      { "question": "How does custom base conversion work?", "answer": "Select \"Custom\" from the base dropdown and enter your desired base number (2-36). The converter will handle the conversion using standard radix algorithms." },
+      { "question": "What is bit analysis used for?", "answer": "Bit analysis shows the binary representation of your number, including bit width, number of set and zero bits, LSB and MSB positions, and whether the number is a power of two. Useful for low-level programming and digital logic." },
+      { "question": "Can I perform arithmetic in different bases?", "answer": "Yes, enable \"Base Arithmetic\" to perform addition, subtraction, multiplication, and division directly in any base. Results are shown in the same base." },
+      { "question": "What characters are used for bases above 10?", "answer": "Base 11 to 36 use digits 0-9 followed by letters A-Z. For example, base 16 uses 0-9 and A-F, while base 36 uses 0-9 and A-Z." }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "Images to PDF"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "Images to PDF — Convert JPG, PNG & WebP to PDF Online",
+    "description": "Free online tool to convert images to PDF. Combine JPG, PNG, WebP, and other image formats into a single PDF document. Arrange and reorder images before conversion — 100% client-side, your files never leave your browser.",
+    "keywords": "images to pdf, convert image to pdf, jpg to pdf, png to pdf, webp to pdf, image to pdf converter, combine images to pdf, picture to pdf"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your images are converted entirely in the browser — nothing is uploaded to any server."
+  },
+  "dropzone": {
+    "dropHere": "Drop images here",
+    "orClick": "or click to browse",
+    "imageFormats": "JPG · PNG · WebP · GIF · BMP — multiple files"
+  },
+  "options": {
+    "title": "Output Options",
+    "pageSize": "Page size",
+    "orientation": "Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "imageFit": "Image fit",
+    "margin": "Margin",
+    "background": "Background",
+    "pageNumbers": "Add page numbers",
+    "quality": "Image Quality"
+  },
+  "pageSize": {
+    "a4": "A4 (210×297 mm)",
+    "a3": "A3 (297×420 mm)",
+    "letter": "Letter (8.5×11 in)",
+    "legal": "Legal (8.5×14 in)",
+    "fit": "Fit to image size"
+  },
+  "imageFit": {
+    "contain": { "label": "Contain", "desc": "Fit inside page, keep aspect ratio" },
+    "cover": { "label": "Cover", "desc": "Fill page, may crop edges" },
+    "fill": { "label": "Fill", "desc": "Stretch to fill, ignores ratio" },
+    "center": { "label": "Center", "desc": "Original size, centered" }
+  },
+  "margin": {
+    "none": "0 (none)",
+    "recommended": "20 (rec)",
+    "oneInch": "72 (1 inch)"
+  },
+  "quality": {
+    "original": "Original quality (larger file)",
+    "lower": "Lower = smaller PDF"
+  },
+  "moreOptions": "More Options",
+  "backgroundColor": "Background color",
+  "white": "White",
+  "black": "Black",
+  "gray": "Gray",
+  "cream": "Cream",
+  "none": "None",
+  "addPageNumbersSub": "Small number at bottom center",
+  "outputLabel": "Output filename",
+  "imageList": {
+    "title": "{ready} / {total} images ready",
+    "size": "({size})",
+    "addMore": "+ Add more",
+    "clear": "Clear"
+  },
+  "progress": {
+    "processing": "Processing image {current} of {total}…",
+    "done": "Done!"
+  },
+  "result": {
+    "created": "PDF created!",
+    "size": "· {size}",
+    "redownload": "Re-download PDF"
+  },
+  "convertButton": {
+    "create": "Create PDF ({count} image)",
+    "create_plural": "Create PDF ({count} images)",
+    "converting": "Creating PDF…"
+  },
+  "empty": {
+    "message": "Add images above to combine into a PDF"
+  },
+  "errors": {
+    "conversionFailed": "Conversion failed"
+  },
+  "howToUse": {
+    "title": "How to Use Images to PDF",
+    "step1Title": "Upload images",
+    "step1Desc": "Drop or upload JPG, PNG, WebP, GIF, or BMP images. You can add multiple files at once.",
+    "step2Title": "Arrange and configure",
+    "step2Desc": "Drag to reorder images. Choose page size, orientation, image fit, margins, and background color.",
+    "step3Title": "Set output options",
+    "step3Desc": "Optionally enable page numbers, adjust image quality, and enter a custom output filename.",
+    "step4Title": "Create and download PDF",
+    "step4Desc": "Click 'Create PDF' and download your combined document — all processing happens in your browser."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What image formats are supported?", "answer": "JPG, PNG, WebP, GIF, and BMP are supported. All images are converted and embedded into a single PDF document." },
+      { "question": "Can I mix different image formats in one PDF?", "answer": "Yes. You can combine JPG, PNG, WebP, and other supported formats in any order within the same PDF." },
+      { "question": "How do I reorder images before conversion?", "answer": "Use the up/down arrows or drag and drop to rearrange images in the list before clicking 'Create PDF'." },
+      { "question": "What page sizes are available?", "answer": "A4, A3, Letter, Legal, and 'Fit to image size' which creates a page matching each image's dimensions." },
+      { "question": "Will my images be compressed?", "answer": "Images can be kept at original quality (larger PDF) or compressed (smaller PDF). The quality slider lets you control the JPEG compression level." },
+      { "question": "Is there a limit on the number of images?", "answer": "There is no hard limit, but browser memory may constrain very large batches (100+ high-resolution images)." },
+      { "question": "Are my images uploaded to a server?", "answer": "No. Everything runs client-side in your browser. Your images never leave your device." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample images",
+    "sampleText": "photo1.jpg, photo2.png, photo3.webp",
+    "stats": "3 images · 8.4 MB total → 1 PDF · 7.1 MB",
+    "result": "Single PDF with 3 pages created"
+  }
+}

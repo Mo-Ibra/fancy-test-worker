@@ -1,0 +1,101 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Math Tools",
+    "current": "Age Calculator"
+  },
+  "header": {
+    "badge": "Math Tools",
+    "title": "Age Calculator — Calculate Your Exact Age Online Free",
+    "description": "Free online age calculator to find your exact age in years, months, days, hours, minutes, and seconds. Discover birthday facts, zodiac signs, and fun historical events from your birth date.",
+    "keywords": "age calculator, calculate age, how old am i, birthday calculator, age in years, exact age calculator, age from birthdate, find my age"
+  },
+  "birthDate": "Birth Date",
+  "targetDate": "Calculate Age On",
+  "useToday": "Use today",
+  "birthFacts": "Birth Facts",
+  "dayOfWeek": "Day of week",
+  "season": "Season",
+  "zodiac": "Zodiac",
+  "chineseZodiac": "Chinese Zodiac",
+  "generation": "Generation",
+  "daysUntil": "Days until next birthday",
+  "age": {
+    "years": "years",
+    "months": "months",
+    "days": "days",
+    "totalDays": "total days",
+    "yearsOld": "years old"
+  },
+  "timeAlive": {
+    "title": "Time Alive",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds"
+  },
+  "totalStats": {
+    "totalDays": "Total Days",
+    "totalWeeks": "Total Weeks",
+    "totalMonths": "Total Months",
+    "totalHours": "Total Hours",
+    "totalMinutes": "Total Minutes",
+    "seconds": "Seconds"
+  },
+  "nextBirthday": {
+    "title": "Next Birthday",
+    "in": "in",
+    "days": "days",
+    "happyBirthday": "Happy Birthday!",
+    "nextBirthdayIn": "Next Birthday in"
+  },
+  "birthdayFacts": {
+    "title": "Same Birthday",
+    "famous": "Famous people born on this day"
+  },
+  "lifeJourney": "Life Journey",
+  "ageMilestones": "Age Milestones",
+  "lifeExpectancy": "Based on global average life expectancy (~72 years)",
+  "secondsUpdate": "seconds update live",
+  "enterDob": "Enter a date of birth to calculate age",
+  "turning": "Turning",
+  "inDays": "in",
+  "daysAgo": "d ago",
+  "exactAge": "Exact Age",
+  "dateInputs": {
+    "dateOfBirth": "Date of Birth",
+    "calculateAgeAt": "Calculate Age At",
+    "today": "Today"
+  },
+  "errors": {
+    "birthBeforeTarget": "Birth date must be before the target date."
+  },
+  "howToUse": {
+    "title": "How to Use Age Calculator",
+    "step1Title": "Enter Your Birth Date",
+    "step1Desc": "Select your date of birth using the date picker or type it in manually.",
+    "step2Title": "Choose Calculate Age At",
+    "step2Desc": "Pick a target date or leave it as today to calculate your current age.",
+    "step3Title": "View Your Exact Age",
+    "step3Desc": "See your age in years, months, days, hours, minutes, and seconds.",
+    "step4Title": "Explore Bonus Facts",
+    "step4Desc": "Check your zodiac sign, Chinese zodiac, generation, and birthday milestones."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "How is my exact age calculated?", "answer": "Your exact age is calculated by subtracting your birth date from the target date. The result shows the precise difference in years, months, days, hours, minutes, and seconds, accounting for leap years and varying month lengths." },
+      { "question": "Can I calculate my age for a future date?", "answer": "Yes, you can enter any future date in the \"Calculate Age On\" field to see how old you will be on that date. This is useful for planning birthdays, anniversaries, or retirement." },
+      { "question": "What does the live seconds counter do?", "answer": "The seconds counter updates in real time to show exactly how old you are down to the second. Watch your age increase as you stay on the page." },
+      { "question": "How is my zodiac sign determined?", "answer": "Your zodiac sign is determined by your birth month and day. The tool uses traditional Western astrology date ranges to match your birth date to the correct sign." },
+      { "question": "What generation am I part of?", "answer": "The tool determines your generation based on your birth year using widely accepted range definitions, such as Gen Z (1997-2012), Millennials (1981-1996), Gen X (1965-1980), and others." },
+      { "question": "Can I use this calculator for other people?", "answer": "Absolutely. Enter any person's date of birth to calculate their exact age, birthday facts, and milestones. It works for children, parents, grandparents, or historical figures." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Born",
+    "sampleText": "2000-01-15",
+    "stats": "24 years, 7 months, 12 days | 8,987 total days",
+    "result": "Capricorn · Year of the Dragon · Millennial"
+  }
+}

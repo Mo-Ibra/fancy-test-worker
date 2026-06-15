@@ -1,0 +1,87 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "PDF Merger"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "PDF Merger — Combine PDF Files into One Online Free",
+    "description": "Free online PDF merger to combine multiple PDF files into a single document. Drag, reorder, and select specific pages from each file before merging. Join PDFs quickly with custom page selection — 100% client-side, your files stay private.",
+    "keywords": "pdf merger, combine pdf, merge pdf files, join pdf, pdf combiner, merge pdfs online, combine pdf documents, free pdf merger"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your PDFs are processed locally using pdf-lib — no files are uploaded to any server."
+  },
+  "output": {
+    "title": "Output File"
+  },
+  "summary": {
+    "title": "Summary",
+    "files": "Files",
+    "ready": "Ready",
+    "totalPages": "Total pages",
+    "totalSize": "Total size"
+  },
+  "instructions": {
+    "title": "How to use",
+    "step1": "Drop or upload 2 or more PDF files",
+    "step2": "Drag to reorder using ↑ ↓ arrows",
+    "step3": "Optionally select custom page ranges per file",
+    "step4": "Click 'Merge & Download'"
+  },
+  "fileList": {
+    "title": "{count} file(s) added",
+    "addMore": "Add more",
+    "clearAll": "Clear all"
+  },
+  "merge": {
+    "button": "Merge & Download PDF",
+    "merging": "Merging…",
+    "waiting": "Waiting for all PDFs to finish loading…",
+    "success": "Merged successfully!",
+    "saved": "{name}.pdf saved · {size}",
+    "downloadAgain": "Download again"
+  },
+  "error": {
+    "mergeFailed": "Merge failed"
+  },
+  "dropzone": {
+    "dropHere": "Drop PDF files here",
+    "orClick": "or click to browse — multiple files supported",
+    "pdfOnly": ".pdf files only"
+  },
+  "empty": {
+    "message": "Add at least 2 PDF files to merge"
+  },
+  "howToUse": {
+    "title": "How to Use PDF Merger",
+    "step1Title": "Upload PDF files",
+    "step1Desc": "Drop or upload two or more PDF files. You can add multiple files at once.",
+    "step2Title": "Reorder and configure",
+    "step2Desc": "Drag to reorder files. Optionally select specific page ranges from each file instead of merging all pages.",
+    "step3Title": "Review summary",
+    "step3Desc": "Check the file count, total pages, and total size before merging.",
+    "step4Title": "Merge and download",
+    "step4Desc": "Click 'Merge & Download PDF' to combine all files into a single document — 100% client-side."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "How many PDF files can I merge at once?", "answer": "There is no set limit, but browser performance may decrease with very large numbers of files. Most users merge 2-10 files comfortably." },
+      { "question": "Can I select specific pages from each file?", "answer": "Yes. Click on a file to expand page range options. You can enter custom ranges like '1-3, 5' to include only certain pages." },
+      { "question": "What is the maximum file size for merging?", "answer": "Files up to 100 MB typically work well. Extremely large files may hit browser memory limits since everything runs client-side." },
+      { "question": "Does merging preserve bookmarks and links?", "answer": "Basic merging preserves page content. Some PDF features like bookmarks, internal links, and form fields may not carry over perfectly." },
+      { "question": "Can I merge password-protected PDFs?", "answer": "No. You must remove passwords from protected PDFs first using the Unlock PDF tool before merging." },
+      { "question": "Is my data uploaded to a server?", "answer": "No. All merging is done locally in your browser using pdf-lib. Your files never leave your device." },
+      { "question": "What happens to duplicate page sizes?", "answer": "Each page retains its original dimensions. The merged PDF will contain pages of varying sizes if the source files use different page sizes." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample files",
+    "sampleText": "chapter1.pdf, chapter2.pdf, chapter3.pdf",
+    "stats": "3 files · 28 pages · 12.3 MB → 1 merged PDF",
+    "result": "Single merged PDF with all 28 pages"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "PDF Tools",
+    "current": "PDF Splitter"
+  },
+  "header": {
+    "badge": "PDF Tools",
+    "title": "PDF Splitter — Split PDF into Multiple Files Online",
+    "description": "Free online PDF splitter to divide PDF into multiple files. Split by every page, fixed page chunks, or custom page ranges. Extract specific pages and create separate PDFs in seconds — 100% client-side, nothing is uploaded.",
+    "keywords": "pdf splitter, split pdf, separate pdf pages, extract pdf pages, pdf divider, split pdf into multiple files, pdf page extractor, free pdf splitter"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your PDF is processed entirely in the browser — nothing is uploaded to any server."
+  },
+  "file": {
+    "loading": "Reading…",
+    "pages": "pages",
+    "readError": "Could not read PDF"
+  },
+  "splitMode": {
+    "title": "Split Mode",
+    "everyPage": {
+      "label": "Every Page",
+      "desc": "One PDF per page"
+    },
+    "fixedPages": {
+      "label": "Fixed Chunks",
+      "desc": "Every N pages"
+    },
+    "ranges": {
+      "label": "Custom Ranges",
+      "desc": "Define your own page groups"
+    }
+  },
+  "chunkSize": {
+    "label": "Pages per chunk"
+  },
+  "output": {
+    "label": "Output file prefix",
+    "placeholder": "split"
+  },
+  "plan": {
+    "title": "Split Plan",
+    "outputFiles": "output file(s)",
+    "andMore": "… and {count} more"
+  },
+  "pageRanges": {
+    "title": "Page Ranges",
+    "totalPages": "total pages",
+    "addRange": "Add range",
+    "pageRange": "Page range (e.g. 1-5, 8)",
+    "outputLabel": "Output file label",
+    "addRangeEmpty": "Add a range to split into",
+    "quickAdd": "Quick add:",
+    "firstHalf": "First half",
+    "secondHalf": "Second half",
+    "oddPages": "Odd pages",
+    "evenPages": "Even pages"
+  },
+  "button": {
+    "split": "Split into {count} file(s)",
+    "splitting": "Splitting…",
+    "splitError": "Split failed"
+  },
+  "result": {
+    "title": "{count} file(s) ready",
+    "downloadZip": "Download all as ZIP",
+    "downloadAll": "Download all",
+    "splitComplete": "Split complete · {count} files · {size} total"
+  },
+  "dropzone": {
+    "dropHere": "Drop a PDF file here",
+    "orClick": "or click to browse",
+    "pdfOnly": ".pdf only"
+  },
+  "empty": {
+    "addFile": "Add a PDF file to start splitting"
+  },
+  "howToUse": {
+    "title": "How to Use PDF Splitter",
+    "step1Title": "Upload a PDF",
+    "step1Desc": "Drop or upload the PDF file you want to split.",
+    "step2Title": "Choose split mode",
+    "step2Desc": "Select 'Every Page', 'Fixed Chunks', or 'Custom Ranges' depending on how you want to divide the PDF.",
+    "step3Title": "Configure split options",
+    "step3Desc": "For chunks, set pages per group. For custom ranges, define each page group with labels.",
+    "step4Title": "Download split files",
+    "step4Desc": "Click 'Split' and download individual PDFs or a ZIP archive — no uploads, 100% private."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What split modes are available?", "answer": "Three modes: 'Every Page' creates one PDF per page, 'Fixed Chunks' splits by every N pages, and 'Custom Ranges' lets you define page groups manually." },
+      { "question": "How do I use custom ranges?", "answer": "Enter page ranges like '1-3' or '1-3, 5' and give each group a label. Use Quick Add for first half, second half, odd pages, or even pages." },
+      { "question": "What is the maximum PDF size I can split?", "answer": "Files up to 100 MB typically work well. Since processing is client-side, very large files may be limited by browser memory." },
+      { "question": "Can I split a password-protected PDF?", "answer": "No. Remove the password first using the Unlock PDF tool before splitting." },
+      { "question": "How are the output files named?", "answer": "Files are named using your prefix (default 'split') followed by a number or your custom range label, e.g., 'split-1.pdf', 'split-2.pdf'." },
+      { "question": "Can I download all split files at once?", "answer": "Yes. Use 'Download all as ZIP' to get a single archive containing all split PDFs, or download them individually." }
+    ]
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample file",
+    "sampleText": "large_document.pdf",
+    "stats": "1 file · 20 pages → 20 individual PDFs",
+    "result": "Split into 20 separate page files"
+  }
+}
