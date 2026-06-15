@@ -2761,6 +2761,12 @@
       },
       "examples": {
         "title": "Try an Example",
+        "simple": "Simple set (n=10)",
+        "testScores": "Test scores (n=10)",
+        "withOutlier": "With outlier (n=10)",
+        "negative": "With negatives (n=9)",
+        "salary": "Salary data (n=8)",
+        "allSame": "All same value (n=6)",
         "sampleLabel": "Numbers",
         "sampleText": "85 92 78 95 88",
         "stats": "Mean: 87.6 · Median: 88 · Mode: No mode",
@@ -6358,6 +6364,7 @@
         "step4Desc": "Copy the generated canonical tag and paste it into the <head> section of your page"
       },
       "examples": {
+        "title": "Examples",
         "removeUtm": "Remove UTM params",
         "wwwVsNonWww": "WWW vs non-WWW",
         "trailingSlash": "Trailing slash",
@@ -7254,6 +7261,7 @@
       "breadcrumb": {
         "allTools": "All Tools",
         "toolTitle": "SEO Tools",
+        "seoTools": "SEO Tools",
         "current": "Open Graph Previewer"
       },
       "header": {
@@ -7673,6 +7681,12 @@
       "howToUse": {
         "title": "How to Use Robots.txt Generator",
         "step1Title": "Add User-Agent",
+        "tips": [
+          "Always include a User-agent directive before adding rules",
+          "Use * for rules that apply to all crawlers",
+          "Test your robots.txt in Google Search Console",
+          "Remember to upload the file to your root directory"
+        ],
         "step1Desc": "Specify the search engine crawler (e.g., Googlebot, Bingbot, or * for all)",
         "step2Title": "Set Crawl Rules",
         "step2Desc": "Add Disallow and Allow rules to control which paths each crawler can access",

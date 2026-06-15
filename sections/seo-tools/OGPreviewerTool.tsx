@@ -447,7 +447,7 @@ export default function OGPreviewerTool() {
               <div className="flex flex-col gap-2">
                 <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">{t('input.pasteHtml')}</p>
                 <textarea value={tagsInput} onChange={e => setTagsInput(e.target.value)}
-                  placeholder={t('input.htmlPlaceholder')}
+                  placeholder={t.raw('input.htmlPlaceholder')}
                   rows={7}
                   className="w-full px-4 py-3 rounded-xl border border-border bg-card text-foreground text-xs font-mono resize-none focus:outline-none focus:border-blue-400 transition-all placeholder:text-muted-foreground/40" />
                 <button onClick={parseTags} disabled={!tagsInput.trim()}

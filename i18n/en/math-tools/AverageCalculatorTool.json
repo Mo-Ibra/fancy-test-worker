@@ -21,6 +21,12 @@
   },
   "examples": {
     "title": "Try an Example",
+    "simple": "Simple set (n=10)",
+    "testScores": "Test scores (n=10)",
+    "withOutlier": "With outlier (n=10)",
+    "negative": "With negatives (n=9)",
+    "salary": "Salary data (n=8)",
+    "allSame": "All same value (n=6)",
     "sampleLabel": "Numbers",
     "sampleText": "85 92 78 95 88",
     "stats": "Mean: 87.6 · Median: 88 · Mode: No mode",

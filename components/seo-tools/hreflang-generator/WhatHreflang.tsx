@@ -3,7 +3,7 @@ import { useT } from "@/context/TranslationProvider";
 
 export default function WhatHreflang() {
   const t = useT("seo-tools/HreflangGeneratorTool.json");
-  const uses = t("whatIsHreflang.uses") as unknown as string[];
+  const uses = t.raw("whatIsHreflang.uses") as string[];
 
   return (
     <div className="p-4 rounded-2xl border border-border bg-card shadow-sm">

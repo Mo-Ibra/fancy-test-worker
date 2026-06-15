@@ -38,7 +38,7 @@ export default function HowToUse({ tKey, count = icons.length }: HowToUseProps) 
                 </div>
               </div>
               <h3 className="text-sm font-semibold text-foreground group-hover:text-blue-500 transition-colors duration-200">{t(`howToUse.step${key}Title`)}</h3>
-              <p className="text-xs text-muted-foreground leading-relaxed">{t(`howToUse.step${key}Desc`)}</p>
+              <p className="text-xs text-muted-foreground leading-relaxed">{t.raw(`howToUse.step${key}Desc`)}</p>
             </div>
           );
         })}

@@ -125,13 +125,13 @@ export default function UnlockPDFTool() {
         {/* Legal notice */}
         <div className="flex items-start gap-2.5 px-4 py-3 rounded-xl border border-amber-200 dark:border-amber-900/40 bg-amber-50 dark:bg-amber-900/10 mb-4">
           <AlertTriangle className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
-          <p className="text-xs text-amber-700 dark:text-amber-400" dangerouslySetInnerHTML={{ __html: t("legal.notice") }} />
+          <p className="text-xs text-amber-700 dark:text-amber-400" dangerouslySetInnerHTML={{ __html: t.raw("legal.notice") }} />
         </div>
 
         {/* Privacy */}
         <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-emerald-200 dark:border-emerald-900/40 bg-emerald-50 dark:bg-emerald-900/10 mb-6">
           <ShieldOff className="w-4 h-4 text-emerald-500 shrink-0" />
-          <p className="text-xs text-emerald-700 dark:text-emerald-400" dangerouslySetInnerHTML={{ __html: t("privacy.notice") }} />
+          <p className="text-xs text-emerald-700 dark:text-emerald-400" dangerouslySetInnerHTML={{ __html: t.raw("privacy.notice") }} />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

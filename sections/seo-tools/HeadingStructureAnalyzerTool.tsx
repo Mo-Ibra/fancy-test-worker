@@ -172,8 +172,8 @@ export default function HeadingStructureAnalyzerTool() {
                 value={input}
                 onChange={e => setInput(e.target.value)}
                 placeholder={inputMode === "html"
-                  ? t("input.htmlPlaceholder")
-                  : t("input.markdownPlaceholder")}
+                  ? t.raw("input.htmlPlaceholder")
+                  : t.raw("input.markdownPlaceholder")}
                 rows={10}
                 className="w-full px-4 py-4 rounded-2xl border border-border bg-card text-foreground text-xs font-mono resize-none focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100 dark:focus:ring-blue-900/40 transition-all placeholder:text-muted-foreground/40 shadow-sm leading-relaxed"
               />

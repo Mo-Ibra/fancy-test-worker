@@ -156,6 +156,7 @@
     "step4Desc": "Copy the generated canonical tag and paste it into the <head> section of your page"
   },
   "examples": {
+    "title": "Examples",
     "removeUtm": "Remove UTM params",
     "wwwVsNonWww": "WWW vs non-WWW",
     "trailingSlash": "Trailing slash",

@@ -156,6 +156,7 @@
     "step4Desc": "انسخ وسم canonical الناتج والصقه في قسم <head> من صفحتك."
   },
   "examples": {
+    "title": "أمثلة",
     "removeUtm": "إزالة معلمات UTM",
     "wwwVsNonWww": "WWW مقابل non-WWW",
     "trailingSlash": "شرطة مائلة زائدة",

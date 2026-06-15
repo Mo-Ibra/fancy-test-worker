@@ -107,10 +107,10 @@ export default function RemoveFormattingTool() {
                         </div>
                         <div className="min-w-0">
                           <p className={`text-xs font-bold leading-tight ${isOn ? "text-blue-600 dark:text-blue-400" : "text-foreground"}`}>
-                            {t(`options.${opt.key}.label`)}
+                            {t.raw(`options.${opt.key}.label`)}
                           </p>
                           <p className="text-[11px] text-muted-foreground leading-relaxed mt-0.5">
-                            {t(`options.${opt.key}.description`)}
+                            {t.raw(`options.${opt.key}.description`)}
                           </p>
                         </div>
                       </button>

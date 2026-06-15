@@ -14,7 +14,7 @@ export default function CommonMistakes() {
           t("mistakes.relativeUrls"),
           t("mistakes.noindexPage"),
           t("mistakes.mismatchedHreflang"),
-          t("mistakes.inBody"),
+          t.raw("mistakes.inBody"),
         ].map((item, i) => (
           <p key={i} className="flex items-start gap-1.5">
             <span className="shrink-0">✗</span> {item}

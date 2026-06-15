@@ -3,7 +3,7 @@ import { useT } from "@/context/TranslationProvider";
 
 export default function Rules() {
   const t = useT("seo-tools/HreflangGeneratorTool.json");
-  const rules = t("rules.items") as unknown as string[];
+  const rules = t.raw("rules.items") as string[];
 
   return (
     <div className="p-4 rounded-2xl border border-amber-200 dark:border-amber-900/40 bg-amber-50 dark:bg-amber-900/10 shadow-sm">

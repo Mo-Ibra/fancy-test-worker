@@ -58,6 +58,12 @@
   "howToUse": {
     "title": "How to Use Robots.txt Generator",
     "step1Title": "Add User-Agent",
+    "tips": [
+      "Always include a User-agent directive before adding rules",
+      "Use * for rules that apply to all crawlers",
+      "Test your robots.txt in Google Search Console",
+      "Remember to upload the file to your root directory"
+    ],
     "step1Desc": "Specify the search engine crawler (e.g., Googlebot, Bingbot, or * for all)",
     "step2Title": "Set Crawl Rules",
     "step2Desc": "Add Disallow and Allow rules to control which paths each crawler can access",
