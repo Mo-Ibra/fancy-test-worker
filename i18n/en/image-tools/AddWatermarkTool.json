@@ -11,6 +11,7 @@
     "keywords": "add watermark, watermark image, photo watermark, text watermark, logo watermark, protect images, watermark photos online, image copyright tool"
   },
   "dropzone": {
+    "label": "Upload Image",
     "dropHere": "Drop an image here",
     "orClick": "or click to browse",
     "clickOrDrag": "Click or drag & drop your image",

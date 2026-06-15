@@ -1503,6 +1503,7 @@
         "keywords": "إضافة علامة مائية, وضع علامة مائية على الصور, حماية الصور, العلامة المائية, watermark, حقوق الملكية للصور"
       },
       "dropzone": {
+        "label": "رفع صورة",
         "dropHere": "أسقط صورة هنا",
         "orClick": "أو انقر للتصفح",
         "clickOrDrag": "انقر أو اسحب وأسقط صورتك",
@@ -2144,23 +2145,55 @@
         "dropHere": "أسقط الصور هنا",
         "hint": "يمكنك إضافة عدة صور مرة واحدة"
       },
-      "options": {
-        "layout": "التخطيط",
+      "layout": {
         "horizontal": "أفقي",
         "vertical": "عمودي",
-        "grid": "شبكة",
+        "grid": "شبكة"
+      },
+      "options": {
+        "layout": "التخطيط",
+        "columns": "الأعمدة",
         "alignment": "المحاذاة",
+        "fitMode": "وضع الملاءمة",
         "gap": "الفجوة",
         "backgroundColor": "لون الخلفية",
-        "gridCols": "الأعمدة",
-        "fitMode": "وضع الملاءمة"
+        "fixedCellSize": "حجم الخلية الثابت",
+        "width": "العرض",
+        "height": "الارتفاع",
+        "px": "بكسل",
+        "outputFormat": "صيغة الإخراج",
+        "quality": "الجودة",
+        "autoApply": "تطبيق تلقائي"
       },
-      "merge": {
-        "button": "دمج الصور",
-        "merging": "جاري الدمج..."
+      "color": {
+        "white": "أبيض",
+        "black": "أسود",
+        "none": "بدون"
       },
-      "download": "تحميل",
-      "clear": "مسح الكل",
+      "buttons": {
+        "mergeImages": "دمج الصور",
+        "merging": "جاري الدمج...",
+        "download": "تحميل",
+        "downloadMerged": "تحميل الصورة المدمجة",
+        "clearAll": "مسح الكل"
+      },
+      "info": {
+        "images": "صور",
+        "dragToReorder": "اسحب لإعادة الترتيب",
+        "minImagesRequired": "أضف صورتين على الأقل للدمج"
+      },
+      "stats": {
+        "images": "الصور",
+        "layout": "التخطيط",
+        "output": "الإخراج",
+        "fileSize": "حجم الملف"
+      },
+      "status": {
+        "mergingImages": "جاري دمج الصور..."
+      },
+      "result": {
+        "mergedResult": "النتيجة المدمجة"
+      },
       "howToUse": {
         "title": "طريقة استخدام دمج الصور",
         "step1Title": "رفع الصور",

@@ -1503,6 +1503,7 @@
         "keywords": "add watermark, watermark image, photo watermark, text watermark, logo watermark, protect images, watermark photos online, image copyright tool"
       },
       "dropzone": {
+        "label": "Upload Image",
         "dropHere": "Drop an image here",
         "orClick": "or click to browse",
         "clickOrDrag": "Click or drag & drop your image",
@@ -2144,23 +2145,55 @@
         "dropHere": "Drop images here",
         "hint": "You can add multiple images at once"
       },
-      "options": {
-        "layout": "Layout",
+      "layout": {
         "horizontal": "Horizontal",
         "vertical": "Vertical",
-        "grid": "Grid",
+        "grid": "Grid"
+      },
+      "options": {
+        "layout": "Layout",
+        "columns": "Columns",
         "alignment": "Alignment",
+        "fitMode": "Fit Mode",
         "gap": "Gap",
         "backgroundColor": "Background Color",
-        "gridCols": "Columns",
-        "fitMode": "Fit Mode"
+        "fixedCellSize": "Fixed Cell Size",
+        "width": "Width",
+        "height": "Height",
+        "px": "px",
+        "outputFormat": "Output Format",
+        "quality": "Quality",
+        "autoApply": "Auto Apply"
       },
-      "merge": {
-        "button": "Merge Images",
-        "merging": "Merging…"
+      "color": {
+        "white": "White",
+        "black": "Black",
+        "none": "None"
       },
-      "download": "Download",
-      "clear": "Clear All",
+      "buttons": {
+        "mergeImages": "Merge Images",
+        "merging": "Merging…",
+        "download": "Download",
+        "downloadMerged": "Download Merged Image",
+        "clearAll": "Clear All"
+      },
+      "info": {
+        "images": "images",
+        "dragToReorder": "drag to reorder",
+        "minImagesRequired": "Add at least 2 images to merge"
+      },
+      "stats": {
+        "images": "Images",
+        "layout": "Layout",
+        "output": "Output",
+        "fileSize": "File Size"
+      },
+      "status": {
+        "mergingImages": "Merging images…"
+      },
+      "result": {
+        "mergedResult": "Merged Result"
+      },
       "howToUse": {
         "title": "How to Use Image Merger",
         "step1Title": "Upload Images",

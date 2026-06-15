@@ -221,7 +221,7 @@ export default function ImageToBase64Tool() {
                   </div>
 
                   {/* Copy full button */}
-                  <CopyButton text={outputValue} label={t("encode.copyWrapper", { label: wrapperOptions.find((w) => w.key === wrapper)?.label })} full />
+                  <CopyButton text={outputValue} label={t("encode.copyWrapper", { label: wrapperOptions.find((w) => w.key === wrapper)?.label ?? "" })} full />
                 </>
               )}
             </div>
