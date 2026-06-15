@@ -1,0 +1,2380 @@
+{
+  "common": {
+    "language": "English",
+    "common": {
+      "language": "Language",
+      "selectLanguage": "Select Language",
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "notFound": "Page not found",
+      "every": "Every",
+      "youllEverNeed": "you'll ever need",
+      "popular": "Popular",
+      "freeTools": "Free Tools",
+      "tryItFree": "Try it free",
+      "signupNeeded": "Sign-up Needed",
+      "browserBased": "Browser-based",
+      "searchPlaceholder": "Search ...",
+      "clear": "Clear",
+      "mostUsed": "Most Used",
+      "mostUsedDescription": "Count words, characters, sentences, paragraphs, and reading time — paste your text and get instant stats. Perfect for essays, articles, social media posts, and SEO copy.",
+      "useTool": "Use tool",
+      "openTool": "Open tool",
+      "results": "results",
+      "result": "result",
+      "for": "for",
+      "all": "All",
+      "noToolsFound": "No tools found",
+      "tryDifferentKeyword": "Try a different keyword",
+      "needDifferentTool": "Need a different tool?",
+      "exploreAllToolsDescription": "Explore 50+ tools across all categories.",
+      "browseAllTools": "Browse All Tools",
+      "new": "New",
+      "live": "Live",
+      "disclaimer": "Your files are never uploaded to our servers. All processing happens locally in your browser.",
+      "alltools": "All tools"
+    }
+  },
+  "dev-tools": {
+    "Base64Tool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "Base64 Encoder/Decoder"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "Base64 Encoder/Decoder — Encode & Decode Base64 Online",
+        "description": "Free online Base64 encoder and decoder to encode text or files to Base64 format and decode Base64 strings back to original. Supports text, images, and binary data with live conversion. Ideal for data transmission and web development.",
+        "keywords": "base64 encoder, base64 decoder, encode base64, decode base64, base64 converter, base64 encode online, base64 decode online, base64 string converter"
+      },
+      "mode": {
+        "title": "Mode",
+        "encode": "Encode →",
+        "decode": "← Decode"
+      },
+      "inputType": {
+        "title": "Input Type",
+        "text": "Text",
+        "file": "File"
+      },
+      "variant": {
+        "title": "Base64 Variant"
+      },
+      "stats": {
+        "input": "Input",
+        "output": "Output",
+        "ratio": "Ratio",
+        "overhead": "Overhead"
+      },
+      "howToUse": {
+        "title": "How to Use the Base64 Encoder/Decoder",
+        "step1Title": "Choose mode",
+        "step1Desc": "Select Encode to convert text to Base64, or Decode to convert Base64 back to text.",
+        "step2Title": "Select input type",
+        "step2Desc": "Choose Text for typing or pasting content, or File for uploading a file to encode.",
+        "step3Title": "Choose a variant",
+        "step3Desc": "Select Standard, URL-safe, or MIME Base64 variant depending on your use case.",
+        "step4Title": "Copy the result",
+        "step4Desc": "The output updates automatically. Click Copy to copy the encoded or decoded result."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is Base64 used for?",
+            "answer": "Base64 is commonly used to transmit binary data over text-based protocols like email or HTTP, and to embed images in HTML or CSS."
+          },
+          {
+            "question": "Is Base64 encoding the same as encryption?",
+            "answer": "No. Base64 is an encoding scheme, not encryption. It does not provide any security; it only transforms data into a text-safe format."
+          },
+          {
+            "question": "What is the difference between standard and URL-safe Base64?",
+            "answer": "URL-safe Base64 replaces + with - and / with _ so the encoded string can be used in URLs and filenames without escaping."
+          },
+          {
+            "question": "Does Base64 increase file size?",
+            "answer": "Yes. Base64 encoding increases data size by approximately 33% due to the way binary data is represented as text."
+          },
+          {
+            "question": "Can I decode Base64 without internet?",
+            "answer": "Yes. This tool runs entirely in your browser. No data is sent to any server."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "Hello, World!",
+        "result": "SGVsbG8sIFdvcmxkIQ==",
+        "stats": "What you'll see"
+      },
+      "swap": {
+        "label": "Swap — use output as input"
+      },
+      "input": {
+        "fileInput": "File Input",
+        "textToEncode": "Text to Encode",
+        "base64ToDecode": "Base64 to Decode",
+        "encodePlaceholder": "Type or paste text to encode...",
+        "decodePlaceholder": "Paste a Base64 string to decode...\n\nSupports Standard, URL-safe, and MIME formats."
+      },
+      "output": {
+        "base64Output": "Base64 Output",
+        "decodedText": "Decoded Text",
+        "emptyError": "Fix the error above",
+        "emptyProcessing": "Processing…",
+        "emptyOutput": "Output will appear here",
+        "copyBase64": "Copy Base64 String",
+        "copyDecoded": "Copy Decoded Text"
+      },
+      "quickRef": {
+        "title": "Base64 Quick Reference",
+        "standardAlphabet": "Standard alphabet",
+        "urlSafeAlphabet": "URL-safe alphabet",
+        "sizeOverhead": "Size overhead",
+        "commonUses": "Common uses"
+      },
+      "actions": {
+        "paste": "Paste",
+        "clear": "Clear",
+        "download": "Download",
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "error": "Invalid Base64 string"
+    },
+    "CSSFormatterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "CSS Formatter"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "CSS Formatter — Format, Minify & Beautify CSS Online",
+        "description": "Free online CSS formatter to format, minify, and beautify CSS code with customizable indentation and style options. Validate syntax, compress for production, or expand for readability. Perfect for front-end developers.",
+        "keywords": "css formatter, css beautifier, css minifier, format css online, css pretty print, css style formatter, css code formatter, css validator"
+      },
+      "input": {
+        "title": "CSS Input",
+        "placeholder": "Paste your CSS here..."
+      },
+      "options": {
+        "title": "Options",
+        "indentChar": "Indentation",
+        "indentSpaces": "Spaces",
+        "indentTabs": "Tabs",
+        "braceStyle": "Opening Brace",
+        "sameLine": "Same Line",
+        "sameLinePreview": "selector {",
+        "newLine": "New Line",
+        "newLinePreview": "selector\n{",
+        "propSort": "Property Sort",
+        "none": "None",
+        "noneDesc": "Keep original order",
+        "alpha": "Alphabetical",
+        "alphaDesc": "a–z property order",
+        "grouped": "Grouped",
+        "groupedDesc": "Layout → Typography → Effects…",
+        "colorFormat": "Color Format",
+        "keep": "Keep",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "removeComments": "Remove Comments",
+        "removeCommentsDesc": "Strip all /* … */ comments",
+        "singleLineRules": "Collapse Single Rules",
+        "singleLineRulesDesc": ".sel { prop: val; } on one line",
+        "spaceAfterColon": "Space After Colon",
+        "spaceAfterColonDesc": "prop: value vs prop:value"
+      },
+      "viewMode": {
+        "formatted": "Formatted",
+        "minified": "Minified"
+      },
+      "stats": {
+        "title": "Stats",
+        "rules": "Rules",
+        "declarations": "Declarations",
+        "input": "Input",
+        "output": "Output",
+        "saved": "Saved",
+        "lines": "Lines"
+      },
+      "issues": {
+        "title": "Issues",
+        "noIssues": "No issues detected",
+        "error": "{count} error",
+        "errors": "{count} errors",
+        "warning": "{count} warning",
+        "warnings": "{count} warnings",
+        "more": "+{count} more…"
+      },
+      "howToUse": {
+        "title": "How to Use the CSS Formatter",
+        "step1Title": "Paste your CSS",
+        "step1Desc": "Paste your CSS code into the input area on the left side.",
+        "step2Title": "Configure formatting options",
+        "step2Desc": "Adjust indentation, brace style, property sorting, and color format to match your preferences.",
+        "step3Title": "Choose output mode",
+        "step3Desc": "Switch between Formatted (pretty-print) and Minified (compressed) views.",
+        "step4Title": "Review and copy",
+        "step4Desc": "Check the stats and fix any detected issues, then copy or download the result."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can this tool detect CSS errors?",
+            "answer": "Yes. The tool highlights syntax issues including missing braces, invalid property values, and duplicate selectors."
+          },
+          {
+            "question": "What indentation options are available?",
+            "answer": "You can choose between spaces (2 or 4) or tabs, and decide whether opening braces go on the same line or a new line."
+          },
+          {
+            "question": "Can I sort CSS properties alphabetically?",
+            "answer": "Yes. Enable the Alphabetical sort option to reorder properties from a to z, or use Grouped for logical ordering."
+          },
+          {
+            "question": "Does the tool remove comments?",
+            "answer": "Yes. Toggle the Remove Comments option to strip all CSS comments from the output."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "body{margin:0;padding:0}h1{color:red;font-size:24px}",
+        "result": "body {\n  margin: 0;\n  padding: 0;\n}\nh1 {\n  color: red;\n  font-size: 24px;\n}",
+        "stats": "What you'll see"
+      },
+      "output": {
+        "formatted": "Formatted CSS",
+        "minified": "Minified CSS",
+        "empty": "Output will appear here"
+      },
+      "actions": {
+        "paste": "Paste",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "download": ".txt"
+      },
+      "syntaxHighlight": "Syntax highlighting",
+      "processing": "Processing…"
+    },
+    "CSVToJsonTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "CSV to JSON"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "CSV to JSON — Convert CSV to JSON & JSON to CSV Online",
+        "description": "Free online CSV to JSON converter to transform CSV data into JSON format and vice versa. Supports custom delimiters, headers, nested object parsing, and encoding options. Ideal for data migration and API integration.",
+        "keywords": "csv to json, convert csv to json, csv to json converter, json to csv, csv parser, csv to json online, json converter, data format converter"
+      },
+      "direction": {
+        "csv2json": "CSV → JSON",
+        "json2csv": "JSON → CSV",
+        "swap": "Swap"
+      },
+      "delimiter": {
+        "title": "Delimiter",
+        "autoDetect": "Auto-detect",
+        "detected": "Detected:",
+        "comma": "Comma (,)",
+        "semicolon": "Semicolon (;)",
+        "tab": "Tab (\\t)",
+        "pipe": "Pipe (|)",
+        "space": "Space"
+      },
+      "parseOptions": {
+        "title": "Parse Options",
+        "hasHeader": "First row is header",
+        "trimSpaces": "Trim whitespace",
+        "skipEmpty": "Skip empty lines",
+        "detectTypes": "Auto-detect types (numbers, booleans)",
+        "quoteChar": "Quote character",
+        "emptyHandling": "Empty field handling",
+        "nullEmpty": "\"\"",
+        "nullNull": "null",
+        "nullSkip": "skip"
+      },
+      "output": {
+        "title": "Output Format",
+        "object": "Array of Objects",
+        "objectDesc": "[{\"key\":\"val\"}, …]",
+        "array": "Array of Arrays",
+        "arrayDesc": "[[\"h1\",\"h2\"], …]",
+        "grouped": "Grouped by 1st col",
+        "groupedDesc": "{\"key\": [{…}, …]}",
+        "indent": "JSON Indent",
+        "minified": "Minified",
+        "spaces2": "2 spaces",
+        "spaces4": "4 spaces"
+      },
+      "stats": {
+        "title": "Stats",
+        "rows": "Rows",
+        "columns": "Columns",
+        "cells": "Cells",
+        "output": "Output"
+      },
+      "howToUse": {
+        "title": "How to Use the CSV to JSON Converter",
+        "step1Title": "Select conversion direction",
+        "step1Desc": "Choose CSV → JSON to convert CSV data to JSON, or JSON → CSV for the reverse.",
+        "step2Title": "Set the delimiter",
+        "step2Desc": "Pick the delimiter your CSV uses — comma, semicolon, tab, or let the tool auto-detect it.",
+        "step3Title": "Configure parse options",
+        "step3Desc": "Toggle options like first-row-as-header, trim whitespace, skip empty lines, and type detection.",
+        "step4Title": "Choose output format",
+        "step4Desc": "Select from Array of Objects, Array of Arrays, or Grouped output, then copy or download."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can I convert JSON back to CSV?",
+            "answer": "Yes. Switch the direction to JSON → CSV and paste a JSON array to convert it back to CSV format."
+          },
+          {
+            "question": "What delimiters are supported?",
+            "answer": "Comma, semicolon, tab, pipe, and space. You can also enable auto-detect to let the tool figure it out."
+          },
+          {
+            "question": "Will the tool auto-detect data types?",
+            "answer": "Yes. When enabled, the tool will parse numbers and booleans from string values automatically."
+          },
+          {
+            "question": "Can I preview the data as a table?",
+            "answer": "Yes. Switch to Table view to see your parsed data in a tabular layout before copying."
+          },
+          {
+            "question": "What happens if my CSV has no header row?",
+            "answer": "Disable the First row is header option and the tool will auto-generate keys like field1, field2, etc."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "name,age,city\nAlice,30,New York\nBob,25,Los Angeles",
+        "result": "[{\"name\":\"Alice\",\"age\":30,\"city\":\"New York\"},{\"name\":\"Bob\",\"age\":25,\"city\":\"Los Angeles\"}]",
+        "stats": "What you'll see"
+      },
+      "input": {
+        "csvLabel": "CSV Input",
+        "jsonLabel": "JSON Input",
+        "csvPlaceholder": "Paste CSV here or click File to upload…\n\nid,name,email\n1,Ahmed,ahmed@example.com",
+        "jsonPlaceholder": "Paste JSON array here…\n\n[{\"id\": 1, \"name\": \"Ahmed\"}]",
+        "csvInput": "CSV Input",
+        "jsonInput": "JSON Input"
+      },
+      "viewMode": {
+        "json": "JSON",
+        "table": "Table",
+        "csv": "CSV"
+      },
+      "mapping": {
+        "title": "Column Mapping ({count} columns)",
+        "csvHeader": "CSV Header",
+        "jsonKey": "JSON Key",
+        "sampleValue": "Sample Value"
+      },
+      "outputEmpty": "Output will appear here",
+      "csvOutputEmpty": "CSV output will appear here",
+      "tableEmpty": "No data to display",
+      "tableShowing": "Showing 50 of {count} rows",
+      "actions": {
+        "paste": "Paste",
+        "file": "File",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "download": "Download",
+        "copyJson": "Copy JSON",
+        "copyCsv": "Copy CSV"
+      },
+      "generatedId": "Generated ID",
+      "error": "Invalid input",
+      "generatingIdle": "Click \"Generate\" to create an ID"
+    },
+    "HTMLFormatterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "HTML Formatter"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "HTML Formatter — Format, Minify & Beautify HTML Online",
+        "description": "Free online HTML formatter to format, minify, and beautify HTML code with customizable indentation. Validate syntax, compress for production, or expand for readability. Essential tool for web developers.",
+        "keywords": "html formatter, html beautifier, html minifier, format html online, html pretty print, html code formatter, html validator, html indentation"
+      },
+      "indent": {
+        "title": "Indentation"
+      },
+      "options": {
+        "title": "Options",
+        "sortAttrs": "Sort Attributes",
+        "sortAttrsDesc": "Alphabetically sort tag attributes",
+        "removeComments": "Remove Comments",
+        "removeCommentsDesc": "Strip all HTML comments",
+        "collapseWhitespace": "Collapse Whitespace",
+        "collapseWhitespaceDesc": "Merge multiple spaces into one"
+      },
+      "validation": {
+        "noIssues": "No issues found",
+        "issues": "{count} issue found",
+        "issues_plural": "{count} issues detected"
+      },
+      "stats": {
+        "title": "Stats",
+        "tags": "Tags",
+        "attrs": "Attrs",
+        "comments": "Comments",
+        "input": "Input",
+        "output": "Output",
+        "saved": "Saved",
+        "lines": "Lines"
+      },
+      "howToUse": {
+        "title": "How to Use the HTML Formatter",
+        "step1Title": "Paste your HTML",
+        "step1Desc": "Paste your HTML code into the input area. The tool works with full documents or fragments.",
+        "step2Title": "Choose formatting options",
+        "step2Desc": "Adjust indentation, toggle attribute sorting, comment removal, and whitespace collapsing.",
+        "step3Title": "Select a view mode",
+        "step3Desc": "Switch between Formatted, Minified, or Preview to see the rendered HTML in a sandboxed iframe.",
+        "step4Title": "Copy the result",
+        "step4Desc": "Copy the formatted or minified HTML, or download it for use in your project."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can this tool validate my HTML?",
+            "answer": "Yes. The tool checks for unclosed tags, invalid attributes, and other common syntax issues."
+          },
+          {
+            "question": "What is the Preview mode?",
+            "answer": "Preview mode renders your HTML inside a sandboxed iframe so you can see the live result."
+          },
+          {
+            "question": "Can I remove HTML comments?",
+            "answer": "Yes. Enable the Remove Comments option to strip all HTML comments from the output."
+          },
+          {
+            "question": "Does the tool support attribute sorting?",
+            "answer": "Yes. When enabled, attributes within each tag are sorted alphabetically for consistency."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "<div><p>Hello World</p><ul><li>Item 1</li><li>Item 2</li></ul></div>",
+        "result": "<div>\n  <p>Hello World</p>\n  <ul>\n    <li>Item 1</li>\n    <li>Item 2</li>\n  </ul>\n</div>",
+        "stats": "What you'll see"
+      },
+      "viewMode": {
+        "formatted": "Formatted",
+        "minified": "Minified",
+        "preview": "Preview"
+      },
+      "input": {
+        "label": "HTML Input",
+        "placeholder": "Paste your HTML here...\n\n<!DOCTYPE html>\n<html>\n  <body><p>Hello</p></body>\n</html>"
+      },
+      "output": {
+        "formatted": "Formatted HTML",
+        "minified": "Minified HTML",
+        "preview": "Live Preview",
+        "sandboxNote": "Rendered in sandbox iframe",
+        "emptyProcessing": "Processing…",
+        "emptyOutput": "Output will appear here",
+        "emptyPreview": "Paste HTML to see a live preview",
+        "copyFormatted": "Copy Formatted HTML",
+        "copyMinified": "Copy Minified HTML"
+      },
+      "actions": {
+        "paste": "Paste",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "error": "Invalid HTML"
+    },
+    "JSONDiffTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "JSON Diff"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "JSON Diff — Compare & Highlight JSON Differences Online",
+        "description": "Free online JSON diff tool to compare two JSON objects and instantly see differences. Highlights additions, deletions, and modifications with color-coded side-by-side view. Essential for debugging API responses and JSON configuration changes.",
+        "keywords": "json diff, compare json, json comparison, json difference checker, diff json files, json comparator, json diff tool, json side by side"
+      },
+      "panels": {
+        "left": "Left (original)",
+        "right": "Right (modified)"
+      },
+      "howToUse": {
+        "title": "How to Use the JSON Diff Tool",
+        "step1Title": "Paste JSON on both sides",
+        "step1Desc": "Paste the original JSON on the left and the modified JSON on the right.",
+        "step2Title": "Review the differences",
+        "step2Desc": "The tool highlights additions in green, removals in red, and changes in yellow.",
+        "step3Title": "Use controls to navigate",
+        "step3Desc": "Toggle Hide Unchanged to focus only on differences, or expand/collapse all nodes.",
+        "step4Title": "Generate a report",
+        "step4Desc": "Click Report to generate a summary of all changes between the two JSON objects."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What types of differences can this tool detect?",
+            "answer": "It detects added, removed, and changed values, as well as type changes (e.g., string to number)."
+          },
+          {
+            "question": "Can I copy the diff results?",
+            "answer": "Yes. The tool provides a Report feature that generates a text summary of all differences."
+          },
+          {
+            "question": "Does the tool support nested JSON?",
+            "answer": "Yes. The diff view supports deeply nested objects and arrays with expandable tree nodes."
+          },
+          {
+            "question": "Is there a way to hide unchanged values?",
+            "answer": "Yes. Toggle Hide Unchanged to show only the properties that differ between the two JSON objects."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "clear": "Clear",
+        "sampleLabel": "Try this sample",
+        "sampleText": "Left: {\"name\":\"Alice\",\"age\":25} · Right: {\"name\":\"Alice\",\"age\":30,\"city\":\"NYC\"}",
+        "result": "age changed (25 → 30) · city added (\"NYC\") — 2 changes found",
+        "stats": "What you'll see"
+      },
+      "stats": {
+        "identical": "Objects are identical",
+        "changes": "{count} change found",
+        "changes_plural": "{count} changes found",
+        "added": "Added",
+        "removed": "Removed",
+        "changed": "Changed",
+        "unchanged": "Unchanged"
+      },
+      "controls": {
+        "hideUnchanged": "Hide unchanged",
+        "showUnchanged": "Show unchanged",
+        "expandAll": "Expand all",
+        "collapseAll": "Collapse all",
+        "report": "Report"
+      },
+      "legend": {
+        "added": "Added",
+        "removed": "Removed",
+        "changed": "Changed",
+        "typeChanged": "Type changed",
+        "unchanged": "Unchanged"
+      },
+      "diffView": {
+        "title": "Diff View",
+        "nodes": "{count} nodes"
+      },
+      "empty": {
+        "message": "Paste two JSON objects above to compare them"
+      },
+      "actions": {
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "error": "Invalid JSON"
+    },
+    "JSONFormatterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "JSON Formatter"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "JSON Formatter — Format, Validate & Beautify JSON Online",
+        "description": "Free online JSON formatter and validator to format, minify, and beautify JSON data. Parse JSON with an interactive tree view, search through keys, and validate syntax instantly. Perfect for developers debugging JSON APIs and configuration files.",
+        "keywords": "json formatter, json validator, beautify json, json pretty print, json parser, format json online, json tree view, json syntax checker"
+      },
+      "validation": {
+        "valid": "Valid JSON",
+        "invalid": "Invalid JSON",
+        "line": "line"
+      },
+      "options": {
+        "indent": "Indent Size",
+        "viewMode": "View Mode",
+        "formatted": "Formatted",
+        "formattedDesc": "Pretty-printed with indentation",
+        "tree": "Tree View",
+        "treeDesc": "Interactive collapsible tree",
+        "minified": "Minified",
+        "minifiedDesc": "Compact single-line output",
+        "sortKeys": "Sort Keys",
+        "sortKeysDesc": "Alphabetically sort object keys.",
+        "spaces": "spaces"
+      },
+      "search": {
+        "title": "Search",
+        "placeholder": "Search keys or values...",
+        "matches": "{count} match found",
+        "matches_plural": "{count} matches found",
+        "noMatches": "No matches"
+      },
+      "stats": {
+        "nodes": "Nodes",
+        "inputLines": "Input Lines",
+        "outputLines": "Output Lines",
+        "size": "Size"
+      },
+      "howToUse": {
+        "title": "How to Use the JSON Formatter",
+        "step1Title": "Paste your JSON",
+        "step1Desc": "Paste any JSON string into the input area. The tool validates and formats it instantly.",
+        "step2Title": "Choose a view mode",
+        "step2Desc": "Switch between Formatted (pretty-print), Tree View (interactive), or Minified (compact).",
+        "step3Title": "Adjust options",
+        "step3Desc": "Customize indent size, enable sorting keys, or use the search bar to find specific keys and values.",
+        "step4Title": "Copy or explore",
+        "step4Desc": "Copy the formatted or minified JSON, or explore the tree view by expanding and collapsing nodes."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What happens if my JSON is invalid?",
+            "answer": "The tool highlights syntax errors and indicates the line number where the issue was found."
+          },
+          {
+            "question": "Can I search through large JSON files?",
+            "answer": "Yes. Use the search bar to find matching keys or values throughout the entire JSON structure."
+          },
+          {
+            "question": "What is Tree View mode?",
+            "answer": "Tree View presents JSON as an interactive collapsible tree, making it easier to navigate large nested structures."
+          },
+          {
+            "question": "Can I sort JSON keys alphabetically?",
+            "answer": "Yes. Enable Sort Keys to reorder all object keys alphabetically in the output."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}",
+        "result": "{\n  \"name\": \"John\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}",
+        "stats": "What you'll see"
+      },
+      "input": {
+        "label": "JSON Input",
+        "placeholder": "Paste your JSON here...\n\n{\"key\": \"value\"}"
+      },
+      "output": {
+        "formatted": "Formatted",
+        "minified": "Minified",
+        "treeView": "Tree View",
+        "emptyProcessing": "...",
+        "emptyFixErrors": "Fix the JSON errors above",
+        "emptyOutput": "Output will appear here",
+        "treeEmptyFix": "Fix the JSON errors to view tree",
+        "treeEmptyInput": "Paste valid JSON to explore the tree"
+      },
+      "actions": {
+        "paste": "Paste",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "copyFormatted": "Copy Formatted JSON",
+        "copyMinified": "Copy Minified JSON",
+        "copyFormattedShort": "Copy Formatted",
+        "copyMinifiedShort": "Copy Minified",
+        "chars": "chars"
+      }
+    },
+    "JWTDecoderTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "JWT Decoder"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "JWT Decoder — Decode & Inspect JWT Tokens Online Free",
+        "description": "Free online JWT decoder to decode and inspect JSON Web Tokens without sending data anywhere. View header, payload, and signature information in a clean interface. Validate token structure and examine claims — 100% client-side.",
+        "keywords": "jwt decoder, decode jwt, jwt inspector, jwt token decoder, json web token decoder, jwt parser, jwt debugger, jwt decode online"
+      },
+      "input": {
+        "placeholder": "Paste your JWT token here..."
+      },
+      "tabs": {
+        "decoded": "Decoded",
+        "raw": "Raw JSON"
+      },
+      "sections": {
+        "header": "Header",
+        "payload": "Payload",
+        "signature": "Signature"
+      },
+      "claims": {
+        "issuedAt": "Issued At",
+        "expiresAt": "Expires At",
+        "notBefore": "Not Before",
+        "issuer": "Issuer",
+        "subject": "Subject",
+        "audience": "Audience"
+      },
+      "clientSide": "100% client-side.",
+      "privacyNotice": "Your JWT is never sent to any server. All decoding happens in your browser.",
+      "jwtToken": "JWT Token",
+      "paste": "Paste",
+      "tokenExpired": "Token expired {relative}",
+      "tokenValid": "Token valid · expires {relative}",
+      "decodedSuccessfully": "Token decoded successfully",
+      "algorithm": "Algorithm",
+      "securityRisk": "Security risk:",
+      "noneAlgorithm": "This token uses the 'none' algorithm which provides no security. Never trust tokens signed with 'none'.",
+      "hmacNote": "HMAC tokens use a shared secret. The same key is used to sign and verify. Keep it secret!",
+      "secretKey": "Secret / Public Key",
+      "displayOnly": "display only",
+      "pasteSecret": "Paste secret or public key…",
+      "signatureNote": "Signature verification runs client-side only — this field is for reference.",
+      "exampleTokens": "Example Tokens",
+      "payloadClaims": "Payload Claims",
+      "claimCount": "{n} claim(s)",
+      "cannotVerify": "Cannot verify signature client-side without the secret or public key. Decoding only confirms the token is well-formed — not that it's trusted.",
+      "copySignature": "Copy signature",
+      "headerJson": "Header JSON",
+      "payloadJson": "Payload JSON",
+      "copyFullJson": "Copy full decoded JSON",
+      "pasteJwt": "Paste a JWT token to decode it",
+      "jwtFormat": "A JWT has the format xxxxx.yyyyy.zzzzz — three base64url parts separated by dots",
+      "jwtStructure": "JWT Structure",
+      "headerPart": "Header",
+      "payloadPart": "Payload",
+      "signaturePart": "Signature",
+      "algoType": "Algorithm & token type",
+      "claimsData": "Claims (data)",
+      "integrity": "Integrity verification",
+      "howToUse": {
+        "title": "How to Use the JWT Decoder",
+        "step1Title": "Paste your JWT token",
+        "step1Desc": "Copy your JWT token and paste it into the input field. The tool auto-detects the token structure.",
+        "step2Title": "Review the decoded parts",
+        "step2Desc": "View the Header, Payload, and Signature sections decoded in a readable format.",
+        "step3Title": "Examine the claims",
+        "step3Desc": "Check standard claims like Issuer, Subject, and Expiration alongside any custom claims.",
+        "step4Title": "Verify with a secret key",
+        "step4Desc": "Optionally paste the secret or public key to verify the token signature client-side."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is a JWT token?",
+            "answer": "JWT (JSON Web Token) is a compact, URL-safe token format for securely transmitting information as a JSON object."
+          },
+          {
+            "question": "Is my JWT data sent to a server?",
+            "answer": "No. All decoding happens entirely in your browser. Your token is never sent to any server."
+          },
+          {
+            "question": "What does the signature verify?",
+            "answer": "The signature confirms the token has not been tampered with since it was signed by the issuer."
+          },
+          {
+            "question": "What does 'alg: none' mean?",
+            "answer": "It means the token has no signature, which is a security risk. Never trust tokens using the 'none' algorithm."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample token",
+        "sampleText": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "result": "Header: {\"alg\":\"HS256\",\"typ\":\"JWT\"} · Payload: {\"sub\":\"1234567890\",\"name\":\"John Doe\",\"iat\":1516239022}",
+        "stats": "What you'll see"
+      }
+    },
+    "MarkdownHTMLTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "Markdown to HTML"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "Markdown to HTML — Convert MD to HTML & Back Online",
+        "description": "Free online Markdown to HTML converter with live preview. Write Markdown and see the rendered HTML in real time. Convert between Markdown and HTML formats, with syntax highlighting and customizable themes.",
+        "keywords": "markdown to html, md to html, markdown converter, html to markdown, markdown preview, markdown editor, online markdown converter, md html converter"
+      },
+      "layout": {
+        "split": "Split View",
+        "markdown": "Markdown Only",
+        "preview": "Preview",
+        "html": "HTML Only"
+      },
+      "input": {
+        "placeholder": "Enter Markdown here..."
+      },
+      "options": {
+        "wrapDoc": "Wrap in HTML document"
+      },
+      "toolbar": {
+        "bold": "Bold",
+        "italic": "Italic",
+        "heading": "Heading",
+        "link": "Link",
+        "image": "Image",
+        "list": "List",
+        "code": "Code",
+        "quote": "Quote",
+        "table": "Table",
+        "hr": "Horizontal Rule"
+      },
+      "stats": {
+        "words": "Words",
+        "chars": "Characters",
+        "lines": "Lines"
+      },
+      "actions": {
+        "convert": "Convert",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "download": "Download HTML"
+      },
+      "words": "Words",
+      "headings": "Headings",
+      "links": "Links",
+      "images": "Images",
+      "tables": "Tables",
+      "codeBlocks": "Code blocks",
+      "mdChars": "md chars",
+      "htmlChars": "html chars",
+      "editor": "Editor",
+      "preview": "Preview",
+      "htmlOutput": "HTML Output",
+      "paste": "Paste",
+      "example": "Example",
+      "fullDocument": "Full document",
+      "copyHtml": "Copy HTML",
+      "copyFullHtml": "Copy Full HTML Document",
+      "copyHtmlFragment": "Copy HTML Fragment",
+      "downloadHtml": "Download .html",
+      "syntax": "Syntax",
+      "output": "Output",
+      "element": "Element",
+      "syntaxReference": "Markdown Syntax Reference",
+      "extensions": "Supported Extensions",
+      "syntaxNot": "not yet supported",
+      "notSupported": "not supported",
+      "howToUse": {
+        "title": "How to Use the Markdown to HTML Converter",
+        "step1Title": "Write or paste Markdown",
+        "step1Desc": "Type or paste Markdown content into the editor on the left side.",
+        "step2Title": "Select a layout",
+        "step2Desc": "Choose Split View to see both Markdown and HTML, or focus on one side only.",
+        "step3Title": "Use the toolbar for formatting",
+        "step3Desc": "Click toolbar buttons to quickly insert bold, italic, headings, links, lists, and more.",
+        "step4Title": "Copy or download the result",
+        "step4Desc": "Copy the rendered HTML or download it as an .html file for use in your project."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Can I convert HTML back to Markdown?",
+            "answer": "Yes. This tool supports bidirectional conversion — paste HTML on the right side to convert it back to Markdown."
+          },
+          {
+            "question": "What Markdown syntax is supported?",
+            "answer": "Standard Markdown plus extended syntax including tables, fenced code blocks, task lists, and strikethrough."
+          },
+          {
+            "question": "Is the preview live?",
+            "answer": "Yes. The HTML preview updates in real time as you type or modify your Markdown content."
+          },
+          {
+            "question": "Can I download the output?",
+            "answer": "Yes. You can download the rendered HTML as a .html file or copy the HTML fragment directly."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "# Hello World\n\nThis is **bold** and *italic*.\n\n- List item 1\n- List item 2",
+        "result": "<h1>Hello World</h1>\n<p>This is <strong>bold</strong> and <em>italic</em>.</p>\n<ul>\n<li>List item 1</li>\n<li>List item 2</li>\n</ul>",
+        "stats": "What you'll see"
+      }
+    },
+    "RegexTesterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "Regex Tester"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "Regex Tester — Test & Debug Regular Expressions Online Free",
+        "description": "Free online regex tester to test and debug regular expressions with live matching. Visualize pattern matches, test replacements, and explore regex syntax with detailed explanations. Supports flags, groups, lookaheads, and backreferences.",
+        "keywords": "regex tester, regular expression tester, regex debugger, test regex online, regex matcher, regex pattern tester, regular expression checker, regex tool"
+      },
+      "pattern": {
+        "placeholder": "Enter regex pattern...",
+        "flags": "Flags",
+        "global": "Global",
+        "caseInsensitive": "Case Insensitive",
+        "multiline": "Multiline",
+        "dotAll": "Dot All",
+        "unicode": "Unicode",
+        "sticky": "Sticky"
+      },
+      "testText": {
+        "placeholder": "Enter test text..."
+      },
+      "replace": {
+        "placeholder": "Replacement text..."
+      },
+      "tabs": {
+        "matches": "Matches",
+        "groups": "Groups",
+        "replace": "Replace",
+        "cheatsheet": "Cheat Sheet"
+      },
+      "match": {
+        "count": "{count} match(es)",
+        "noMatches": "No matches found",
+        "group": "Group"
+      },
+      "testString": "Test String",
+      "chars": "chars",
+      "highlighted": "Highlighted Preview",
+      "yellowMatch": "Yellow = match",
+      "examplePatterns": "Example Patterns",
+      "startTyping": "Start typing a pattern above",
+      "enterPattern": "Enter a pattern above",
+      "enterTestText": "Enter test text on the left",
+      "noMatchesFound": "No matches found",
+      "emptyMatch": "empty match",
+      "position": "position {start}–{end}",
+      "length": "length {len}",
+      "groups": "Groups",
+      "captureGroups": "No capture groups in pattern — use (group) syntax",
+      "enableFlag": "Enable the d flag to see group indices",
+      "replaceWith": "Replace With",
+      "replacementTip": "use $1, $2 for groups, $& for full match",
+      "result": "Result",
+      "resultPlaceholder": "Result will appear here",
+      "fullMatch": "full match",
+      "groupN": "group {n}",
+      "before": "before",
+      "after": "after",
+      "groupsTab": "Groups",
+      "atPosition": "at {start}–{end}",
+      "tokenStructure": "Token Structure",
+      "error": "Invalid regex",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "regex": "Regex",
+      "flagsLabel": "Flags",
+      "valid": "Valid",
+      "invalid": "Invalid",
+      "noMatches": "No matches",
+      "copyResult": "Copy result",
+      "copyRegex": "Copy regex",
+      "howToUse": {
+        "title": "How to Use the Regex Tester",
+        "step1Title": "Enter your regex pattern",
+        "step1Desc": "Type or paste a regular expression pattern into the Pattern field.",
+        "step2Title": "Choose flags",
+        "step2Desc": "Toggle flags like Global, Case Insensitive, and Multiline to control matching behavior.",
+        "step3Title": "Enter test text",
+        "step3Desc": "Paste the text you want to test against in the Test String area.",
+        "step4Title": "Review matches and groups",
+        "step4Desc": "View highlighted matches, capture groups, and use the Replace tab to test substitutions."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What regex engine does this tool use?",
+            "answer": "It uses JavaScript's built-in RegExp engine, supporting standard ECMAScript regex syntax."
+          },
+          {
+            "question": "Can I test regex replacement?",
+            "answer": "Yes. Switch to the Replace tab, enter a replacement pattern, and see the result instantly."
+          },
+          {
+            "question": "What do the flags mean?",
+            "answer": "Flags modify how the pattern matches: g (global), i (case insensitive), m (multiline), s (dotAll), u (unicode), y (sticky)."
+          },
+          {
+            "question": "How do I reference captured groups in replacement?",
+            "answer": "Use $1, $2, etc. for numbered groups, $& for the full match, and $` or $' for text before or after the match."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "The quick brown fox jumps over the lazy dog.",
+        "result": "Pattern /the/gi → 2 matches at positions 31 and 40",
+        "stats": "What you'll see"
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related Developer Tools",
+        "jsonFormatter": "JSON Formatter",
+        "jsonDiff": "JSON Diff",
+        "csvToJson": "CSV to JSON",
+        "regexTester": "Regex Tester",
+        "jwtDecoder": "JWT Decoder"
+      }
+    },
+    "ScientificCalculatorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "Scientific Calculator"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "Scientific Calculator — Advanced Math with History & Memory",
+        "description": "Free online scientific calculator with advanced mathematical functions, calculation history, and memory storage. Perform trigonometric, logarithmic, exponential, and statistical calculations with a clean developer-friendly interface.",
+        "keywords": "scientific calculator, advanced calculator, math calculator, trig calculator, calc with history, online calculator, developer calculator, memory calculator"
+      },
+      "modes": {
+        "basic": "Basic",
+        "scientific": "Scientific"
+      },
+      "angle": {
+        "deg": "DEG",
+        "rad": "RAD",
+        "grad": "GRAD"
+      },
+      "actions": {
+        "clear": "AC",
+        "delete": "DEL",
+        "equals": "="
+      },
+      "memory": {
+        "MC": "MC",
+        "MR": "MR",
+        "M+": "M+",
+        "M-": "M-"
+      },
+      "history": {
+        "title": "History",
+        "clear": "Clear History",
+        "empty": "No history yet"
+      },
+      "keyboardHint": "Keyboard supported · Enter = · Esc = AC · Backspace = DEL",
+      "trigonometric": "Trigonometric",
+      "hyperbolic": "Hyperbolic",
+      "logExp": "Logarithm & Exponential",
+      "rootsPowers": "Roots & Powers",
+      "combinatorics": "Combinatorics",
+      "constants": "Constants",
+      "functionReference": "Function Reference",
+      "exampleExpressions": "Example Expressions",
+      "circleArea": "Circle area",
+      "pythagoras": "Pythagoras",
+      "sin30": "sin 30°",
+      "cos60Sin30": "cos 60° + sin 30°",
+      "logBase10": "log₁₀(1000)",
+      "eToPi": "e^π",
+      "combinations": "combinations {n}",
+      "factorial": "Factorial {n}",
+      "goldenRatio": "Golden ratio squared",
+      "compoundInterest": "Compound interest",
+      "sine": "Sine (respects DEG/RAD/GRAD)",
+      "cosine": "Cosine",
+      "tangent": "Tangent",
+      "invSine": "Inverse sine",
+      "invCosine": "Inverse cosine",
+      "invTangent": "Inverse tangent",
+      "hypSine": "Hyperbolic sine",
+      "hypCosine": "Hyperbolic cosine",
+      "hypTangent": "Hyperbolic tangent",
+      "log10": "Base-10 logarithm",
+      "ln": "Natural logarithm",
+      "log2": "Base-2 logarithm",
+      "exp": "eˣ",
+      "sqrt": "Square root",
+      "cbrt": "Cube root",
+      "power": "Power: 2^8 = 256",
+      "factorialN": "Factorial: 5! = 120",
+      "nCr": "Combinations",
+      "nPr": "Permutations",
+      "pi": "3.14159265...",
+      "eConst": "2.71828182...",
+      "phi": "Golden ratio 1.618..."
+    },
+    "UnixTimestampTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "Unix Timestamp"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "Unix Timestamp Converter — Epoch to Date & Time Online",
+        "description": "Free online Unix timestamp converter to convert between epoch timestamps and human-readable dates. View current Unix time, convert across time zones, and format dates in ISO, UTC, and local time. Essential for developers working with APIs and databases.",
+        "keywords": "unix timestamp converter, epoch converter, convert unix timestamp, epoch to date, timestamp to date, unix time converter, epoch time online, date to timestamp"
+      },
+      "tabs": {
+        "toDate": "Timestamp to Date",
+        "toTimestamp": "Date to Timestamp"
+      },
+      "unit": {
+        "seconds": "Seconds",
+        "milliseconds": "Milliseconds"
+      },
+      "date": {
+        "year": "Year",
+        "month": "Month",
+        "day": "Day",
+        "hour": "Hour",
+        "minute": "Minute",
+        "second": "Second",
+        "millisecond": "Millisecond",
+        "utc": "UTC",
+        "local": "Local"
+      },
+      "result": {
+        "timestamp": "Timestamp",
+        "now": "Now"
+      },
+      "actions": {
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "currentTime": "Current Unix Time",
+      "timestampToDate": "Timestamp → Date",
+      "dateToTimestamp": "Date → Timestamp",
+      "swap": "Swap",
+      "useNow": "Use Now",
+      "notableTimestamps": "Notable Timestamps",
+      "dateAndTime": "Date & Time",
+      "year": "Year",
+      "month": "Month",
+      "day": "Day",
+      "hour": "Hour",
+      "minute": "Minute",
+      "ms": "Ms",
+      "unixSeconds": "Unix Seconds",
+      "unixMilliseconds": "UnixMilliseconds",
+      "iso8601": "ISO 8601",
+      "week": "Week",
+      "dayOfYear": "Day {n} of year",
+      "weekN": "Week {n}",
+      "leapYear": "Leap year",
+      "nonLeapYear": "Non-leap year",
+      "worldClocks": "World Clocks",
+      "convertedResult": "Converted Result",
+      "dateComponents": "Date Components (UTC)",
+      "enterTimestamp": "Enter a timestamp or pick a notable one",
+      "localTime": "Your Local Time",
+      "commonFormats": "Common Timestamp Formats",
+      "unixSecondsLabel": "Unix seconds",
+      "unixMsLabel": "Unix milliseconds",
+      "iso8601Label": "ISO 8601",
+      "rfc2822": "RFC 2822",
+      "humanReadable": "Human readable",
+      "standardApis": "Standard; most APIs",
+      "jsDatenow": "JavaScript Date.now()",
+      "webStandards": "Web standards",
+      "emailHeaders": "Email headers",
+      "displayOnly": "Display only",
+      "yourLocalTime": "Your Local Time",
+      "unixTimeMilestones": "Unix Time Milestones",
+      "howToUse": {
+        "title": "How to Use the Unix Timestamp Converter",
+        "step1Title": "Choose a conversion direction",
+        "step1Desc": "Select Timestamp to Date or Date to Timestamp depending on what you want to convert.",
+        "step2Title": "Enter your value",
+        "step2Desc": "Type a Unix timestamp or pick a date using the date picker fields.",
+        "step3Title": "Select time unit",
+        "step3Desc": "Choose between Seconds (standard Unix) or Milliseconds (JavaScript-style).",
+        "step4Title": "Read the results",
+        "step4Desc": "View the converted output in local time, UTC, ISO 8601, and other common formats."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is a Unix timestamp?",
+            "answer": "A Unix timestamp is the number of seconds (or milliseconds) that have elapsed since January 1, 1970 00:00:00 UTC."
+          },
+          {
+            "question": "Is there a difference between seconds and milliseconds?",
+            "answer": "Yes. JavaScript's Date.now() returns milliseconds (13 digits), while most APIs use seconds (10 digits)."
+          },
+          {
+            "question": "Can I see the current Unix timestamp?",
+            "answer": "Yes. The tool displays the current Unix time in real-time at the top of the page."
+          },
+          {
+            "question": "Does this support time zones?",
+            "answer": "Yes. You can view results in both your local time zone and UTC, along with ISO 8601 and RFC 2822 formats."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample timestamp",
+        "sampleText": "1718198400",
+        "result": "UTC: 2024-06-12 12:00:00 · Local: 2024-06-12 14:00:00",
+        "stats": "What you'll see"
+      }
+    },
+    "URLEncoderTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "URL Encoder/Decoder"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "URL Encoder/Decoder — Encode & Decode URLs Online Free",
+        "description": "Free online URL encoder and decoder to encode and decode URLs with special characters. Handle query parameters, URL components, and full URLs. Essential for web development and API testing — encode or decode instantly.",
+        "keywords": "url encoder, url decoder, encode url, decode url, url encoding, url decoding, url encode online, percent encoding"
+      },
+      "tabs": {
+        "encode": "Encode",
+        "decode": "Decode"
+      },
+      "mode": {
+        "encode": "Encode",
+        "decode": "Decode",
+        "component": "URL Component",
+        "full": "Full URL"
+      },
+      "input": {
+        "placeholder": "Enter URL or text..."
+      },
+      "stats": {
+        "encodedChars": "Encoded characters",
+        "ratio": "Ratio"
+      },
+      "actions": {
+        "clear": "Clear",
+        "copy": "Copy",
+        "copied": "Copied!"
+      },
+      "error": "Invalid URL",
+      "encoding": {
+        "method": "Encoding Method",
+        "toEncode": "Text / URL to Encode",
+        "encoded": "Encoded String to Decode",
+        "output": "Encoded Output",
+        "outputDecoded": "Decoded Output",
+        "swap": "Swap — use output as input",
+        "processing": "Processing…",
+        "fixError": "Fix the error above",
+        "outputPlaceholder": "Output will appear here",
+        "copyEncoded": "Copy Encoded URL",
+        "copyDecoded": "Copy Decoded Text",
+        "encodingReference": "Percent-Encoding Reference Table",
+        "char": "Char",
+        "encodedChars": "Encoded",
+        "description": "Description",
+        "whenToUse": "When to Use Which Method",
+        "examples": "Examples",
+        "stats": "Stats",
+        "inputLength": "Input length",
+        "outputLength": "Output length",
+        "chars": "chars",
+        "encodedCountLabel": "Encoded chars",
+        "sizeRatio": "Size ratio",
+        "decodedCountLabel": "Decoded chars",
+        "urlBreakdown": "URL Breakdown",
+        "protocol": "Protocol",
+        "host": "Host",
+        "port": "Port",
+        "path": "Path",
+        "query": "Query",
+        "hash": "Hash",
+        "parameters": "Query Parameters",
+        "paste": "Paste",
+        "pasteUrl": "Paste a URL or text to encode…",
+        "pasteEncoded": "Paste an encoded URL or string to decode…",
+        "exampleUrl": "e.g. https://example.com/search?q=hello world",
+        "exampleEncoded": "e.g. https%3A%2F%2Fexample.com%2F%3Fq%3Dhello%20world",
+        "highlighted": "Highlighted —",
+        "blueEncoded": "blue = %XX encoded",
+        "orangeSpace": "orange = + (space)"
+      },
+      "howToUse": {
+        "title": "How to Use the URL Encoder/Decoder",
+        "step1Title": "Choose encode or decode",
+        "step1Desc": "Select Encode to percent-encode a URL, or Decode to convert encoded text back to readable form.",
+        "step2Title": "Pick an encoding method",
+        "step2Desc": "Choose URL Component to encode parts like query parameters, or Full URL for complete URLs.",
+        "step3Title": "Enter your text",
+        "step3Desc": "Paste the URL or text into the input area. The output updates automatically as you type.",
+        "step4Title": "Copy the encoded or decoded result",
+        "step4Desc": "Click Copy to copy the result to your clipboard, or use Swap to feed the output back as input."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is URL encoding?",
+            "answer": "URL encoding converts special characters into a percent-sign (%) followed by two hex digits so they can be safely transmitted in URLs."
+          },
+          {
+            "question": "When should I use URL Component vs Full URL?",
+            "answer": "Use URL Component to encode only a query parameter value. Use Full URL to encode an entire URL safely."
+          },
+          {
+            "question": "Why does a space encode as + or %20?",
+            "answer": "application/x-www-form-urlencoded encodes spaces as +, while URL percent-encoding uses %20. Both are valid depending on context."
+          },
+          {
+            "question": "Can I decode a URL that I encoded?",
+            "answer": "Yes. Switch to Decode mode and paste the encoded string to get back the original text."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "hello world & goodbye",
+        "result": "hello%20world%20%26%20goodbye",
+        "stats": "What you'll see"
+      }
+    },
+    "UUIDGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Developer Tools",
+        "current": "UUID Generator"
+      },
+      "header": {
+        "badge": "Developer Tools",
+        "title": "UUID Generator — Generate UUIDs, ULIDs & Nanoids Online",
+        "description": "Free online UUID generator to create UUID v4, UUID v7, ULIDs, Nanoids, and custom identifiers. Generate bulk IDs, validate UUID formats, and copy with one click. Perfect for database keys, distributed systems, and unique identifiers.",
+        "keywords": "uuid generator, generate uuid, uuid v4, ulid generator, nanoid generator, unique id generator, uuid online, random id generator"
+      },
+      "options": {
+        "version": "ID Type",
+        "v5Settings": "v5 Settings",
+        "namespaceUuid": "Namespace UUID",
+        "name": "Name",
+        "nanoidLength": "NanoID Length",
+        "default": "Default: 21",
+        "outputOptions": "Output Options",
+        "case": "Case",
+        "format": "Format",
+        "bulkCount": "Count"
+      },
+      "tabs": {
+        "single": "Single",
+        "bulk": "Bulk",
+        "validate": "Validate",
+        "history": "History"
+      },
+      "stats": {
+        "type": "Type",
+        "length": "Length",
+        "format": "Format",
+        "outputChars": "{count} chars"
+      },
+      "output": {
+        "generatedId": "Generated ID",
+        "empty": "Click \"Generate\" to create an ID",
+        "idsGenerated": "{count} IDs generated",
+        "formatted": "Formatted CSS",
+        "minified": "Minified CSS",
+        "standard": "Standard",
+        "braces": "Braces",
+        "urn": "URN"
+      },
+      "generate": {
+        "button": "Generate",
+        "buttonWithType": "Generate {type}",
+        "generating": "Generating…",
+        "bulkButton": "Generate {count} IDs"
+      },
+      "validation": {
+        "placeholder": "Paste a UUID, ULID, or URN here...",
+        "valid": "Valid",
+        "invalid": "Invalid",
+        "detectedType": "Detected Type",
+        "length": "Length",
+        "emptyHint": "Paste a UUID or ULID above to validate it",
+        "examples": "Valid Format Examples"
+      },
+      "history": {
+        "title": "IDs generated this session",
+        "title1": "1 ID generated this session",
+        "empty": "Generated IDs will appear here"
+      },
+      "actions": {
+        "paste": "Paste",
+        "clear": "Clear",
+        "copy": "Copy",
+        "copyAll": "Copy all",
+        "download": ".txt",
+        "downloadFull": "Download",
+        "copyId": "Copy {type}"
+      },
+      "v5note": "v5 is deterministic — the same namespace + name always produces the same UUID.",
+      "howToUse": {
+        "title": "How to Use the UUID Generator",
+        "step1Title": "Select an ID type",
+        "step1Desc": "Choose from UUID v4, UUID v7, ULID, NanoID, or custom formats from the dropdown.",
+        "step2Title": "Configure options",
+        "step2Desc": "Adjust settings like case (upper/lower), format (standard/braces/URN), and bulk count.",
+        "step3Title": "Generate the ID",
+        "step3Desc": "Click Generate to create a unique identifier. For bulk mode, specify how many IDs you need.",
+        "step4Title": "Copy or download",
+        "step4Desc": "Copy individual IDs or all generated IDs at once. Download bulk results as a .txt file."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is the difference between UUID v4 and v7?",
+            "answer": "UUID v4 is randomly generated, while UUID v7 is time-ordered, making it better for database indexing."
+          },
+          {
+            "question": "What is a ULID?",
+            "answer": "ULID is a lexicographically sortable unique identifier that is URL-safe and case-insensitive."
+          },
+          {
+            "question": "Can I generate multiple IDs at once?",
+            "answer": "Yes. Switch to the Bulk tab and enter a count to generate multiple IDs simultaneously."
+          },
+          {
+            "question": "Can I validate an existing UUID?",
+            "answer": "Yes. Switch to the Validate tab and paste a UUID, ULID, or URN to check its format and type."
+          },
+          {
+            "question": "What is NanoID?",
+            "answer": "NanoID is a compact, URL-safe unique identifier that is shorter than UUID and customizable in length."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try generating a UUID",
+        "sampleText": "Click Generate with UUID v4 selected",
+        "result": "550e8400-e29b-41d4-a716-446655440000",
+        "stats": "What you'll see"
+      }
+    }
+  },
+  "pages": {
+    "about": {
+      "metadata": {
+        "title": "About Us — Free Online Tools Built for Everyone | Fancy Toolbox",
+        "description": "Learn about Fancy Toolbox: a privacy-first, browser-based suite of 50+ free online tools. No sign-up, no uploads — every tool runs locally on your device.",
+        "keywords": "about fancy toolbox, free online tools, browser-based tools, privacy tools"
+      },
+      "content": {
+        "title": "About Fancy Toolbox",
+        "subtitle": "Free online tools for everyone",
+        "sections": [
+          {
+            "heading": "Our Mission",
+            "body": "Fancy Toolbox is a comprehensive collection of free online tools designed to help you get things done quickly and efficiently. From text manipulation to image editing, PDF processing to developer utilities — we've got you covered."
+          },
+          {
+            "heading": "Why Fancy Toolbox?",
+            "body": "We believe that powerful tools should be accessible to everyone. That's why all our tools are completely free, work directly in your browser, and require no sign-up or personal information. Your privacy is our priority — all processing happens locally on your device."
+          },
+          {
+            "heading": "What Makes Us Different",
+            "body": "Our tools are built with modern web technologies, ensuring fast performance and a seamless user experience across all devices. We're constantly adding new tools and improving existing ones based on user feedback."
+          }
+        ]
+      }
+    },
+    "allTools": {
+      "metadata": {
+        "title": "All Free Online Tools — 50+ Browser-Based Utilities | Fancy Toolbox",
+        "description": "Browse 50+ free online tools at Fancy Toolbox. Word counter, image resizer, PDF merger, JSON formatter, unit converter, password generator & more. No sign-up, works in your browser.",
+        "keywords": "all tools, free online tools, browser tools, word counter, pdf merger, image resizer, json formatter"
+      },
+      "content": {
+        "title": "All Tools",
+        "subtitle": "Browse our complete collection"
+      }
+    },
+    "changelog": {
+      "metadata": {
+        "title": "Changelog — What's New at Fancy Toolbox | Product Updates",
+        "description": "Stay up to date with the latest Fancy Toolbox updates. See new tools, feature improvements, bug fixes, and product announcements all in one place.",
+        "keywords": "changelog, product updates, new tools, feature releases, fancy toolbox updates"
+      },
+      "content": {
+        "title": "Changelog",
+        "subtitle": "What's new at Fancy Toolbox",
+        "sections": [
+          {
+            "version": "1.0.0",
+            "date": "January 2026",
+            "heading": "Initial Release",
+            "body": "We're excited to launch Fancy Toolbox with a comprehensive collection of free online tools including text manipulation, image editing, PDF processing, developer utilities, math converters, and security tools. All tools run entirely in your browser with no sign-up required."
+          }
+        ]
+      }
+    },
+    "contact": {
+      "metadata": {
+        "title": "Contact Us — Get in Touch with the Fancy Toolbox Team",
+        "description": "Have a question, suggestion, or bug report? Contact the Fancy Toolbox team. We'd love to hear your feedback about our free online tools.",
+        "keywords": "contact fancy toolbox, support, feedback, bug report, feature request"
+      },
+      "content": {
+        "title": "Contact Us",
+        "subtitle": "We'd love to hear from you",
+        "sections": [
+          {
+            "heading": "Get in Touch",
+            "body": "Have a question, suggestion, or feedback? We'd love to hear from you. Whether it's a bug report, feature request, or just a friendly hello — don't hesitate to reach out."
+          },
+          {
+            "heading": "Report an Issue",
+            "body": "If you've encountered a bug or something isn't working as expected, please let us know. Include as much detail as possible, such as the tool you were using, your browser, and steps to reproduce the issue."
+          },
+          {
+            "heading": "Feature Requests",
+            "body": "Can't find a tool you need? Let us know what you'd like to see added to Fancy Toolbox. We're always looking for ideas to make our platform more useful."
+          }
+        ],
+        "email": "contact@fancytoolbox.com"
+      }
+    },
+    "cookies": {
+      "metadata": {
+        "title": "Cookie Policy — How Fancy Toolbox Uses Cookies",
+        "description": "Fancy Toolbox uses minimal essential cookies only — no tracking, no advertising, no third-party cookies. Learn how we manage cookies on our site.",
+        "keywords": "cookie policy, essential cookies, no tracking cookies, browser cookies, privacy"
+      },
+      "content": {
+        "title": "Cookie Policy",
+        "subtitle": "How we use cookies",
+        "lastUpdated": "Last updated: January 2026",
+        "sections": [
+          {
+            "heading": "What Are Cookies",
+            "body": "Cookies are small text files stored on your device by your web browser. They are widely used to make websites work efficiently and provide information to site owners."
+          },
+          {
+            "heading": "How We Use Cookies",
+            "body": "Fancy Toolbox uses minimal cookies that are strictly necessary for the website to function. We do not use tracking cookies, advertising cookies, or any third-party cookies that collect personal information."
+          },
+          {
+            "heading": "Essential Cookies",
+            "body": "We may use essential cookies to remember your language preference and theme selection (light/dark mode). These cookies are necessary for the site to function properly and do not collect any personal data."
+          },
+          {
+            "heading": "Managing Cookies",
+            "body": "You can control and manage cookies in your browser settings. Please note that disabling certain cookies may affect the functionality of the website."
+          },
+          {
+            "heading": "Updates",
+            "body": "We may update this cookie policy from time to time. Any changes will be posted on this page."
+          }
+        ]
+      }
+    },
+    "popularTools": {
+      "metadata": {
+        "title": "Popular Free Online Tools — Most Used Browser Utilities | Fancy Toolbox",
+        "description": "Discover the most popular free online tools handpicked from our collection. Word counter, image resizer, PDF merger, JSON formatter, password generator & more trending tools used daily.",
+        "keywords": "popular tools, trending tools, most used tools, word counter, image resizer, pdf merger, password generator"
+      },
+      "content": {
+        "title": "Popular Tools",
+        "subtitle": "Most used tools by our community"
+      }
+    },
+    "privacy": {
+      "metadata": {
+        "title": "Privacy Policy — How Fancy Toolbox Protects Your Data",
+        "description": "Your privacy matters. Read Fancy Toolbox's privacy policy: no data collection, no file uploads, all processing happens locally in your browser. Zero tracking, total privacy.",
+        "keywords": "privacy policy, data protection, online privacy, no tracking, browser-based processing"
+      },
+      "content": {
+        "title": "Privacy Policy",
+        "subtitle": "How we handle your data",
+        "lastUpdated": "Last updated: January 2026",
+        "sections": [
+          {
+            "heading": "Introduction",
+            "body": "At Fancy Toolbox, your privacy is our top priority. This Privacy Policy outlines how we collect, use, and protect your information when you use our website and tools."
+          },
+          {
+            "heading": "Data Collection",
+            "body": "We do not collect, store, or transmit any personal data. All tools run entirely in your browser — your files, text, and content never leave your device. We do not use cookies for tracking purposes."
+          },
+          {
+            "heading": "Analytics",
+            "body": "We use minimal, privacy-focused analytics to understand general usage patterns. This data is anonymized and cannot be used to identify individual users. No personal information is shared with third parties."
+          },
+          {
+            "heading": "Third-Party Services",
+            "body": "We do not sell, trade, or transfer your information to third parties. Our website may contain links to external sites, but we are not responsible for their privacy practices."
+          },
+          {
+            "heading": "Changes to This Policy",
+            "body": "We may update this privacy policy from time to time. Any changes will be posted on this page with an updated revision date."
+          },
+          {
+            "heading": "Contact",
+            "body": "If you have any questions about this privacy policy, please contact us at contact@fancytoolbox.com."
+          }
+        ]
+      }
+    },
+    "terms": {
+      "metadata": {
+        "title": "Terms of Service — Rules & Guidelines | Fancy Toolbox",
+        "description": "Read the Terms of Service for Fancy Toolbox. By using our free online tools, you agree to these guidelines. Tools provided 'as is' without warranty.",
+        "keywords": "terms of service, terms and conditions, user agreement, fancy toolbox terms"
+      },
+      "content": {
+        "title": "Terms of Service",
+        "subtitle": "Rules and guidelines",
+        "lastUpdated": "Last updated: January 2026",
+        "sections": [
+          {
+            "heading": "Acceptance of Terms",
+            "body": "By accessing or using Fancy Toolbox, you agree to be bound by these Terms of Service. If you do not agree, please do not use our services."
+          },
+          {
+            "heading": "Use of Service",
+            "body": "Our tools are provided for lawful purposes only. You agree not to misuse the services for any illegal or unauthorized purpose. All tools are provided 'as is' without any warranty."
+          },
+          {
+            "heading": "Intellectual Property",
+            "body": "The content, design, and code of Fancy Toolbox are owned by us and protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works without our prior written consent."
+          },
+          {
+            "heading": "Limitation of Liability",
+            "body": "Fancy Toolbox and its creators shall not be liable for any damages arising from the use or inability to use our services. We make no guarantees about the accuracy, reliability, or availability of the tools."
+          },
+          {
+            "heading": "Changes to Terms",
+            "body": "We reserve the right to modify these terms at any time. Continued use of the site after changes constitutes acceptance of the new terms."
+          }
+        ]
+      }
+    }
+  },
+  "sections": {
+    "Categories": {
+      "categories": {
+        "badge": "Explore Categories",
+        "titleFirst": "The right tool for",
+        "titleSecond": "every job",
+        "description": "Browse our growing collection of free online tools, organized by category. No sign-up, no installs — just open and use.",
+        "exploreTools": "Explore Tools",
+        "ctaButton": {
+          "description": "Can't find what you're looking for?",
+          "text": "Browse All Tools"
+        },
+        "tools": {
+          "text": {
+            "title": "Text Tools",
+            "description": "Word counters, case converters, text diff, lorem ipsum generators, and more.",
+            "tools": "Word Counter, Case Converter, Text Diff",
+            "meta": {
+              "title": "Text Tools — Free Online Text Utilities: Counter, Converter, Diff & More",
+              "description": "Count words, convert case, compare text, generate lorem ipsum, and more with our free online text tools. No sign-up, works in your browser.",
+              "keywords": "text tools online, word counter, case converter, text diff checker, lorem ipsum generator, free text utilities"
+            }
+          },
+          "image": {
+            "title": "Image Tools",
+            "description": "Resize, compress, convert, and edit images — all without leaving your browser.",
+            "tools": "Image Resizer, Image Compressor, Image Converter",
+            "meta": {
+              "title": "Image Tools — Free Online Image Editor: Resize, Compress, Convert",
+              "description": "Resize, compress, convert, rotate, flip, and edit images online for free. All processing happens in your browser — no uploads, no sign-up.",
+              "keywords": "image tools online, free image editor, image resizer, image compressor, image converter, online photo editor"
+            }
+          },
+          "pdf": {
+            "title": "PDF Tools",
+            "description": "Merge, split, compress, and convert PDF files instantly and securely.",
+            "tools": "PDF Merger, PDF Splitter, PDF Compressor",
+            "meta": {
+              "title": "PDF Tools — Free Online PDF Editor: Merge, Split, Compress & Convert",
+              "description": "Merge, split, compress, rotate, unlock, and convert PDF files online for free. Your files never leave your device — 100% secure and private.",
+              "keywords": "PDF tools online, free PDF editor, PDF merger, PDF splitter, PDF compressor, PDF converter, PDF unlocker"
+            }
+          },
+          "developer": {
+            "title": "Developer Tools",
+            "description": "JSON formatter, Base64 encoder, regex tester, and other dev essentials.",
+            "tools": "JSON Formatter, Base64 Encoder, Regex Tester",
+            "meta": {
+              "title": "Developer Tools — Free Online Code Utilities: JSON, Regex, Base64 & More",
+              "description": "Format JSON, test regular expressions, encode/decode Base64, generate UUIDs, and more free online tools for developers. Browser-based, no sign-up.",
+              "keywords": "developer tools online, JSON formatter, regex tester, Base64 encoder, UUID generator, code utilities"
+            }
+          },
+          "math": {
+            "title": "Math & Converters",
+            "description": "Unit converters, percentage calculators, currency tools, and number utilities.",
+            "tools": "Unit Converter, Percentage Calculator, Currency Converter",
+            "meta": {
+              "title": "Math Tools — Free Online Calculators, Unit Converters & Number Tools",
+              "description": "Calculate percentages, convert units, compute date differences, convert number bases, and more free math tools online. Fast, accurate, browser-based.",
+              "keywords": "math tools online, unit converter, percentage calculator, date difference calculator, number base converter, free online calculator"
+            }
+          },
+          "security": {
+            "title": "Security Tools",
+            "description": "Password generators, hash tools, and encryption utilities for everyday use.",
+            "tools": "Password Generator, Hash Generator, Encryption Tool",
+            "meta": {
+              "title": "Security Tools — Free Online Password Generator, Hash & Encryption Tools",
+              "description": "Generate strong passwords, check password strength, compute MD5 hashes, and more free security tools. Everything runs locally in your browser.",
+              "keywords": "security tools online, password generator, password strength checker, MD5 hash generator, free security tools"
+            }
+          },
+          "seo": {
+            "title": "SEO Tools",
+            "description": "Meta tag generators, SERP preview, sitemap generators, schema markup tools, and more SEO utilities.",
+            "tools": "Meta Tag Generator, SERP Preview, Sitemap Generator",
+            "meta": {
+              "title": "SEO Tools — Free Online SEO Analyzer, Meta Tag & Sitemap Generator",
+              "description": "Generate meta tags, preview SERP snippets, create sitemaps and robots.txt, analyze keyword density, and more free SEO tools. No sign-up required.",
+              "keywords": "SEO tools online, meta tag generator, SERP preview, sitemap generator, robots.txt generator, keyword density checker, schema markup generator"
+            }
+          },
+          "all": {
+            "title": "All Tools",
+            "description": "Browse all free online tools in one place.",
+            "meta": {
+              "title": "All Tools — Free Online Tools Collection",
+              "description": "Browse all free online tools at Fancy Toolbox. Text, image, PDF, developer, math, and security tools — all in one place.",
+              "keywords": "all tools, online tools, free tools, browser tools"
+            }
+          },
+          "popular": {
+            "title": "Popular Tools",
+            "description": "Most popular tools used by our community.",
+            "meta": {
+              "title": "Popular Tools — Most Used Free Online Tools",
+              "description": "Discover the most popular free online tools. Word counter, image resizer, PDF merger, and more favorites used by thousands.",
+              "keywords": "popular tools, trending tools, most used tools"
+            }
+          }
+        }
+      }
+    },
+    "CTA": {
+      "cta": {
+        "badge": "Ready to get started?",
+        "titleFirst": "Stop searching.",
+        "titleSecond": "Start doing.",
+        "description": "Everything you need is already here — free, fast, and ready to use. No accounts. No limits. No excuses.",
+        "exploreall": "Explore All Tools",
+        "mostpopular": "Explore Most Popular",
+        "features": {
+          "1": "Instant Access",
+          "2": "No Sign-up",
+          "3": "Unlimited Free",
+          "4": "50+ Tools"
+        }
+      }
+    },
+    "Footer": {
+      "footer": {
+        "websitename": "Fancy Toolbox",
+        "description": "A free, fast, and privacy-first suite of online tools — built for everyone. No sign-up. No limits. Just tools that work.",
+        "subscribe": "Get new updates",
+        "tools": {
+          "heading": "Tools",
+          "texttools": "Text Tools",
+          "imagetools": "Image Tools",
+          "pdftools": "PDF Tools",
+          "devtools": "Developer Tools",
+          "mathtools": "Math & Converters",
+          "securitytools": "Security Tools"
+        },
+        "alltools": "All tools",
+        "company": {
+          "heading": "Company",
+          "about": "About us",
+          "blog": "Blog",
+          "changelog": "Changelog",
+          "contact": "Contact"
+        },
+        "legal": {
+          "heading": "Legal",
+          "privacy": "Privace Policy",
+          "termsofservices": "Terms of Service",
+          "cookies": "Cookie Policy"
+        },
+        "disclaimer": "Your files are never uploaded to our servers. All processing happens locally in your browser."
+      }
+    },
+    "Hero": {
+      "metadata": {
+        "title": "Fancy Toolbox — Free Online Tools for Text, Images, PDFs & More",
+        "description": "50+ free online tools for text processing, image editing, PDF manipulation, code formatting, and more. No sign-up, no uploads — everything runs in your browser.",
+        "keywords": "free online tools, online text tools, free image editor, PDF tools online, free utility tools, browser-based tools, no sign-up tools"
+      },
+      "hero": {
+        "badge": "100% Free • No Sign-up • Works in Your Browser",
+        "titleFirst": "Every Tool You Need,",
+        "titleSecond": "All in One Place",
+        "description": "A powerful suite of free online tools for text, images, PDFs, and more — running directly in your browser with zero data sent to any server.",
+        "ctaButtons": {
+          "getStartedFree": "Get Started Free",
+          "browseAllTools": "Browse All Tools"
+        },
+        "trustIndicators": {
+          "dataStaysOnDevice": "Your data stays on your device",
+          "fastAndNoInstallation": "Fast & no installation",
+          "constantlyUpdated": "Constantly updated"
+        },
+        "floatingTools": {
+          "pdfMerger": "PDF Merger",
+          "imageResizer": "Image Resizer",
+          "wordCounter": "Word Counter",
+          "jsonFormatter": "JSON Formatter",
+          "pdfSplitter": "PDF Splitter",
+          "fileConverter": "File Converter"
+        },
+        "categoryBadges": {
+          "textTools": "Text Tools",
+          "imageTools": "Image Tools",
+          "pdfTools": "PDF Tools",
+          "codeTools": "Code Tools"
+        }
+      }
+    },
+    "HowItWorks": {
+      "howitworks": {
+        "badge": "How It Works",
+        "titleFirst": "Simple as",
+        "titleSecond": "1, 2, 3",
+        "description": "No tutorials needed. Every tool is designed to be intuitive and ready to use in seconds.",
+        "whyus": "Why thousands trust us",
+        "steps": {
+          "first": "Find Your Tool",
+          "firstDescription": "Browse by category or use the search bar to instantly find the right tool for your task.",
+          "second": "Open & Use",
+          "secondDescription": "Click any tool and start using it immediately — no loading screens, no account creation, no friction.",
+          "third": "Customize & Process",
+          "thirdDescription": "Adjust settings to fit your needs. Everything runs locally in your browser for maximum speed and privacy.",
+          "forth": "Download & Done",
+          "forthDescription": "Get your result instantly. Copy, download, or share — your workflow, your way."
+        },
+        "perks": {
+          "first": "No Sign-up Required",
+          "firstDescription": "Zero accounts, zero emails, zero passwords. Just open a tool and get to work.",
+          "second": "Unlimited Usage",
+          "secondDescription": "Use any tool as many times as you need. No daily limits, no credit systems, no paywalls.",
+          "third": "100% Free, Forever",
+          "thirdDescription": "Every tool on the platform is completely free. No hidden fees, no premium tiers.",
+          "forth": "Private by Design",
+          "forthDescription": "Your files never leave your device. All processing happens in your browser — we see nothing."
+        }
+      }
+    },
+    "LatestArticles": {
+      "latestarticles": {
+        "badge": "From the Blog",
+        "titleFirst": "Latest",
+        "titleSecond": "Articles",
+        "description": "Tips, guides, and how-tos to help you get the most out of our tools.",
+        "viewall": "View all articles"
+      }
+    },
+    "Navigation": {
+      "nav": {
+        "home": "Home",
+        "tools": "Tools",
+        "articles": "Articles",
+        "about": "About"
+      },
+      "toolsList": {
+        "textTitle": "Text Tools",
+        "text": {
+          "wordCounter": {
+            "label": "Word Counter",
+            "description": "Count words, characters, sentences & reading time instantly."
+          },
+          "caseConverter": {
+            "label": "Case Converter",
+            "description": "Switch between UPPER, lower, Title, camelCase and more."
+          },
+          "loremIpsum": {
+            "label": "Lorem Ipsum Generator",
+            "description": "Generate placeholder text in paragraphs, sentences, or words."
+          },
+          "diff": {
+            "label": "Text Diff Checker",
+            "description": "Compare two blocks of text and highlight the differences."
+          },
+          "all": "All Text Tools"
+        },
+        "devTitle": "Developer Tools",
+        "dev": {
+          "jsonFormatter": {
+            "label": "JSON Formatter",
+            "description": "Beautify or minify JSON with syntax highlighting and error detection."
+          },
+          "base64": {
+            "label": "Base64 Encoder",
+            "description": "Encode strings or files to Base64, or decode Base64 back to text."
+          },
+          "regex": {
+            "label": "Regex Tester",
+            "description": "Write, test, and debug regular expressions with live match highlighting."
+          },
+          "uuid": {
+            "label": "UUID Generator",
+            "description": "Generate v1, v4, or bulk UUIDs for databases and APIs."
+          },
+          "all": "All Developer Tools"
+        },
+        "imageTitle": "Image Tools",
+        "image": {
+          "resizer": {
+            "label": "Image Resizer",
+            "description": "Resize images to exact dimensions or by percentage — no quality loss."
+          },
+          "compressor": {
+            "label": "Image Compressor",
+            "description": "Compress JPG, PNG, and WebP files while preserving visual quality."
+          },
+          "converter": {
+            "label": "Format Converter",
+            "description": "Convert images between JPG, PNG, WebP, GIF, BMP and more."
+          },
+          "colorPicker": {
+            "label": "Color Picker",
+            "description": "Extract exact color codes (HEX, RGB, HSL) from any uploaded image."
+          },
+          "all": "All Image Tools"
+        },
+        "pdfTitle": "PDF Tools",
+        "pdf": {
+          "merger": {
+            "label": "PDF Merger",
+            "description": "Combine multiple PDF files into one in seconds."
+          },
+          "splitter": {
+            "label": "PDF Splitter",
+            "description": "Split a PDF into individual pages or custom page ranges."
+          },
+          "compressor": {
+            "label": "PDF Compressor",
+            "description": "Reduce PDF file size without sacrificing readability."
+          },
+          "toWord": {
+            "label": "PDF to Word",
+            "description": "Convert PDF documents to editable .docx files instantly."
+          },
+          "all": "All PDF Tools"
+        },
+        "seoTitle": "SEO Tools",
+        "seo": {
+          "metaGenerator": {
+            "label": "Meta Tag Generator",
+            "description": "Generate optimized title, description, and Open Graph meta tags."
+          },
+          "slug": {
+            "label": "Slug Generator",
+            "description": "Create clean, SEO-friendly URL slugs from any title or phrase."
+          },
+          "keywordDensity": {
+            "label": "Keyword Density Checker",
+            "description": "Analyze keyword frequency and density in any block of content."
+          },
+          "robotsTxt": {
+            "label": "Robots.txt Generator",
+            "description": "Build a valid robots.txt file for your site with a visual editor."
+          },
+          "all": "All SEO Tools"
+        },
+        "mathTitle": "Math & Converters",
+        "math": {
+          "unitConverter": {
+            "label": "Unit Converter",
+            "description": "Convert length, weight, temperature, speed, area, and more."
+          },
+          "percentage": {
+            "label": "Percentage Calculator",
+            "description": "Calculate percentages, increases, decreases, and ratios."
+          },
+          "numberBase": {
+            "label": "Number Base Converter",
+            "description": "Convert between binary, octal, decimal, and hexadecimal."
+          },
+          "scientific": {
+            "label": "Scientific Calculator",
+            "description": "Full-featured calculator with trig, log, and algebraic functions."
+          },
+          "all": "All Math & Converters"
+        },
+        "securityTitle": "Security Tools",
+        "security": {
+          "passwordGenerator": {
+            "label": "Password Generator",
+            "description": "Generate strong, random passwords with custom length and character rules."
+          },
+          "md5": {
+            "label": "MD5 Hash Generator",
+            "description": "Generate MD5 checksums for strings or verify data integrity."
+          },
+          "bcrypt": {
+            "label": "Bcrypt Hash",
+            "description": "Hash passwords using Bcrypt with adjustable salt rounds."
+          },
+          "passwordStrength": {
+            "label": "Password Checker",
+            "description": "Check the strength of your password and get suggestions to improve it."
+          },
+          "all": "All Security Tools"
+        }
+      },
+      "featured": {
+        "title": "Featured",
+        "mostPopular": "🔥 Most Popular",
+        "pdfCompressor": {
+          "label": "PDF Compressor",
+          "description": "Reduce PDF file size without sacrificing readability.",
+          "tryItNow": "Try it now",
+          "badge": "Free"
+        }
+      },
+      "browseAllTools": "Browse All Tools",
+      "allToolsAreFree": "All tools are 100% free — no sign-up, no limits, no uploads to servers.",
+      "newThisMonth": "New tools this month",
+      "mobileLanguageSwitcher": "Language"
+    },
+    "ToolsList": {
+      "toolsList": {
+        "text": {
+          "wordCounter": {
+            "label": "Word Counter",
+            "description": "Count words, characters, sentences & reading time instantly."
+          },
+          "caseConverter": {
+            "label": "Case Converter",
+            "description": "Switch between UPPER, lower, Title, camelCase and more."
+          },
+          "loremIpsum": {
+            "label": "Lorem Ipsum Generator",
+            "description": "Generate placeholder text in paragraphs, sentences, or words."
+          },
+          "diff": {
+            "label": "Text Diff Checker",
+            "description": "Compare two blocks of text and highlight the differences."
+          },
+          "findReplace": {
+            "label": "Find & Replace",
+            "description": "Search for any string and replace it in bulk — with regex support."
+          },
+          "repeater": {
+            "label": "Text Repeater",
+            "description": "Repeat any text or character a custom number of times."
+          },
+          "removeFormatting": {
+            "label": "Remove Formatting",
+            "description": "Strip HTML tags, markdown, and invisible characters from text."
+          },
+          "wrapper": {
+            "label": "Text Wrapper",
+            "description": "Wrap long lines of text at a custom character width."
+          },
+          "slugGenerator": {
+            "label": "Slug Generator",
+            "description": "Turn any text into a clean, URL-friendly slug."
+          }
+        },
+        "dev": {
+          "jsonFormatter": {
+            "label": "JSON Formatter",
+            "description": "Beautify or minify JSON with syntax highlighting and error detection."
+          },
+          "base64": {
+            "label": "Base64 Encoder / Decoder",
+            "description": "Encode strings or files to Base64, or decode Base64 back to text."
+          },
+          "regex": {
+            "label": "Regex Tester",
+            "description": "Write, test, and debug regular expressions with live match highlighting."
+          },
+          "uuid": {
+            "label": "UUID Generator",
+            "description": "Generate v1, v4, or bulk UUIDs for databases and APIs."
+          },
+          "htmlFormatter": {
+            "label": "HTML Formatter",
+            "description": "Indent and clean up messy HTML markup automatically."
+          },
+          "cssFormatter": {
+            "label": "CSS Formatter",
+            "description": "Beautify or minify CSS stylesheets with one click."
+          },
+          "urlEncoder": {
+            "label": "URL Encoder / Decoder",
+            "description": "Encode special characters in URLs or decode encoded strings."
+          },
+          "timestamp": {
+            "label": "Unix Timestamp Converter",
+            "description": "Convert Unix timestamps to human-readable dates and vice versa."
+          },
+          "jwt": {
+            "label": "JWT Decoder",
+            "description": "Decode and inspect JSON Web Tokens — header, payload, and signature."
+          },
+          "markdownToHtml": {
+            "label": "Markdown to HTML",
+            "description": "Convert Markdown syntax to clean, ready-to-use HTML code."
+          },
+          "csvToJson": {
+            "label": "CSV to JSON",
+            "description": "Transform CSV data into structured JSON instantly."
+          },
+          "jsonDiff": {
+            "label": "JSON Diff",
+            "description": "Compare two JSON objects and highlight structural differences."
+          }
+        },
+        "seo": {
+          "metaGenerator": {
+            "label": "Meta Tag Generator",
+            "description": "Generate optimized title, description, and Open Graph meta tags."
+          },
+          "slug": {
+            "label": "Slug Generator",
+            "description": "Create clean, SEO-friendly URL slugs from any title or phrase."
+          },
+          "keywordDensity": {
+            "label": "Keyword Density Checker",
+            "description": "Analyze keyword frequency and density in any block of content."
+          },
+          "robotsTxt": {
+            "label": "Robots.txt Generator",
+            "description": "Build a valid robots.txt file for your site with a visual editor."
+          },
+          "sitemap": {
+            "label": "Sitemap Generator",
+            "description": "Generate an XML sitemap from a list of URLs for search engine crawling."
+          },
+          "ogPreview": {
+            "label": "Open Graph Previewer",
+            "description": "Preview how your page looks when shared on Facebook, Twitter, and LinkedIn."
+          },
+          "readability": {
+            "label": "Readability Checker",
+            "description": "Score your content's readability using Flesch-Kincaid and other metrics."
+          },
+          "schema": {
+            "label": "Schema Markup Generator",
+            "description": "Generate JSON-LD structured data for articles, products, FAQs, and more."
+          },
+          "serpPreview": {
+            "label": "SERP Preview",
+            "description": "See exactly how your page title and description appear in Google results."
+          },
+          "wordFrequency": {
+            "label": "Word Frequency Counter",
+            "description": "Find the most repeated words in your content for SEO optimization."
+          },
+          "canonical": {
+            "label": "Canonical Tag Generator",
+            "description": "Generate canonical URL tags to prevent duplicate content penalties."
+          },
+          "characterCounter": {
+            "label": "SEO Character Counter",
+            "description": "Count characters and words with real-time SEO limit indicators."
+          },
+          "headingAnalyzer": {
+            "label": "Heading Structure Analyzer",
+            "description": "Visualize and analyze the H1-H6 hierarchy of any web page."
+          },
+          "hreflang": {
+            "label": "Hreflang Tags Generator",
+            "description": "Generate hreflang tags for multi-language and multi-region websites."
+          }
+        },
+        "pdf": {
+          "merger": {
+            "label": "PDF Merger",
+            "description": "Combine multiple PDF files into one in seconds."
+          },
+          "splitter": {
+            "label": "PDF Splitter",
+            "description": "Split a PDF into individual pages or custom page ranges."
+          },
+          "compressor": {
+            "label": "PDF Compressor",
+            "description": "Reduce PDF file size without sacrificing readability."
+          },
+          "toWord": {
+            "label": "PDF to Word",
+            "description": "Convert PDF documents to editable .docx files instantly."
+          },
+          "toImages": {
+            "label": "PDF to Images",
+            "description": "Export every page of a PDF as high-quality JPG or PNG files."
+          },
+          "fromImages": {
+            "label": "Images to PDF",
+            "description": "Bundle multiple images into a single organized PDF document."
+          },
+          "rotate": {
+            "label": "Rotate PDF",
+            "description": "Rotate all or specific pages of a PDF by 90°, 180°, or 270°."
+          },
+          "protect": {
+            "label": "Protect PDF",
+            "description": "Add a password to your PDF to prevent unauthorized access."
+          },
+          "unlock": {
+            "label": "Unlock PDF",
+            "description": "Remove password protection from a PDF you own."
+          },
+          "ocr": {
+            "label": "PDF OCR",
+            "description": "Extract selectable text from scanned PDF documents."
+          }
+        },
+        "image": {
+          "resizer": {
+            "label": "Image Resizer",
+            "description": "Resize images to exact dimensions or by percentage — no quality loss."
+          },
+          "compressor": {
+            "label": "Image Compressor",
+            "description": "Compress JPG, PNG, and WebP files while preserving visual quality."
+          },
+          "converter": {
+            "label": "Format Converter",
+            "description": "Convert images between JPG, PNG, WebP, GIF, BMP and more."
+          },
+          "colorPicker": {
+            "label": "Color Picker",
+            "description": "Extract exact color codes (HEX, RGB, HSL) from any uploaded image."
+          },
+          "flipper": {
+            "label": "Image Flipper",
+            "description": "Flip images horizontally or vertically in one click."
+          },
+          "rotator": {
+            "label": "Image Rotator",
+            "description": "Rotate images 90°, 180°, or any custom angle."
+          },
+          "toBase64": {
+            "label": "Image to Base64",
+            "description": "Encode any image to a Base64 string for use in HTML or CSS."
+          },
+          "grayscale": {
+            "label": "Grayscale Converter",
+            "description": "Turn any color image into a clean black-and-white version."
+          },
+          "watermark": {
+            "label": "Add Watermark",
+            "description": "Stamp text or image watermarks on your photos — fully customizable."
+          },
+          "merger": {
+            "label": "Image Merger",
+            "description": "Combine multiple images side by side or stacked vertically."
+          }
+        },
+        "math": {
+          "unitConverter": {
+            "label": "Unit Converter",
+            "description": "Convert length, weight, temperature, speed, area, and more."
+          },
+          "percentage": {
+            "label": "Percentage Calculator",
+            "description": "Calculate percentages, increases, decreases, and ratios."
+          },
+          "numberBase": {
+            "label": "Number Base Converter",
+            "description": "Convert between binary, octal, decimal, and hexadecimal."
+          },
+          "scientific": {
+            "label": "Scientific Calculator",
+            "description": "Full-featured calculator with trig, log, and algebraic functions."
+          },
+          "currency": {
+            "label": "Currency Converter",
+            "description": "Live exchange rates for 150+ currencies worldwide."
+          },
+          "age": {
+            "label": "Age Calculator",
+            "description": "Calculate exact age in years, months, and days from a birthdate."
+          },
+          "dateDiff": {
+            "label": "Date Difference",
+            "description": "Find the number of days, weeks, or months between two dates."
+          },
+          "average": {
+            "label": "Average Calculator",
+            "description": "Calculate mean, median, mode, and range from a list of numbers."
+          }
+        },
+        "security": {
+          "passwordGenerator": {
+            "label": "Password Generator",
+            "description": "Generate strong, random passwords with custom length and character rules."
+          },
+          "md5": {
+            "label": "MD5 Hash Generator",
+            "description": "Generate MD5 checksums for strings or verify data integrity."
+          },
+          "sha256": {
+            "label": "SHA-256 Hash",
+            "description": "Compute SHA-256 cryptographic hashes for any input string."
+          },
+          "bcrypt": {
+            "label": "Bcrypt Hash",
+            "description": "Hash passwords using Bcrypt with adjustable salt rounds."
+          },
+          "base64File": {
+            "label": "Base64 File Encoder",
+            "description": "Encode sensitive files to Base64 for safe transmission."
+          },
+          "passwordStrength": {
+            "label": "Password Strength Checker",
+            "description": "Analyze how strong your password is against common attack vectors."
+          },
+          "hmac": {
+            "label": "HMAC Generator",
+            "description": "Generate HMAC signatures using SHA-256 or SHA-512 and a secret key."
+          }
+        }
+      }
+    }
+  }
+}

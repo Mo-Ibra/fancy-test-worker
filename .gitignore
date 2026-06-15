@@ -17,8 +17,8 @@
 /.next/
 /out/
 
-# compiled i18n (generated at build time)
-/i18n/compiled/
+# compiled i18n (generated at build time — committed for Cloudflare Pages compatibility)
+# /i18n/compiled/
 
 # production
 /build

@@ -1,0 +1,2380 @@
+{
+  "common": {
+    "language": "العربية",
+    "common": {
+      "language": "اللغة",
+      "selectLanguage": "اختر اللغة",
+      "loading": "جاري التحميل...",
+      "error": "حدث خطأ",
+      "notFound": "الصفحة غير موجودة",
+      "every": "كل",
+      "youllEverNeed": "ما ستحتاج إليه على الإطلاق",
+      "popular": "شائع",
+      "freeTools": "أدوات مجانية",
+      "tryItFree": "جربها مجاناً",
+      "signupNeeded": "بدون تسجيل",
+      "browserBased": "في المتصفح",
+      "searchPlaceholder": "ابحث ...",
+      "clear": "مسح",
+      "mostUsed": "الأكثر استخداماً",
+      "mostUsedDescription": "احسب الكلمات والحروف والجمل والفقرات ووقت القراءة — الصق نصك واحصل على الإحصائيات فوراً. مثالي للمقالات ومنشورات وسائل التواصل ونصوص SEO.",
+      "useTool": "استخدم الأداة",
+      "openTool": "فتح الأداة",
+      "results": "نتائج",
+      "result": "نتيجة",
+      "for": "لـ",
+      "all": "الكل",
+      "noToolsFound": "لم يتم العثور على أدوات",
+      "tryDifferentKeyword": "جرب كلمة مفتاحية مختلفة",
+      "needDifferentTool": "هل تحتاج أداة مختلفة؟",
+      "exploreAllToolsDescription": "استكشف أكثر من 50 أداة في جميع الفئات.",
+      "browseAllTools": "تصفح جميع الأدوات",
+      "new": "جديد",
+      "live": "مباشر",
+      "disclaimer": "ملفاتك لن يتم رفعها إلى خوادمنا أبداً. جميع المعالجة تتم محلياً في متصفحك.",
+      "alltools": "جميع الأدوات"
+    }
+  },
+  "dev-tools": {
+    "Base64Tool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "مشفر/فك تشفير Base64"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "مشفر Base64 — ترميز وفك ترميز Base64 أونلاين",
+        "description": "أداة مجانية لترميز وفك ترميز Base64 أونلاين لتحويل النصوص أو الملفات إلى تنسيق Base64 والعكس. يدعم النصوص والصور والبيانات الثنائية مع تحويل مباشر. مثالية لنقل البيانات وتطوير الويب.",
+        "keywords": "ترميز base64, فك ترميز base64, base64, encode base64, decode base64, محول base64"
+      },
+      "mode": {
+        "title": "الوضع",
+        "encode": "ترميز →",
+        "decode": "← فك التشفير"
+      },
+      "inputType": {
+        "title": "نوع الإدخال",
+        "text": "نص",
+        "file": "ملف"
+      },
+      "variant": {
+        "title": "متغير Base64"
+      },
+      "stats": {
+        "input": "الإدخال",
+        "output": "الإخراج",
+        "ratio": "النسبة",
+        "overhead": "النفقات"
+      },
+      "howToUse": {
+        "title": "كيفية استخدام مشفر/فك تشفير Base64",
+        "step1Title": "اختر الوضع",
+        "step1Desc": "اختر ترميز لتحويل النص إلى Base64، أو فك التشفير لتحويل Base64 إلى نص.",
+        "step2Title": "اختر نوع الإدخال",
+        "step2Desc": "اختر نص للكتابة أو اللصق، أو ملف لرفع ملف للترميز.",
+        "step3Title": "اختر متغيراً",
+        "step3Desc": "اختر Base64 القياسي أو الآمن لـ URL أو MIME حسب حالة الاستخدام.",
+        "step4Title": "انسخ النتيجة",
+        "step4Desc": "الإخراج يتحدث تلقائياً. انقر نسخ لنسخ النتيجة المرمزة أو المفككة."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "لما يستخدم Base64؟",
+            "answer": "يستخدم Base64 لنقل البيانات الثنائية عبر بروتوكولات نصية مثل البريد الإلكتروني أو HTTP، ودمج الصور في HTML أو CSS."
+          },
+          {
+            "question": "هل ترميز Base64 هو نفسه التشفير؟",
+            "answer": "لا. Base64 هو ترميز وليس تشفير. لا يوفر أي أمان؛他只是 يحول البيانات إلى تنسيق آمن للنص."
+          },
+          {
+            "question": "ما الفرق بين Base64 القياسي والآمن لـ URL؟",
+            "answer": "Base64 الآمن لـ URL يستبدل + بـ - و / بـ _ لاستخدام السلسلة المرمزة في عناوين URL دون هروب."
+          },
+          {
+            "question": "هل يزيد Base64 حجم الملف؟",
+            "answer": "نعم. ترميز Base64 يزيد حجم البيانات بحوالي 33٪ بسبب طريقة تمثيل البيانات الثنائية كنص."
+          },
+          {
+            "question": "هل يمكنني فك تشفير Base64 بدون إنترنت؟",
+            "answer": "نعم. هذه الأداة تعمل بالكامل في متصفحك. لا يتم إرسال أي بيانات إلى أي خادم."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "مرحباً بالعالم!",
+        "result": "SGVsbG8sIFdvcmxkIQ==",
+        "stats": "ما ستراه"
+      },
+      "swap": {
+        "label": "تبديل — استخدام الإخراج كإدخال"
+      },
+      "input": {
+        "fileInput": "إدخال الملف",
+        "textToEncode": "النص المراد ترميزه",
+        "base64ToDecode": "Base64 المراد فك تشفيره",
+        "encodePlaceholder": "اكتب أو الصق النص للترميز...",
+        "decodePlaceholder": "الصق سلسلة Base64 لفك تشفيرها...\nيدعم التنسيق القياسي والآمن لـ URL وMIME."
+      },
+      "output": {
+        "base64Output": "إخراج Base64",
+        "decodedText": "النص المفكك",
+        "emptyError": "صلاح الخطأ أعلاه",
+        "emptyProcessing": "جاري المعالجة...",
+        "emptyOutput": "سيظهر الإخراج هنا",
+        "copyBase64": "نسخ سلسلة Base64",
+        "copyDecoded": "نسخ النص المفكك"
+      },
+      "quickRef": {
+        "title": "مرجع Base64 السريع",
+        "standardAlphabet": "الأبجدية القياسية",
+        "urlSafeAlphabet": "الأبجدية الآمنة لـ URL",
+        "sizeOverhead": "الحجم الزائد",
+        "commonUses": "الاستخدامات الشائعة"
+      },
+      "actions": {
+        "paste": "لصق",
+        "clear": "مسح",
+        "download": "تحميل",
+        "copy": "نسخ",
+        "copied": "تم النسخ!"
+      },
+      "error": "سلسلة Base64 غير صالحة"
+    },
+    "CSSFormatterTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "منسق CSS"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "منسق CSS — صياغة وتصغير وتجميل CSS أونلاين",
+        "description": "أداة مجانية لتنسيق CSS أونلاين لصياغة وتصغير وتجميل كود CSS مع مسافة بادئة وخيارات تخصيص. تحقق من الصياغة وضغط للإنتاج أو توسيع للقراءة. مثالية لمطوري الواجهات.",
+        "keywords": "منسق css, تنسيق css, تجميل css, تصغير css, css formatter, css beautifier"
+      },
+      "input": {
+        "title": "إدخال CSS",
+        "placeholder": "الصق CSS هنا..."
+      },
+      "options": {
+        "title": "الخيارات",
+        "indentChar": "المسافة البادئة",
+        "indentSpaces": "مسافات",
+        "indentTabs": "علامات تبويب",
+        "braceStyle": "قوس الفتح",
+        "sameLine": "السطر نفسه",
+        "sameLinePreview": "المحدد {",
+        "newLine": "سطر جديد",
+        "newLinePreview": "المحدد\n{",
+        "propSort": "ترتيب الخصائص",
+        "none": "بدون",
+        "noneDesc": "الحفاظ على الترتيب الأصلي",
+        "alpha": "أبجدي",
+        "alphaDesc": "ترتيب الخصائص أ–z",
+        "grouped": "مجمّع",
+        "groupedDesc": "التخطيط → الطباعة → التأثيرات…",
+        "colorFormat": "تنسيق الألوان",
+        "keep": "الحفاظ",
+        "hex": "HEX",
+        "rgb": "RGB",
+        "hsl": "HSL",
+        "removeComments": "إزالة التعليقات",
+        "removeCommentsDesc": "إزالة جميع /* … */ التعليقات",
+        "singleLineRules": "طي القواعد المفردة",
+        "singleLineRulesDesc": ".sel { prop: val; } في سطر واحد",
+        "spaceAfterColon": "مسافة بعد النقطتين",
+        "spaceAfterColonDesc": "prop: value vs prop:value"
+      },
+      "viewMode": {
+        "formatted": "مُنسق",
+        "minified": "مُصغر"
+      },
+      "stats": {
+        "title": "الإحصائيات",
+        "rules": "القواعد",
+        "declarations": "التصريحات",
+        "input": "الإدخال",
+        "output": "الإخراج",
+        "saved": "تم التوفير",
+        "lines": "الأسطر"
+      },
+      "issues": {
+        "title": "المشاكل",
+        "noIssues": "لم يتم اكتشاف مشاكل",
+        "error": "خطأ {count}",
+        "errors": "{count} أخطاء",
+        "warning": "تحذير {count}",
+        "warnings": "{count} تحذيرات",
+        "more": "+{count} أكثر..."
+      },
+      "howToUse": {
+        "title": "كيفية استخدام منسق CSS",
+        "step1Title": "الصق CSS الخاص بك",
+        "step1Desc": "الصق كود CSS في منطقة الإدخال على الجانب الأيسر.",
+        "step2Title": "تكوين خيارات التنسيق",
+        "step2Desc": "ضبط المسافة البادئة ونمط القوس وترتيب الخصائص وتنسيق الألوان حسب تفضيلاتك.",
+        "step3Title": "اختر وضع الإخراج",
+        "step3Desc": "التبديل بين منسق (طباعة جميلة) ومصغر (مضغوط).",
+        "step4Title": "مراجعة ونسخ",
+        "step4Desc": "تحقق من الإحصائيات وأصلح أي مشاكل مكتشفة، ثم انسخ أو حمل النتيجة."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "هل يمكن لهذه الأداة اكتشاف أخطاء CSS؟",
+            "answer": "نعم. الأداة تبرز مشاكل الصياغة بما في ذلك الأقواس المفقودة وقيم الخصائص غير الصالحة والمحددات المكررة."
+          },
+          {
+            "question": "ما خيارات المسافة البادئة المتاحة؟",
+            "answer": "يمكنك الاختيار بين المسافات (2 أو 4) أو علامات التبويب، وتقرير ما إذا كانت الأقواس المفتوحة في نفس السطر أم سطر جديد."
+          },
+          {
+            "question": "هل يمكنني ترتيب خصائص CSS أبجدياً؟",
+            "answer": "نعم. فعّل خيار الترتيب الأبجدي لإعادة ترتيب الخصائص من أ إلى ي، أو استخدم مجمّع للترتيب المنطقي."
+          },
+          {
+            "question": "هل تزيل الأداة التعليقات؟",
+            "answer": "نعم. فعّل خيار إزالة التعليقات لإزالة جميع تعليقات CSS من الإخراج."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "body{margin:0;padding:0}h1{color:red;font-size:24px}",
+        "result": "body {\n  margin: 0;\n  padding: 0;\n}\nh1 {\n  color: red;\n  font-size: 24px;\n}",
+        "stats": "ما ستراه"
+      },
+      "output": {
+        "formatted": "CSS مُنسق",
+        "minified": "CSS مُصغر",
+        "empty": "سيظهر الإخراج هنا"
+      },
+      "actions": {
+        "paste": "لصق",
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!",
+        "download": ".txt"
+      },
+      "syntaxHighlight": "تمييز الصياغة",
+      "processing": "جاري المعالجة..."
+    },
+    "CSVToJsonTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "CSV إلى JSON"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "محول CSV إلى JSON — تحويل CSV إلى JSON والعكس أونلاين",
+        "description": "أداة مجانية لتحويل CSV إلى JSON أونلاين لتحويل بيانات CSV إلى تنسيق JSON والعكس. يدعم محددات مخصصة ورؤوس أعمدة وتحليل الكائنات المتداخلة. مثالية لنقل البيانات وتكامل API.",
+        "keywords": "تحويل csv إلى json, csv to json, تحويل json إلى csv, محلل csv, تحويل البيانات"
+      },
+      "direction": {
+        "csv2json": "CSV ← JSON",
+        "json2csv": "JSON ← CSV",
+        "swap": "تبديل"
+      },
+      "delimiter": {
+        "title": "المحدد",
+        "autoDetect": "اكتشاف تلقائي",
+        "detected": "تم الاكتشاف:",
+        "comma": "فاصلة (,)",
+        "semicolon": "فاصلة منقوطة (;)",
+        "tab": "علامة تبويب (\\t)",
+        "pipe": "خط (|)",
+        "space": "مسافة"
+      },
+      "parseOptions": {
+        "title": "خيارات التحليل",
+        "hasHeader": "الصف الأول هو العنوان",
+        "trimSpaces": "قص المسافات",
+        "skipEmpty": "تخطي الأسطر الفارغة",
+        "detectTypes": "اكتشاف تلقائي للأنواع (أرقام، منطقية)",
+        "quoteChar": "حرف الاقتباس",
+        "emptyHandling": "معالجة الحقل الفارغ",
+        "nullEmpty": "\"\"",
+        "nullNull": "null",
+        "nullSkip": "تخطي"
+      },
+      "output": {
+        "title": "تنسيق الإخراج",
+        "object": "مصفوفة من الكائنات",
+        "objectDesc": "[{\"key\":\"val\"}, …]",
+        "array": "مصفوفة من المصفوفات",
+        "arrayDesc": "[[\"h1\",\"h2\"], …]",
+        "grouped": "مجمّع حسب العمود الأول",
+        "groupedDesc": "{\"key\": [{…}, …]}",
+        "indent": "مسافة بادئة JSON",
+        "minified": "مُصغر",
+        "spaces2": "مسافتان",
+        "spaces4": "4 مسافات"
+      },
+      "stats": {
+        "title": "الإحصائيات",
+        "rows": "الصفوف",
+        "columns": "الأعمدة",
+        "cells": "الخلايا",
+        "output": "الإخراج"
+      },
+      "howToUse": {
+        "title": "كيفية استخدام محول CSV إلى JSON",
+        "step1Title": "اختر اتجاه التحويل",
+        "step1Desc": "اختر CSV ← JSON لتحويل CSV إلى JSON، أو JSON ← CSV للعكس.",
+        "step2Title": "حدد المحدد",
+        "step2Desc": "اختر المحدد الذي يستخدمه ملف CSV — فاصلة أو فاصلة منقوطة أو علامة تبويب أو دع الأداة تكتشفه تلقائياً.",
+        "step3Title": "تكوين خيارات التحليل",
+        "step3Desc": "فعّل خيارات مثل الصف الأول كعنوان وقص المسافات وتخطي الأسطر الفارغة واكتشاف الأنواع.",
+        "step4Title": "اختر تنسيق الإخراج",
+        "step4Desc": "اختر من مصفوفة كائنات أو مصفوفة مصفوفات أو مجمّع حسب العمود الأول، ثم انسخ أو حمل."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "هل يمكنني تحويل JSON إلى CSV؟",
+            "answer": "نعم. غيّر الاتجاه إلى JSON ← CSV والصق مصفوفة JSON لتحويلها إلى تنسيق CSV."
+          },
+          {
+            "question": "ما المحددات المدعومة؟",
+            "answer": "فاصلة وفاصلة منقوطة وعلامة تبويب وخط ومسافة. يمكنك أيضاً تفعيل الاكتشاف التلقائي."
+          },
+          {
+            "question": "هل ستكتشف الأداة أنواع البيانات تلقائياً؟",
+            "answer": "نعم. عند التفعيل، ستقوم الأداة بتحليل الأرقام والقيم المنطقية من السلاسل النصية تلقائياً."
+          },
+          {
+            "question": "هل يمكنني معاينة البيانات كجدول؟",
+            "answer": "نعم. انتقل إلى عرض الجدول لرؤية بياناتك المحللة بتخطيط جدولي قبل النسخ."
+          },
+          {
+            "question": "ماذا يحدث إذا لم يكن لملف CSV صف عنوان؟",
+            "answer": "عطّل خيار الصف الأول هو عنوان وستقوم الأداة بإنشاء مفاتيح تلقائياً مثل field1 و field2 إلخ."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "name,age,city\nAlice,30,New York\nBob,25,Los Angeles",
+        "result": "[{\"name\":\"Alice\",\"age\":30,\"city\":\"New York\"},{\"name\":\"Bob\",\"age\":25,\"city\":\"Los Angeles\"}]",
+        "stats": "ما ستراه"
+      },
+      "input": {
+        "csvLabel": "إدخال CSV",
+        "jsonLabel": "إدخال JSON",
+        "csvPlaceholder": "الصق CSV هنا أو انقر على الملف للرفع…\n\nid,name,email\n1,أحمد,ahmed@example.com",
+        "jsonPlaceholder": "الصق مصفوفة JSON هنا…\n\n[{\"id\": 1, \"name\": \"أحمد\"}]",
+        "csvInput": "إدخال CSV",
+        "jsonInput": "إدخال JSON"
+      },
+      "viewMode": {
+        "json": "JSON",
+        "table": "جدول",
+        "csv": "CSV"
+      },
+      "mapping": {
+        "title": "تعيين الأعمدة ({count} أعمدة)",
+        "csvHeader": "عنوان CSV",
+        "jsonKey": "مفتاح JSON",
+        "sampleValue": "قيمة نموذجية"
+      },
+      "outputEmpty": "سيظهر الإخراج هنا",
+      "csvOutputEmpty": "سيظهر إخراج CSV هنا",
+      "tableEmpty": "لا توجد بيانات للعرض",
+      "tableShowing": "عرض 50 من {count} صف",
+      "actions": {
+        "paste": "لصق",
+        "file": "ملف",
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!",
+        "download": "تحميل",
+        "copyJson": "نسخ JSON",
+        "copyCsv": "نسخ CSV"
+      },
+      "generatedId": "المعرف المُنشأ",
+      "error": "إدخال غير صالح",
+      "generatingIdle": "انقر \"إنشاء\" لإنشاء معرف"
+    },
+    "HTMLFormatterTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "منسق HTML"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "منسق HTML — صياغة وتصغير وتجميل HTML أونلاين",
+        "description": "أداة مجانية لتنسيق HTML أونلاين لصياغة وتصغير وتجميل كود HTML مع مسافة بادئة قابلة للتخصيص. تحقق من الصياغة وضغط للإنتاج أو توسيع للقراءة. أداة أساسية لمطوري الويب.",
+        "keywords": "منسق html, تنسيق html, تجميل html, تصغير html, html formatter, html beautifier"
+      },
+      "indent": {
+        "title": "المسافة البادئة"
+      },
+      "options": {
+        "title": "الخيارات",
+        "sortAttrs": "ترتيب الخصائص",
+        "sortAttrsDesc": "ترتيب خصائص الوسوم أبجدياً",
+        "removeComments": "إزالة التعليقات",
+        "removeCommentsDesc": "إزالة جميع تعليقات HTML",
+        "collapseWhitespace": "طي المسافات",
+        "collapseWhitespaceDesc": "دمج مسافات متعددة في واحدة"
+      },
+      "validation": {
+        "noIssues": "لا توجد مشاكل",
+        "issues": "تم العثور على {count} مشكلة",
+        "issues_plural": "تم العثور على {count} مشاكل"
+      },
+      "stats": {
+        "title": "الإحصائيات",
+        "tags": "الوسوم",
+        "attrs": "الخصائص",
+        "comments": "التعليقات",
+        "input": "الإدخال",
+        "output": "الإخراج",
+        "saved": "تم التوفير",
+        "lines": "الأسطر"
+      },
+      "howToUse": {
+        "title": "كيفية استخدام منسق HTML",
+        "step1Title": "الصق HTML الخاص بك",
+        "step1Desc": "الصق كود HTML في منطقة الإدخال. الأداة تعمل مع المستندات الكاملة أو الأجزاء.",
+        "step2Title": "اختر خيارات التنسيق",
+        "step2Desc": "ضبط المسافة البادئة وترتيب الخصائص وإزالة التعليقات وطي المسافات.",
+        "step3Title": "اختر وضع العرض",
+        "step3Desc": "التبديل بين منسق أو مصغر أو معاينة لرؤية HTML في iframe محمي.",
+        "step4Title": "انسخ النتيجة",
+        "step4Desc": "انسخ HTML المنسق أو المصغر، أو حمّله لاستخدامه في مشروعك."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "هل يمكن لهذه الأداة التحقق من صحة HTML؟",
+            "answer": "نعم. الأداة تتحقق من الوسوم غير المغلقة والخصائص غير الصالحة ومشاكل الصياغة الأخرى."
+          },
+          {
+            "question": "ما هو وضع المعاينة؟",
+            "answer": "وضع المعاينة يعرض HTML داخل iframe محمي لرؤية النتيجة الحية."
+          },
+          {
+            "question": "هل يمكنني إزالة تعليقات HTML؟",
+            "answer": "نعم. فعّل خيار إزالة التعليقات لإزالة جميع تعليقات HTML من الإخراج."
+          },
+          {
+            "question": "هل تدعم الأداة ترتيب الخصائص؟",
+            "answer": "نعم. عند التفعيل، يتم ترتيب الخصائص داخل كل وسم أبجدياً للاتساق."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "<div><p>مرحباً بالعالم</p><ul><li>عنصر 1</li><li>عنصر 2</li></ul></div>",
+        "result": "<div>\n  <p>مرحباً بالعالم</p>\n  <ul>\n    <li>عنصر 1</li>\n    <li>عنصر 2</li>\n  </ul>\n</div>",
+        "stats": "ما ستراه"
+      },
+      "viewMode": {
+        "formatted": "مُنسق",
+        "minified": "مُصغر",
+        "preview": "معاينة"
+      },
+      "input": {
+        "label": "إدخال HTML",
+        "placeholder": "الصق HTML هنا...\n\n<!DOCTYPE html>\n<html>\n  <body><p>مرحبا</p></body>\n</html>"
+      },
+      "output": {
+        "formatted": "HTML مُنسق",
+        "minified": "HTML مُصغر",
+        "preview": "معاينة مباشرة",
+        "sandboxNote": "مُعرض في iframe محمي",
+        "emptyProcessing": "جاري المعالجة...",
+        "emptyOutput": "سيظهر الإخراج هنا",
+        "emptyPreview": "الصق HTML لرؤية معاينة مباشرة",
+        "copyFormatted": "نسخ HTML المُنسق",
+        "copyMinified": "نسخ HTML المُصغر"
+      },
+      "actions": {
+        "paste": "لصق",
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!"
+      },
+      "error": "HTML غير صالح"
+    },
+    "JSONDiffTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "فرق JSON"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "فرق JSON — قارن بين ملفات JSON وأظهر الفروق أونلاين",
+        "description": "أداة مجانية لمقارنة JSON أونلاين لمقارنة كائنين JSON ورؤية الفروق فوراً. يبرز الإضافات والحذفات والتعديلات بألوان مع عرض جنباً إلى جنب. أساسية لتصحيح API وتغييرات إعدادات JSON.",
+        "keywords": "مقارنة json, فرق json, الفرق بين ملفين json, json diff, مقارنة json أونلاين"
+      },
+      "panels": {
+        "left": "اليسار (الأصلي)",
+        "right": "اليمين (المعدل)"
+      },
+      "howToUse": {
+        "title": "كيفية استخدام أداة فرق JSON",
+        "step1Title": "الصق JSON على كلا الجانبين",
+        "step1Desc": "الصق JSON الأصلي على اليسار و JSON المعدل على اليمين.",
+        "step2Title": "مراجعة الفروق",
+        "step2Desc": "الأداة تبرز الإضافات بالأخضر والحذفات بالأحمر والتغييرات بالأصفر.",
+        "step3Title": "استخدم عناصر التحكم للتنقل",
+        "step3Desc": "فعّل إخفاء بدون تغيير للتركيز على الفروق فقط، أو توسيع/طي الكل.",
+        "step4Title": "إنشاء تقرير",
+        "step4Desc": "انقر تقرير لإنشاء ملخص بجميع التغييرات بين كائني JSON."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ما أنواع الفروق التي يمكن لهذه الأداة اكتشافها؟",
+            "answer": "تكتشف القيم المضافة والمحذوفة والمعدلة، بالإضافة إلى تغييرات النوع (مثل سلسلة إلى رقم)."
+          },
+          {
+            "question": "هل يمكنني نسخ نتائج الفرق؟",
+            "answer": "نعم. توفر الأداة ميزة تقرير التي تنشئ ملخصاً نصياً لجميع الفروق."
+          },
+          {
+            "question": "هل تدعم الأداة JSON المتداخل؟",
+            "answer": "نعم. عرض الفرق يدعم الكائنات والمصفوفات المتداخلة بعمق مع عقد شجرة قابلة للتوسيع."
+          },
+          {
+            "question": "هل هناك طريقة لإخفاء القيم غير المتغيرة؟",
+            "answer": "نعم. فعّل إخفاء بدون تغيير لإظهار الخصائص المختلفة فقط بين كائني JSON."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "clear": "مسح",
+        "sampleLabel": "جرب هذا المثال",
+        "sampleText": "اليسار: {\"name\":\"Alice\",\"age\":25} · اليمين: {\"name\":\"Alice\",\"age\":30,\"city\":\"NYC\"}",
+        "result": "age تغير (25 ← 30) · city أضيف (\"NYC\") — تم العثور على تغييرين",
+        "stats": "ما ستراه"
+      },
+      "stats": {
+        "identical": "الكائنان متطابقان",
+        "changes": "تم العثور على {count} تغيير",
+        "changes_plural": "تم العثور على {count} تغييرات",
+        "added": "مُضاف",
+        "removed": "مُحذف",
+        "changed": "مُعدل",
+        "unchanged": "بدون تغيير"
+      },
+      "controls": {
+        "hideUnchanged": "إخفاء بدون تغيير",
+        "showUnchanged": "إظهار بدون تغيير",
+        "expandAll": "توسيع الكل",
+        "collapseAll": "طي الكل",
+        "report": "تقرير"
+      },
+      "legend": {
+        "added": "مُضاف",
+        "removed": "مُحذف",
+        "changed": "مُعدل",
+        "typeChanged": "تغير النوع",
+        "unchanged": "بدون تغيير"
+      },
+      "diffView": {
+        "title": "عرض الفرق",
+        "nodes": "{count} عقد"
+      },
+      "empty": {
+        "message": "الصق كائنين JSON أعلاه للمقارنة"
+      },
+      "actions": {
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!"
+      },
+      "error": "JSON غير صالح"
+    },
+    "JSONFormatterTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "منسق JSON"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "منسق JSON — صياغة والتحقق من JSON وتجميله أونلاين",
+        "description": "أداة مجانية لتنسيق JSON أونلاين لصياغة وتصغير وتجميل بيانات JSON. حلّل JSON مع عرض شجري تفاعلي وابحث في المفاتيح وتحقق من الصياغة فوراً. مثالية للمطورين لتصحيح أخطاء JSON وملفات الإعدادات.",
+        "keywords": "منسق json, تنسيق json, تجميل json, تدقيق json, json formatter, json beautifier"
+      },
+      "validation": {
+        "valid": "JSON صالح",
+        "invalid": "JSON غير صالح",
+        "line": "سطر"
+      },
+      "options": {
+        "indent": "حجم المسافة البادئة",
+        "viewMode": "وضع العرض",
+        "formatted": "مُنسق",
+        "formattedDesc": "مطبوع جميلاً مع مسافة بادئة",
+        "tree": "عرض الشجرة",
+        "treeDesc": "شجرة تفاعلية قابلة للطي",
+        "minified": "مُصغر",
+        "minifiedDesc": "مخرجات مضغوطة في سطر واحد",
+        "sortKeys": "ترتيب المفاتيح",
+        "sortKeysDesc": "ترتيب مفاتيح الكائنات أبجدياً.",
+        "spaces": "مسافات"
+      },
+      "search": {
+        "title": "بحث",
+        "placeholder": "البحث عن المفاتيح أو القيم...",
+        "matches": "تم العثور على {count} تطابق",
+        "matches_plural": "تم العثور على {count} تطابقات",
+        "noMatches": "لا توجد تطابقات"
+      },
+      "stats": {
+        "nodes": "العقد",
+        "inputLines": "أسطر الإدخال",
+        "outputLines": "أسطر الإخراج",
+        "size": "الحجم"
+      },
+      "howToUse": {
+        "title": "كيفية استخدام منسق JSON",
+        "step1Title": "الصق JSON الخاص بك",
+        "step1Desc": "الصق أي سلسلة JSON في منطقة الإدخال. الأداة تتحقق من الصحة وتنسق فوراً.",
+        "step2Title": "اختر وضع العرض",
+        "step2Desc": "التبديل بين منسق (طباعة جميلة) أو عرض الشجرة (تفاعلي) أو مصغر (مضغوط).",
+        "step3Title": "ضبط الخيارات",
+        "step3Desc": "تخصيص حجم المسافة البادئة وتمكين ترتيب المفاتيح أو استخدام شريط البحث للعثور على مفاتيح وقيم محددة.",
+        "step4Title": "انسخ أو استكشف",
+        "step4Desc": "انسخ JSON المنسق أو المصغر، أو استكشف عرض الشجرة بتوسيع وطي العقد."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ماذا يحدث إذا كان JSON غير صالح؟",
+            "answer": "الأداة تبرز أخطاء الصياغة وتشير إلى رقم السطر الذي تم العثور فيه على المشكلة."
+          },
+          {
+            "question": "هل يمكنني البحث في ملفات JSON كبيرة؟",
+            "answer": "نعم. استخدم شريط البحث للعثور على مفاتيح أو قيم مطابقة في جميع أنحاء بنية JSON."
+          },
+          {
+            "question": "ما هو وضع عرض الشجرة؟",
+            "answer": "عرض الشجرة يعرض JSON كشجرة تفاعلية قابلة للطي، مما يسهل التنقل في الهياكل المتداخلة الكبيرة."
+          },
+          {
+            "question": "هل يمكنني ترتيب مفاتيح JSON أبجدياً؟",
+            "answer": "نعم. فعّل ترتيب المفاتيح لإعادة ترتيب جميع مفاتيح الكائنات أبجدياً في الإخراج."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}",
+        "result": "{\n  \"name\": \"John\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}",
+        "stats": "ما ستراه"
+      },
+      "input": {
+        "label": "إدخال JSON",
+        "placeholder": "الصق JSON هنا...\n\n{\"key\": \"value\"}"
+      },
+      "output": {
+        "formatted": "مُنسق",
+        "minified": "مُصغر",
+        "treeView": "عرض الشجرة",
+        "emptyProcessing": "...",
+        "emptyFixErrors": "صلاح أخطاء JSON أعلاه",
+        "emptyOutput": "سيظهر الإخراج هنا",
+        "treeEmptyFix": "صلاح أخطاء JSON لعرض الشجرة",
+        "treeEmptyInput": "الصق JSON صالح لاستكشاف الشجرة"
+      },
+      "actions": {
+        "paste": "لصق",
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!",
+        "copyFormatted": "نسخ JSON المُنسق",
+        "copyMinified": "نسخ JSON المُصغر",
+        "copyFormattedShort": "نسخ المُنسق",
+        "copyMinifiedShort": "نسخ المُصغر",
+        "chars": "حرف"
+      }
+    },
+    "JWTDecoderTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "فك تشفير JWT"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "فك تشفير JWT — افحص رموز JWT واعرض الحمولة أونلاين",
+        "description": "أداة مجانية لفك تشفير JWT أونلاين لفحص رموز JSON Web Tokens دون إرسال البيانات. اعرض الرأس والحمولة والتوقيع بواجهة نظيفة. تحقق من بنية token وافحص المطالبات — 100% على جانب العميل.",
+        "keywords": "فك تشفير jwt, jwt decoder, jwt inspector, فحص jwt, json web token, token decoder"
+      },
+      "input": {
+        "placeholder": "الصق رمز JWT هنا..."
+      },
+      "tabs": {
+        "decoded": "مفكك",
+        "raw": "JSON خام"
+      },
+      "sections": {
+        "header": "الرأس",
+        "payload": "الحمولة",
+        "signature": "التوقيع"
+      },
+      "claims": {
+        "issuedAt": "تاريخ الإصدار",
+        "expiresAt": "تاريخ الانتهاء",
+        "notBefore": "غير صالحة قبل",
+        "issuer": "المُصدر",
+        "subject": "الموضوع",
+        "audience": "الجمهور"
+      },
+      "clientSide": "100% على جانب العميل.",
+      "privacyNotice": "رمز JWT الخاص بك لا يُرسل أبداً إلى أي خادم. جميع فك التشفير يحدث في متصفحك.",
+      "jwtToken": "رمز JWT",
+      "paste": "لصق",
+      "tokenExpired": "انتهت صلاحية الرمز {relative}",
+      "tokenValid": "الرمز صالح · تنتهي صلاحيته {relative}",
+      "decodedSuccessfully": "تم فك تشفير الرمز بنجاح",
+      "algorithm": "الخوارزمية",
+      "securityRisk": "خطر أمني:",
+      "noneAlgorithm": "هذا الرمز يستخدم خوارزمية 'none' التي لا توفر أمناً. لا تثق أبداً بالرموز الموقوعة بـ 'none'.",
+      "hmacNote": "رموز HMAC تستخدم سراً مشتركاً. نفس المفتاح يستخدم للتوقيع والتحقق. اجعله سراً!",
+      "secretKey": "المفتاح السري / العام",
+      "displayOnly": "عرض فقط",
+      "pasteSecret": "الصق المفتاح السري أو العام…",
+      "signatureNote": "التحقق من التوقيع يعمل على جانب العميل فقط — هذا الحقل للمرجع فقط.",
+      "exampleTokens": "رموز نموذجية",
+      "payloadClaims": "مطالب الحمولة",
+      "claimCount": "{n} مطالبة",
+      "cannotVerify": "لا يمكن التحقق من التوقيع على جانب العميل بدون المفتاح السري أو العام. فك التشفير يؤكد فقط أن الرمز بصيغة صحيحة — وليس أنه موثوق.",
+      "copySignature": "نسخ التوقيع",
+      "headerJson": "رأس JSON",
+      "payloadJson": "حمولة JSON",
+      "copyFullJson": "نسخ JSON المفكك بالكامل",
+      "pasteJwt": "الصق رمز JWT لفك تشفيره",
+      "jwtFormat": "رمز JWT بالتنسيق xxxxx.yyyyy.zzzzz — ثلاثة أجزاء base64url مفصولة بنقاط",
+      "jwtStructure": "بنية JWT",
+      "headerPart": "الرأس",
+      "payloadPart": "الحمولة",
+      "signaturePart": "التوقيع",
+      "algoType": "الخوارزمية ونوع الرمز",
+      "claimsData": "المطالب (البيانات)",
+      "integrity": "التحقق من السلامة",
+      "howToUse": {
+        "title": "كيفية استخدام فك تشفير JWT",
+        "step1Title": "الصق رمز JWT",
+        "step1Desc": "انسخ رمز JWT والصقه في حقل الإدخال. الأداة تكتشف بنية الرمز تلقائياً.",
+        "step2Title": "مراجعة الأجزاء المفككة",
+        "step2Desc": "عرض أقسام الرأس والحمولة والتوقيع مفككة بتنسيق قابل للقراءة.",
+        "step3Title": "فحص المطالبات",
+        "step3Desc": "تحقق من المطالبات القياسية مثل المُصدر والموضوع وتاريخ الانتهاء والمطالبات المخصصة.",
+        "step4Title": "التحقق باستخدام مفتاح سري",
+        "step4Desc": "يمكنك لصق المفتاح السري أو العام للتحقق من توقيع الرمز على جانب العميل."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ما هو رمز JWT؟",
+            "answer": "JWT (JSON Web Token) هو تنسيق رمز مضغوط وآمن لـ URL يستخدم لنقل المعلومات بشكل آمن بين الأطراف."
+          },
+          {
+            "question": "هل يتم إرسال بيانات JWT إلى الخادم؟",
+            "answer": "لا. كل عملية فك التشفير تتم بالكامل في متصفحك. لا يتم إرسال رمزك أبداً إلى أي خادم."
+          },
+          {
+            "question": "ماذا يتحقق التوقيع؟",
+            "answer": "التوقيع يؤكد أن الرمز لم يتم العبث به منذ توقيعه من قبل المُصدر."
+          },
+          {
+            "question": "ماذا يعني 'alg: none'؟",
+            "answer": "يعني أن الرمز ليس له توقيع، وهو خطر أمني. لا تثق أبداً بالرموز التي تستخدم خوارزمية 'none'."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا الرمز النموذجي",
+        "sampleText": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "result": "الرأس: {\"alg\":\"HS256\",\"typ\":\"JWT\"} · الحمولة: {\"sub\":\"1234567890\",\"name\":\"John Doe\",\"iat\":1516239022}",
+        "stats": "ما ستراه"
+      }
+    },
+    "MarkdownHTMLTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "Markdown إلى HTML"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "محول Markdown إلى HTML — تحويل MD إلى HTML والعكس أونلاين",
+        "description": "أداة مجانية لتحويل Markdown إلى HTML أونلاين مع معاينة مباشرة. اكتب Markdown وشاهد HTML المُنشأ في الوقت الفعلي. حول بين تنسيقي Markdown وHTML مع تمييز الصياغة.",
+        "keywords": "تحويل markdown إلى html, md إلى html, محول markdown, معاينة markdown, html إلى markdown"
+      },
+      "layout": {
+        "split": "عرض منقسم",
+        "markdown": "Markdown فقط",
+        "preview": "معاينة",
+        "html": "HTML فقط"
+      },
+      "input": {
+        "placeholder": "أدخل Markdown هنا..."
+      },
+      "options": {
+        "wrapDoc": "تغليف في مستند HTML"
+      },
+      "toolbar": {
+        "bold": "عريض",
+        "italic": "مائل",
+        "heading": "عنوان",
+        "link": "رابط",
+        "image": "صورة",
+        "list": "قائمة",
+        "code": "كود",
+        "quote": "اقتباس",
+        "table": "جدول",
+        "hr": "خط أفقي"
+      },
+      "stats": {
+        "words": "الكلمات",
+        "chars": "الأحرف",
+        "lines": "الأسطر"
+      },
+      "actions": {
+        "convert": "تحويل",
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!",
+        "download": "تحميل HTML"
+      },
+      "words": "الكلمات",
+      "headings": "العناوين",
+      "links": "الروابط",
+      "images": "الصور",
+      "tables": "الجداول",
+      "codeBlocks": "كتل الكود",
+      "mdChars": "حرف md",
+      "htmlChars": "حرف html",
+      "editor": "المحرر",
+      "preview": "المعاينة",
+      "htmlOutput": "إخراج HTML",
+      "paste": "لصق",
+      "example": "مثال",
+      "fullDocument": "المستند الكامل",
+      "copyHtml": "نسخ HTML",
+      "copyFullHtml": "نسخ مستند HTML الكامل",
+      "copyHtmlFragment": "نسخ جزء HTML",
+      "downloadHtml": "تحميل .html",
+      "syntax": "الصياغة",
+      "output": "الإخراج",
+      "element": "العنصر",
+      "syntaxReference": "مرجع صياغة Markdown",
+      "extensions": "الامتدادات المدعومة",
+      "syntaxNot": "غير مدعوم بعد",
+      "notSupported": "غير مدعوم",
+      "howToUse": {
+        "title": "كيفية استخدام محول Markdown إلى HTML",
+        "step1Title": "اكتب أو الصق Markdown",
+        "step1Desc": "اكتب أو الصق محتوى Markdown في المحرر على الجانب الأيسر.",
+        "step2Title": "اختر تخطيطاً",
+        "step2Desc": "اختر العرض المقسم لرؤية Markdown وHTML معاً، أو ركز على جانب واحد فقط.",
+        "step3Title": "استخدم شريط الأدوات للتنسيق",
+        "step3Desc": "انقر على أزرار شريط الأدوات لإدراج عريض ومائل وعناوين وروابط وقوائم والمزيد بسرعة.",
+        "step4Title": "انسخ أو حمل النتيجة",
+        "step4Desc": "انسخ HTML المُنشأ أو حمّله كملف .html لاستخدامه في مشروعك."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "هل يمكنني تحويل HTML إلى Markdown؟",
+            "answer": "نعم. هذه الأداة تدعم التحويل ثنائي الاتجاه — الصق HTML على الجانب الأيمن لتحويله إلى Markdown."
+          },
+          {
+            "question": "ما هي صيغ Markdown المدعومة؟",
+            "answer": "صيغ Markdown القياسية بالإضافة إلى الصيغ الموسعة مثل الجداول وكتل الكود وقوائم المهام والتشطيب."
+          },
+          {
+            "question": "هل المعاينة مباشرة؟",
+            "answer": "نعم. معاينة HTML تتحدث في الوقت الفعلي أثناء كتابة أو تعديل محتوى Markdown."
+          },
+          {
+            "question": "هل يمكنني تحميل الإخراج؟",
+            "answer": "نعم. يمكنك تحميل HTML المُنشأ كملف .html أو نسخ جزء HTML مباشرة."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "# مرحباً بالعالم\n\nهذا **عريض** و*مائل*.\n\n- عنصر قائمة 1\n- عنصر قائمة 2",
+        "result": "<h1>مرحباً بالعالم</h1>\n<p>هذا <strong>عريض</strong> و<em>مائل</em>.</p>\n<ul>\n<li>عنصر قائمة 1</li>\n<li>عنصر قائمة 2</li>\n</ul>",
+        "stats": "ما ستراه"
+      }
+    },
+    "RegexTesterTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "مختبئ التعبيرات النمطية"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "مختبئ التعبيرات النمطية — اختبار وتصحيح الـ Regex أونلاين",
+        "description": "أداة مجانية لاختبار التعبيرات النمطية أونلاين مع مطابقة مباشرة. تصور نتائج التطابق واختبر الاستبدالات واستكشف صيغة regex مع شروحات مفصلة. تدعم العلامات والمجموعات والنظر للأمام والخلف.",
+        "keywords": "اختبار التعبيرات النمطية, regex, اختبار regex, تصحيح التعبيرات النمطية, مطابقة النصوص"
+      },
+      "pattern": {
+        "placeholder": "أدخل نمط التعبير النمطي...",
+        "flags": "العلامات",
+        "global": "عام",
+        "caseInsensitive": "غير حساس لحالة الأحرف",
+        "multiline": "متعدد الأسطر",
+        "dotAll": "نقطة الكل",
+        "unicode": "يونيكود",
+        "sticky": "لاصق"
+      },
+      "testText": {
+        "placeholder": "أدخل نص الاختبار..."
+      },
+      "replace": {
+        "placeholder": "نص الاستبدال..."
+      },
+      "tabs": {
+        "matches": "التطابقات",
+        "groups": "المجموعات",
+        "replace": "استبدال",
+        "cheatsheet": "ورقة الغش"
+      },
+      "match": {
+        "count": "{count} تطابق",
+        "noMatches": "لم يتم العثور على تطابقات",
+        "group": "المجموعة"
+      },
+      "testString": "نص الاختبار",
+      "chars": "حرف",
+      "highlighted": "معاينة مميزة",
+      "yellowMatch": "الأصفر = تطابق",
+      "examplePatterns": "أنماط نموذجية",
+      "startTyping": "ابدأ بكتابة نمط أعلاه",
+      "enterPattern": "أدخل نمطاً أعلاه",
+      "enterTestText": "أدخل نص الاختبار على اليسار",
+      "noMatchesFound": "لم يتم العثور على تطابقات",
+      "emptyMatch": "تطابق فارغ",
+      "position": "الموضع {start}–{end}",
+      "length": "الطول {len}",
+      "groups": "المجموعات",
+      "captureGroups": "لا توجد مجموعات التقاط في النمط — استخدم صيغة (group)",
+      "enableFlag": "فعّل علامة d لرؤية مؤشرات المجموعات",
+      "replaceWith": "استبدال بـ",
+      "replacementTip": "استخدم $1، $2 للمجموعات، $& للتطابق الكامل",
+      "result": "النتيجة",
+      "resultPlaceholder": "ستظهر النتيجة هنا",
+      "fullMatch": "تطابق كامل",
+      "groupN": "مجموعة {n}",
+      "before": "قبل",
+      "after": "بعد",
+      "groupsTab": "المجموعات",
+      "atPosition": "عند {start}–{end}",
+      "tokenStructure": "بنية الرمز",
+      "error": "تعبير نمطي غير صالح",
+      "copy": "نسخ",
+      "copied": "تم النسخ!",
+      "regex": "التعبير النمطي",
+      "flagsLabel": "العلامات",
+      "valid": "صالح",
+      "invalid": "غير صالح",
+      "noMatches": "لا توجد تطابقات",
+      "copyResult": "نسخ النتيجة",
+      "copyRegex": "نسخ التعبير النمطي",
+      "howToUse": {
+        "title": "كيفية استخدام مختبئ التعبيرات النمطية",
+        "step1Title": "أدخل نمط التعبير النمطي",
+        "step1Desc": "اكتب أو الصق نمط تعبير نمطي في حقل النمط.",
+        "step2Title": "اختر العلامات",
+        "step2Desc": "فعّل العلامات مثل عام وغير حساس لحالة الأحرف ومتعدد الأسطر للتحكم في سلوك المطابقة.",
+        "step3Title": "أدخل نص الاختبار",
+        "step3Desc": "الصق النص الذي تريد اختباره في منطقة نص الاختبار.",
+        "step4Title": "مراجعة التطابقات والمجموعات",
+        "step4Desc": "عرض التطابقات المميزة ومجموعات الالتقاط واستخدام علامة التبويب استبدال لاختبار الاستبدالات."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ما محرك regex الذي تستخدمه هذه الأداة؟",
+            "answer": "تستخدم محرك RegExp المدمج في JavaScript، وتدعم صيغة ECMAScript القياسية للتعبيرات النمطية."
+          },
+          {
+            "question": "هل يمكنني اختبار استبدال regex؟",
+            "answer": "نعم. انتقل إلى علامة التبويب استبدال، وأدخل نمط الاستبدال، وشاهد النتيجة فوراً."
+          },
+          {
+            "question": "ماذا تعني العلامات؟",
+            "answer": "العلامات تعدل كيفية تطابق النمط: g (عام)، i (غير حساس لحالة الأحرف)، m (متعدد الأسطر)، s (نقطة الكل)، u (يونيكود)، y (لاصق)."
+          },
+          {
+            "question": "كيف أشير إلى المجموعات الملتقطة في الاستبدال؟",
+            "answer": "استخدم $1، $2 إلخ للمجموعات المرقمة، $& للمطابقة الكاملة، $` أو $' للنص قبل أو بعد المطابقة."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "الثعلب البني السريع يقفز فوق الكلب الكسول.",
+        "result": "النمط /ال/gi → تطابقان في الموضعين 4 و 22",
+        "stats": "ما ستراه"
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "أدوات المطورين ذات الصلة",
+        "jsonFormatter": "منسق JSON",
+        "jsonDiff": "مقارنة JSON",
+        "csvToJson": "تحويل CSV إلى JSON",
+        "regexTester": "اختبار Regex",
+        "jwtDecoder": "مفكك تشفير JWT"
+      }
+    },
+    "ScientificCalculatorTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "الآلة الحاسبة العلمية"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "الآلة الحاسبة العلمية — حاسبة متقدمة مع سجل وذاكرة أونلاين",
+        "description": "آلة حاسبة علمية مجانية أونلاين مع وظائف رياضية متقدمة وسجل العمليات وتخزين الذاكرة. قم بإجراء العمليات المثلثية واللوغاريتمية والأسية والإحصائية بواجهة نظيفة ومناسبة للمطورين.",
+        "keywords": "آلة حاسبة علمية, حاسبة متقدمة, حاسبة مطورين, آلة حاسبة أونلاين, حاسبة بسجل"
+      },
+      "modes": {
+        "basic": "أساسية",
+        "scientific": "علمية"
+      },
+      "angle": {
+        "deg": "درجات",
+        "rad": "راديان",
+        "grad": "غراد"
+      },
+      "actions": {
+        "clear": "مسح",
+        "delete": "حذف",
+        "equals": "="
+      },
+      "memory": {
+        "MC": "MC",
+        "MR": "MR",
+        "M+": "M+",
+        "M-": "M-"
+      },
+      "history": {
+        "title": "السجل",
+        "clear": "مسح السجل",
+        "empty": "لا يوجد سجل بعد"
+      },
+      "keyboardHint": "دعم لوحة المفاتيح · Enter = · Esc = مسح · Backspace = حذف",
+      "trigonometric": "مثلثية",
+      "hyperbolic": "زائدية",
+      "logExp": "اللوغاريتم والأس",
+      "rootsPowers": "الجذور والأسس",
+      "combinatorics": "التوافقيات",
+      "constants": "الثوابت",
+      "functionReference": "مرجع الدوال",
+      "exampleExpressions": "تعبيرات نموذجية",
+      "circleArea": "مساحة الدائرة",
+      "pythagoras": "فيثاغورس",
+      "sin30": "جا 30°",
+      "cos60Sin30": "جا 60° + جا 30°",
+      "logBase10": "لو₁₀(1000)",
+      "eToPi": "e^π",
+      "combinations": "التوافقيات {n}",
+      "factorial": "عاملي {n}",
+      "goldenRatio": "مربع النسبة الذهبية",
+      "compoundInterest": "الفائدة المركبة",
+      "sine": "جيب (يتبع الدرجات/الراديان/الغراد)",
+      "cosine": "جيب تمام",
+      "tangent": "ظل",
+      "invSine": "جيب معكوس",
+      "invCosine": "جيب تمام معكوس",
+      "invTangent": "ظل معكوس",
+      "hypSine": "جيب زائدي",
+      "hypCosine": "جيب تمام زائدي",
+      "hypTangent": "ظل زائدي",
+      "log10": "لوغاريتم الأساس 10",
+      "ln": "لوغاريتم طبيعي",
+      "log2": "لوغاريتم الأساس 2",
+      "exp": "eˣ",
+      "sqrt": "جذر تربيعي",
+      "cbrt": "جذر تكعيبي",
+      "power": "أس: 2^8 = 256",
+      "factorialN": "عاملي: 5! = 120",
+      "nCr": "التوافقيات",
+      "nPr": "التباديل",
+      "pi": "3.14159265...",
+      "eConst": "2.71828182...",
+      "phi": "النسبة الذهبية 1.618..."
+    },
+    "UnixTimestampTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "طابع Unix الزمني"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "محول Unix Timestamp — تحويل الوقت إلى تاريخ أونلاين",
+        "description": "أداة مجانية لتحويل طوابع Unix الزمنية أونلاين للتحويل بين التوقيت الرقمي والتواريخ البشرية. اعرض وقت Unix الحالي وحول بين المناطق الزمنية بتنسيق ISO وUTC. أساسية للمطورين.",
+        "keywords": "محول unix timestamp, تحويل الوقت, epoch, unix time, تحويل التاريخ, timestamp"
+      },
+      "tabs": {
+        "toDate": "طابع زمني إلى تاريخ",
+        "toTimestamp": "تاريخ إلى طابع زمني"
+      },
+      "unit": {
+        "seconds": "ثواني",
+        "milliseconds": "ميلي ثانية"
+      },
+      "date": {
+        "year": "السنة",
+        "month": "الشهر",
+        "day": "اليوم",
+        "hour": "الساعة",
+        "minute": "الدقيقة",
+        "second": "الثانية",
+        "millisecond": "الميلي ثانية",
+        "utc": "UTC",
+        "local": "المحلي"
+      },
+      "result": {
+        "timestamp": "الطابع الزمني",
+        "now": "الآن"
+      },
+      "actions": {
+        "copy": "نسخ",
+        "copied": "تم النسخ!"
+      },
+      "currentTime": "وقت Unix الحالي",
+      "timestampToDate": "طابع زمني → تاريخ",
+      "dateToTimestamp": "تاريخ ← طابع زمني",
+      "swap": "تبديل",
+      "useNow": "استخدم الآن",
+      "notableTimestamps": "طوابع زمنية بارزة",
+      "dateAndTime": "التاريخ والوقت",
+      "year": "السنة",
+      "month": "الشهر",
+      "day": "اليوم",
+      "hour": "الساعة",
+      "minute": "الدقيقة",
+      "ms": "مللي ثانية",
+      "unixSeconds": "ثواني Unix",
+      "unixMilliseconds": "ميلي ثانية Unix",
+      "iso8601": "ISO 8601",
+      "week": "الأسبوع",
+      "dayOfYear": "اليوم {n} من السنة",
+      "weekN": "الأسبوع {n}",
+      "leapYear": "سنة كبيسة",
+      "nonLeapYear": "سنة غير كبيسة",
+      "worldClocks": "ساعات العالم",
+      "convertedResult": "النتيجة المحولة",
+      "dateComponents": "مكونات التاريخ (UTC)",
+      "enterTimestamp": "أدخل طابعاً زمنياً أو اختر واحداً بارزاً",
+      "localTime": "وقتك المحلي",
+      "commonFormats": "تنسيقات الطابع الزمني الشائعة",
+      "unixSecondsLabel": "ثواني Unix",
+      "unixMsLabel": "ميلي ثانية Unix",
+      "iso8601Label": "ISO 8601",
+      "rfc2822": "RFC 2822",
+      "humanReadable": "قابل للقراءة البشرية",
+      "standardApis": "قياسي؛ معظم واجهات برمجة التطبيقات",
+      "jsDatenow": "Date.now() في JavaScript",
+      "webStandards": "معايير الويب",
+      "emailHeaders": "رؤوس البريد الإلكتروني",
+      "displayOnly": "عرض فقط",
+      "yourLocalTime": "وقتك المحلي",
+      "unixTimeMilestones": "معالم وقت Unix",
+      "howToUse": {
+        "title": "كيفية استخدام محول Unix Timestamp",
+        "step1Title": "اختر اتجاه التحويل",
+        "step1Desc": "اختر طابع زمني إلى تاريخ أو تاريخ إلى طابع زمني حسب ما تريد تحويله.",
+        "step2Title": "أدخل القيمة",
+        "step2Desc": "اكتب طابعاً زمنياً لـ Unix أو اختر تاريخاً باستخدام منتقي التاريخ.",
+        "step3Title": "اختر وحدة الوقت",
+        "step3Desc": "اختر بين الثواني (Unix القياسي) أو الميلي ثانية (نمط JavaScript).",
+        "step4Title": "اقرأ النتائج",
+        "step4Desc": "عرض الإخراج المحول بالتوقيت المحلي و UTC و ISO 8601 وتنسيقات أخرى شائعة."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ما هو طابع Unix الزمني؟",
+            "answer": "طابع Unix الزمني هو عدد الثواني (أو الميلي ثانية) التي انقضت منذ 1 يناير 1970 00:00:00 UTC."
+          },
+          {
+            "question": "هل هناك فرق بين الثواني والميلي ثانية؟",
+            "answer": "نعم. JavaScript's Date.now() ترجع ميلي ثانية (13 رقماً)، بينما معظم واجهات API تستخدم الثواني (10 أرقام)."
+          },
+          {
+            "question": "هل يمكنني رؤية طابع Unix الحالي؟",
+            "answer": "نعم. الأداة تعرض وقت Unix الحالي في الوقت الفعلي في أعلى الصفحة."
+          },
+          {
+            "question": "هل تدعم هذه الأداة المناطق الزمنية؟",
+            "answer": "نعم. يمكنك عرض النتائج بمنطقتك الزمنية المحلية و UTC، بالإضافة إلى تنسيقي ISO 8601 و RFC 2822."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا الطابع الزمني",
+        "sampleText": "1718198400",
+        "result": "UTC: 2024-06-12 12:00:00 · المحلي: 2024-06-12 14:00:00",
+        "stats": "ما ستراه"
+      }
+    },
+    "URLEncoderTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "مشفر/فك تشفير URL"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "مشفر URL — ترميز وفك ترميز عناوين URL أونلاين",
+        "description": "أداة مجانية لترميز وفك ترميز URLs أونلاين للتعامل مع الأحرف الخاصة ومعلمات الاستعلام ومكونات URL. أساسية لتطوير الويب واختبار API.",
+        "keywords": "ترميز url, فك ترميز url, encode url, decode url, تشفير الرابط, فك تشفير الرابط"
+      },
+      "tabs": {
+        "encode": "ترميز",
+        "decode": "فك التشفير"
+      },
+      "mode": {
+        "encode": "ترميز",
+        "decode": "فك التشفير",
+        "component": "مكون URL",
+        "full": "URL كامل"
+      },
+      "input": {
+        "placeholder": "أدخل URL أو نصاً..."
+      },
+      "stats": {
+        "encodedChars": "الأحرف المرمزة",
+        "ratio": "النسبة"
+      },
+      "actions": {
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copied": "تم النسخ!"
+      },
+      "error": "URL غير صالح",
+      "encoding": {
+        "method": "طريقة الترميز",
+        "toEncode": "نص / URL للترميز",
+        "encoded": "سلسلة مرمزة لفك تشفيرها",
+        "output": "الإخراج المرمز",
+        "outputDecoded": "الإخراج المفكك",
+        "swap": "تبديل — استخدام الإخراج كإدخال",
+        "processing": "جاري المعالجة...",
+        "fixError": "صلاح الخطأ أعلاه",
+        "outputPlaceholder": "سيظهر الإخراج هنا",
+        "copyEncoded": "نسخ URL المرمز",
+        "copyDecoded": "نسخ النص المفكك",
+        "encodingReference": "جدول مرجع الترميز بالنسب المئوية",
+        "char": "الحرف",
+        "encodedChars": "مرمز",
+        "description": "الوصف",
+        "whenToUse": "متى تستخدم أي طريقة",
+        "examples": "الأمثلة",
+        "stats": "الإحصائيات",
+        "inputLength": "طول الإدخال",
+        "outputLength": "طول الإخراج",
+        "chars": "حرف",
+        "encodedCountLabel": "الأحرف المرمزة",
+        "sizeRatio": "نسبة الحجم",
+        "decodedCountLabel": "الأحرف المفككة",
+        "urlBreakdown": "تفصيل URL",
+        "protocol": "البروتوكول",
+        "host": "المضيف",
+        "port": "المنفذ",
+        "path": "المسار",
+        "query": "الاستعلام",
+        "hash": "التجزئة",
+        "parameters": "معلمات الاستعلام",
+        "paste": "لصق",
+        "pasteUrl": "الصق URL أو نص للترميز…",
+        "pasteEncoded": "الصق URL مرمز أو سلسلة لفك تشفيرها…",
+        "exampleUrl": "مثال https://example.com/search?q=hello world",
+        "exampleEncoded": "مثال https%3A%2F%2Fexample.com%2F%3Fq%3Dhello%20world",
+        "highlighted": "مميز —",
+        "blueEncoded": "الأزرق = %XX مرمز",
+        "orangeSpace": "البرتقالي = + (مسافة)"
+      },
+      "howToUse": {
+        "title": "كيفية استخدام مشفر/فك تشفير URL",
+        "step1Title": "اختر الترميز أو فك الترميز",
+        "step1Desc": "اختر ترميز لتحويل URL إلى ترميز نسب مئوية، أو فك التشفير لتحويل النص المرمز إلى نص قابل للقراءة.",
+        "step2Title": "اختر طريقة الترميز",
+        "step2Desc": "اختر مكون URL لترميز أجزاء مثل معلمات الاستعلام، أو URL كامل لترميز العناوين بالكامل.",
+        "step3Title": "أدخل النص",
+        "step3Desc": "الصق URL أو النص في منطقة الإدخال. الإخراج يتحدث تلقائياً أثناء الكتابة.",
+        "step4Title": "انسخ النتيجة المرمزة أو المفككة",
+        "step4Desc": "انقر نسخ لنسخ النتيجة إلى الحافظة، أو استخدم تبديل لإعادة الإخراج كإدخال."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ما هو ترميز URL؟",
+            "answer": "ترميز URL يحول الأحرف الخاصة إلى علامة نسبة مئوية (%) متبوعة برقمين سداسي عشري ليتم نقلها بأمان في عناوين URL."
+          },
+          {
+            "question": "متى يجب استخدام مكون URL مقابل URL كامل؟",
+            "answer": "استخدم مكون URL لترميز قيمة معلمة استعلام فقط. استخدم URL كامل لترميز عنوان URL بالكامل بأمان."
+          },
+          {
+            "question": "لماذا ترمز المسافة كـ + أو %20؟",
+            "answer": "application/x-www-form-urlencoded يرمز المسافات كـ +، بينما ترميز URL يستخدم %20. كلاهما صحيح حسب السياق."
+          },
+          {
+            "question": "هل يمكنني فك ترميز URL قمت بترميزه؟",
+            "answer": "نعم. انتقل إلى وضع فك التشفير والصق السلسلة المرمزة للحصول على النص الأصلي."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب هذا النص النموذجي",
+        "sampleText": "مرحباً بالعالم & وداعاً",
+        "result": "مرحب%D9%8B%D8%A7%20%D8%A8%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%20%26%20%D9%88%D8%AF%D8%A7%D8%B9%D9%8B%D8%A7",
+        "stats": "ما ستراه"
+      }
+    },
+    "UUIDGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "جميع الأدوات",
+        "toolTitle": "أدوات المطورين",
+        "current": "مولد UUID"
+      },
+      "header": {
+        "badge": "أدوات المطورين",
+        "title": "مولد UUID — أنشئ معرفات UUID و ULIDs و Nanoids أونلاين",
+        "description": "أداة مجانية لإنشاء UUID أونلاين لإنشاء UUID v4 وUUID v7 وULIDs وNanoids ومعرفات مخصصة. أنشئ معرفات متعددة وتحقق من صيغة UUID وانسخ بنقرة واحدة. مثالية لمفاتيح قواعد البيانات والأنظمة الموزعة.",
+        "keywords": "مولد uuid, إنشاء uuid, uuid, ulid, nanoid, مولد معرفات فريدة, uuid v4"
+      },
+      "options": {
+        "version": "نوع المعرف",
+        "v5Settings": "إعدادات v5",
+        "namespaceUuid": "UUID Namespace",
+        "name": "الاسم",
+        "nanoidLength": "طول NanoID",
+        "default": "الافتراضي: 21",
+        "outputOptions": "خيارات الإخراج",
+        "case": "الحالة",
+        "format": "التنسيق",
+        "bulkCount": "العدد"
+      },
+      "tabs": {
+        "single": "فردي",
+        "bulk": "كمي",
+        "validate": "تحقق",
+        "history": "السجل"
+      },
+      "stats": {
+        "type": "النوع",
+        "length": "الطول",
+        "format": "التنسيق",
+        "outputChars": "{count} حرف"
+      },
+      "output": {
+        "generatedId": "المعرف المُنشأ",
+        "empty": "انقر \"إنشاء\" لإنشاء معرف",
+        "idsGenerated": "تم إنشاء {count} معرّف",
+        "formatted": "CSS مُنسق",
+        "minified": "CSS مُصغر",
+        "standard": "قياسي",
+        "braces": "أقواس",
+        "urn": "URN"
+      },
+      "generate": {
+        "button": "إنشاء",
+        "buttonWithType": "إنشاء {type}",
+        "generating": "جاري الإنشاء...",
+        "bulkButton": "إنشاء {count} معرّف"
+      },
+      "validation": {
+        "placeholder": "الصق UUID أو ULID أو URN هنا...",
+        "valid": "صالح",
+        "invalid": "غير صالح",
+        "detectedType": "النوع المكتشف",
+        "length": "الطول",
+        "emptyHint": "الصق UUID أو ULID أعلاه للتحقق منه",
+        "examples": "أمثلة التنسيق الصالحة"
+      },
+      "history": {
+        "title": "المعرّفات المُنشأة في هذه الجلسة",
+        "title1": "معرف واحد مُنشأ في هذه الجلسة",
+        "empty": "ستظهر المعرّفات المُنشأة هنا"
+      },
+      "actions": {
+        "paste": "لصق",
+        "clear": "مسح",
+        "copy": "نسخ",
+        "copyAll": "نسخ الكل",
+        "download": ".txt",
+        "downloadFull": "تحميل",
+        "copyId": "نسخ {type}"
+      },
+      "v5note": "v5 محدد — نفس namespace + الاسم يُنتج دائماً نفس UUID.",
+      "howToUse": {
+        "title": "كيفية استخدام مولد UUID",
+        "step1Title": "اختر نوع المعرف",
+        "step1Desc": "اختر من UUID v4 أو UUID v7 أو ULID أو NanoID أو تنسيقات مخصصة من القائمة المنسدلة.",
+        "step2Title": "تكوين الخيارات",
+        "step2Desc": "اضبط الإعدادات مثل حالة الأحرف (كبير/صغير) والتنسيق (قياسي/أقواس/URN) وعدد الدفعة.",
+        "step3Title": "إنشاء المعرف",
+        "step3Desc": "انقر إنشاء لإنشاء معرف فريد. في وضع الدفعة، حدد عدد المعرفات التي تحتاجها.",
+        "step4Title": "انسخ أو حمل",
+        "step4Desc": "انسخ معرفات فردية أو جميع المعرفات المُنشأة دفعة واحدة. حمل نتائج الدفعة كملف .txt."
+      },
+      "faq": {
+        "title": "الأسئلة الشائعة",
+        "items": [
+          {
+            "question": "ما الفرق بين UUID v4 و v7؟",
+            "answer": "UUID v4 يتم إنشاؤه عشوائياً، بينما UUID v7 مرتب زمنياً، مما يجعله أفضل لفهرسة قواعد البيانات."
+          },
+          {
+            "question": "ما هو ULID؟",
+            "answer": "ULID هو معرف فريد قابل للفرز معجمياً وهو آمن لـ URL وغير حساس لحالة الأحرف."
+          },
+          {
+            "question": "هل يمكنني إنشاء معرفات متعددة دفعة واحدة؟",
+            "answer": "نعم. انتقل إلى علامة التبويب دفعة وأدخل عدداً لإنشاء معرفات متعددة في وقت واحد."
+          },
+          {
+            "question": "هل يمكنني التحقق من UUID موجود؟",
+            "answer": "نعم. انتقل إلى علامة التبويب تحقق والصق UUID أو ULID أو URN للتحقق من تنسيقه ونوعه."
+          },
+          {
+            "question": "ما هو NanoID؟",
+            "answer": "NanoID هو معرف فريد مضغوط وآمن لـ URL وأقصر من UUID وقابل لتخصيص الطول."
+          }
+        ]
+      },
+      "examples": {
+        "title": "نتائج مثال",
+        "sampleLabel": "جرب إنشاء UUID",
+        "sampleText": "انقر إنشاء مع اختيار UUID v4",
+        "result": "550e8400-e29b-41d4-a716-446655440000",
+        "stats": "ما ستراه"
+      }
+    }
+  },
+  "pages": {
+    "about": {
+      "metadata": {
+        "title": "من نحن — أدوات مجانية على الإنترنت للجميع | Fancy Toolbox",
+        "description": "تعرف على Fancy Toolbox: مجموعة أدوات مجانية تراعي الخصوصية وتضم أكثر من 50 أداة تعمل في متصفحك. بدون تسجيل أو رفع ملفات — كل شيء يعمل محلياً على جهازك.",
+        "keywords": "حول, أدوات مجانية, أدوات متصفح, خصوصية, أدوات أونلاين"
+      },
+      "content": {
+        "title": "عن Fancy Toolbox",
+        "subtitle": "أدوات مجانية على الإنترنت للجميع",
+        "sections": [
+          {
+            "heading": "مهمتنا",
+            "body": "Fancy Toolbox هي مجموعة شاملة من الأدوات المجانية المصممة لمساعدتك على إنجاز مهامك بسرعة وكفاءة. من معالجة النصوص إلى تحرير الصور، ومعالجة PDF إلى أدوات المطورين — لدينا ما تحتاجه."
+          },
+          {
+            "heading": "لماذا Fancy Toolbox؟",
+            "body": "نعتقد أن الأدوات القوية يجب أن تكون متاحة للجميع. لذلك جميع أدواتنا مجانية بالكامل، وتعمل مباشرة في متصفحك، ولا تتطلب أي اشتراك أو معلومات شخصية. خصوصيتك هي أولويتنا — جميع المعالجة تتم محليًا على جهازك."
+          },
+          {
+            "heading": "ما يميزنا",
+            "body": "أدواتنا مبنية بتقنيات ويب حديثة، مما يضمن أداءً سريعًا وتجربة مستخدم سلسة عبر جميع الأجهزة. نضيف باستمرار أدوات جديدة ونحسن الأدوات الحالية بناءً على ملاحظات المستخدمين."
+          }
+        ]
+      }
+    },
+    "allTools": {
+      "metadata": {
+        "title": "جميع الأدوات المجانية — أكثر من 50 أداة في متصفحك | Fancy Toolbox",
+        "description": "تصفح أكثر من 50 أداة مجانية في Fancy Toolbox. عداد الكلمات، محرر الصور، دمج PDF، منسق JSON، محول الوحدات، مولد كلمات المرور والمزيد. بدون تسجيل، يعمل في متصفحك.",
+        "keywords": "جميع الأدوات, أدوات مجانية, عداد كلمات, ضغط صور, دمج PDF"
+      },
+      "content": {
+        "title": "جميع الأدوات",
+        "subtitle": "تصفح مجموعتنا الكاملة"
+      }
+    },
+    "changelog": {
+      "metadata": {
+        "title": "سجل التغييرات — الجديد في Fancy Toolbox | تحديثات المنتج",
+        "description": "تابع أحدث تحديثات Fancy Toolbox. تعرف على الأدوات الجديدة وتحسينات الميزات وإصلاحات الأخطاء وإعلانات المنتج في مكان واحد.",
+        "keywords": "سجل التغييرات, تحديثات, إصدارات, ميزات جديدة"
+      },
+      "content": {
+        "title": "سجل التغييرات",
+        "subtitle": "الجديد في Fancy Toolbox",
+        "sections": [
+          {
+            "version": "1.0.0",
+            "date": "يناير 2026",
+            "heading": "الإصدار الأول",
+            "body": "نحن متحمسون لإطلاق Fancy Toolbox مع مجموعة شاملة من الأدوات المجانية بما في ذلك معالجة النصوص وتحرير الصور ومعالجة PDF وأدوات المطورين ومحولات الرياضيات وأدوات الأمان. جميع الأدوات تعمل في متصفحك دون الحاجة إلى تسجيل."
+          }
+        ]
+      }
+    },
+    "contact": {
+      "metadata": {
+        "title": "اتصل بنا — تواصل مع فريق Fancy Toolbox",
+        "description": "هل لديك سؤال أو اقتراح أو تريد الإبلاغ عن خطأ؟ تواصل مع فريق Fancy Toolbox. يسعدنا سماع ملاحظاتك حول أدواتنا المجانية.",
+        "keywords": "اتصل بنا, تواصل, دعم, اقتراح, خطأ"
+      },
+      "content": {
+        "title": "اتصل بنا",
+        "subtitle": "يسعدنا سماع رأيك",
+        "sections": [
+          {
+            "heading": "تواصل معنا",
+            "body": "هل لديك سؤال أو اقتراح أو ملاحظة؟ يسعدنا سماع رأيك. سواء كان تقرير خطأ أو طلب ميزة أو مجرد تحية ودية — لا تتردد في التواصل معنا."
+          },
+          {
+            "heading": "الإبلاغ عن مشكلة",
+            "body": "إذا واجهت خطأ أو شيء لا يعمل كما هو متوقع، فيرجى إخبارنا. قم بتضمين أكبر قدر ممكن من التفاصيل، مثل الأداة التي كنت تستخدمها والمتصفح والخطوات لإعادة إنتاج المشكلة."
+          },
+          {
+            "heading": "طلب ميزات",
+            "body": "لا يمكنك العثور على الأداة التي تحتاجها؟ أخبرنا بما تود إضافته إلى Fancy Toolbox. نحن دائمًا نبحث عن أفكار لجعل منصتنا أكثر فائدة."
+          }
+        ],
+        "email": "contact@fancytoolbox.com"
+      }
+    },
+    "cookies": {
+      "metadata": {
+        "title": "سياسة ملفات تعريف الارتباط — كيف يستخدم Fancy Toolbox الكوكيز",
+        "description": "يستخدم Fancy Toolbox الحد الأدنى من ملفات تعريف الارتباط الأساسية فقط — لا تتبع، لا إعلانات، لا كوكيز طرف ثالث. تعرف على كيفية إدارتنا للكوكيز.",
+        "keywords": "ملفات تعريف الارتباط, كوكيز, لا تتبع, خصوصية"
+      },
+      "content": {
+        "title": "سياسة ملفات تعريف الارتباط",
+        "subtitle": "كيف نستخدم ملفات تعريف الارتباط",
+        "lastUpdated": "آخر تحديث: يناير 2026",
+        "sections": [
+          {
+            "heading": "ما هي ملفات تعريف الارتباط",
+            "body": "ملفات تعريف الارتباط هي ملفات نصية صغيرة مخزنة على جهازك بواسطة متصفح الويب الخاص بك. تُستخدم على نطاق واسع لجعل مواقع الويب تعمل بكفاءة وتوفير المعلومات لأصحاب المواقع."
+          },
+          {
+            "heading": "كيف نستخدم ملفات تعريف الارتباط",
+            "body": "يستخدم Fancy Toolbox الحد الأدنى من ملفات تعريف الارتباط الضرورية لعمل الموقع. نحن لا نستخدم ملفات تعريف ارتباط تتبع أو إعلانات أو أي ملفات تعريف ارتباط تابعة لجهات خارجية تجمع معلومات شخصية."
+          },
+          {
+            "heading": "ملفات تعريف الارتباط الأساسية",
+            "body": "قد نستخدم ملفات تعريف الارتباط الأساسية لتذكر تفضيلات اللغة واختيار السمة (الوضع الفاتح/الداكن). هذه الملفات ضرورية لعمل الموقع بشكل صحيح ولا تجمع أي بيانات شخصية."
+          },
+          {
+            "heading": "إدارة ملفات تعريف الارتباط",
+            "body": "يمكنك التحكم في ملفات تعريف الارتباط وإدارتها في إعدادات المتصفح الخاص بك. يرجى ملاحظة أن تعطيل بعض ملفات تعريف الارتباط قد يؤثر على وظائف الموقع."
+          },
+          {
+            "heading": "التحديثات",
+            "body": "قد نقوم بتحديث سياسة ملفات تعريف الارتباط هذه من وقت لآخر. سيتم نشر أي تغييرات على هذه الصفحة."
+          }
+        ]
+      }
+    },
+    "popularTools": {
+      "metadata": {
+        "title": "الأدوات المجانية الشائعة — الأكثر استخداماً في متصفحك | Fancy Toolbox",
+        "description": "اكتشف أشهر الأدوات المجانية المختارة من مجموعتنا. عداد الكلمات، محرر الصور، دمج PDF، منسق JSON، مولد كلمات المرور والمزيد من الأدوات الرائجة المستخدمة يومياً.",
+        "keywords": "أدوات شائعة, أدوات رائجة, الأكثر استخداماً, أدوات مفضلة"
+      },
+      "content": {
+        "title": "الأدوات الشائعة",
+        "subtitle": "الأدوات الأكثر استخدامًا من قبل مجتمعنا"
+      }
+    },
+    "privacy": {
+      "metadata": {
+        "title": "سياسة الخصوصية — كيف يحمي Fancy Toolbox بياناتك",
+        "description": "خصوصيتك تهمنا. اقرأ سياسة خصوصية Fancy Toolbox: لا جمع للبيانات، لا رفع للملفات، جميع المعالجة تتم محلياً في متصفحك. Zero تتبع، خصوصية كاملة.",
+        "keywords": "سياسة الخصوصية, حماية البيانات, خصوصية, لا تتبع, معالجة محلية"
+      },
+      "content": {
+        "title": "سياسة الخصوصية",
+        "subtitle": "كيف نتعامل مع بياناتك",
+        "lastUpdated": "آخر تحديث: يناير 2026",
+        "sections": [
+          {
+            "heading": "مقدمة",
+            "body": "في Fancy Toolbox، خصوصيتك هي أولويتنا القصوى. توضح سياسة الخصوصية هذه كيف نجمع ونستخدم ونحمي معلوماتك عند استخدام موقعنا وأدواتنا."
+          },
+          {
+            "heading": "جمع البيانات",
+            "body": "نحن لا نجمع أو نخزن أو ننقل أي بيانات شخصية. جميع الأدوات تعمل بالكامل في متصفحك — ملفاتك ونصوصك ومحتواك لا تغادر جهازك أبدًا. لا نستخدم ملفات تعريف الارتباط لأغراض التتبع."
+          },
+          {
+            "heading": "التحليلات",
+            "body": "نستخدم تحليلات بسيطة تراعي الخصوصية لفهم أنماط الاستخدام العامة. هذه البيانات مجهولة المصدر ولا يمكن استخدامها لتحديد هوية المستخدمين. لا تتم مشاركة أي معلومات شخصية مع أطراف ثالثة."
+          },
+          {
+            "heading": "خدمات الطرف الثالث",
+            "body": "نحن لا نبيع أو نتبادل أو ننقل معلوماتك إلى أطراف ثالثة. قد يحتوي موقعنا على روابط لمواقع خارجية، لكننا لسنا مسؤولين عن ممارسات الخصوصية الخاصة بهم."
+          },
+          {
+            "heading": "تغييرات هذه السياسة",
+            "body": "قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سيتم نشر أي تغييرات على هذه الصفحة مع تاريخ المراجعة المحدث."
+          },
+          {
+            "heading": "اتصل بنا",
+            "body": "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا على contact@fancytoolbox.com."
+          }
+        ]
+      }
+    },
+    "terms": {
+      "metadata": {
+        "title": "شروط الخدمة — القواعد والإرشادات | Fancy Toolbox",
+        "description": "اقرأ شروط خدمة Fancy Toolbox. باستخدام أدواتنا المجانية، فإنك توافق على هذه الإرشادات. الأدوات مقدمة 'كما هي' دون ضمان.",
+        "keywords": "شروط الخدمة, شروط الاستخدام, اتفاقية المستخدم"
+      },
+      "content": {
+        "title": "شروط الخدمة",
+        "subtitle": "القواعد والإرشادات",
+        "lastUpdated": "آخر تحديث: يناير 2026",
+        "sections": [
+          {
+            "heading": "قبول الشروط",
+            "body": "باستخدام Fancy Toolbox، فإنك توافق على الالتزام بشروط الخدمة هذه. إذا كنت لا توافق، فيرجى عدم استخدام خدماتنا."
+          },
+          {
+            "heading": "استخدام الخدمة",
+            "body": "أدواتنا مقدمة للأغراض القانونية فقط. أنت توافق على عدم إساءة استخدام الخدمات لأي غرض غير قانوني أو غير مصرح به. جميع الأدوات مقدمة 'كما هي' دون أي ضمان."
+          },
+          {
+            "heading": "الملكية الفكرية",
+            "body": "محتوى وتصميم ورمز Fancy Toolbox مملوكة لنا ومحمية بموجب قوانين الملكية الفكرية المعمول بها. لا يجوز لك إعادة إنتاج أو توزيع أو إنشاء أعمال مشتقة دون موافقتنا الخطية المسبقة."
+          },
+          {
+            "heading": "حدود المسؤولية",
+            "body": "Fancy Toolbox ومنشئوها لا يتحملون المسؤولية عن أي أضرار ناتجة عن استخدام أو عدم القدرة على استخدام خدماتنا. نحن لا نقدم أي ضمانات حول دقة أو موثوقية أو توفر الأدوات."
+          },
+          {
+            "heading": "تغييرات الشروط",
+            "body": "نحتفظ بالحق في تعديل هذه الشروط في أي وقت. الاستمرار في استخدام الموقع بعد التغييرات يشكل قبولاً للشروط الجديدة."
+          }
+        ]
+      }
+    }
+  },
+  "sections": {
+    "Categories": {
+      "categories": {
+        "badge": "استكشف الفئات",
+        "titleFirst": "الأداة المناسبة",
+        "titleSecond": "لكل مهمة",
+        "description": "تصفح مجموعتنا المتنامية من الأدوات المجانية عبر الإنترنت، مصنفة حسب الفئة. بدون تسجيل، بدون تثبيت — فقط افتح واستخدم.",
+        "exploreTools": "استكشف الأدوات",
+        "ctaButton": {
+          "description": "لا تجد ما تبحث عنه؟",
+          "text": "تصفح جميع الأدوات"
+        },
+        "tools": {
+          "text": {
+            "title": "أدوات النصوص",
+            "description": "عداد الكلمات، محولات الحالة، مقارنة النصوص، مولدات لوريم إيبسوم والمزيد.",
+            "tools": "عداد الكلمات، محول الحالة، مقارنة النصوص",
+            "meta": {
+              "title": "أدوات النصوص — أدوات مجانية على الإنترنت للعد والتحويل والمقارنة",
+              "description": "احسب الكلمات، حوّل حالة الأحرف، قارن النصوص، وأنشئ نصوص لوريم إيبسوم مجاناً. بدون تسجيل، يعمل في متصفحك.",
+              "keywords": "أدوات نصوص, عداد الكلمات, محول الحالة, مقارنة النصوص, مولد لوريم إيبسوم"
+            }
+          },
+          "image": {
+            "title": "أدوات الصور",
+            "description": "تغيير الحجم، الضغط، التحويل، وتحرير الصور — كل ذلك دون مغادرة متصفحك.",
+            "tools": "تغيير حجم الصورة، ضغط الصورة، محول الصور",
+            "meta": {
+              "title": "أدوات الصور — محرر صور مجاني على الإنترنت: تغيير الحجم والضغط والتحويل",
+              "description": "غيّر الحجم، اضغط، حوّل، وحرّر الصور مجاناً على الإنترنت. جميع المعالجة تتم في متصفحك — بدون رفع، بدون تسجيل.",
+              "keywords": "أدوات صور, محرر صور, تغيير حجم الصورة, ضغط الصور, محول الصور"
+            }
+          },
+          "pdf": {
+            "title": "أدوات PDF",
+            "description": "دمج، تقسيم، ضغط وتحويل ملفات PDF بسرعة وأمان.",
+            "tools": "دمج PDF، تقسيم PDF، ضغط PDF",
+            "meta": {
+              "title": "أدوات PDF — محرر PDF مجاني على الإنترنت: دمج وتقسيم وضغط وتحويل",
+              "description": "ادمج، قسّم، اضغط، وحوّل ملفات PDF مجاناً على الإنترنت. ملفاتك لا تغادر جهازك أبداً — آمن وخاص 100%.",
+              "keywords": "أدوات PDF, محرر PDF, دمج PDF, تقسيم PDF, ضغط PDF, تحويل PDF"
+            }
+          },
+          "developer": {
+            "title": "أدوات المطورين",
+            "description": "منسق JSON، مشفر Base64، مختبئ التعبيرات النمطية، وغيرها من أدوات المطورين الأساسية.",
+            "tools": "منسق JSON، مشفر Base64، مختبئ التعبيرات النمطية",
+            "meta": {
+              "title": "أدوات المطورين — أدوات برمجية مجانية على الإنترنت: JSON و Regex و Base64 والمزيد",
+              "description": "نسّق JSON، اختبر التعبيرات النمطية، شفّر وفك تشفير Base64، وأنشئ UUID مجاناً. أدوات للمطورين تعمل في متصفحك.",
+              "keywords": "أدوات مطورين, منسق JSON, اختبار Regex, مشفر Base64, مولد UUID"
+            }
+          },
+          "math": {
+            "title": "الرياضيات والمحولات",
+            "description": "محولات الوحدات، حاسبة النسب المئوية، أدوات العملات، وأدوات الأرقام.",
+            "tools": "محول الوحدات، حاسبة النسب المئوية، محول العملات",
+            "meta": {
+              "title": "أدوات الرياضيات — حاسبات ومحولات مجانية على الإنترنت",
+              "description": "احسب النسب المئوية، حوّل الوحدات، احسب فروق التواريخ، وحوّل أساسات الأرقام مجاناً. سريعة ودقيقة، تعمل في متصفحك.",
+              "keywords": "أدوات رياضيات, حاسبة النسب المئوية, محول الوحدات, حاسبة فرق التاريخ"
+            }
+          },
+          "security": {
+            "title": "أدوات الأمان",
+            "description": "مولدات كلمات المرور، أدوات التجزئة، وأدوات التشفير للاستخدام اليومي.",
+            "tools": "مولد كلمات المرور، مولد التجزئة، أداة التشفير",
+            "meta": {
+              "title": "أدوات الأمان — مولد كلمات مرور وأدوات تجزئة مجانية على الإنترنت",
+              "description": "أنشئ كلمات مرور قوية، اختبر قوة كلمة المرور، واحسب تجزئات MD5 مجاناً. كل شيء يعمل محلياً في متصفحك.",
+              "keywords": "أدوات أمان, مولد كلمات المرور, اختبار قوة كلمة المرور, مولد MD5"
+            }
+          },
+          "seo": {
+            "title": "أدوات تحسين محركات البحث",
+            "description": "مولدات علامات الوصف، معاينة SERP، مولدات خريطة الموقع، أدوات ترميز المخطط، والمزيد من أدوات SEO.",
+            "tools": "مولد علامات الوصف، معاينة SERP، مولد خريطة الموقع",
+            "meta": {
+              "title": "أدوات SEO — أدوات تحسين محركات البحث مجانية على الإنترنت",
+              "description": "أنشئ علامات الوصف، اعرض معاينة SERP، أنشئ خرائط الموقع و robots.txt، وحلل كثافة الكلمات المفتاحية مجاناً. بدون تسجيل.",
+              "keywords": "أدوات SEO, مولد علامات الوصف, معاينة SERP, مولد خريطة الموقع, مولد robots.txt"
+            }
+          },
+          "all": {
+            "title": "جميع الأدوات",
+            "description": "تصفح جميع الأدوات المجانية في مكان واحد.",
+            "meta": {
+              "title": "جميع الأدوات — مجموعة أدوات مجانية على الإنترنت",
+              "description": "تصفح جميع الأدوات المجانية في Fancy Toolbox. أدوات النصوص والصور و PDF والمطورين والرياضيات والأمان — كلها في مكان واحد.",
+              "keywords": "جميع الأدوات, أدوات على الإنترنت, أدوات مجانية"
+            }
+          },
+          "popular": {
+            "title": "الأدوات الشائعة",
+            "description": "الأدوات الأكثر استخداماً من قبل مجتمعنا.",
+            "meta": {
+              "title": "الأدوات الشائعة — الأدوات المجانية الأكثر استخداماً",
+              "description": "اكتشف الأدوات المجانية الأكثر شعبية. عداد الكلمات، محرر الصور، دمج PDF، والمزيد من المفضلات التي يستخدمها الآلاف.",
+              "keywords": "أدوات شائعة, أدوات رائجة, الأدوات الأكثر استخداماً"
+            }
+          }
+        }
+      }
+    },
+    "CTA": {
+      "cta": {
+        "badge": "جاهز للبدء؟",
+        "titleFirst": "توقف عن البحث.",
+        "titleSecond": "ابدأ بالعمل.",
+        "description": "كل ما تحتاجه موجود هنا بالفعل — مجاني وسريع وجاهز للاستخدام. بدون حسابات. بدون حدود. بدون أعذار.",
+        "exploreall": "استكشف جميع الأدوات",
+        "mostpopular": "استكشف الأكثر شعبية",
+        "features": {
+          "1": "وصول فوري",
+          "2": "بدون تسجيل",
+          "3": "مجاني غير محدود",
+          "4": "أكثر من 50 أداة"
+        }
+      }
+    },
+    "Footer": {
+      "footer": {
+        "websitename": "Fancy Toolbox",
+        "description": "مجموعة مجانية وسريعة وأولوية الخصوصية من الأدوات عبر الإنترنت — مصممة للجميع. بدون تسجيل. بدون حدود. أدوات تعمل فقط.",
+        "subscribe": "احصل على التحديثات الجديدة",
+        "tools": {
+          "heading": "الأدوات",
+          "texttools": "أدوات النصوص",
+          "imagetools": "أدوات الصور",
+          "pdftools": "أدوات PDF",
+          "devtools": "أدوات المطورين",
+          "mathtools": "الرياضيات والمحولات",
+          "securitytools": "أدوات الأمان"
+        },
+        "alltools": "جميع الأدوات",
+        "company": {
+          "heading": "الشركة",
+          "about": "من نحن",
+          "blog": "المدونة",
+          "changelog": "سجل التغييرات",
+          "contact": "اتصل بنا"
+        },
+        "legal": {
+          "heading": "قانوني",
+          "privacy": "سياسة الخصوصية",
+          "termsofservices": "شروط الخدمة",
+          "cookies": "سياسة ملفات تعريف الارتباط"
+        },
+        "disclaimer": "ملفاتك لا تُرفع أبداً إلى خوادمنا. جميع المعالجة تحدث محلياً في متصفحك."
+      }
+    },
+    "Hero": {
+      "metadata": {
+        "title": "Fancy Toolbox — أدوات مجانية على الإنترنت للنصوص والصور و PDF والمزيد",
+        "description": "أكثر من 50 أداة مجانية على الإنترنت لمعالجة النصوص وتحرير الصور والتعامل مع PDF وتنسيق البرمجة والمزيد. بدون تسجيل، كل شيء يعمل في متصفحك.",
+        "keywords": "أدوات مجانية على الإنترنت, أدوات نصوص, محرر صور, أدوات PDF, أدوات برمجية, أدوات مجانية بدون تسجيل"
+      },
+      "hero": {
+        "badge": "مجاني 100% • بدون تسجيل • يعمل في متصفحك",
+        "titleFirst": "كل الأدوات التي تحتاجها،",
+        "titleSecond": "في مكان واحد",
+        "description": "مجموعة قوية من الأدوات المجانية عبر الإنترنت للنصوص والصور وملفات PDF والمزيد — تعمل مباشرة في متصفحك دون إرسال أي بيانات إلى أي خادم.",
+        "ctaButtons": {
+          "getStartedFree": "ابدأ مجاناً",
+          "browseAllTools": "تصفح جميع الأدوات"
+        },
+        "trustIndicators": {
+          "dataStaysOnDevice": "بياناتك تظل على جهازك",
+          "fastAndNoInstallation": "سريع ولا يتطلب تثبيت",
+          "constantlyUpdated": "يتحدث باستمرار"
+        },
+        "floatingTools": {
+          "pdfMerger": "دمج PDF",
+          "imageResizer": "تغيير حجم الصورة",
+          "wordCounter": "عداد الكلمات",
+          "jsonFormatter": "منسق JSON",
+          "pdfSplitter": "تقسيم PDF",
+          "fileConverter": "محول الملفات"
+        },
+        "categoryBadges": {
+          "textTools": "أدوات النصوص",
+          "imageTools": "أدوات الصور",
+          "pdfTools": "أدوات PDF",
+          "codeTools": "أدوات البرمجة"
+        }
+      }
+    },
+    "HowItWorks": {
+      "howitworks": {
+        "badge": "كيف يعمل",
+        "titleFirst": "بسيط",
+        "titleSecond": "1، 2، 3",
+        "description": "لا حاجة لبرامج تعليمية. كل أداة مصممة لتكون بديهية وجاهزة للاستخدام في ثوانٍ.",
+        "whyus": "لماذا يثق بنا آلاف الأشخاص",
+        "steps": {
+          "first": "اعثر على أداتك",
+          "firstDescription": "تصفح حسب الفئة أو استخدم شريط البحث للعثور فوراً على الأداة المناسبة لمهمتك.",
+          "second": "افتح واستخدم",
+          "secondDescription": "انقر على أي أداة وابدأ باستخدامها فوراً — بدون شاشات تحميل، بدون إنشاء حساب، بدون احتكاك.",
+          "third": "خصص واعالج",
+          "thirdDescription": "اضبط الإعدادات لتناسب احتياجاتك. كل شيء يعمل محلياً في متصفحك لأقصى سرعة والخصوصية.",
+          "forth": "حمّل وانتهى",
+          "forthDescription": "احصل على نتيجتك فوراً. انسخ، حمّل أو شارك — عملك، طريقتك."
+        },
+        "perks": {
+          "first": "لا يتطلب تسجيل",
+          "firstDescription": " صفر حسابات، صفر بريد إلكتروني، صفر كلمات مرور. فقط افتح أداة وابدأ العمل.",
+          "second": "استخدام غير محدود",
+          "secondDescription": "استخدم أي أداة عدة مرات حسب الحاجة. بدون حدود يومية، أنظمة ائتمانية أو جدران دفع.",
+          "third": "مجاني 100% للأبد",
+          "thirdDescription": "كل أداة على المنصة مجانية تماماً. بدون رسوم مخفية، بدون مستويات مميزة.",
+          "forth": "خصوصية بالتصميم",
+          "forthDescription": "ملفاتك لا تغادر جهازك. جميع المعالجة تحدث في متصفحك — لا نرى شيئاً."
+        }
+      }
+    },
+    "LatestArticles": {
+      "latestarticles": {
+        "badge": "من المدونة",
+        "titleFirst": "أحدث",
+        "titleSecond": "المقالات",
+        "description": "نصائح وأدلة وكيفية لجعل أقصى استفادة من أدواتنا.",
+        "viewall": "عرض جميع المقالات"
+      }
+    },
+    "Navigation": {
+      "nav": {
+        "home": "الرئيسية",
+        "tools": "الأدوات",
+        "articles": "المقالات",
+        "about": "عن المنصة"
+      },
+      "toolsList": {
+        "textTitle": "أدوات النصوص",
+        "text": {
+          "wordCounter": {
+            "label": "عداد الكلمات",
+            "description": "احسب الكلمات والأحرف والجمل ووقت القراءة فوراً."
+          },
+          "caseConverter": {
+            "label": "محول الحالة",
+            "description": "التبديل بين كبير وصغير والعنوان وcamelCase والمزيد."
+          },
+          "loremIpsum": {
+            "label": "مولد لوريم إيبسوم",
+            "description": "أنشئ نصاً بديلاً بفقرات أو جمل أو كلمات."
+          },
+          "diff": {
+            "label": "فاحص فرق النص",
+            "description": "قارن بين نصين وأبرز الاختلافات."
+          },
+          "all": "جميع أدوات النصوص"
+        },
+        "devTitle": "أدوات المطورين",
+        "dev": {
+          "jsonFormatter": {
+            "label": "منسق JSON",
+            "description": "جمّل أو صغر JSON مع تمييز الصياغة وكشف الأخطاء."
+          },
+          "base64": {
+            "label": "مشفر Base64",
+            "description": "شفر سلاسل أو ملفات إلى Base64، أو فك تشفير Base64 إلى نص."
+          },
+          "regex": {
+            "label": "مختبئ التعبيرات النمطية",
+            "description": "اكتب واختبر وتصحيح التعبيرات النمطية مع تمييز المطابقات الفوري."
+          },
+          "uuid": {
+            "label": "مولد UUID",
+            "description": "أنشئ UUID من الإصدار 1 أو 4 أو بكميات لقواعد البيانات وواجهات برمجة التطبيقات."
+          },
+          "all": "جميع أدوات المطورين"
+        },
+        "imageTitle": "أدوات الصور",
+        "image": {
+          "resizer": {
+            "label": "تغيير حجم الصورة",
+            "description": "غيّر حجم الصور إلى أبعاد محددة أو بنسبة مئوية — بدون فقدان الجودة."
+          },
+          "compressor": {
+            "label": "ضغط الصورة",
+            "description": "اضغط ملفات JPG وPNG وWebP مع الحفاظ على الجودة المرئية."
+          },
+          "converter": {
+            "label": "محول الصيغ",
+            "description": "حوّل الصور بين JPG وPNG وWebP وGIF وBMP والمزيد."
+          },
+          "colorPicker": {
+            "label": "منتقي الألوان",
+            "description": "استخرج رموز الألوان الدقيقة (HEX وRGB وHSL) من أي صورة."
+          },
+          "all": "جميع أدوات الصور"
+        },
+        "pdfTitle": "أدوات PDF",
+        "pdf": {
+          "merger": {
+            "label": "دمج PDF",
+            "description": "ادمج عدة ملفات PDF في ملف واحد في ثوانٍ."
+          },
+          "splitter": {
+            "label": "تقسيم PDF",
+            "description": "قسّم PDF إلى صفحات فردية أو نطاقات صفحات مخصصة."
+          },
+          "compressor": {
+            "label": "ضغط PDF",
+            "description": "قلل حجم ملف PDF دون التضحية بالوضوح."
+          },
+          "toWord": {
+            "label": "PDF إلى Word",
+            "description": "حوّل مستندات PDF إلى ملفات .docx قابلة للتحرير فوراً."
+          },
+          "all": "جميع أدوات PDF"
+        },
+        "seoTitle": "أدوات SEO",
+        "seo": {
+          "metaGenerator": {
+            "label": "مولد وسم Meta",
+            "description": "أنشئ علامات meta محسّنة للعنوان والوصف وOpen Graph."
+          },
+          "slug": {
+            "label": "مولد Slug",
+            "description": "أنشئ slug URL نظيف ومُحسّن لـ SEO من أي عنوان أو عبارة."
+          },
+          "keywordDensity": {
+            "label": "فاحص كثافة الكلمات المفتاحية",
+            "description": "حلّل تكرار الكلمات المفتاحية وكثافتها في أي محتوى."
+          },
+          "robotsTxt": {
+            "label": "مولد Robots.txt",
+            "description": "أنشئ ملف robots.txt صالح لموقعك باستخدام محرر مرئي."
+          },
+          "all": "جميع أدوات SEO"
+        },
+        "mathTitle": "الرياضيات والمحولات",
+        "math": {
+          "unitConverter": {
+            "label": "محول الوحدات",
+            "description": "حوّل الطول والوزن والسرعة والمساحة والمزيد."
+          },
+          "percentage": {
+            "label": "حاسبة النسبة المئوية",
+            "description": "احسب النسب المئوية والزيادات والانخفاظات والنسب."
+          },
+          "numberBase": {
+            "label": "محول الأساس",
+            "description": "حوّل بين الثنائي والثماني والعشري والسداسي عشر."
+          },
+          "scientific": {
+            "label": "الآلة الحاسبة العلمية",
+            "description": "آلة حاسبة كاملة الميزات مع الدوال المثلثية واللوغاريتمية والجبرية."
+          },
+          "all": "جميع أدوات الرياضيات والمحولات"
+        },
+        "securityTitle": "أدوات الأمان",
+        "security": {
+          "passwordGenerator": {
+            "label": "مولد كلمات المرور",
+            "description": "أنشئ كلمات مرور قوية وعشوائية بطول مخصص وقواعد الأحرف."
+          },
+          "md5": {
+            "label": "مولد تجزئة MD5",
+            "description": "أنشئ مجاميع التحقق MD5 للسلاسل أو تحقق من سلامة البيانات."
+          },
+          "bcrypt": {
+            "label": "تجزئة Bcrypt",
+            "description": "شغّل كلمات المرور باستخدام Bcrypt مع جولات ملح قابلة للتعديل."
+          },
+          "passwordStrength": {
+            "label": "فاحص كلمة المرور",
+            "description": "تحقق من قوة كلمة المرور واحصل على اقتراحات لتحسينها."
+          },
+          "all": "جميع أدوات الأمان"
+        }
+      },
+      "featured": {
+        "title": "متميز",
+        "mostPopular": "الأكثر شعبية",
+        "pdfCompressor": {
+          "label": "ضغط PDF",
+          "description": "قلل حجم ملف PDF دون التضحية بالوضوح.",
+          "tryItNow": "جرب الآن",
+          "badge": "مجاني"
+        }
+      },
+      "browseAllTools": "تصفح جميع الأدوات",
+      "allToolsAreFree": "جميع الأدوات مجانية 100% — بدون تسجيل، بدون حدود، بدون رفع للخادم.",
+      "newThisMonth": "أدوات جديدة هذا الشهر",
+      "mobileLanguageSwitcher": "اللغة"
+    },
+    "ToolsList": {
+      "toolsList": {
+        "text": {
+          "wordCounter": {
+            "label": "عداد الكلمات",
+            "description": "احسب الكلمات والأحرف والجمل ووقت القراءة فوراً."
+          },
+          "caseConverter": {
+            "label": "محول الحالة",
+            "description": "التبديل بين كبير وصغير والعنوان وcamelCase والمزيد."
+          },
+          "loremIpsum": {
+            "label": "مولد لوريم إيبسوم",
+            "description": "أنشئ نصاً بديلاً بفقرات أو جمل أو كلمات."
+          },
+          "diff": {
+            "label": "فاحص فرق النص",
+            "description": "قارن بين نصين وأبرز الاختلافات."
+          },
+          "findReplace": {
+            "label": "بحث واستبدال",
+            "description": "ابحث عن أي نص واستبدله بكميات كبيرة — مع دعم التعبيرات النمطية."
+          },
+          "repeater": {
+            "label": "مكرر النص",
+            "description": "كرر أي نص أو حرف عدداً مخصصاً من المرات."
+          },
+          "removeFormatting": {
+            "label": "إزالة التنسيق",
+            "description": "أزل علامات HTML والعلامات التنسيقية والحروف غير المرئية من النص."
+          },
+          "wrapper": {
+            "label": "غلاف النص",
+            "description": "لف الأسطر الطويلة من النص عند عرض أحرف مخصص."
+          },
+          "slugGenerator": {
+            "label": "مولد Slug",
+            "description": "حوّل أي نص إلى slug نظيف ومناسب لـ URL."
+          }
+        },
+        "dev": {
+          "jsonFormatter": {
+            "label": "منسق JSON",
+            "description": "جمّل أو صغر JSON مع تمييز الصياغة وكشف الأخطاء."
+          },
+          "base64": {
+            "label": "مشفر/فك تشفير Base64",
+            "description": "مشفر سلاسل أو ملفات إلى Base64، أو فك تشفير Base64 إلى نص."
+          },
+          "regex": {
+            "label": "مختبر التعبيرات النمطية",
+            "description": "اكتب واختبر وتصحيح التعبيرات النمطية مع تمييز المطابقات الفوري."
+          },
+          "uuid": {
+            "label": "مولد UUID",
+            "description": "أنشئ UUID من الإصدار 1 أو 4 أو بكميات لقواعد البيانات وواجهات برمجة التطبيقات."
+          },
+          "htmlFormatter": {
+            "label": "منسق HTML",
+            "description": "مسافة بادئة ونظف ترميز HTML الفوضوي تلقائياً."
+          },
+          "cssFormatter": {
+            "label": "منسق CSS",
+            "description": "جمّل أو صغر أوراق أنماط CSS بنقرة واحدة."
+          },
+          "urlEncoder": {
+            "label": "مشفر/فك تشفير URL",
+            "description": "مشفر الأحرف الخاصة في URLs أو فك تشفير السلعات المشفرة."
+          },
+          "timestamp": {
+            "label": "محول طابع Unix الزمني",
+            "description": "حوّل طوابع Unix الزمنية إلى تواريخ قابلة للقراءة والعكس."
+          },
+          "jwt": {
+            "label": "فك تشفير JWT",
+            "description": "فك تشفير وفحص رموز الويب JSON — الرأس والحمولة والتوقيع."
+          },
+          "markdownToHtml": {
+            "label": "Markdown إلى HTML",
+            "description": "حوّل صيغة Markdown إلى كود HTML نظيف وجاهز للاستخدام."
+          },
+          "csvToJson": {
+            "label": "CSV إلى JSON",
+            "description": "حوّل بيانات CSV إلى JSON منظم فوراً."
+          },
+          "jsonDiff": {
+            "label": "قارن بين JSON",
+            "description": "قارن بين كائنين JSON وأبرز الفروق الهيكلية."
+          }
+        },
+        "seo": {
+          "metaGenerator": {
+            "label": "مولد وسم Meta",
+            "description": "أنشئ علامات meta محسّنة للعنوان والوصف وOpen Graph."
+          },
+          "slug": {
+            "label": "مولد Slug",
+            "description": "أنشئ slug URL نظيف ومُحسّن لـ SEO من أي عنوان أو عبارة."
+          },
+          "keywordDensity": {
+            "label": "فاحص كثافة الكلمات المفتاحية",
+            "description": "حلّل تكرار الكلمات المفتاحية وكثافتها في أي محتوى."
+          },
+          "robotsTxt": {
+            "label": "مولد Robots.txt",
+            "description": "أنشئ ملف robots.txt صالح لموقعك باستخدام محرر مرئي."
+          },
+          "sitemap": {
+            "label": "مولد خريطة الموقع",
+            "description": "أنشئ خريطة موقع XML من قائمة من URLs لزحف محركات البحث."
+          },
+          "ogPreview": {
+            "label": "معاينة Open Graph",
+            "description": "معاينة كيف ستظهر صفحتك عند مشاركتها على Facebook وTwitter وLinkedIn."
+          },
+          "readability": {
+            "label": "فاحص قابلية القراءة",
+            "description": "قيّم قابلية قراءة المحتوى باستخدام Flesch-Kincaid ومقاييس أخرى."
+          },
+          "schema": {
+            "label": "مولد Schema Markup",
+            "description": "أنشئ بيانات JSON-LD المهيكلة للمقالات والمنتجات والأسئلة الشائعة والمزيد."
+          },
+          "serpPreview": {
+            "label": "معاينة SERP",
+            "description": "شاهد بالضبط كيف سيظهر عنوان ووصف صفحتك في نتائج Google."
+          },
+          "wordFrequency": {
+            "label": "عداد تكرار الكلمات",
+            "description": "اعثر على أكثر الكلمات تكراراً في المحتوى لتحسين SEO."
+          },
+          "canonical": {
+            "label": "مولد وسم Canonical",
+            "description": "أنشئ وسوم URL الأساسية لمنع عقوبات المحتوى المكرر."
+          },
+          "characterCounter": {
+            "label": "عداد حروف SEO",
+            "description": "احسب الحروف والكلمات مع مؤشرات حدود SEO في الوقت الفعلي."
+          },
+          "headingAnalyzer": {
+            "label": "محلل هيكل العناوين",
+            "description": "معاينة وتحليل هيكل العناوين (H1-H6) لأي صفحة ويب."
+          },
+          "hreflang": {
+            "label": "مولد وسوم Hreflang",
+            "description": "أنشئ وسوم hreflang للمواقع متعددة اللغات والمناطق."
+          }
+        },
+        "pdf": {
+          "merger": {
+            "label": "دمج PDF",
+            "description": "ادمج عدة ملفات PDF في ملف واحد في ثوانٍ."
+          },
+          "splitter": {
+            "label": "تقسيم PDF",
+            "description": "قسّم PDF إلى صفحات فردية أو نطاقات صفحات مخصصة."
+          },
+          "compressor": {
+            "label": "ضغط PDF",
+            "description": "قلل حجم ملف PDF دون التضحية بالوضوح."
+          },
+          "toWord": {
+            "label": "PDF إلى Word",
+            "description": "حوّل مستندات PDF إلى ملفات .docx قابلة للتحرير فوراً."
+          },
+          "toImages": {
+            "label": "PDF إلى صور",
+            "description": "صدّر كل صفحة من PDF كملفات JPG أو PNG عالية الجودة."
+          },
+          "fromImages": {
+            "label": "صور إلى PDF",
+            "description": "اجمّع عدة صور في مستند PDF منظم واحد."
+          },
+          "rotate": {
+            "label": "تدوير PDF",
+            "description": "دوّر جميع الصفحات أو صفحات محددة من PDF بـ 90° أو 180° أو 270°."
+          },
+          "protect": {
+            "label": "حماية PDF",
+            "description": "أضف كلمة مرور إلى PDF لمنع الوصول غير المصرح به."
+          },
+          "unlock": {
+            "label": "إلغاء حماية PDF",
+            "description": "أزل حماية كلمة المرور من PDF تملكه."
+          },
+          "ocr": {
+            "label": "OCR PDF",
+            "description": "استخرج نصاً قابلاً للتحديد من مستندات PDF الممسوحة ضوئياً."
+          }
+        },
+        "image": {
+          "resizer": {
+            "label": "تغيير حجم الصورة",
+            "description": "غيّر حجم الصور إلى أبعاد محددة أو بنسبة مئوية — بدون فقدان الجودة."
+          },
+          "compressor": {
+            "label": "ضغط الصورة",
+            "description": "اضغط ملفات JPG وPNG وWebP مع الحفاظ على الجودة المرئية."
+          },
+          "converter": {
+            "label": "محول الصيغ",
+            "description": "حوّل الصور بين JPG وPNG وWebP وGIF وBMP والمزيد."
+          },
+          "colorPicker": {
+            "label": "منتقي الألوان",
+            "description": "استخرج رموز الألوان الدقيقة (HEX وRGB وHSL) من أي صورة."
+          },
+          "flipper": {
+            "label": "قلب الصورة",
+            "description": "قلب الصور أفقياً أو عمودياً بنقرة واحدة."
+          },
+          "rotator": {
+            "label": "تدوير الصورة",
+            "description": "دوّر الصور بـ 90° أو 180° أو أي زاوية مخصصة."
+          },
+          "toBase64": {
+            "label": "صورة إلى Base64",
+            "description": "شفر أي صورة إلى سلسلة Base64 للاستخدام في HTML أو CSS."
+          },
+          "grayscale": {
+            "label": "محول الرمادي",
+            "description": "حوّل أي صورة ملونة إلى نسخة نظيفة بالأبيض والأسود."
+          },
+          "watermark": {
+            "label": "إضافة علامة مائية",
+            "description": "ضع علامات مائية نصية أو صورية على صورك — قابلة للتخصيص بالكامل."
+          },
+          "merger": {
+            "label": "دمج الصور",
+            "description": "اجمّع عدة صور جنباً إلى جنب أو مكدسة عمودياً."
+          }
+        },
+        "math": {
+          "unitConverter": {
+            "label": "محول الوحدات",
+            "description": "حوّل الطول والوزن والسرعة والمساحة والمزيد."
+          },
+          "percentage": {
+            "label": "حاسبة النسبة المئوية",
+            "description": "احسب النسب المئوية والزيادات والانخفاظات والنسب."
+          },
+          "numberBase": {
+            "label": "محول الأساس",
+            "description": "حوّل بين الثنائي والثماني والعشري والسداسي عشر."
+          },
+          "scientific": {
+            "label": "الآلة الحاسبة العلمية",
+            "description": "آلة حاسبة كاملة الميزات مع الدوال المثلثية واللوغاريتمية والجبرية."
+          },
+          "currency": {
+            "label": "محول العملات",
+            "description": "أسعار الصرف لأكثر من 150 عملة حول العالم."
+          },
+          "age": {
+            "label": "حاسبة العمر",
+            "description": "احسب العمر الدقيق بالسنوات والأشهر والأيام من تاريخ الميلاد."
+          },
+          "dateDiff": {
+            "label": "فرق التواريخ",
+            "description": "اعثر على عدد الأيام والأسابيع أو الأشهر بين تاريخين."
+          },
+          "average": {
+            "label": "حاسبة المتوسط",
+            "description": "احسب المتوسط والوسيط والمنوال والمدى من قائمة أرقام."
+          }
+        },
+        "security": {
+          "passwordGenerator": {
+            "label": "مولد كلمات المرور",
+            "description": "أنشئ كلمات مرور قوية وعشوائية بطول مخصص وقواعد الأحرف."
+          },
+          "md5": {
+            "label": "مولد تجزئة MD5",
+            "description": "أنشئ مجاميع التحقق MD5 للسلاسل أو تحقق من سلامة البيانات."
+          },
+          "sha256": {
+            "label": "تجزئة SHA-256",
+            "description": "احسب التجزئات التشفيرية SHA-256 لأي سلسلة إدخال."
+          },
+          "bcrypt": {
+            "label": "تجزئة Bcrypt",
+            "description": "شغّل كلمات المرور باستخدام Bcrypt مع جولات ملح قابلة للتعديل."
+          },
+          "base64File": {
+            "label": "مشفر ملفات Base64",
+            "description": "شفر الملفات الحساسة إلى Base64 للإرسال الآمن."
+          },
+          "passwordStrength": {
+            "label": "فاحص قوة كلمة المرور",
+            "description": "حلّل مدى قوة كلمة المرور ضد هجمات شائعة."
+          },
+          "hmac": {
+            "label": "مولد HMAC",
+            "description": "أنشئ توقيعات HMAC باستخدام SHA-256 أو SHA-512 ومفتاح سري."
+          }
+        }
+      }
+    }
+  }
+}
