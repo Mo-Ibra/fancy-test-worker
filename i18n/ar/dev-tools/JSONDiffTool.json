@@ -36,6 +36,7 @@
   },
   "examples": {
     "title": "نتائج مثال",
+    "clear": "مسح",
     "sampleLabel": "جرب هذا المثال",
     "sampleText": "اليسار: {\"name\":\"Alice\",\"age\":25} · اليمين: {\"name\":\"Alice\",\"age\":30,\"city\":\"NYC\"}",
     "result": "age تغير (25 ← 30) · city أضيف (\"NYC\") — تم العثور على تغييرين",

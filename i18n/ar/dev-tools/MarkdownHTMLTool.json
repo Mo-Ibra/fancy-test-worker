@@ -13,6 +13,7 @@
   "layout": {
     "split": "عرض منقسم",
     "markdown": "Markdown فقط",
+    "preview": "معاينة",
     "html": "HTML فقط"
   },
   "input": {

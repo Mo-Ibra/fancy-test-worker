@@ -130,9 +130,9 @@ export default function CSVToJSONTool() {
   ];
 
   const OUTPUT_FORMATS: { key: OutputFormat; icon: React.ElementType; label: string; desc: string }[] = [
-    { key: "object", icon: Braces, label: t("output.object"), desc: t("output.objectDesc") },
+    { key: "object", icon: Braces, label: t("output.object"), desc: t.raw("output.objectDesc") },
     { key: "array", icon: LayoutList, label: t("output.array"), desc: t("output.arrayDesc") },
-    { key: "grouped", icon: Hash, label: t("output.grouped"), desc: t("output.groupedDesc") },
+    { key: "grouped", icon: Hash, label: t("output.grouped"), desc: t.raw("output.groupedDesc") },
   ];
 
   const VIEW_MODES: { key: ViewMode; icon: React.ElementType; label: string }[] = [

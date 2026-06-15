@@ -29,6 +29,7 @@
     "spaces": "مسافات"
   },
   "search": {
+    "title": "بحث",
     "placeholder": "البحث عن المفاتيح أو القيم...",
     "matches": "تم العثور على {count} تطابق",
     "matches_plural": "تم العثور على {count} تطابقات",

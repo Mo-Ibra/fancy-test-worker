@@ -36,6 +36,7 @@
   },
   "examples": {
     "title": "Example Results",
+    "clear": "Clear",
     "sampleLabel": "Try this sample",
     "sampleText": "Left: {\"name\":\"Alice\",\"age\":25} · Right: {\"name\":\"Alice\",\"age\":30,\"city\":\"NYC\"}",
     "result": "age changed (25 → 30) · city added (\"NYC\") — 2 changes found",

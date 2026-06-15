@@ -29,6 +29,7 @@
     "spaces": "spaces"
   },
   "search": {
+    "title": "Search",
     "placeholder": "Search keys or values...",
     "matches": "{count} match found",
     "matches_plural": "{count} matches found",

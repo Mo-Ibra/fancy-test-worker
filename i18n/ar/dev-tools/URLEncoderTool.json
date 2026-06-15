@@ -15,6 +15,8 @@
     "decode": "فك التشفير"
   },
   "mode": {
+    "encode": "ترميز",
+    "decode": "فك التشفير",
     "component": "مكون URL",
     "full": "URL كامل"
   },

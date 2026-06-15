@@ -112,8 +112,8 @@ export default function CSSFormatterTool() {
               <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground mb-2.5">{t("options.braceStyle")}</p>
               <div className="flex flex-col gap-1.5">
                 {([
-                  { key: "same-line" as BracketStyle, label: t("options.sameLine"), preview: t("options.sameLinePreview") },
-                  { key: "new-line" as BracketStyle, label: t("options.newLine"), preview: t("options.newLinePreview") },
+                  { key: "same-line" as BracketStyle, label: t("options.sameLine"), preview: t.raw("options.sameLinePreview") },
+                  { key: "new-line" as BracketStyle, label: t("options.newLine"), preview: t.raw("options.newLinePreview") },
                 ]).map(({ key, label, preview }) => (
                   <button key={key} onClick={() => setOpt("bracketStyle", key)}
                     className={`flex items-center gap-3 px-4 py-2.5 rounded-xl border text-start transition-all ${opts.bracketStyle === key ? "border-blue-500 bg-blue-50 dark:bg-blue-900/20 shadow-sm" : "border-border bg-card hover:border-blue-200"
@@ -176,7 +176,7 @@ export default function CSSFormatterTool() {
               </p>
               {[
                 { key: "removeComments" as keyof FormatOptions, label: t("options.removeComments"), desc: t("options.removeCommentsDesc") },
-                { key: "singleLineRules" as keyof FormatOptions, label: t("options.singleLineRules"), desc: t("options.singleLineRulesDesc") },
+                { key: "singleLineRules" as keyof FormatOptions, label: t("options.singleLineRules"), desc: t.raw("options.singleLineRulesDesc") },
                 { key: "spaceAfterColon" as keyof FormatOptions, label: t("options.spaceAfterColon"), desc: t("options.spaceAfterColonDesc") },
               ].map(({ key, label, desc }) => (
                 <div key={key} className="flex items-center justify-between gap-3">

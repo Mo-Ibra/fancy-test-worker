@@ -13,6 +13,7 @@
   "layout": {
     "split": "Split View",
     "markdown": "Markdown Only",
+    "preview": "Preview",
     "html": "HTML Only"
   },
   "input": {

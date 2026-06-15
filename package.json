@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "compile:i18n": "node scripts/compile-i18n.mjs",
+    "prebuild": "npm run compile:i18n",
+    "dev": "npm run compile:i18n && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
