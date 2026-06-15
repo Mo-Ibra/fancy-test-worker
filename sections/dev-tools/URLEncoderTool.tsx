@@ -10,7 +10,7 @@ import {
   AlertCircle,
   FileCode,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { decodeURL, ENCODE_MODES, EncodeMode, encodeURL, ENCODING_TABLE, EXAMPLES, Mode, parseURLParts } from "@/funcs/dev-tools/UrlEncoderToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -23,7 +23,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function URLEncoderTool() {
-  const t = useT("dev-tools/URLEncoderTool.json");
+  const t = useTranslations("dev-tools.URLEncoderTool");
 
   const [mode, setMode] = useState<Mode>("encode");
   const [encMode, setEncMode] = useState<EncodeMode>("component");

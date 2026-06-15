@@ -11,7 +11,7 @@ import {
   Replace,
   List,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { buildRegex, CHEAT_SHEET, EXAMPLES, Flag, FLAGS_META, getMatches, SAMPLE_TEXTS, ViewTab } from "@/funcs/dev-tools/RegexTesterToolFuncs";
 import CopyButton from "@/components/dev-tools/regex-tester/CopyButton";
 import highlightText from "@/components/dev-tools/regex-tester/highlightText";
@@ -24,7 +24,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function RegexTesterTool() {
-  const t = useT("dev-tools/RegexTesterTool.json");
+  const t = useTranslations("dev-tools.RegexTesterTool");
 
   const [pattern, setPattern] = useState("");
   const [flags, setFlags] = useState<Set<Flag>>(new Set(["g"]));

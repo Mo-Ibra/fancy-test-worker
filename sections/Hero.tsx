@@ -15,13 +15,13 @@ import {
   Shield,
 } from "lucide-react";
 import Link from "next/link";
-import { useT, useLang } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function Hero() {
 
-  const t = useT("sections/Hero.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("sections.Hero");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const floatingTools = [
     { icon: FileText, label: t("hero.floatingTools.pdfMerger"), category: "PDF", delay: "0s", x: "-left-4", y: "top-16" },

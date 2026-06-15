@@ -14,7 +14,7 @@ import {
   XCircle,
   ClipboardPaste,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { applyFormat, GeneratedID, nanoid, objectId, OutputCase, OutputFormat, ulid, uuidV1, uuidV4, uuidV5, UUIDVersion, validateUUID, VERSION_INFO } from "@/funcs/dev-tools/UUIDGeneratorToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -25,7 +25,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function UUIDGeneratorTool() {
-  const t = useT("dev-tools/UUIDGeneratorTool.json");
+  const t = useTranslations("dev-tools.UUIDGeneratorTool");
 
   const [version, setVersion] = useState<UUIDVersion>("v4");
   const [outputCase, setOutputCase] = useState<OutputCase>("lower");

@@ -15,7 +15,7 @@ import {
   Sparkles,
   ArrowLeft,
 } from "lucide-react";
-import { useLang, useT } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { getLocalizedPath } from "@/lib/i18n";
 
 const colorMap: Record<string, { bg: string; iconBg: string; iconColor: string; tag: string; border: string; hoverBorder: string }> = {
@@ -89,9 +89,9 @@ export default function Categories() {
 
   const [hovered, setHovered] = useState<number | null>(null);
 
-  const t = useT("sections/Categories.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("sections.Categories");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const categories = [
     {
@@ -213,7 +213,7 @@ export default function Categories() {
             return (
               <Link
                 key={cat.title}
-                href={getLocalizedPath(cat.href, lang)}
+                href={getLocalizedPath(cat.href, locale)}
                 onMouseEnter={() => setHovered(i)}
                 onMouseLeave={() => setHovered(null)}
                 className={`
@@ -278,7 +278,7 @@ export default function Categories() {
             {t("categories.ctaButton.description")}
           </p>
           <Link
-            href={getLocalizedPath("/", lang)}
+            href={getLocalizedPath("/", locale)}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold shadow-md shadow-blue-500/10 hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-0.5"
           >
             {t("categories.ctaButton.text")}

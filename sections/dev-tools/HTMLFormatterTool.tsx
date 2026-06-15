@@ -11,7 +11,7 @@ import {
   Eye,
   FileCode,
 } from "lucide-react";
-import { useT, useLang } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { countStats, EXAMPLES, formatHTML, FormatOptions, IndentChar, IndentSize, minifyHTML, ViewMode } from "@/funcs/dev-tools/HTMLFormatterToolFuncs";
 import Toggle from "@/components/dev-tools/html-formatter/Toggle";
 import StatCard from "@/components/dev-tools/html-formatter/StatCard";
@@ -24,8 +24,8 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function HTMLFormatterTool() {
-  const t = useT("dev-tools/HTMLFormatterTool.json");
-  const lang = useLang();
+  const t = useTranslations("dev-tools.HTMLFormatterTool");
+  const locale = useLocale();
 
   const [input, setInput] = useState("");
   const [viewMode, setViewMode] = useState<ViewMode>("formatted");

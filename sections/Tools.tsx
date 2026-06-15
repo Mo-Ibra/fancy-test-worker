@@ -22,7 +22,7 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import { useState } from "react";
-import { useLang, useT } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { getLocalizedPath } from "@/lib/i18n";
 
 import { Tool } from "@/types/tools";
@@ -43,12 +43,12 @@ const ICON_MAP: Record<string, LucideIcon> = {
 };
 
 export default function Tools({ tools, title, customTitle, hideBreadcrumb }: { tools: Tool[], title: string; customTitle?: string; hideBreadcrumb?: boolean }) {
-  const t = useT("sections/ToolsList.json");
-  const categoriesT = useT("sections/Categories.json");
-  const commonT = useT();
+  const t = useTranslations("sections.ToolsList");
+  const categoriesT = useTranslations("sections.Categories");
+  const commonT = useTranslations("common");
 
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const [search, setSearch] = useState("");
   const [hovered, setHovered] = useState<number | null>(null);
@@ -83,7 +83,7 @@ export default function Tools({ tools, title, customTitle, hideBreadcrumb }: { t
           {/* Breadcrumb */}
           {!hideBreadcrumb && (
             <div className="flex items-center gap-2 text-xs text-muted-foreground mb-6">
-              <Link href={getLocalizedPath('/tools', lang)} className="hover:text-blue-500 transition-colors">{commonT('common.alltools')}</Link>
+              <Link href={getLocalizedPath('/tools', locale)} className="hover:text-blue-500 transition-colors">{commonT('common.alltools')}</Link>
               <span>/</span>
               <span className="text-foreground font-medium">{categoriesT(title)}</span>
             </div>
@@ -207,7 +207,7 @@ export default function Tools({ tools, title, customTitle, hideBreadcrumb }: { t
                 return (
                   <Link
                     key={tool.label}
-                    href={getLocalizedPath(tool.href, lang)}
+                    href={getLocalizedPath(tool.href, locale)}
                     onMouseEnter={() => setHovered(i)}
                     onMouseLeave={() => setHovered(null)}
                     className="group relative flex flex-col p-5 rounded-xl border border-border bg-card hover:border-blue-200 dark:hover:border-blue-500/50 hover:shadow-md hover:shadow-blue-50 dark:hover:shadow-blue-900/20 hover:-translate-y-0.5 transition-all duration-250"
@@ -269,7 +269,7 @@ export default function Tools({ tools, title, customTitle, hideBreadcrumb }: { t
               </div>
             </div>
             <Link
-              href={getLocalizedPath('/tools', lang)}
+              href={getLocalizedPath('/tools', locale)}
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold transition-colors duration-200 shrink-0"
             >
               {commonT('common.browseAllTools')}

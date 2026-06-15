@@ -1,8 +1,8 @@
-import { useLang } from "@/context/TranslationProvider";
+import { useLocale } from "next-intl";
 
 export default function Toggle({ checked, onChange, label }: { checked: boolean; onChange: (v: boolean) => void; label?: string }) {
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   return (
     <button onClick={() => onChange(!checked)}

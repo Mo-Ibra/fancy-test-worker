@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { ChevronDown, HelpCircle } from "lucide-react";
 
 interface FaqItem {
@@ -14,8 +14,8 @@ interface FAQProps {
 }
 
 export default function FAQ({ tKey }: FAQProps) {
-  const t = useT(tKey);
-  const raw = t("faq.items");
+  const t = useTranslations(tKey.replace('.json', '').replace(/\//g, '.'));
+  const raw = t.raw("faq.items");
   const items = (Array.isArray(raw) ? raw : []) as FaqItem[];
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const toggle = (i: number) => setOpenIndex(openIndex === i ? null : i);

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowRight, Clock, Tag, BookOpen, TrendingUp, ArrowLeft } from "lucide-react";
-import { useLang, useT } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 
 const articles = [
   {
@@ -66,9 +66,9 @@ const articles = [
 export default function LatestArticles() {
   const [featured, ...rest] = articles;
 
-  const t = useT("sections/LatestArticles.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("sections.LatestArticles");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   return (
     <section className="relative bg-background py-24 overflow-hidden border-b border-border/50">

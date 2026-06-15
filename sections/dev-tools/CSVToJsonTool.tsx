@@ -17,7 +17,7 @@ import {
   Braces,
   LayoutList,
 } from "lucide-react";
-import { useT, useLang } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { buildOutput, Delimiter, detectDelimiter, detectValue, EXAMPLES, getStats, jsonToCSV, NullHandling, OutputFormat, parseCSV, ParseOptions, QuoteChar, ViewMode } from "@/funcs/dev-tools/CSVToJsonToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -30,9 +30,9 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function CSVToJSONTool() {
-  const t = useT("dev-tools/CSVToJsonTool.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("dev-tools.CSVToJsonTool");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const [csvInput, setCsvInput] = useState(EXAMPLES[0].csv);
   const [jsonInput, setJsonInput] = useState("");

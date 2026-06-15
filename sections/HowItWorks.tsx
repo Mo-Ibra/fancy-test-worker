@@ -1,14 +1,14 @@
 "use client";
 
 import { MousePointerClick, Sliders, Download, Search, UserX, Infinity, Gift, ShieldCheck } from "lucide-react";
-import { useLang, useT } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 
 
 export default function HowItWorks() {
 
-  const t = useT("sections/HowItWorks.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("sections.HowItWorks");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const steps = [
     {

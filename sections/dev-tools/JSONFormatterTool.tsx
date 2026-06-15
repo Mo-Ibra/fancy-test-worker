@@ -11,7 +11,7 @@ import {
   FileJson,
   Search,
 } from "lucide-react";
-import { useT, useLang } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { countNodes, EXAMPLES, formatJSON, IndentSize, minifyJSON, parseJSON, ViewMode } from "@/funcs/dev-tools/JSONFormatterToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -24,9 +24,9 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function JSONFormatterTool() {
-  const t = useT("dev-tools/JSONFormatterTool.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("dev-tools.JSONFormatterTool");
+  const locale = useLocale();
+  const isAr = locale === "ar";
   const [input, setInput] = useState("");
   const [indent, setIndent] = useState<IndentSize>(2);
   const [viewMode, setViewMode] = useState<ViewMode>("formatted");

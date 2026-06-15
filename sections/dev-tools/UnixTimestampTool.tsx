@@ -10,7 +10,7 @@ import {
   Hash,
   Zap,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { dateToTimestamp, Direction, NOTABLE, parseTimestamp, TIME_ZONES, TimestampUnit } from "@/funcs/dev-tools/UnixTimestampToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -25,7 +25,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function UnixTimestampTool() {
-  const t = useT("dev-tools/UnixTimestampTool.json");
+  const t = useTranslations("dev-tools.UnixTimestampTool");
 
   const [direction, setDirection] = useState<Direction>("toDate");
   const [unit, setUnit] = useState<TimestampUnit>("seconds");

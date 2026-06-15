@@ -11,7 +11,7 @@ import {
   FileCode,
   SlidersHorizontal,
 } from "lucide-react";
-import { useT, useLang } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { BracketStyle, ColorFormat, countStats, detectIssues, EXAMPLES, formatCSS, FormatOptions, IndentChar, IndentSize, minifyCSS, PropSort, ViewMode } from "@/funcs/dev-tools/CSSFormatterToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -25,9 +25,9 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function CSSFormatterTool() {
-  const t = useT("dev-tools/CSSFormatterTool.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("dev-tools.CSSFormatterTool");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const [input, setInput] = useState("");
   const [viewMode, setViewMode] = useState<ViewMode>("formatted");

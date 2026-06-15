@@ -11,36 +11,36 @@ import {
   Lock,
   ArrowLeft,
 } from "lucide-react";
-import { useLang, useT } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { getLocalizedPath } from "@/lib/i18n";
 
 export default function Footer() {
 
-  const t = useT("sections/Footer.json");
+  const t = useTranslations("sections.Footer");
 
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const toolCategories = [
-    { label: t("footer.tools.texttools"), href: getLocalizedPath('/text-tools', lang), icon: Type },
-    { label: t("footer.tools.imagetools"), href: getLocalizedPath('/image-tools', lang), icon: Image },
-    { label: t("footer.tools.pdftools"), href: getLocalizedPath('/pdf-tools', lang), icon: FileText },
-    { label: t("footer.tools.devtools"), href: getLocalizedPath('/dev-tools', lang), icon: Code2 },
-    { label: t("footer.tools.mathtools"), href: getLocalizedPath('/math-tools', lang), icon: Calculator },
-    { label: t("footer.tools.securitytools"), href: getLocalizedPath('/security-tools', lang), icon: Lock },
+    { label: t("footer.tools.texttools"), href: getLocalizedPath('/text-tools', locale), icon: Type },
+    { label: t("footer.tools.imagetools"), href: getLocalizedPath('/image-tools', locale), icon: Image },
+    { label: t("footer.tools.pdftools"), href: getLocalizedPath('/pdf-tools', locale), icon: FileText },
+    { label: t("footer.tools.devtools"), href: getLocalizedPath('/dev-tools', locale), icon: Code2 },
+    { label: t("footer.tools.mathtools"), href: getLocalizedPath('/math-tools', locale), icon: Calculator },
+    { label: t("footer.tools.securitytools"), href: getLocalizedPath('/security-tools', locale), icon: Lock },
   ];
 
   const company = [
-    { label: t("footer.company.about"), href: getLocalizedPath('/about', lang) },
-    // { label: t("footer.company.blog"), href: getLocalizedPath('/blog', lang) },
-    { label: t("footer.company.changelog"), href: getLocalizedPath('/changelog', lang) },
-    { label: t("footer.company.contact"), href: getLocalizedPath('/contact', lang) },
+    { label: t("footer.company.about"), href: getLocalizedPath('/about', locale) },
+    // { label: t("footer.company.blog"), href: getLocalizedPath('/blog', locale) },
+    { label: t("footer.company.changelog"), href: getLocalizedPath('/changelog', locale) },
+    { label: t("footer.company.contact"), href: getLocalizedPath('/contact', locale) },
   ];
 
   const legal = [
-    { label: t("footer.legal.privacy"), href: getLocalizedPath('/privacy', lang) },
-    { label: t("footer.legal.termsofservices"), href: getLocalizedPath('/terms', lang) },
-    { label: t("footer.legal.cookies"), href: getLocalizedPath('/cookies', lang) },
+    { label: t("footer.legal.privacy"), href: getLocalizedPath('/privacy', locale) },
+    { label: t("footer.legal.termsofservices"), href: getLocalizedPath('/terms', locale) },
+    { label: t("footer.legal.cookies"), href: getLocalizedPath('/cookies', locale) },
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Footer() {
           {/* Brand col — spans 2 */}
           <div className="lg:col-span-2 flex flex-col gap-6">
             {/* Logo */}
-            <Link href={getLocalizedPath('/', lang)} className="group inline-flex items-center gap-2.5 w-fit">
+            <Link href={getLocalizedPath('/', locale)} className="group inline-flex items-center gap-2.5 w-fit">
               <span className="text-lg font-bold tracking-tight text-foreground group-hover:text-blue-500 transition-colors">
                 {t("footer.websitename")}
               </span>

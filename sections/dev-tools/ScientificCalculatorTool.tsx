@@ -4,7 +4,7 @@ import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import {
   History,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { AngleMode, BTN_COLORS, CalcMode, evaluate, HistoryEntry, MAIN_ROWS, SCIENTIFIC_ROWS } from "@/funcs/dev-tools/ScientificCalculatorToolFuncs";
 import CopyButton from "@/components/dev-tools/scientific-calculator/CopyButton";
 import Collapsible from "@/components/dev-tools/scientific-calculator/Collapsible";
@@ -13,7 +13,7 @@ import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
 
 export default function ScientificCalculatorTool() {
-  const t = useT("dev-tools/ScientificCalculatorTool.json");
+  const t = useTranslations("dev-tools.ScientificCalculatorTool");
 
   const [expr, setExpr] = useState("");
   const [display, setDisplay] = useState("0");

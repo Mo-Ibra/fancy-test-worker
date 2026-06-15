@@ -12,7 +12,7 @@ import {
   CheckCircle2,
   FileText,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { b64ToBlob, decodeBase64, encodeBase64, encodeFileToBase64, EXAMPLES, fmtSize, InputType, Mode, sniffMime, Variant, VARIANT_INFO } from "@/funcs/dev-tools/Base64ToolFuncs";
 import StatCard from "@/components/dev-tools/base64/StatCard";
 import FileDropZone from "@/components/dev-tools/base64/FileDropZone";
@@ -25,7 +25,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function Base64Tool() {
-  const t = useT("dev-tools/Base64Tool.json");
+  const t = useTranslations("dev-tools.Base64Tool");
 
   const [mode, setMode] = useState<Mode>("encode");
   const [inputType, setInputType] = useState<InputType>("text");

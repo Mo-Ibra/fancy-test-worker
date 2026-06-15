@@ -1,4 +1,4 @@
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { Type, BarChart2, Clock, Hash, Monitor } from "lucide-react";
 
 const icons = [Type, BarChart2, Clock, Hash, Monitor];
@@ -18,7 +18,7 @@ const colClasses: Record<number, string> = {
 };
 
 export default function HowToUse({ tKey, count = icons.length }: HowToUseProps) {
-  const t = useT(tKey);
+  const t = useTranslations(tKey.replace('.json', '').replace(/\//g, '.'));
   const stepKeys = Array.from({ length: count }, (_, i) => `${i + 1}`);
 
   return (

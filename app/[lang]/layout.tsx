@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { SUPPORTED_LANGUAGES, Language, getMetadata, getTranslations } from '@/lib/i18n';
-import { TranslationProvider } from '@/context/TranslationProvider';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { SUPPORTED_LANGUAGES, Language, getMetadata } from '@/lib/i18n';
 
 interface LanguageLayoutProps {
   children: React.ReactNode;
@@ -25,21 +26,19 @@ export default async function Layout({
   children,
   params,
 }: LanguageLayoutProps) {
-
   const { lang } = await params;
 
-  const translations = await getTranslations(lang as Language);
-
-  // Validate language
   if (!SUPPORTED_LANGUAGES.includes(lang as Language)) {
     notFound();
   }
 
+  const messages = await getMessages();
+
   return (
-    <TranslationProvider translations={translations} lang={lang}>
+    <NextIntlClientProvider messages={messages} locale={lang}>
       <main dir={lang === 'ar' ? "rtl" : "ltr"}>
         {children}
       </main>
-    </TranslationProvider>
+    </NextIntlClientProvider>
   );
 }

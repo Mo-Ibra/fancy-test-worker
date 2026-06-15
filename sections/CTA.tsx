@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { ArrowRight, Zap, ShieldCheck, Infinity, Star, ArrowLeft } from "lucide-react";
-import { useLang, useT } from "@/context/TranslationProvider";
+import { useTranslations, useLocale } from "next-intl";
 import { getLocalizedPath } from "@/lib/i18n";
 
 export default function CTA() {
 
-  const t = useT("sections/CTA.json");
-  const lang = useLang();
-  const isAr = lang === "ar";
+  const t = useTranslations("sections.CTA");
+  const locale = useLocale();
+  const isAr = locale === "ar";
 
   const features = [
     { icon: Zap, label: t("cta.features.1") },
@@ -65,7 +65,7 @@ export default function CTA() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
             <Link
-              href={getLocalizedPath('/tools', lang)}
+              href={getLocalizedPath('/tools', locale)}
               className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-base font-semibold shadow-lg shadow-blue-500/10 dark:shadow-none hover:shadow-blue-500/20 hover:-translate-y-0.5 transition-all duration-300"
             >
               <Zap className="w-5 h-5 group-hover:rotate-12 transition-transform duration-200" />
@@ -78,7 +78,7 @@ export default function CTA() {
             </Link>
 
             <Link
-              href={getLocalizedPath('/popular-tools', lang)}
+              href={getLocalizedPath('/popular-tools', locale)}
               className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-card border border-border hover:border-blue-500/30 text-foreground hover:text-blue-500 text-base font-semibold hover:shadow-md hover:-translate-y-0.5 transition-all duration-300"
             >
               {t("cta.mostpopular")}

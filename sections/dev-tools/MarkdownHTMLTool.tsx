@@ -20,7 +20,7 @@ import {
   Table,
   Code,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { CHEAT_SHEET, EXAMPLE_MD, getStats, markdownToHTML, ViewLayout, wrapHTMLDocument } from "@/funcs/dev-tools/MarkdownHTMLToolFuncs";
 import ToolbarBtn from "@/components/dev-tools/markdown-html/ToolbarBtn";
 import BreadCrumb from "@/components/BreadCrumb";
@@ -33,7 +33,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function MarkdownHTMLTool() {
-  const t = useT("dev-tools/MarkdownHTMLTool.json");
+  const t = useTranslations("dev-tools.MarkdownHTMLTool");
 
   const [markdown, setMarkdown] = useState(EXAMPLE_MD);
   const [layout, setLayout] = useState<ViewLayout>("split");

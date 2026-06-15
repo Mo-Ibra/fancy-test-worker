@@ -12,7 +12,7 @@ import {
   EyeOff,
   Download,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { countStats, DiffNode, diffValues, EXAMPLES, flattenDiff } from "@/funcs/dev-tools/JSONDiffToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -24,7 +24,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function JSONDiffTool() {
-  const t = useT("dev-tools/JSONDiffTool.json");
+  const t = useTranslations("dev-tools.JSONDiffTool");
 
   const [leftRaw, setLeftRaw] = useState(EXAMPLES[0].left);
   const [rightRaw, setRightRaw] = useState(EXAMPLES[0].right);

@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
+import { getTranslations, getMessages } from 'next-intl/server';
 import {
   DEFAULT_LANGUAGE,
   Language,
   getMetadata,
-  getTranslations,
 } from '@/lib/i18n';
 
 export const SITE_BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://fancytoolbox.com';
@@ -32,13 +32,21 @@ export function getLangPath(lang: Language): string {
 }
 
 export async function getToolSeoContent(
-  lang: Language,
+  locale: string,
   namespace: string
 ): Promise<ToolSeoContent> {
-  const dict = await getTranslations(lang, namespace) as Record<string, unknown>;
+  const t = await getTranslations({ locale, namespace });
   return {
-    header: dict.header as ToolSeoContent['header'],
-    breadcrumb: dict.breadcrumb as ToolSeoContent['breadcrumb'],
+    header: {
+      title: t('header.title'),
+      description: t('header.description'),
+      keywords: t('header.keywords'),
+    },
+    breadcrumb: {
+      allTools: t('breadcrumb.allTools'),
+      toolTitle: t('breadcrumb.toolTitle'),
+      current: t('breadcrumb.current'),
+    },
   };
 }
 
@@ -130,19 +138,18 @@ export function buildToolJsonLd(
   return { toolLd, breadcrumbLd };
 }
 
-export interface PageMeta {
-  title: string;
-  description: string;
-  keywords?: string;
-}
-
 export async function getPageMeta(
   lang: Language,
   namespace: string,
   metaKey: string
-): Promise<PageMeta> {
-  const dict = await getTranslations(lang, namespace) as Record<string, unknown>;
-  const meta = getNestedValue(dict, metaKey) as PageMeta | undefined;
+): Promise<{ title: string; description: string; keywords?: string }> {
+  const messages = await getMessages({ locale: lang });
+  const parts = namespace.split('.');
+  let dict: any = messages;
+  for (const part of parts) {
+    dict = dict?.[part];
+  }
+  const meta = getNestedValue(dict, metaKey) as { title: string; description: string; keywords?: string } | undefined;
   return meta ?? { title: '', description: '' };
 }
 
@@ -158,7 +165,7 @@ function getNestedValue(obj: Record<string, unknown>, path: string): unknown {
 export function buildPageMetadata(
   lang: Language,
   canonicalPath: string,
-  meta: PageMeta,
+  meta: { title: string; description: string; keywords?: string },
 ): Metadata {
   const seo = getMetadata(canonicalPath, lang);
   const langPath = getLangPath(lang);

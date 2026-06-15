@@ -1,37 +1,18 @@
 import type { MetadataRoute } from 'next';
 import { SITE_BASE_URL } from '@/lib/seo';
 import { SUPPORTED_LANGUAGES, getLocalizedPath } from '@/lib/i18n';
-import { textTools } from '@/constants/tools/textTools';
-import { imageTools } from '@/constants/tools/imageTools';
-import { pdfTools } from '@/constants/tools/pdfTools';
 import { developerTools } from '@/constants/tools/developerTools';
-import { mathTools } from '@/constants/tools/mathTools';
-import { securityTools } from '@/constants/tools/securityTools';
-import { seoTools } from '@/constants/tools/seoTools';
 
 const CATEGORY_PATHS = [
-  '/text-tools',
-  '/image-tools',
-  '/pdf-tools',
   '/dev-tools',
-  '/math-tools',
-  '/security-tools',
-  '/seo-tools',
 ];
 
 const ALL_TOOLS = [
-  ...textTools,
-  ...imageTools,
-  ...pdfTools,
   ...developerTools,
-  ...mathTools,
-  ...securityTools,
-  ...seoTools,
 ];
 
 const STATIC_PATHS = [
   '/',
-  '/popular-tools',
   '/tools',
   '/about',
   '/contact',

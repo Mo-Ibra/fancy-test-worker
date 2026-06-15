@@ -2,7 +2,6 @@
 
 import {
   DEFAULT_LANGUAGE,
-  detectLanguage,
   getLocalizedPath,
   Language,
   LANGUAGE_NAMES,
@@ -19,7 +18,7 @@ import {
 } from "./ui/dropdown-menu";
 import NavLink from "../sections/NavLink";
 import { getPath } from "@/helpers/funcs";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { useState, useRef, useEffect } from "react";
 import {
   ChevronDown,
@@ -44,8 +43,8 @@ import { toolCategories, featuredTool } from "@/constants/navigationLinks";
 export default function Navigation({ language = DEFAULT_LANGUAGE }: NavigationProps) {
   const pathname = usePathname();
   const router = useRouter();
-  const currentLanguage = detectLanguage(pathname);
-  const t = useT("sections/Navigation.json");
+  const currentLanguage = language;
+  const t = useTranslations("sections.Navigation");
 
   const [megaOpen, setMegaOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -59,6 +58,7 @@ export default function Navigation({ language = DEFAULT_LANGUAGE }: NavigationPr
   const handleLanguageChange = (lang: Language) => {
     const cleanPath = stripLanguageFromPath(pathname);
     const newPath = getLocalizedPath(cleanPath, lang);
+    document.cookie = `NEXT_LOCALE=${lang};path=/;max-age=31536000;SameSite=Lax`;
     router.push(newPath);
   };
 

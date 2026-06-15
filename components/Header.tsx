@@ -1,8 +1,8 @@
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { Search } from "lucide-react";
 
 export default function Header({ tKey }: { tKey: string }) {
-  const t = useT(tKey);
+  const t = useTranslations(tKey.replace('.json', '').replace(/\//g, '.'));
   return (
     <div className="mb-8">
       <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800/40 mb-4">

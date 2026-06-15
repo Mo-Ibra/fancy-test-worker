@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 import CTA from '@/sections/CTA';
 import Footer from '@/sections/Footer';
 import Navigation from '@/components/Navigation';
 import Tools from '@/sections/Tools';
 import { developerTools } from '@/constants/tools/developerTools';
-import { Language, getTranslations } from '@/lib/i18n';
+import { Language } from '@/lib/i18n';
 import { buildPageMetadata, buildCollectionPageJsonLd } from '@/lib/seo';
-import { notFound } from 'next/navigation';
 
 interface DeveloperToolsPageProps {
   params: Promise<{ lang: string }>;
@@ -15,21 +15,22 @@ interface DeveloperToolsPageProps {
 export async function generateMetadata({ params }: DeveloperToolsPageProps): Promise<Metadata> {
   const { lang } = await params;
   const safeLang = lang as Language;
-  const dict = await getTranslations(safeLang, 'sections/Categories') as any;
-  const meta = dict.categories.tools.developer.meta;
+  const t = await getTranslations({ locale: lang, namespace: 'sections.Categories' });
+  const meta = {
+    title: t('categories.tools.developer.meta.title'),
+    description: t('categories.tools.developer.meta.description'),
+  };
   return buildPageMetadata(safeLang, '/dev-tools', meta);
 }
 
 export default async function DeveloperToolsPage({ params }: DeveloperToolsPageProps) {
   const { lang } = await params;
-
-  if (lang === 'en') {
-    notFound();
-  }
-
   const safeLang = lang as Language;
-  const dict = await getTranslations(safeLang, 'sections/Categories') as any;
-  const cat = dict.categories.tools.developer;
+  const t = await getTranslations({ locale: lang, namespace: 'sections.Categories' });
+  const cat = {
+    title: t('categories.tools.developer.title'),
+    description: t('categories.tools.developer.description'),
+  };
   const jsonLd = buildCollectionPageJsonLd(safeLang, '/dev-tools', cat.title, cat.description);
 
   return (

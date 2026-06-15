@@ -15,7 +15,7 @@ import {
   AlertTriangle,
   Hash,
 } from "lucide-react";
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { buildClaimInfo, CLAIM_META, decodeJWT, EXAMPLES, formatTimestamp } from "@/funcs/dev-tools/JWTDecoderToolFuncs";
 import BreadCrumb from "@/components/BreadCrumb";
 import Header from "@/components/Header";
@@ -30,7 +30,7 @@ import FAQ from "@/sections/FAQ";
 import Examples from "@/sections/Examples";
 
 export default function JWTDecoderTool() {
-  const t = useT("dev-tools/JWTDecoderTool.json");
+  const t = useTranslations("dev-tools.JWTDecoderTool");
 
   const [input, setInput] = useState("");
   const [showRaw, setShowRaw] = useState(false);
@@ -118,7 +118,7 @@ export default function JWTDecoderTool() {
                     ? <AlertTriangle className="w-3.5 h-3.5 text-red-500 shrink-0" />
                     : <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />}
                   <span className={`text-xs font-semibold ${isExpired ? "text-red-600 dark:text-red-400" : "text-emerald-700 dark:text-emerald-400"}`}>
-                    {isExpired ? t("tokenExpired", { relative: expInfo?.relative }) : expInfo ? t("tokenValid", { relative: expInfo.relative }) : t("decodedSuccessfully")}
+                    {isExpired ? t("tokenExpired", { relative: expInfo?.relative ?? "" }) : expInfo ? t("tokenValid", { relative: expInfo.relative }) : t("decodedSuccessfully")}
                   </span>
                 </div>
               )}

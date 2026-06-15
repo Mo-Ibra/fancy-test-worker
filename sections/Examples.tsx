@@ -1,4 +1,4 @@
-import { useT } from "@/context/TranslationProvider";
+import { useTranslations } from "next-intl";
 import { FileText, Eye } from "lucide-react";
 
 interface ExamplesProps {
@@ -6,7 +6,7 @@ interface ExamplesProps {
 }
 
 export default function Examples({ tKey }: ExamplesProps) {
-  const t = useT(tKey);
+  const t = useTranslations(tKey.replace('.json', '').replace(/\//g, '.'));
 
   return (
     <div className="mt-10 p-6 rounded-2xl border border-border bg-card">
@@ -22,7 +22,7 @@ export default function Examples({ tKey }: ExamplesProps) {
         </p>
         <div className="p-4 rounded-xl bg-muted/50 border border-border/50">
           <p className="text-sm text-foreground leading-relaxed whitespace-pre-line">
-            {t("examples.sampleText")}
+            {t.raw("examples.sampleText")}
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function Examples({ tKey }: ExamplesProps) {
             {t("examples.stats")}
           </p>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            {t("examples.result")}
+            {t.raw("examples.result")}
           </p>
         </div>
       </div>
