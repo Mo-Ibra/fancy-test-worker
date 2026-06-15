@@ -3,7 +3,7 @@ import { useT } from "@/context/TranslationProvider";
 
 export default function ReadabilityTips() {
   const t = useT("seo-tools/ReadabilityCheckerTool.json");
-  const tips = t("writingTips.list", { returnObjects: true }) as unknown as string[];
+  const tips = t.raw("writingTips.list") as string[];
 
   return (
     <div className="p-4 rounded-2xl border border-border bg-card shadow-sm">

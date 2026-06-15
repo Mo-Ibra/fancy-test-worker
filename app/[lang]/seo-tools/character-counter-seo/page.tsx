@@ -1,4 +1,5 @@
-import { Language, getTranslations } from '@/lib/i18n';
+import { getTranslations, getMessages } from 'next-intl/server';
+import { Language } from '@/lib/i18n';
 import {
   buildFaqJsonLd,
   buildToolJsonLd,
@@ -9,47 +10,37 @@ import {
 import CharacterCounterSEOView from '@/views/seo-tools/CharacterCounterSEOView';
 import ToolJsonLd from '@/components/seo/ToolJsonLd';
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
 
 const SEO_CONFIG: ToolPageSeoConfig = {
   path: '/seo-tools/character-counter-seo',
   categoryPath: '/seo-tools',
-  namespace: 'seo-tools/CharacterCounterSEOTool',
+  namespace: 'seo-tools.CharacterCounterSEOTool',
 };
 
-interface CharacterCounterSEOToolPageProps {
+interface ToolPageProps {
   params: Promise<{ lang: string }>;
 }
 
 export async function generateMetadata({
   params,
-}: CharacterCounterSEOToolPageProps): Promise<Metadata> {
+}: ToolPageProps): Promise<Metadata> {
   const { lang } = await params;
   return generateToolPageMetadata(lang as Language, SEO_CONFIG);
 }
 
-export default async function CharacterCounterSEOToolPage({
-  params,
-}: CharacterCounterSEOToolPageProps) {
+export default async function ToolPage({ params }: ToolPageProps) {
   const { lang } = await params;
 
-  if (lang === 'en') {
-    notFound();
+  const content = await getToolSeoContent(lang as Language, SEO_CONFIG.namespace);
+  const messages = await getMessages({ locale: lang });
+  const parts = SEO_CONFIG.namespace.split('.');
+  let dict: any = messages;
+  for (const part of parts) {
+    dict = dict?.[part];
   }
+  const faqLd = buildFaqJsonLd(dict?.faq?.items ?? []);
 
-  const content = await getToolSeoContent(
-    lang as Language,
-    SEO_CONFIG.namespace
-  );
-  const dict = await getTranslations(lang as Language, SEO_CONFIG.namespace) as Record<string, any>;
-  const faqLd = buildFaqJsonLd(dict.faq.items as { question: string; answer: string }[]);
-
-  const { toolLd, breadcrumbLd } = buildToolJsonLd(
-    lang as Language,
-    SEO_CONFIG.path,
-    SEO_CONFIG.categoryPath,
-    content
-  );
+  const { toolLd, breadcrumbLd } = buildToolJsonLd(lang as Language, SEO_CONFIG.path, SEO_CONFIG.categoryPath, content);
 
   return (
     <>

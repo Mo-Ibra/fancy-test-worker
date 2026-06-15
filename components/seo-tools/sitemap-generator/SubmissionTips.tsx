@@ -9,7 +9,7 @@ export default function SubmissionTips() {
         <Info className="w-3.5 h-3.5 text-blue-400" /> {t("tips.title")}
       </p>
       <div className="flex flex-col gap-2 text-[10px] text-muted-foreground">
-        {Array.isArray(t("tips.list", { returnObjects: true })) && (t("tips.list", { returnObjects: true }) as unknown as string[]).map((tip, i) => (
+        {Array.isArray(t.raw("tips.list")) && (t.raw("tips.list") as string[]).map((tip, i) => (
           <p key={i} className="flex items-start gap-1.5">
             <span className="text-blue-400 shrink-0">›</span> {tip}
           </p>

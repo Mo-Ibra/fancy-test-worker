@@ -4,9 +4,9 @@ import Footer from '@/sections/Footer';
 import Navigation from '@/components/Navigation';
 import Tools from '@/sections/Tools';
 import { securityTools } from '@/constants/tools/securityTools';
-import { Language, getTranslations } from '@/lib/i18n';
+import { getTranslations } from 'next-intl/server';
+import { Language } from '@/lib/i18n';
 import { buildPageMetadata, buildCollectionPageJsonLd } from '@/lib/seo';
-import { notFound } from 'next/navigation';
 
 interface SecurityToolsPageProps {
   params: Promise<{ lang: string }>;
@@ -15,21 +15,17 @@ interface SecurityToolsPageProps {
 export async function generateMetadata({ params }: SecurityToolsPageProps): Promise<Metadata> {
   const { lang } = await params;
   const safeLang = lang as Language;
-  const dict = await getTranslations(safeLang, 'sections/Categories') as any;
-  const meta = dict.categories.tools.security.meta;
+  const t = await getTranslations({ locale: lang, namespace: 'sections.Categories' });
+  const meta = { title: t('categories.tools.security.meta.title'), description: t('categories.tools.security.meta.description') };
   return buildPageMetadata(safeLang, '/security-tools', meta);
 }
 
 export default async function SecurityToolsPage({ params }: SecurityToolsPageProps) {
   const { lang } = await params;
 
-  if (lang === 'en') {
-    notFound();
-  }
-
   const safeLang = lang as Language;
-  const dict = await getTranslations(safeLang, 'sections/Categories') as any;
-  const cat = dict.categories.tools.security;
+  const t = await getTranslations({ locale: lang, namespace: 'sections.Categories' });
+  const cat = { title: t('categories.tools.security.title'), description: t('categories.tools.security.description') };
   const jsonLd = buildCollectionPageJsonLd(safeLang, '/security-tools', cat.title, cat.description);
 
   return (

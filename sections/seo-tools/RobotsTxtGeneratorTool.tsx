@@ -209,7 +209,7 @@ export default function RobotsTxtGeneratorTool() {
                 <Info className="w-3.5 h-3.5 text-blue-400" /> {t("howToUse.title")}
               </p>
               <div className="flex flex-col gap-2 text-[10px] text-muted-foreground">
-                {Array.isArray(t("howToUse.tips", { returnObjects: true })) && (t("howToUse.tips", { returnObjects: true }) as unknown as string[]).map((tip, i) => (
+                {Array.isArray(t.raw("howToUse.tips")) && (t.raw("howToUse.tips") as string[]).map((tip, i) => (
                   <p key={i} className="flex items-start gap-1.5">
                     <span className="text-blue-400 shrink-0">›</span> {tip}
                   </p>

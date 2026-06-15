@@ -50,7 +50,7 @@ export default function HeadingStructureAnalyzerTool() {
   }, [input, inputMode]);
 
   // Analyze
-  const { processed, issues, stats } = useMemo(() => analyzeHeadings(rawEntries, t), [rawEntries, t]);
+  const { processed, issues, stats } = useMemo(() => analyzeHeadings(rawEntries, t as (key: string, params?: Record<string, any>, fallback?: string) => string), [rawEntries, t]);
 
   // Compute tree depths
   const withDepths = useMemo(() => computeDepths(processed), [processed]);

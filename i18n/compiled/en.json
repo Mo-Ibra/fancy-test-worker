@@ -5583,5 +5583,4052 @@
         }
       }
     }
+  },
+  "security-tools": {
+    "MD5HashGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Security Tools",
+        "current": "Hash Generator"
+      },
+      "header": {
+        "badge": "Security Tools",
+        "title": "Hash Generator — MD5, SHA-1, SHA-256 & SHA-3 Online",
+        "description": "Free online hash generator supporting MD5, SHA-1, SHA-256, SHA-384, SHA-512, SHA3-256, and SHA3-512. Generate hashes from text or files with HMAC mode and hash verification. Compare hash algorithms and verify file integrity — 100% client-side and private.",
+        "keywords": "hash generator, md5 hash generator, sha256 hash, sha1 hash, sha512 hash, sha3 hash generator, hmac calculator, hash verifier, file hash checker"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your data never leaves the browser. MD5 and SHA-3 use pure JS; SHA-1/2 use the Web Crypto API."
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy",
+        "copyAll": "Copy all"
+      },
+      "input": {
+        "textTab": "Text Input",
+        "fileTab": "File Upload",
+        "textPlaceholder": "Enter text to hash…",
+        "dropFile": "Drop a file here or click to upload",
+        "fileSelected": "File selected",
+        "fileSize": "Size",
+        "clear": "Clear",
+        "paste": "Paste",
+        "inputLabel": "Input Text",
+        "chars": "chars"
+      },
+      "algo": {
+        "label": "Algorithm",
+        "lowerCase": "Lowercase",
+        "upperCase": "Uppercase",
+        "meta": {
+          "MD5": "Fast but broken — never use for security",
+          "SHA-1": "Deprecated — collisions found in 2017",
+          "SHA-256": "Industry standard — recommended",
+          "SHA-384": "SHA-2 family — high security",
+          "SHA-512": "SHA-2 family — maximum SHA-2 security",
+          "SHA3-256": "SHA-3 (Keccak) — different structure",
+          "SHA3-512": "SHA-3 maximum — post-quantum resistant"
+        }
+      },
+      "verify": {
+        "title": "Verify Hash",
+        "placeholder": "Paste expected hash to verify…",
+        "match": "✓ Match — ",
+        "noMatch": "✗ No match found"
+      },
+      "examples": {
+        "title": "Examples",
+        "emptyString": "Empty string",
+        "helloLower": "\"hello\"",
+        "helloWorld": "\"Hello World\"",
+        "password": "\"password\"",
+        "lorem": "The quick brown fox…",
+        "sampleLabel": "Text Hash Example",
+        "sampleText": "Hello World",
+        "stats": "SHA-256 | 256-bit | Lowercase",
+        "result": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e"
+      },
+      "output": {
+        "label": "Hash Results",
+        "empty": "Enter text or upload a file to generate hashes",
+        "hashLength": "hash length",
+        "time": "time",
+        "computing": "Computing…",
+        "generate": "Generate Hash",
+        "insecure": "Insecure",
+        "match": "✓ Match",
+        "bits": "-bit"
+      },
+      "hmac": {
+        "title": "HMAC Mode",
+        "keyPlaceholder": "HMAC secret key…"
+      },
+      "related": {
+        "title": "Related Security Tools",
+        "passwordGenerator": "Password Generator",
+        "passwordStrength": "Password Strength Checker",
+        "bcrypt": "Bcrypt Hash",
+        "base64": "Base64 Encoder"
+      },
+      "howToUse": {
+        "title": "How to Use",
+        "step1Title": "Enter Input",
+        "step1Desc": "Type or paste text in the Text Input tab, or upload a file using the File Upload tab.",
+        "step2Title": "Select Algorithm",
+        "step2Desc": "Choose MD5, SHA-1, SHA-256, SHA-384, SHA-512, SHA3-256, or SHA3-512.",
+        "step3Title": "Generate Hash",
+        "step3Desc": "Hashes are computed instantly. Optionally enable HMAC mode and enter a secret key.",
+        "step4Title": "Verify or Copy",
+        "step4Desc": "Paste an expected hash to verify, or copy the generated hash values to your clipboard."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Is MD5 still secure?",
+            "answer": "No. MD5 is broken — it has known collision attacks. Use SHA-256 for security and SHA-3 for post-quantum readiness."
+          },
+          {
+            "question": "What is HMAC and when should I use it?",
+            "answer": "HMAC is a keyed-hash message authentication code. Use it to verify both integrity and authenticity with a shared secret key."
+          },
+          {
+            "question": "Can hashes be reversed?",
+            "answer": "No, hashes are one-way functions. However, unsalted hashes of common passwords can be looked up in rainbow tables."
+          },
+          {
+            "question": "What is the difference between SHA-2 and SHA-3?",
+            "answer": "SHA-2 (SHA-256, SHA-512) uses a Merkle-Damgård structure. SHA-3 uses a sponge construction (Keccak) with a fundamentally different design."
+          },
+          {
+            "question": "Can I hash files with this tool?",
+            "answer": "Yes. Switch to the File Upload tab and select any file. The hash is computed locally — your file never leaves your device."
+          }
+        ]
+      }
+    },
+    "PasswordGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Security Tools",
+        "current": "Password Generator"
+      },
+      "header": {
+        "badge": "Security Tools",
+        "title": "Password Generator — Create Strong & Secure Random Passwords",
+        "description": "Free online password generator to create cryptographically secure passwords, passphrases, PINs, and memorable passwords. Customize length, character types, and exclusions. Generate strong random passwords instantly — 100% client-side with crypto.getRandomValues().",
+        "keywords": "password generator, strong password generator, random password generator, secure password creator, passphrase generator, pin generator, memorable password generator, crypto random password"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy",
+        "downloadAll": "Download All"
+      },
+      "privacy": {
+        "notice": "100% client-side. Passwords are generated using crypto.getRandomValues() and never sent anywhere."
+      },
+      "modes": {
+        "password": "Password",
+        "passwordDesc": "Random chars",
+        "passphrase": "Passphrase",
+        "passphraseDesc": "Words chain",
+        "pin": "PIN",
+        "pinDesc": "Digits only",
+        "memorable": "Memorable",
+        "memorableDesc": "Word+num+sym"
+      },
+      "options": {
+        "title": "Options",
+        "length": "Length",
+        "characterTypes": "Character Types",
+        "uppercase": "Uppercase (A-Z)",
+        "lowercase": "Lowercase (a-z)",
+        "digits": "Digits (0-9)",
+        "symbols": "Symbols (!@#$...)",
+        "excludeChars": "Exclude Characters",
+        "excludeCharsPlaceholder": "e.g. O0l1",
+        "noAmbiguous": "Remove ambiguous (l, 1, O, 0)",
+        "noRepeats": "No repeated characters",
+        "customChars": "Custom characters",
+        "customCharsPlaceholder": "Use specific characters only"
+      },
+      "passphrase": {
+        "title": "Passphrase Options",
+        "wordCount": "Number of words",
+        "separator": "Separator",
+        "capitalize": "Capitalize first letter",
+        "addNumber": "Add a number",
+        "addSymbol": "Add a symbol"
+      },
+      "pin": {
+        "title": "PIN Options",
+        "length": "PIN Length",
+        "digits": "digits"
+      },
+      "separators": {
+        "hyphen": "Hyphen -",
+        "dot": "Dot .",
+        "underscore": "Underscore",
+        "space": "Space",
+        "none": "None",
+        "camelCase": "CamelCase"
+      },
+      "generate": {
+        "button": "Generate",
+        "single": "Password",
+        "multiple": "Passwords",
+        "count": "How many passwords?"
+      },
+      "check": {
+        "title": "Check Your Own Password",
+        "placeholder": "Type a password to analyze…",
+        "bitsEntropy": "bits entropy",
+        "crackTime": "Crack time:",
+        "hide": "Hide",
+        "show": "Show"
+      },
+      "strength": {
+        "label": "Strength",
+        "veryWeak": "Very Weak",
+        "weak": "Weak",
+        "fair": "Fair",
+        "strong": "Strong",
+        "veryStrong": "Very Strong",
+        "entropy": "Entropy",
+        "bits": "bits",
+        "crackTime": "Time to crack",
+        "tips": "Tips",
+        "excellent": "Excellent password!",
+        "chars": "chars",
+        "tipsList": {
+          "uppercase": "Add uppercase letters",
+          "lowercase": "Add lowercase letters",
+          "digit": "Add numbers",
+          "symbol": "Add special characters (!@#$…)",
+          "short": "Use at least 12 characters",
+          "long": "16+ characters is ideal"
+        }
+      },
+      "stats": {
+        "generated": "Generated",
+        "characters": "characters",
+        "words": "words"
+      },
+      "related": {
+        "title": "Related Security Tools",
+        "strengthChecker": "Password Strength Checker",
+        "md5Generator": "MD5 Hash Generator",
+        "bcrypt": "Bcrypt Hash",
+        "base64": "Base64 Encoder"
+      },
+      "output": {
+        "topPick": "Top Pick",
+        "allGenerated": "All Generated",
+        "copyAll": "Copy all",
+        "downloadTxt": ".txt",
+        "sessionHistory": "Session History",
+        "clear": "Clear",
+        "emptyState": "Click Generate to create passwords",
+        "emptyStateHint": "Uses crypto.getRandomValues() for true randomness"
+      },
+      "bestPractices": {
+        "title": "Password Best Practices",
+        "tip1": "Use a unique password for every account",
+        "tip2": "Never share passwords via email or chat",
+        "tip3": "Use a password manager (Bitwarden, 1Password…)",
+        "tip4": "Enable 2FA wherever possible",
+        "tip5": "A passphrase is easier to remember and just as secure"
+      },
+      "howToUse": {
+        "title": "How to Use",
+        "step1Title": "Choose a Mode",
+        "step1Desc": "Select Password, Passphrase, PIN, or Memorable depending on your needs.",
+        "step2Title": "Configure Options",
+        "step2Desc": "Adjust length, character types, word count, or separator to customize your result.",
+        "step3Title": "Generate",
+        "step3Desc": "Click the Generate button to create one or more passwords instantly.",
+        "step4Title": "Copy & Use",
+        "step4Desc": "Click Copy or Download All to save your passwords. They never leave your device."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How long should a password be?",
+            "answer": "At least 12–16 characters is recommended. Longer passwords dramatically increase entropy and crack time."
+          },
+          {
+            "question": "What is password entropy?",
+            "answer": "Entropy measures how hard a password is to guess. It is calculated as length × log₂(charset size). Higher entropy means stronger security."
+          },
+          {
+            "question": "Should I use a passphrase instead?",
+            "answer": "Yes. A 4–5 word passphrase is often stronger than a random string and much easier to remember."
+          },
+          {
+            "question": "Are generated passwords truly random?",
+            "answer": "This tool uses crypto.getRandomValues(), a cryptographically secure pseudo-random number generator (CSPRNG) built into every modern browser."
+          },
+          {
+            "question": "Can I customize the character set?",
+            "answer": "Yes. You can choose exactly which character types to include, exclude specific characters, or provide your own custom character set."
+          },
+          {
+            "question": "What's the difference between a password and a passphrase?",
+            "answer": "A password is a random string of characters. A passphrase is a chain of random words that is easier to remember while remaining highly secure."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Examples",
+        "sampleLabel": "Strong Random Password",
+        "sampleText": "vJ9!kL3#xR7&mP2$",
+        "stats": "16 chars | 95 charset | 105 bits entropy",
+        "result": "Very Strong — crack time: centuries"
+      }
+    },
+    "PasswordStrengthChecker": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Security Tools",
+        "current": "Password Strength Checker"
+      },
+      "header": {
+        "badge": "Security Tools",
+        "title": "Password Strength Checker — Analyze Password Security Online",
+        "description": "Free online password strength checker with real-time entropy calculation, pattern detection, crack-time estimates, and actionable security suggestions. Test and analyze your password security instantly — 100% client-side, nothing leaves your browser.",
+        "keywords": "password strength checker, password strength test, check password strength, password security checker, password analyzer, password entropy calculator, crack time estimate, secure password check"
+      },
+      "privacy": {
+        "notice": "100% client-side. Your password never leaves this browser tab — analysis is performed locally in JavaScript."
+      },
+      "input": {
+        "label": "Enter Password",
+        "placeholder": "Type or paste your password here…",
+        "show": "Show",
+        "hide": "Hide",
+        "clear": "Clear",
+        "chars": "chars",
+        "pool": "char pool"
+      },
+      "strength": {
+        "veryWeak": "Very Weak",
+        "weak": "Weak",
+        "fair": "Fair",
+        "strong": "Strong",
+        "veryStrong": "Very Strong",
+        "excellent": "Excellent password!",
+        "excellentDesc": "This password is highly resistant to attacks."
+      },
+      "stats": {
+        "score": "Score",
+        "length": "Length",
+        "characters": "characters",
+        "entropy": "Entropy",
+        "bits": "bits",
+        "charsetSize": "Charset Size"
+      },
+      "crackTimes": {
+        "title": "Estimated Crack Time",
+        "desc": "Time to crack assuming attacker has the hash and tries at the listed rate:",
+        "onlineThrottled": "Online (throttled)",
+        "onlineUnthrottled": "Online (unthrottled)",
+        "offlineSlow": "Offline (MD5/SHA)",
+        "offlineFast": "Offline (GPU rig)",
+        "rateThrottled": "100 attempts/hour",
+        "rateUnthrottled": "10 attempts/second",
+        "rateOffline": "1 billion/second",
+        "rateGPU": "100 billion/second",
+        "note": "Assumes brute-force attack on full charset. Dictionary attacks may be faster for common words."
+      },
+      "checks": {
+        "title": "Requirements",
+        "length8": "At least 8 characters",
+        "length12": "At least 12 characters",
+        "length16": "At least 16 characters",
+        "uppercase": "Uppercase letters (A–Z)",
+        "lowercase": "Lowercase letters (a–z)",
+        "numbers": "Numbers (0–9)",
+        "symbols": "Special characters",
+        "noCommon": "No common password",
+        "noSequence": "No keyboard sequences",
+        "noRepeat": "No repeated patterns",
+        "goodLength": "Good length",
+        "needed": "more needed",
+        "excellent": "Excellent",
+        "noteChars": "chars",
+        "noteSymbols": "!@#$%^&*…"
+      },
+      "patterns": {
+        "title": "Patterns Detected",
+        "common": "Common password",
+        "keyboard": "Keyboard sequence",
+        "alpha": "Alphabetic sequence",
+        "numeric": "Numeric sequence",
+        "repeat": "Repeated characters",
+        "pattern": "Repeated pattern",
+        "digitsOnly": "Digits only",
+        "lettersOnly": "Letters only",
+        "leet": "Leet-speak substitution",
+        "year": "Year detected",
+        "appearsIn": "Appears in known password lists",
+        "detected": "detected",
+        "repeated": "repeated",
+        "predictable": "— predictable"
+      },
+      "suggestions": {
+        "title": "Suggestions to Improve",
+        "use12Chars": "Use at least 12 characters",
+        "addUppercase": "Add uppercase letters (A–Z)",
+        "addLowercase": "Add lowercase letters (a–z)",
+        "addNumbers": "Add numbers (0–9)",
+        "addSymbols": "Add special characters like !@#$%",
+        "avoidCommon": "Avoid common words or predictable patterns",
+        "avoidSequence": "Avoid keyboard sequences (qwerty, 12345…)",
+        "avoidRepeat": "Avoid repeated characters or patterns",
+        "passphraseTip": "Consider using a passphrase for easier memorability"
+      },
+      "charTypes": {
+        "title": "Character Types",
+        "uppercase": "Uppercase",
+        "lowercase": "Lowercase",
+        "digits": "Digits",
+        "symbols": "Symbols",
+        "unicode": "Unicode",
+        "exampleUpper": "A–Z",
+        "exampleLower": "a–z",
+        "exampleDigits": "0–9",
+        "exampleSymbols": "!@#"
+      },
+      "entropy": {
+        "title": "Entropy",
+        "formula": "Entropy = length × log₂(charset size)",
+        "charsetLower": "Lowercase a–z",
+        "charsetUpper": "Uppercase A–Z",
+        "charsetDigits": "Digits 0–9",
+        "charsetSymbols": "Symbols !@#…",
+        "totalPool": "Total pool",
+        "charsetSize": "Character Pool"
+      },
+      "composition": {
+        "title": "Composition",
+        "length": "Length"
+      },
+      "bestPractices": {
+        "title": "Security Tips",
+        "passphraseTip": "A passphrase (4+ random words) can be stronger AND easier to remember",
+        "tip1": "Use a password manager — you only need to remember one master password",
+        "tip2": "Enable 2FA wherever possible — it protects even weak passwords",
+        "tip3": "Never reuse passwords across different services",
+        "tip4": "Change passwords after any data breach notification"
+      },
+      "entropyTable": {
+        "title": "Entropy Reference",
+        "bits": "Bits",
+        "level": "Level",
+        "useCase": "Example use",
+        "veryWeak": "Very Weak",
+        "weak": "Weak",
+        "fair": "Fair",
+        "strong": "Strong",
+        "veryStrong": "Very Strong",
+        "pins": "PINs, short words",
+        "simple": "Simple passwords",
+        "general": "General accounts",
+        "financial": "Financial accounts",
+        "crypto": "Crypto, critical auth",
+        "yourPassword": "↑ Your password"
+      },
+      "emptyState": {
+        "title": "Type a password above to analyze its strength",
+        "desc": "Analysis happens instantly, locally, and privately"
+      },
+      "related": {
+        "title": "Related Security Tools",
+        "passwordGenerator": "Password Generator",
+        "hashGenerator": "Hash Generator",
+        "bcrypt": "Bcrypt Tool"
+      },
+      "checksList": {
+        "min8": "At least 8 characters",
+        "min12": "At least 12 characters",
+        "min16": "At least 16 characters",
+        "upper": "Uppercase letters (A–Z)",
+        "lower": "Lowercase letters (a–z)",
+        "digits": "Numbers (0–9)",
+        "symbols": "Special characters",
+        "noCommon": "No common password",
+        "noSeq": "No keyboard sequences",
+        "noRepeat": "No repeated patterns"
+      },
+      "notes": {
+        "charsLength": "{length} chars",
+        "goodLength": "Good length",
+        "moreNeeded": "{count} more needed",
+        "excellent": "Excellent",
+        "symbolsExample": "!@#$%^&*…"
+      },
+      "suggestionsList": {
+        "min12": "Use at least 12 characters",
+        "upper": "Add uppercase letters (A–Z)",
+        "lower": "Add lowercase letters (a–z)",
+        "digits": "Add numbers (0–9)",
+        "symbols": "Add special characters like !@#$%",
+        "noCommon": "Avoid common words or predictable patterns",
+        "noSeq": "Avoid keyboard sequences (qwerty, 12345…)",
+        "noRepeat": "Avoid repeated characters or patterns",
+        "passphrase": "Consider using a passphrase for easier memorability"
+      },
+      "patternsList": {
+        "common": {
+          "label": "Common password",
+          "value": "Appears in known password lists"
+        },
+        "keyboard": {
+          "label": "Keyboard sequence",
+          "value": "\"{seq}\" detected"
+        },
+        "alpha": {
+          "label": "Alphabetic sequence",
+          "value": "\"{seq}\" detected"
+        },
+        "numeric": {
+          "label": "Numeric sequence",
+          "value": "\"{seq}…\" detected"
+        },
+        "repeat": {
+          "label": "Repeated characters",
+          "value": "\"{seq}\" detected"
+        },
+        "pattern": {
+          "label": "Repeated pattern",
+          "value": "\"{seq}\" repeated"
+        },
+        "digitsOnly": {
+          "label": "Digits only",
+          "value": "No letters or symbols"
+        },
+        "lettersOnly": {
+          "label": "Letters only",
+          "value": "No digits or symbols"
+        },
+        "leet": {
+          "label": "Leet-speak substitution",
+          "value": "Common word with char swaps"
+        },
+        "year": {
+          "label": "Year detected",
+          "value": "\"{seq}\" — predictable"
+        }
+      },
+      "time": {
+        "centuries": "centuries+",
+        "lessThanSec": "less than a second",
+        "seconds": "{count} seconds",
+        "minutes": "{count} minutes",
+        "hours": "{count} hours",
+        "days": "{count} days",
+        "months": "{count} months",
+        "years": "{count} years",
+        "billionYears": "{count} billion years"
+      },
+      "strengthLabels": {
+        "veryWeak": "Very Weak",
+        "weak": "Weak",
+        "fair": "Fair",
+        "strong": "Strong",
+        "veryStrong": "Very Strong",
+        "none": "—"
+      },
+      "howToUse": {
+        "title": "How to Use",
+        "step1Title": "Enter a Password",
+        "step1Desc": "Type or paste any password in the input field. Analysis starts immediately.",
+        "step2Title": "Review Strength Score",
+        "step2Desc": "Check the overall rating from Very Weak to Very Strong, plus entropy bits and crack times.",
+        "step3Title": "Check Requirements",
+        "step3Desc": "See which character-type requirements are met and which are missing. View detected patterns.",
+        "step4Title": "Improve Your Password",
+        "step4Desc": "Follow the suggestions panel — add length, mix character types, or use a passphrase."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How is password entropy calculated?",
+            "answer": "Entropy = length × log₂(charset size). For example, a 12‑char password with mixed case, digits, and symbols yields about 72 bits of entropy."
+          },
+          {
+            "question": "What do the crack times mean?",
+            "answer": "They estimate how long an attacker with the hash would take via brute force. Offline GPU attacks can try 100+ billion guesses per second."
+          },
+          {
+            "question": "What makes a password strong?",
+            "answer": "Length matters most (12+ characters). Combine uppercase, lowercase, digits, and symbols. Avoid dictionary words, keyboard patterns, and repeats."
+          },
+          {
+            "question": "Does this tool store or send my password?",
+            "answer": "No. Everything runs locally in JavaScript — your password never leaves this browser tab."
+          },
+          {
+            "question": "What does \"entropy\" measure?",
+            "answer": "Entropy measures unpredictability in bits. A password with 50 bits of entropy is 2⁵⁰ times harder to guess than one with 30 bits."
+          },
+          {
+            "question": "How do I interpret the crack time estimates?",
+            "answer": "Crack times assume the attacker has the password hash. Online attacks are slower due to server throttling; offline GPU attacks can try billions of guesses per second."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Examples",
+        "sampleLabel": "Example Password Check",
+        "sampleText": "P@ssw0rd123",
+        "stats": "11 chars | 69 charset | 67 bits entropy",
+        "result": "Fair — crack time: ~3 hours (GPU)"
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related Security Tools",
+        "passwordGenerator": "Password Generator",
+        "passwordStrengthChecker": "Password Strength Checker",
+        "md5HashGenerator": "MD5 Hash Generator",
+        "bcrypt": "Bcrypt"
+      }
+    }
+  },
+  "seo-tools": {
+    "CanonicalTagGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Canonical Tag Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Canonical Tag Generator — Prevent Duplicate Content Issues",
+        "description": "Free online canonical tag generator to create canonical URL tags that prevent duplicate content issues. Specify the preferred version of any webpage with automatic HTTPS conversion, trailing slash normalization, and query parameter stripping. Essential SEO tool for webmasters and content managers.",
+        "keywords": "canonical tag generator, canonical url generator, canonical tag, duplicate content fix, canonical url, seo canonical tag"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy",
+        "copyAll": "Copy all"
+      },
+      "tabs": {
+        "single": "Single",
+        "bulk": "Bulk",
+        "crossDomain": "Hreflang"
+      },
+      "normalization": {
+        "title": "Normalization",
+        "forceHttps": "Force HTTPS",
+        "forceHttpsSub": "Recommended for all canonical URLs",
+        "lowercasePath": "Lowercase path",
+        "lowercasePathSub": "Avoids case-sensitive duplicates",
+        "stripParams": "Strip query parameters",
+        "stripParamsSub": "Remove ?utm_source=… etc.",
+        "removeTrailingSlash": "Remove trailing slash",
+        "removeTrailingSlashSub": "example.com/page/ → /page"
+      },
+      "www": {
+        "title": "www preference",
+        "keep": "Keep",
+        "www": "www",
+        "nonWww": "non-www"
+      },
+      "about": {
+        "title": "What is a Canonical Tag?",
+        "desc": "A canonical tag tells search engines which URL is the \"preferred\" version of a page, preventing duplicate content penalties.",
+        "useCases": "Common use cases:",
+        "wwwVsNonWww": "www vs non-www versions",
+        "httpVsHttps": "HTTP vs HTTPS pages",
+        "trailingSlash": "URLs with/without trailing slashes",
+        "utmParams": "Pages with UTM parameters",
+        "paginated": "Paginated pages",
+        "syndicated": "Syndicated content",
+        "printerFriendly": "Printer-friendly pages"
+      },
+      "mistakes": {
+        "title": "Common Mistakes",
+        "redirectChain": "Canonical pointing to a redirect chain",
+        "relativeUrls": "Using relative URLs instead of absolute",
+        "noindexPage": "Canonical on a noindex page",
+        "mismatchedHreflang": "Mismatched canonical and hreflang URLs",
+        "inBody": "Canonical in the body instead of <head>"
+      },
+      "single": {
+        "pageTitle": "Page URL",
+        "pagePlaceholder": "https://example.com/page?utm_source=google",
+        "quickExamples": "Quick Examples",
+        "urlAnalysis": "URL Analysis",
+        "https": "HTTPS",
+        "fragment": "Fragment (#)",
+        "query": "Query params",
+        "trailing": "Trailing slash",
+        "httpsDetected": "✗ HTTP detected",
+        "fragmentFound": "Found",
+        "fragmentNone": "None",
+        "queryStrip": "Strip?",
+        "queryClean": "Clean",
+        "trailingPresent": "Present",
+        "trailingNone": "None",
+        "normalizedUrl": "Normalized Canonical URL",
+        "normalizedFromOriginal": "↑ URL was normalized from the original",
+        "customCanonical": "Use custom canonical URL",
+        "customCanonicalSub": "Override the normalized URL (e.g. cross-domain canonical)",
+        "customPlaceholder": "https://example.com/canonical-page",
+        "canonicalTag": "Canonical Tag (paste in <head>)",
+        "urlTransformation": "URL Transformation",
+        "original": "Original",
+        "canonical": "Canonical",
+        "httpsLabel": "HTTPS",
+        "noParams": "No params",
+        "noTrailingSlash": "No trailing slash",
+        "lowercase": "Lowercase",
+        "wwwLabel": "www",
+        "nonWwwLabel": "non-www",
+        "fullHtmlExample": "Full HTML Example",
+        "analysisMessages": {
+          "notHttps": "URL is not HTTPS — canonical should use HTTPS",
+          "hasFragment": "URL contains a fragment (#) — canonical tags should not include fragments",
+          "considerWww": "Consider whether www or non-www is your canonical preference",
+          "trailingSlashConsistency": "Trailing slash — be consistent across all canonical URLs",
+          "queryParameters": "URL contains query parameters — canonical should usually point to the clean URL"
+        }
+      },
+      "bulk": {
+        "urlsLabel": "URLs (one per line)",
+        "placeholder": "https://example.com/page?utm_source=google\nhttps://www.example.com/page/\nhttp://example.com/Page",
+        "paste": "Paste",
+        "generate": "Generate",
+        "canonicalTags": "Canonical Tags",
+        "results": "Results",
+        "urls": "URLs",
+        "copyAll": "Copy all",
+        "downloadCsv": "CSV",
+        "changed": "changed",
+        "allTags": "All Canonical Tags",
+        "originalUrl": "Original URL",
+        "canonicalUrl": "Canonical URL",
+        "tag": "Tag"
+      },
+      "languages": {
+        "en": "English",
+        "en-US": "English (US)",
+        "en-GB": "English (UK)",
+        "ar": "Arabic",
+        "fr": "French",
+        "de": "German",
+        "es": "Spanish",
+        "it": "Italian",
+        "pt": "Portuguese",
+        "ru": "Russian",
+        "zh": "Chinese",
+        "ja": "Japanese",
+        "ko": "Korean",
+        "nl": "Dutch",
+        "pl": "Polish",
+        "tr": "Turkish",
+        "sv": "Swedish"
+      },
+      "crossDomain": {
+        "description": "Hreflang tags tell Google which language/region version to show users. Every page in the set must reference all other versions, including itself.",
+        "languageVersions": "Language Versions",
+        "addLanguage": "Add language",
+        "xDefault": "Add x-default hreflang",
+        "xDefaultSub": "Points to the fallback version (usually English or the homepage)",
+        "xDefaultPlaceholder": "https://example.com/page (default language URL)",
+        "hreflangPlaceholder": "https://example.com/page",
+        "outputLabel": "Hreflang Tags (add to every page in the set)",
+        "important": "Important",
+        "importantDesc": "These tags must be added to ALL pages in the set. Each page must reference all other language versions, not just the main page."
+      },
+      "howToUse": {
+        "title": "How to Use Canonical Tag Generator",
+        "step1Title": "Enter URL",
+        "step1Desc": "Paste the page URL you want to generate a canonical tag for",
+        "step2Title": "Configure Options",
+        "step2Desc": "Set normalization preferences like HTTPS enforcement, trailing slash handling, and www preference",
+        "step3Title": "Review Analysis",
+        "step3Desc": "Check the URL analysis for potential issues like query parameters or fragments",
+        "step4Title": "Copy the Tag",
+        "step4Desc": "Copy the generated canonical tag and paste it into the <head> section of your page"
+      },
+      "examples": {
+        "removeUtm": "Remove UTM params",
+        "wwwVsNonWww": "WWW vs non-WWW",
+        "trailingSlash": "Trailing slash",
+        "httpToHttps": "HTTP → HTTPS",
+        "mixedCase": "Mixed case path",
+        "fragmentUrl": "Fragment URL",
+        "sampleLabel": "Example URL with UTM",
+        "sampleText": "https://example.com/page?utm_source=google",
+        "stats": "Original: 48 chars → Canonical: 28 chars",
+        "result": "https://example.com/page"
+      },
+      "testing": {
+        "title": "Test & Validate",
+        "searchConsole": "Google Search Console — URL Inspection",
+        "hreflangTest": "Hreflang Tag Testing Tool",
+        "richResults": "Google Rich Results Test"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "metaTagGenerator": "Meta Tag Generator",
+        "schemaMarkup": "Schema Markup",
+        "robotsTxt": "robots.txt Generator",
+        "sitemapGenerator": "Sitemap Generator"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is a canonical tag?",
+            "answer": "A canonical tag (rel=\"canonical\") is an HTML element that helps prevent duplicate content issues by specifying the preferred version of a webpage to search engines."
+          },
+          {
+            "question": "When should I use a canonical tag?",
+            "answer": "Use canonical tags when you have duplicate or similar content across multiple URLs, such as printer-friendly versions, session IDs, or multiple category paths."
+          },
+          {
+            "question": "Does a canonical tag guarantee ranking?",
+            "answer": "No, the canonical tag is a hint, not a directive. Search engines may choose a different URL if they believe it better represents the content."
+          },
+          {
+            "question": "Can I use canonical tags across domains?",
+            "answer": "Yes, cross-domain canonical tags tell search engines that a piece of content on another domain is the preferred version, useful for syndicated content."
+          }
+        ]
+      }
+    },
+    "CharacterCounterSEOTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Character Counter"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Character Counter — Count Characters, Words & Lines for SEO",
+        "description": "Free online character counter for SEO to count characters, words, lines, and paragraphs in real-time. Perfect for optimizing meta descriptions, title tags, and social media posts to stay within length limits. Works entirely in your browser with no data uploads.",
+        "keywords": "character counter, seo character counter, count characters online, meta description counter, title tag counter, word counter seo"
+      },
+      "input": {
+        "placeholder": "Enter text to count..."
+      },
+      "counts": {
+        "characters": "Characters",
+        "words": "Words",
+        "lines": "Lines",
+        "sentences": "Sentences",
+        "paragraphs": "Paragraphs",
+        "noSpaces": "No spaces",
+        "remaining": "Remaining",
+        "overBy": "Over by",
+        "chars": "chars"
+      },
+      "status": {
+        "empty": "Start typing…",
+        "tooShort": "Too short",
+        "ideal": "Ideal length ✓",
+        "warning": "Getting long",
+        "over": "Over limit ✗"
+      },
+      "platforms": {
+        "seo-title": "SEO Title Tag",
+        "seo-description": "Meta Description",
+        "og-title": "OG Title",
+        "og-description": "OG Description",
+        "tweet": "Tweet / X Post",
+        "facebook": "Facebook Post",
+        "linkedin-post": "LinkedIn Post",
+        "linkedin-headline": "LinkedIn Headline",
+        "instagram": "Instagram Caption",
+        "email-subject": "Email Subject Line",
+        "custom": "Custom Limit"
+      },
+      "hints": {
+        "seo-title": "Google truncates titles over ~60 chars. Keep primary keyword near the start.",
+        "seo-description": "Google truncates around 155–160 chars on desktop. Use the full limit.",
+        "og-title": "Open Graph title used by Facebook & LinkedIn. ~95 chars before truncation.",
+        "og-description": "Open Graph description. Facebook shows ~200 chars.",
+        "tweet": "Twitter/X limits posts to 280 characters. URLs count as 23 chars.",
+        "facebook": "Optimal length is under 80 chars for max engagement. Facebook shows 'See more' after ~280 chars on mobile.",
+        "linkedin-post": "LinkedIn shows 'See more' after ~210 chars on mobile, ~700 on desktop. Ideal: 150–300 chars.",
+        "linkedin-headline": "LinkedIn profile headline has a 220 char limit. Around 120 chars shows without truncation in search.",
+        "instagram": "Instagram caps at 2200 chars but 'More' appears after ~125 chars. Keep captions punchy.",
+        "email-subject": "Most email clients show 40–60 chars. Mobile shows even fewer (~30). Keep it under 50.",
+        "custom": "Set your own character limit."
+      },
+      "categories": {
+        "seo": "SEO",
+        "social": "Social",
+        "email": "Email",
+        "custom": "Custom"
+      },
+      "custom": {
+        "title": "Custom Limits",
+        "softLabel": "Ideal max (soft)",
+        "hardLabel": "Hard limit"
+      },
+      "mode": {
+        "single": "Single",
+        "bulk": "Bulk",
+        "bulkDesc": "Check multiple items at once",
+        "singleDesc": "ideal ≤"
+      },
+      "bulk": {
+        "pasteLabel": "Paste items (one per line)",
+        "paste": "Paste",
+        "placeholder": "Paste items, one per line:",
+        "total": "Total",
+        "ideal": "✓ Ideal",
+        "warn": "⚠ Warn",
+        "over": "✗ Over",
+        "bulkCheck": "Bulk Check",
+        "items": "items"
+      },
+      "preview": {
+        "title": "Preview",
+        "desktop": "Desktop",
+        "mobile": "Mobile",
+        "mobileInbox": "📱 Mobile inbox",
+        "desktopInbox": "🖥️ Desktop inbox",
+        "senderName": "Sender Name",
+        "previewText": "Preview text would appear here after the subject…",
+        "yourSubject": "Your subject line…",
+        "yourName": "Your Name",
+        "yourHandle": "@yourhandle",
+        "composeTweet": "Compose your tweet…",
+        "yourPhoto": "Your photo",
+        "yourCaption": "Your caption will appear here…",
+        "yourHeadline": "Your headline will appear here…",
+        "yourSeoTitle": "Your SEO title will appear here…",
+        "yourMetaDesc": "Your meta description will appear here in search results…"
+      },
+      "warnings": {
+        "limitReached": "Character limit reached ({max} max).",
+        "overLimit": "Over recommended limit by {count} character{plural}. Consider shortening.",
+        "tooShort": "Too short — aim for at least {min} characters for best results.",
+        "perfectLength": "Perfect length for {label}. {remain}",
+        "remainText": "{count} characters remaining."
+      },
+      "reference": {
+        "title": "Quick Reference",
+        "min": "min",
+        "ideal": "ideal",
+        "max": "max",
+        "hard": "HARD"
+      },
+      "empty": {
+        "title": "Start typing to count",
+        "desc": "Paste or type text to see real-time character and word counts"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "serpPreview": "SERP Preview",
+        "metaTagGenerator": "Meta Tag Generator",
+        "ogPreview": "OG Previewer",
+        "wordCounter": "Word Counter",
+        "keywordDensity": "Keyword Density"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "howToUse": {
+        "title": "How to Use Character Counter",
+        "step1Title": "Type or Paste Text",
+        "step1Desc": "Enter your text in the input area — the counter updates in real-time",
+        "step2Title": "Select a Platform",
+        "step2Desc": "Choose a platform preset like SEO Title, Meta Description, or Tweet to see specific limits",
+        "step3Title": "Check the Stats",
+        "step3Desc": "View character count, word count, sentence count, and more at a glance",
+        "step4Title": "Optimize Your Content",
+        "step4Desc": "Use the remaining count indicator to trim or expand your text to fit platform limits"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample meta description text",
+        "sampleText": "How to Write Perfect Meta Descriptions for Better SEO Rankings",
+        "stats": "57 characters · 8 words · Ideal for SEO title tags",
+        "result": "✓ Perfect length — 57/60 characters used"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Why are character counts important for SEO?",
+            "answer": "Search engines truncate meta titles over 60 characters and meta descriptions over 160 characters. Keeping within limits ensures your snippets display fully in search results."
+          },
+          {
+            "question": "Does word count affect SEO ranking?",
+            "answer": "While word count alone is not a direct ranking factor, comprehensive content that covers a topic in depth tends to perform better in search results."
+          },
+          {
+            "question": "What is keyword density?",
+            "answer": "Keyword density is the percentage of times a keyword appears in your content compared to the total word count. A natural density of 1-3% is generally recommended."
+          },
+          {
+            "question": "Are spaces counted as characters?",
+            "answer": "Yes, most character counters include spaces in the total character count. Meta descriptions typically have a 160-character limit including spaces."
+          }
+        ]
+      }
+    },
+    "HeadingStructureAnalyzerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Heading Structure Analyzer"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Heading Structure Analyzer — Audit H1-H6 Hierarchy for SEO",
+        "description": "Free online heading structure analyzer to audit the H1-H6 hierarchy of your HTML content. Detect missing headings, improper nesting, multiple H1 tags, and empty headings. Ensure proper heading structure for better SEO rankings and WCAG accessibility compliance.",
+        "keywords": "heading structure analyzer, h1 h2 h3 checker, heading hierarchy audit, seo heading checker, html heading analyzer, accessibility heading audit"
+      },
+      "input": {
+        "placeholder": "Paste HTML or text content here...",
+        "analyze": "Analyze",
+        "htmlLabel": "HTML",
+        "markdownLabel": "Markdown",
+        "pasteHtml": "Paste HTML",
+        "pasteMarkdown": "Paste Markdown",
+        "htmlPlaceholder": "<h1>Main Title</h1>\n<h2>Section</h2>\n<h3>Subsection</h3>",
+        "markdownPlaceholder": "# Main Title\n## Section\n### Subsection",
+        "loadSampleHtml": "Load sample HTML",
+        "loadSampleMarkdown": "Load sample Markdown"
+      },
+      "results": {
+        "h1": "H1 Tags",
+        "h2": "H2 Tags",
+        "h3": "H3 Tags",
+        "h4": "H4 Tags",
+        "h5": "H5 Tags",
+        "h6": "H6 Tags"
+      },
+      "issues": {
+        "title": "Issues Found",
+        "multipleH1": "Multiple H1 tags found",
+        "noH1": "No H1 tag found",
+        "skipLevel": "Skipped heading level (e.g., H1 to H3)",
+        "emptyHeading": "Empty heading tag",
+        "duplicateHeading": "Duplicate heading",
+        "analysis": "Analysis",
+        "empty": "Empty heading",
+        "duplicate": "Duplicate heading",
+        "emptyHeadingMessage": "H{level} at position {position} is empty.",
+        "longHeading": "Heading is {length} chars — consider shortening to under 70",
+        "longHeadingMessage": "H{level} \"{text}…\" is {length} characters (recommended: under 70)",
+        "duplicateMessage": "Duplicate H{level}: \"{text}\" appears more than once.",
+        "goodStructure": "Heading structure looks good! Proper H1–H6 hierarchy with no major issues.",
+        "noH1Found": "No H1 heading found. Every page should have exactly one H1 for SEO.",
+        "multipleH1Found": "Multiple H1 headings ({count}). Best practice: use only one H1 per page.",
+        "firstNotH1": "First heading is H{level}, not H1. Consider starting with H1 for proper hierarchy.",
+        "skipLevelFound": "H{prevLevel} → H{level} skips a level (missing H{missing}). Found: \"{text}\""
+      },
+      "score": {
+        "good": "Good structure",
+        "needsImprovement": "Needs improvement",
+        "poor": "Poor structure",
+        "headingLabel": "heading",
+        "headingsLabel": "headings",
+        "foundLabel": "found",
+        "errorLabel": "error",
+        "errorsLabel": "errors",
+        "warningLabel": "warning",
+        "warningsLabel": "warnings",
+        "headingsCount": "{count} {label} found",
+        "statsCount": "{errors} {errorsLabel} · {warnings} {warningsLabel}"
+      },
+      "distribution": {
+        "title": "Heading Distribution"
+      },
+      "export": {
+        "title": "Export",
+        "outline": "Outline .txt",
+        "json": "Export .json"
+      },
+      "view": {
+        "issuesOnly": "Issues only",
+        "allHeadings": "All headings",
+        "idAttrs": "ID Attributes",
+        "headingTree": "Heading Tree",
+        "contentOutline": "Content Outline",
+        "tree": "Tree",
+        "outline": "Outline",
+        "table": "Table",
+        "chart": "Chart"
+      },
+      "table": {
+        "position": "#",
+        "level": "Lvl",
+        "text": "Text",
+        "characters": "Chars",
+        "ok": "OK"
+      },
+      "chart": {
+        "headingDistribution": "Heading Distribution",
+        "nestingDepth": "Nesting Depth per Heading",
+        "position1": "Position 1",
+        "positionTotal": "Position {total}",
+        "heading": "heading",
+        "headings": "headings",
+        "percentOfTotal": "{pct}% of total"
+      },
+      "headingLevels": {
+        "1": "Page title",
+        "2": "Main section",
+        "3": "Subsection",
+        "4": "Sub-subsection",
+        "5": "Minor",
+        "6": "Smallest"
+      },
+      "tips": {
+        "title": "SEO Tips",
+        "oneH1": "Use only one H1 per page",
+        "sequential": "Use headings in sequential order",
+        "descriptive": "Use descriptive heading text",
+        "primaryKeyword": "Include your primary keyword in the H1",
+        "contentHierarchy": "Headings help Google understand content hierarchy",
+        "usersScan": "Users scan headings — make them descriptive",
+        "headingLength": "Heading length: H1 ≤ 70 chars, H2 ≤ 60 chars",
+        "h2Section": "H2s are your main section headings — use 2–5 per page"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "readability": "Readability Checker",
+        "keywordDensity": "Keyword Density",
+        "metaTagGenerator": "Meta Tag Generator",
+        "schemaMarkup": "Schema Markup",
+        "serpPreview": "SERP Preview",
+        "ogPreviewer": "OG Previewer"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "emptyState": {
+        "instruction": "Paste HTML or Markdown on the left",
+        "description": "The tool will extract and visualize your H1–H6 heading structure with SEO analysis"
+      },
+      "ui": {
+        "emptyHeading": "Empty heading",
+        "noIssues": "No issues found",
+        "sampleHtml": "<h1>The Complete Guide to React Development</h1>\n<h2>Getting Started</h2>\n<h3>Installing Node.js and npm</h3>\n<h3>Creating Your First Project</h3>\n<h2>Core Concepts</h2>\n<h3>Components and Props</h3>\n<h4>Functional Components</h4>\n<h4>Class Components</h4>\n<h3>State and Lifecycle</h3>\n<h5>useState Hook</h5>\n<h5>useEffect Hook</h5>\n<h2>Advanced Topics</h2>\n<h3>Context API</h3>\n<h3>Performance Optimization</h3>\n<h2>Conclusion</h2>",
+        "sampleMd": "# The Complete Guide to React\n## Getting Started\n### Prerequisites\n### Installation\n## Core Concepts\n### Components\n#### Functional Components\n#### Class Components\n### Hooks\n## Deployment\n### Build Process\n### Hosting Options"
+      },
+      "howToUse": {
+        "title": "How to Use Heading Structure Analyzer",
+        "step1Title": "Paste Your Content",
+        "step1Desc": "Paste HTML or Markdown content into the input area",
+        "step2Title": "Choose Input Format",
+        "step2Desc": "Select HTML or Markdown mode depending on your content type",
+        "step3Title": "Analyze the Structure",
+        "step3Desc": "Click Analyze to extract all H1-H6 headings and detect issues",
+        "step4Title": "Review Issues",
+        "step4Desc": "Check for missing H1, skipped levels, empty headings, or duplicate headings"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample HTML with headings",
+        "sampleText": "H1 Sample Page Title\nH2 Introduction\nH3 Background\nH2 Main Content\nH3 Section One\nH4 Subsection",
+        "stats": "6 headings found · 1 H1 · 2 H2 · 2 H3 · 1 H4",
+        "result": "Good structure — sequential hierarchy with no skipped levels"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Why is heading structure important for SEO?",
+            "answer": "Proper heading structure (H1-H6) helps search engines understand the hierarchy and relevance of your content, improving readability and keyword relevance signals."
+          },
+          {
+            "question": "How many H1 tags should a page have?",
+            "answer": "Best practice is to use one H1 tag per page that describes the main topic. Multiple H1s can confuse search engines about the primary subject."
+          },
+          {
+            "question": "What is a heading structure skip?",
+            "answer": "A heading skip occurs when you jump from an H2 to an H4 without an H3 in between. This breaks the logical hierarchy and can confuse both users and search engines."
+          },
+          {
+            "question": "Can headings contain keywords?",
+            "answer": "Yes, using relevant keywords in your headings helps search engines understand your content structure and can improve rankings for those terms."
+          }
+        ]
+      }
+    },
+    "HreflangGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Hreflang Tag Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Hreflang Tag Generator — Multilingual SEO Made Simple",
+        "description": "Free online hreflang tag generator for multilingual and multi-regional websites. Generate HTML link tags, XML sitemap hreflang annotations, and HTTP headers. Supports 70+ languages and 60+ regions with x-default fallback. Essential for international SEO and avoiding duplicate content across language versions.",
+        "keywords": "hreflang generator, hreflang tag generator, multilingual seo, hreflang tags, international seo, language tags, multi-regional seo"
+      },
+      "mode": {
+        "single": "Single Page",
+        "multi": "Multi-Page"
+      },
+      "outputFormat": {
+        "title": "Output Format",
+        "html": "HTML <link> Tags",
+        "htmlSub": "Add to <head> of every page",
+        "xml": "XML Sitemap",
+        "xmlSub": "Add to sitemap.xml",
+        "http": "HTTP Response Header",
+        "httpSub": "Server-side implementation"
+      },
+      "quickAdd": {
+        "title": "Quick Add"
+      },
+      "validation": {
+        "title": "Validation"
+      },
+      "whatIsHreflang": {
+        "title": "What is hreflang?",
+        "description": "Hreflang tells search engines which language and region a page targets, and which alternate versions exist for other locales.",
+        "whenToUse": "When to use:",
+        "uses": [
+          "Same content in multiple languages",
+          "Same language, different regions (en-US vs en-GB)",
+          "Alternate versions with different regional content"
+        ],
+        "xDefault": "x-default = the fallback page shown when no other hreflang matches the user's language."
+      },
+      "rules": {
+        "title": "Must-follow Rules",
+        "items": [
+          "Every page must reference ALL other language versions",
+          "Every page must also reference itself",
+          "All URLs must be absolute (with https://)",
+          "Tags must be in the <head> of every page",
+          "Or use XML sitemap / HTTP headers instead",
+          "Hreflang is confirmed — Google still decides which to show"
+        ]
+      },
+      "validate": {
+        "title": "Validate",
+        "hreflangTest": "Hreflang Tag Testing Tool",
+        "searchConsole": "Google Search Console",
+        "merkle": "Merkle Hreflang Checker"
+      },
+      "entries": {
+        "title": "Language / Region Entries",
+        "reset": "Reset",
+        "addEntry": "Add entry",
+        "addLanguage": "Add language version",
+        "addPage": "Add page"
+      },
+      "summary": {
+        "languages": "Languages",
+        "withUrl": "With URL",
+        "xDefault": "x-default",
+        "errors": "Errors"
+      },
+      "implementation": {
+        "reminder": "Implementation Reminder",
+        "description": "These tags must be copied to the {head} of every page in the set — including all language versions. Each page must link to all others, including itself."
+      },
+      "apache": {
+        "label": "Apache .htaccess Example"
+      },
+      "pageSets": {
+        "title": "Page Sets",
+        "addPage": "Add page",
+        "removePage": "Remove page",
+        "addLanguage": "Add language",
+        "pagePlaceholder": "Page name / URL path"
+      },
+      "xmlOutput": {
+        "title": "XML Sitemap with Hreflang"
+      },
+      "xmlHint": {
+        "description": "In the XML sitemap, each {url} block must contain all {xhtmlLink} alternates. Submit this sitemap in Google Search Console."
+      },
+      "download": {
+        "xml": ".xml",
+        "csv": "CSV"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "canonicalTag": "Canonical Tag Generator",
+        "metaTagGenerator": "Meta Tag Generator",
+        "sitemap": "XML Sitemap Generator",
+        "robotsTxt": "robots.txt Generator",
+        "schema": "Schema Markup"
+      },
+      "howToUse": {
+        "title": "How to Use Hreflang Tag Generator",
+        "step1Title": "Enter Page URL",
+        "step1Desc": "Paste the URL of the page you want to create hreflang tags for",
+        "step2Title": "Add Language Versions",
+        "step2Desc": "Add all language and regional versions of the page with their URLs",
+        "step3Title": "Select Output Format",
+        "step3Desc": "Choose between HTML link tags, XML sitemap annotations, or HTTP headers",
+        "step4Title": "Copy and Implement",
+        "step4Desc": "Copy the generated tags and add them to the <head> of every page in the set"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample multilingual URL",
+        "sampleText": "https://example.com/page",
+        "stats": "3 language versions (en, es, fr) · x-default configured",
+        "result": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://example.com/en/page\" />"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is hreflang used for?",
+            "answer": "Hreflang tags tell search engines which language or regional version of a page to serve to users based on their language and location preferences."
+          },
+          {
+            "question": "Do I need hreflang for same-language different countries?",
+            "answer": "Yes, if you have similar content targeting different regions (e.g., US English vs UK English), hreflang tags help serve the correct regional version."
+          },
+          {
+            "question": "Can I use hreflang without a self-reference?",
+            "answer": "No, each hreflang annotation must include a self-referencing canonical link. Every URL in the group must reference itself as a canonical."
+          },
+          {
+            "question": "What is the x-default hreflang tag?",
+            "answer": "The x-default hreflang tag specifies a fallback page for users whose language or region does not match any specific hreflang entry."
+          }
+        ]
+      }
+    },
+    "KeywordDensityCheckerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Keyword Density Checker"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Keyword Density Checker — Analyze Keyword Frequency & Density",
+        "description": "Free online keyword density checker to analyze keyword frequency and density in your content. Detect keyword stuffing, identify over-used and under-used terms, and check 2-word and 3-word phrase density. All processing happens client-side — your content stays private. Essential for on-page SEO optimization.",
+        "keywords": "keyword density checker, keyword frequency analyzer, seo keyword analysis, keyword stuffing detector, phrase density checker, on-page seo tool"
+      },
+      "input": {
+        "content": "Content",
+        "contentPlaceholder": "Paste your article, blog post, or any content here to analyze keyword density…",
+        "keyword": "Target Keyword",
+        "keywordPlaceholder": "Enter keyword..."
+      },
+      "options": {
+        "title": "Options",
+        "minWordLength": "Min word length",
+        "showTop": "Show top",
+        "includeStopWords": "Include stop words",
+        "stopWordsHint": "the, a, and, of…",
+        "phraseLength": "Phrase Length"
+      },
+      "densityScale": {
+        "title": "Density Scale",
+        "stopWord": "Stop word",
+        "idealRange": "Ideal range: 1–2.5% for primary keywords",
+        "scale": {
+          "stopWord": "Stop word",
+          "veryLow": "< 0.5%",
+          "ideal": "0.5–2.5% (ideal)",
+          "caution": "2.5–4% (caution)",
+          "stuffing": "> 4% (stuffing)"
+        }
+      },
+      "sort": {
+        "label": "Sort By",
+        "count": "Count",
+        "density": "Density",
+        "alpha": "A-Z"
+      },
+      "tabs": {
+        "keywords": "Keywords",
+        "phrases": "Phrases",
+        "fullStats": "Full Stats"
+      },
+      "results": {
+        "totalWords": "Total Words",
+        "keywordCount": "Keyword Count",
+        "density": "Density",
+        "occurrences": "Occurrences",
+        "words": "Words",
+        "chars": "Chars",
+        "charsNoSpaces": "Chars (no spaces)",
+        "sentences": "Sentences",
+        "paragraphs": "Paragraphs",
+        "avgWordLength": "Avg word length",
+        "uniqueKeywords": "Unique keywords",
+        "readTime": "Read time",
+        "minLessThan": "< 1 min",
+        "min": "min",
+        "noKeywords": "No keywords found with current settings",
+        "noPhrases": "No repeated {phraseN}-word phrases found",
+        "tryMoreContent": "Try with more content or a shorter phrase length",
+        "positionsLabel": "Positions (word number in text):",
+        "uniqueWords": "{count} unique words",
+        "stopWordsExcluded": " (stop words excluded)"
+      },
+      "actions": {
+        "exportCsv": "Export CSV",
+        "positions": "Positions",
+        "paste": "Paste"
+      },
+      "tips": {
+        "title": "SEO Tips",
+        "optimalDensity": "Optimal: 1-2% keyword density",
+        "avoidOveruse": "Don't overuse keywords (keyword stuffing)"
+      },
+      "seoInsights": {
+        "title": "SEO Insights",
+        "under300Words": "Content is under 300 words — Google prefers 600–2000+ words",
+        "goodContentLength": "Good content length ({count} words)",
+        "keywordStuffing": "\"{word}\" density is {density}% — possible keyword stuffing",
+        "idealTargetDensity": "Target keyword \"{word}\" is in ideal range ({density}%)",
+        "aimForDensity": "Aim for 1–2.5% density for your primary keyword",
+        "useLsiKeywords": "Use LSI keywords (semantically related terms) to support your main keyword"
+      },
+      "topKeywords": {
+        "title": "Top Keywords",
+        "top5NonStop": "Top 5 Non-Stop Keywords",
+        "word": "Word",
+        "count": "Count",
+        "percentage": "%"
+      },
+      "emptyState": {
+        "title": "Paste your content above to analyze",
+        "subtitle": "Supports any text — articles, blog posts, product descriptions"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "wordFrequency": "Word Frequency",
+        "readability": "Readability Checker",
+        "headingStructure": "Heading Structure"
+      },
+      "howToUse": {
+        "title": "How to Use Keyword Density Checker",
+        "step1Title": "Paste Your Content",
+        "step1Desc": "Paste your article, blog post, or any text content into the input area",
+        "step2Title": "Set Options",
+        "step2Desc": "Configure minimum word length, stop word filtering, and phrase length preferences",
+        "step3Title": "Analyze Results",
+        "step3Desc": "View keyword frequency, density percentages, and phrase occurrences in the results table",
+        "step4Title": "Optimize Based on Insights",
+        "step4Desc": "Use the SEO insights to adjust keyword usage and avoid stuffing"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample article text",
+        "sampleText": "Keyword density is important for SEO. Understanding keyword density helps content writers create better SEO content. The right keyword density improves search rankings and keyword visibility.",
+        "stats": "30 words · keyword appears 3 times · 10% density",
+        "result": "Keyword \"keyword\" appears 3 times (10%) — consider reducing to 1-2.5% ideal range"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is keyword density?",
+            "answer": "Keyword density is the percentage of times a keyword or phrase appears in your content relative to the total word count. It helps gauge keyword relevance."
+          },
+          {
+            "question": "What is the ideal keyword density?",
+            "answer": "There is no fixed ideal density, but a natural 1-3% range is generally recommended. Avoid keyword stuffing as it can lead to search engine penalties."
+          },
+          {
+            "question": "Does keyword density affect rankings?",
+            "answer": "While keyword density is not a direct ranking factor, using keywords naturally in your content helps search engines understand relevance and improves SEO."
+          },
+          {
+            "question": "What is keyword stuffing?",
+            "answer": "Keyword stuffing is the practice of excessively using keywords in content to manipulate rankings. It creates a poor user experience and can result in search engine penalties."
+          }
+        ]
+      }
+    },
+    "MetaTagGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Meta Tag Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Meta Tag Generator — Create SEO & Social Media Meta Tags",
+        "description": "Free online meta tag generator to create SEO meta tags and social media preview tags. Generate title tags, meta descriptions, Open Graph tags for Facebook, Twitter Cards, and JSON-LD structured data. Preview how your page appears in Google search results and social media feeds. Essential for every webmaster.",
+        "keywords": "meta tag generator, meta tags generator, seo meta tags, open graph tags, twitter cards generator, meta description generator, social media preview"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy",
+        "copyAll": "Copy all"
+      },
+      "tabs": {
+        "basic": "Basic Info",
+        "og": "Open Graph",
+        "twitter": "Twitter Card",
+        "advanced": "Advanced"
+      },
+      "basic": {
+        "title": "Basic Meta Tags",
+        "pageTitle": "Page Title",
+        "titlePlaceholder": "My Awesome Page — Brand Name",
+        "metaDescription": "Meta Description",
+        "descriptionPlaceholder": "A compelling description of your page that appears in search results…",
+        "keywords": "Keywords",
+        "keywordsPlaceholder": "keyword1, keyword2, keyword3",
+        "author": "Author",
+        "authorPlaceholder": "John Smith",
+        "canonicalURL": "Canonical URL",
+        "urlPlaceholder": "https://example.com/page",
+        "language": "Language",
+        "languagePlaceholder": "en",
+        "viewport": "Viewport",
+        "robots": "Robots",
+        "autoSync": "Auto-sync with Basic SEO",
+        "autoSyncHint": "Leave fields empty to inherit title/description automatically"
+      },
+      "og": {
+        "title": "Open Graph Tags",
+        "ogTitle": "OG Title",
+        "ogTitlePlaceholder": "Page title for social sharing",
+        "ogDescription": "OG Description",
+        "ogDescriptionPlaceholder": "Description for social sharing…",
+        "ogImage": "OG Image URL",
+        "ogImagePlaceholder": "https://example.com/image.jpg",
+        "ogImageHint": "Recommended: 1200×630px, under 8MB, JPG or PNG",
+        "ogUrl": "OG URL",
+        "ogUrlPlaceholder": "https://example.com/page",
+        "ogSiteName": "Site Name",
+        "ogSiteNamePlaceholder": "My Website",
+        "ogLocale": "Locale",
+        "ogType": "Type",
+        "ogLocalePlaceholder": "en_US"
+      },
+      "twitter": {
+        "title": "Twitter Card Tags",
+        "cardType": "Card Type",
+        "siteHandle": "Site @",
+        "creatorHandle": "Creator @",
+        "autoSync": "Auto-sync with Basic SEO",
+        "autoSyncHint": "Leave fields empty to inherit title/description automatically",
+        "twitterTitle": "Twitter Title",
+        "twitterTitlePlaceholder": "Title for Twitter/X",
+        "twitterDesc": "Twitter Description",
+        "twitterDescPlaceholder": "Description for Twitter/X…",
+        "twitterImage": "Twitter Image URL",
+        "twitterImagePlaceholder": "https://example.com/twitter-card.jpg",
+        "twitterImageHint": "Min 144×144px for summary, 300×157px for summary_large_image"
+      },
+      "advanced": {
+        "title": "Advanced Tags",
+        "robotsPresets": "Robots Presets",
+        "noarchive": "noarchive",
+        "noarchiveDesc": "Prevent cached version",
+        "nosnippet": "nosnippet",
+        "nosnippetDesc": "Prevent description snippet",
+        "themeColor": "Theme Color",
+        "charset": "Charset",
+        "indexFollow": "Index + Follow",
+        "noindexFollow": "No Index + Follow",
+        "indexNofollow": "Index + No Follow",
+        "noindexNofollow": "No Index + No Follow"
+      },
+      "output": {
+        "title": "Generated Meta Tags",
+        "htmlCode": "Generated HTML",
+        "preview": "Preview",
+        "reset": "Reset",
+        "copyAll": "Copy all"
+      },
+      "preview": {
+        "google": "Google SERP Preview",
+        "googleDescription": "Google Preview",
+        "facebook": "Facebook Preview",
+        "openGraph": "Open Graph Preview",
+        "twitterPreview": "Twitter / X Preview",
+        "titleTooShort": "too short",
+        "titleTooLong": "too long",
+        "titleIdeal": "ideal",
+        "descTooShort": "too short",
+        "descTooLong": "too long",
+        "descIdeal": "ideal",
+        "imageSize": "1200 × 630 px recommended",
+        "summaryLarge": "summary_large_image"
+      },
+      "seoScore": {
+        "title": "SEO Score",
+        "great": "Great!",
+        "good": "Good",
+        "needsWork": "Needs work",
+        "poor": "Poor",
+        "checksPassed": "checks passed"
+      },
+      "tips": {
+        "title": "SEO Tips",
+        "titleLength": "Title should be 50-60 characters",
+        "descriptionLength": "Description should be 150-160 characters",
+        "imageSize": "Use images at least 1200x630px",
+        "quickTips": "Quick Tips",
+        "tips": [
+          "Title should be unique on every page",
+          "Include primary keyword near start of title",
+          "OG image should be 1200×630px for best results",
+          "Twitter large image cards get 3× more engagement",
+          "Canonical tag prevents duplicate content penalties",
+          "Don't stuff keywords — use natural language"
+        ]
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "ogPreview": "OG Previewer",
+        "schemaMarkup": "Schema Markup",
+        "sitemapGenerator": "Sitemap Generator"
+      },
+      "checks": {
+        "titlePresent": "Title tag present",
+        "titleLength": "Title 50–60 chars",
+        "descPresent": "Description present",
+        "descLength": "Description 150–160 chars",
+        "keywords": "Keywords defined",
+        "canonical": "Canonical URL set",
+        "ogTitle": "Open Graph title",
+        "ogDesc": "Open Graph description",
+        "ogImage": "Open Graph image",
+        "twitterCard": "Twitter Card set",
+        "indexing": "Not blocking indexing",
+        "chars": "{count} chars"
+      },
+      "howToUse": {
+        "title": "How to Use Meta Tag Generator",
+        "step1Title": "Fill in Basic Info",
+        "step1Desc": "Enter your page title, meta description, keywords, and canonical URL",
+        "step2Title": "Add Social Media Tags",
+        "step2Desc": "Configure Open Graph tags for Facebook and Twitter Card tags",
+        "step3Title": "Configure Advanced Options",
+        "step3Desc": "Set robots directives, theme color, and character encoding",
+        "step4Title": "Copy the Generated Code",
+        "step4Desc": "Copy all generated meta tags and paste them into the <head> of your HTML page"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample meta tag input",
+        "sampleText": "<meta name=\"description\" content=\"Learn how to write compelling meta descriptions that boost click-through rates and improve SEO performance.\">",
+        "stats": "1 meta tag · 120 characters · Valid HTML",
+        "result": "✓ Well-formed meta tag ready for <head> insertion"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What are meta tags?",
+            "answer": "Meta tags are HTML elements that provide structured information about a webpage to search engines and browsers, including meta title, description, and viewport settings."
+          },
+          {
+            "question": "How long should a meta title be?",
+            "answer": "Meta titles should be 50-60 characters to display fully in search results. Longer titles may be truncated by search engines."
+          },
+          {
+            "question": "How long should a meta description be?",
+            "answer": "Meta descriptions should be 150-160 characters. While not a direct ranking factor, a compelling description can improve click-through rates."
+          },
+          {
+            "question": "Do meta keywords still matter?",
+            "answer": "Major search engines like Google and Bing do not use meta keywords for ranking due to historical abuse, but they may still be used by smaller search engines."
+          }
+        ]
+      }
+    },
+    "OGPreviewerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Open Graph Previewer"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Open Graph Previewer — Preview Social Share Cards Instantly",
+        "description": "Free Open Graph previewer to see how your page looks when shared on Facebook, Twitter/X, LinkedIn, WhatsApp, Discord, Slack, and more. Fetch OG tags from any URL or paste your own meta tags. Debug og:title, og:description, og:image, and Twitter Cards to ensure perfect social sharing.",
+        "keywords": "open graph previewer, og preview, social share preview, facebook share preview, twitter card preview, og tag checker, social media preview"
+      },
+      "input": {
+        "fetchUrl": "Fetch URL",
+        "pasteTags": "Paste Tags",
+        "websiteUrl": "Website URL",
+        "urlPlaceholder": "https://example.com",
+        "fetch": "Fetch",
+        "loading": "Loading...",
+        "pasteHtml": "Paste HTML / Meta Tags",
+        "htmlPlaceholder": "<meta property=\"og:title\" content=\"My Page\">\n<meta property=\"og:description\" content=\"...\">\n<meta property=\"og:image\" content=\"https://...\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">",
+        "parsePreview": "Parse & Preview",
+        "editTags": "Edit Tags Manually",
+        "ogTitle": "og:title",
+        "titlePlaceholder": "Page title",
+        "ogDescription": "og:description",
+        "descriptionPlaceholder": "Page description",
+        "ogImage": "og:image",
+        "imagePlaceholder": "https://…/image.jpg",
+        "ogUrl": "og:url",
+        "urlFieldPlaceholder": "https://example.com/page",
+        "ogSiteName": "og:site_name",
+        "siteNamePlaceholder": "My Website",
+        "twitterCard": "twitter:card",
+        "twitterTitle": "twitter:title",
+        "twitterTitlePlaceholder": "Twitter title",
+        "twitterDesc": "twitter:description",
+        "twitterDescPlaceholder": "Twitter description",
+        "twitterImage": "twitter:image",
+        "twitterImagePlaceholder": "https://…/twitter.jpg",
+        "twitterSite": "twitter:site",
+        "twitterSitePlaceholder": "@YourSite"
+      },
+      "preview": {
+        "tabs": {
+          "facebook": "Facebook",
+          "twitter": "Twitter/X",
+          "linkedin": "LinkedIn",
+          "whatsapp": "WhatsApp",
+          "discord": "Discord",
+          "slack": "Slack"
+        },
+        "device": {
+          "desktop": "Desktop",
+          "mobile": "Mobile"
+        },
+        "previewOn": "Preview on",
+        "allPlatforms": "All Platforms",
+        "enterUrlOrTags": "Enter a URL or paste meta tags to preview",
+        "facebook": "Facebook",
+        "twitterX": "Twitter/X",
+        "linkedIn": "LinkedIn",
+        "whatsApp": "WhatsApp",
+        "discordLabel": "Discord",
+        "slackLabel": "Slack"
+      },
+      "score": {
+        "title": "OG Score",
+        "tagsSet": "tags set",
+        "noImage": "No image",
+        "recommendedSize": "Recommended: 1200×630px (1.91:1 ratio)",
+        "ogImage": "OG Image"
+      },
+      "tips": {
+        "corsProxy": "Uses a CORS proxy to fetch meta tags. Some sites may block external requests — use \"Paste Tags\" instead."
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "metaTagGenerator": "Meta Tag Generator",
+        "robotsTxt": "robots.txt Generator",
+        "sitemap": "XML Sitemap Generator",
+        "slugGenerator": "URL Slug Generator",
+        "keywordDensity": "Keyword Density"
+      },
+      "howToUse": {
+        "title": "How to Use OG Previewer",
+        "step1Title": "Enter a URL",
+        "step1Desc": "Paste the URL of the page you want to preview, or paste raw meta tags directly",
+        "step2Title": "Fetch or Parse",
+        "step2Desc": "Click Fetch to retrieve OG tags from the URL, or Parse to analyze pasted tags",
+        "step3Title": "View Platform Previews",
+        "step3Desc": "See how your page appears on Facebook, Twitter/X, LinkedIn, WhatsApp, and more",
+        "step4Title": "Edit and Optimize",
+        "step4Desc": "Manually edit tag values and re-preview to ensure perfect social sharing"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample URL to preview",
+        "sampleText": "https://example.com/article",
+        "stats": "6 OG tags found · 1200×630 px image · Valid Open Graph protocol",
+        "result": "Rich preview with title, description, image, and site name"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is Open Graph?",
+            "answer": "Open Graph is a protocol that enables web pages to become rich objects in social media by controlling how titles, descriptions, images, and URLs appear when shared."
+          },
+          {
+            "question": "Why is OG preview important?",
+            "answer": "OG preview ensures your content looks attractive when shared on platforms like Facebook, LinkedIn, and Twitter, which can significantly improve engagement and click-through rates."
+          },
+          {
+            "question": "What is the ideal OG image size?",
+            "answer": "The recommended OG image size is 1200×630 pixels with a 1.91:1 aspect ratio. Images should be under 5MB and in PNG or JPG format."
+          },
+          {
+            "question": "Do I need OG tags for SEO?",
+            "answer": "OG tags do not directly affect search rankings, but they improve social sharing visibility, which can lead to more traffic and indirect SEO benefits."
+          }
+        ]
+      }
+    },
+    "ReadabilityCheckerTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Readability Checker"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Readability Checker — Test Content with 8 Readability Formulas",
+        "description": "Free online readability checker to analyze your content with 8 industry-standard formulas: Flesch-Kincaid, Gunning Fog, SMOG Index, Coleman-Liau, ARI, and more. Get actionable tips to simplify language, improve clarity, and boost reader engagement. Ideal for SEO content writers, educators, and bloggers.",
+        "keywords": "readability checker, readability score, flesch kincaid calculator, readability test, content readability, smog index, seo readability"
+      },
+      "input": {
+        "placeholder": "Paste your article, blog post, or any written content here to check readability…",
+        "yourContent": "Your Content",
+        "paste": "Paste",
+        "words": "words"
+      },
+      "flesch": {
+        "title": "Flesch Reading Ease",
+        "readingLevel": "Reading level",
+        "targetAudience": "Target audience",
+        "scoreDesc": "Score 0–100, higher = easier. Most common readability formula."
+      },
+      "gradeLevel": {
+        "title": "Consensus Grade Level",
+        "averageAcross": "Average across 4 algorithms",
+        "scoreInfo": "Grade level scores represent the US school grade a reader needs. Grade 8 = an 8th-grader can understand. Lower is generally more accessible."
+      },
+      "quickStats": {
+        "words": "Words",
+        "sentences": "Sentences",
+        "readTime": "Read time",
+        "avgSentence": "Avg sentence",
+        "avgWord": "Avg word",
+        "complex": "Complex",
+        "lessThanMin": "<1 min",
+        "min": "~{min} min",
+        "wordsUnit": "words",
+        "syllsUnit": "sylls",
+        "complexSub": "words 3+ sylls"
+      },
+      "suggestions": {
+        "title": "Suggestions",
+        "avgLength": "Average sentence length is {count} words — aim for 15–20 words per sentence.",
+        "complexWords": "{pct}% of words have 3+ syllables — try simpler alternatives.",
+        "longSentences": "{count} sentence{plural} over 25 words — consider splitting them.",
+        "lowReadability": "Overall readability is low — try shorter sentences and simpler words.",
+        "noParagraphs": "No paragraph breaks detected — break content into smaller chunks.",
+        "highSyllables": "Average syllables per word is high — use shorter words where possible."
+      },
+      "allGood": {
+        "message": "Great readability! Your content looks clear and accessible."
+      },
+      "tabs": {
+        "overview": "Overview",
+        "allScores": "All Scores",
+        "sentences": "Sentences",
+        "words": "Words"
+      },
+      "gradeEstimates": {
+        "title": "Grade Level Estimates",
+        "legend": "FK = Flesch-Kincaid · Fog = Gunning Fog · CL = Coleman-Liau · ARI = Automated Readability · LW = Linsear Write · D-C = Dale-Chall"
+      },
+      "fullStats": {
+        "title": "Full Statistics",
+        "words": "Words",
+        "sentences": "Sentences",
+        "paragraphs": "Paragraphs",
+        "characters": "Characters",
+        "charsNoSpace": "Chars (no space)",
+        "syllables": "Syllables",
+        "uniqueWords": "Unique words",
+        "complexWords": "Complex words",
+        "longWords": "Long words (7+c)",
+        "longSentences": "Long sentences",
+        "avgWordsSent": "Avg words/sent",
+        "avgSyllW": "Avg syllables/w"
+      },
+      "toneIndicator": {
+        "title": "Tone Indicator",
+        "negative": "Negative",
+        "neutral": "Neutral",
+        "positive": "Positive",
+        "positiveMsg": "✓ Generally positive tone",
+        "negativeMsg": "⚠ Generally negative tone",
+        "neutralMsg": "→ Neutral tone",
+        "basedOn": "based on word sentiment"
+      },
+      "topKeywords": {
+        "title": "Top Keywords",
+        "desc": "Top Keywords (stop words excluded)",
+        "count": "×{count}"
+      },
+      "sentenceAnalysis": {
+        "title": "Sentence Analysis",
+        "longSentenceHint": "{count} long sentence{plural} (>25 words) highlighted in amber",
+        "allGood": "All sentences are within recommended length",
+        "highlightOn": "Highlighting on",
+        "highlightLong": "Highlight long"
+      },
+      "sentenceDistribution": {
+        "title": "Sentence Length Distribution",
+        "ideal": "ideal",
+        "ok": "ok",
+        "long": "long",
+        "andMore": "…and {count} more sentences"
+      },
+      "longSentences": {
+        "title": "Long Sentences ({count})",
+        "wordsConsider": "{count} words — consider splitting"
+      },
+      "emptyState": {
+        "title": "Paste content above to analyze",
+        "analyze": "Paste content above to analyze",
+        "subtitle": "Supports articles, blog posts, product descriptions, and more"
+      },
+      "formula": {
+        "fleschKincaid": {
+          "label": "Flesch-Kincaid Grade",
+          "desc": "US school grade level"
+        },
+        "gunningFog": {
+          "label": "Gunning Fog",
+          "desc": "Years of education needed"
+        },
+        "smog": {
+          "label": "SMOG Index",
+          "desc": "Needs 30+ sentences"
+        },
+        "colemanLiau": {
+          "label": "Coleman-Liau",
+          "desc": "Based on chars per word"
+        },
+        "automated": {
+          "label": "Automated Readability",
+          "desc": "Based on chars & words"
+        },
+        "linsear": {
+          "label": "Linsear Write",
+          "desc": "Grade level (technical docs)"
+        },
+        "daleChall": {
+          "label": "Dale-Chall",
+          "desc": "% unfamiliar words (approx.)"
+        },
+        "approxGrade": "≈ grade {grade}"
+      },
+      "writingTips": {
+        "title": "Writing Tips",
+        "list": [
+          "Use active voice instead of passive voice",
+          "Prefer short words over long synonyms",
+          "One idea per sentence",
+          "Use bullet points to break up dense paragraphs",
+          "Aim for a Flesch score above 60 for general audiences",
+          "Read your content aloud — awkward = edit it",
+          "Avoid nominalization (e.g., 'make a decision' → 'decide')"
+        ]
+      },
+      "wordStats": {
+        "title": "Word Statistics",
+        "totalWords": "Total words",
+        "uniqueWords": "Unique words",
+        "lexicalDensity": "Lexical density",
+        "complex3syll": "Complex (3+ syll)",
+        "long7chars": "Long (7+ chars)",
+        "avgSyllables": "Avg syllables"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "keywordDensity": "Keyword Density",
+        "metaTagGenerator": "Meta Tag Generator",
+        "robotsTxt": "robots.txt Generator",
+        "slugGenerator": "URL Slug Generator"
+      },
+      "howToUse": {
+        "title": "How to Use Readability Checker",
+        "step1Title": "Paste Your Content",
+        "step1Desc": "Paste your article, blog post, or any text into the input area",
+        "step2Title": "Review Scores",
+        "step2Desc": "View Flesch Reading Ease, grade level, and consensus scores across 8 formulas",
+        "step3Title": "Check Suggestions",
+        "step3Desc": "Review actionable suggestions to simplify language and improve clarity",
+        "step4Title": "Apply Improvements",
+        "step4Desc": "Use the sentence and word analysis to rewrite complex passages"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample text for analysis",
+        "sampleText": "The quick brown fox jumps over the lazy dog. This simple sentence contains every letter of the alphabet. Readability tools help writers create content that is easy to understand for a broad audience.",
+        "stats": "29 words · 3 sentences · Flesch score: 85 (Easy)",
+        "result": "Grade level: 3 · Very easy to read · Suitable for general audience"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is readability in SEO?",
+            "answer": "Readability measures how easy your content is to understand. Search engines favor content that is accessible to a wider audience, making readability an important SEO factor."
+          },
+          {
+            "question": "What is a good Flesch Reading Ease score?",
+            "answer": "A score of 60-70 is considered standard and understandable by 13-15 year olds. Scores above 70 are fairly easy to read, while scores below 30 are very difficult."
+          },
+          {
+            "question": "How can I improve readability?",
+            "answer": "Use shorter sentences, simpler words, active voice, bullet points, and clear headings. Break long paragraphs into smaller chunks."
+          },
+          {
+            "question": "Does readability affect rankings?",
+            "answer": "Yes, search engines like Google consider user engagement signals. Content that is easy to read keeps users on the page longer, reducing bounce rates and improving rankings."
+          }
+        ]
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related SEO Tools",
+        "metaGenerator": "Meta Tag Generator",
+        "ogPreviewer": "OG Previewer",
+        "robotsGenerator": "Robots.txt Generator",
+        "sitemapGenerator": "Sitemap Generator",
+        "canonicalGenerator": "Canonical Tag Generator",
+        "schemaGenerator": "Schema Markup Generator",
+        "hreflangGenerator": "Hreflang Tags Generator",
+        "serpPreview": "SERP Preview Tool",
+        "keywordDensity": "Keyword Density Checker",
+        "slugGenerator": "URL Slug Generator",
+        "characterCounter": "SEO Character Counter",
+        "wordFrequency": "Word Frequency Counter",
+        "readability": "Readability Checker",
+        "headingAnalyzer": "Heading Structure Analyzer"
+      }
+    },
+    "RobotsTxtGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Robots.txt Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Robots.txt Generator — Control Search Engine Crawling Easily",
+        "description": "Free online robots.txt generator to create robots.txt files that control how search engines crawl and index your website. Add allow and disallow rules for specific paths, set crawl delay, specify sitemap location, and add rules for individual user-agents like Googlebot and Bingbot.",
+        "keywords": "robots.txt generator, robots txt file, seo crawl control, robots txt creator, googlebot rules, block search engine crawling"
+      },
+      "rules": {
+        "title": "Crawl Rules",
+        "addRule": "Add Rule",
+        "userAgent": "User-Agent",
+        "userAgentPlaceholder": "User-agent name",
+        "disallow": "Disallow (block)",
+        "allow": "Allow (explicit allow)",
+        "disallowPlaceholder": "/admin/",
+        "allowPlaceholder": "/public/",
+        "add": "Add",
+        "noBlocked": "No blocked paths — add one above",
+        "noAllows": "No explicit allows — optional override",
+        "crawlDelay": "Crawl-delay (seconds, optional)",
+        "crawlDelayNote": "Note: Googlebot ignores crawl-delay",
+        "crawlDelayPlaceholder": "e.g. 10",
+        "moreBots": "More bots…",
+        "newRule": "New Rule",
+        "disallowCount": "disallow",
+        "allowCount": "allow"
+      },
+      "sitemaps": {
+        "title": "Sitemaps",
+        "add": "Add sitemap",
+        "placeholder": "https://example.com/sitemap.xml",
+        "noSitemaps": "No sitemaps added — recommended to include your sitemap URL"
+      },
+      "host": {
+        "label": "Host (optional — for Yandex)",
+        "placeholder": "example.com"
+      },
+      "validation": {
+        "title": "Validation",
+        "noErrors": "No errors or warnings",
+        "noUserAgent": "No User-agent directive found",
+        "orphanDirective": "Disallow/Allow directive found without a preceding User-agent",
+        "relativeSitemap": "Sitemap URL should be absolute: \"{url}\"",
+        "invalidDelay": "Crawl-delay must be a positive number",
+        "highDelay": "Crawl-delay of {val}s is very high — may hurt indexing",
+        "emptyDisallow": "Empty Disallow means allow all crawling (this is correct)",
+        "blockAllWarning": "Disallow: / blocks all crawling — make sure this is intentional"
+      },
+      "output": {
+        "title": "robots.txt",
+        "download": "Download"
+      },
+      "howToUse": {
+        "title": "How to Use Robots.txt Generator",
+        "step1Title": "Add User-Agent",
+        "step1Desc": "Specify the search engine crawler (e.g., Googlebot, Bingbot, or * for all)",
+        "step2Title": "Set Crawl Rules",
+        "step2Desc": "Add Disallow and Allow rules to control which paths each crawler can access",
+        "step3Title": "Add Sitemaps",
+        "step3Desc": "Include your sitemap URLs so crawlers can discover all your pages",
+        "step4Title": "Download or Copy",
+        "step4Desc": "Download the robots.txt file and upload it to your website root directory"
+      },
+      "deployment": {
+        "tip": "Upload robots.txt to your website root at {url}. Changes take effect on next crawl."
+      },
+      "presets": {
+        "title": "Quick Presets",
+        "allowAll": {
+          "label": "Allow all",
+          "desc": "Allow all robots to crawl everything"
+        },
+        "blockAll": {
+          "label": "Block all",
+          "desc": "Block all robots from all pages"
+        },
+        "blockAi": {
+          "label": "Block AI bots",
+          "desc": "Block AI training crawlers"
+        },
+        "wordpress": {
+          "label": "WordPress",
+          "desc": "Standard WordPress setup"
+        },
+        "ecommerce": {
+          "label": "E-commerce",
+          "desc": "Block cart, checkout, search"
+        },
+        "blockSeo": {
+          "label": "Block SEO tools",
+          "desc": "Block common SEO crawlers"
+        }
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "sitemapGenerator": "Sitemap Generator",
+        "canonicalTag": "Canonical Tag Generator",
+        "metaTagGenerator": "Meta Tag Generator",
+        "slugGenerator": "URL Slug Generator",
+        "keywordDensity": "Keyword Density",
+        "utmBuilder": "UTM Builder"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample robots.txt content",
+        "sampleText": "User-agent: *\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://example.com/sitemap.xml",
+        "stats": "3 directives · 2 user-agents · 1 sitemap reference",
+        "result": "✓ Valid robots.txt — allows all crawlers except GPTBot"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is robots.txt?",
+            "answer": "Robots.txt is a text file placed in a website's root directory that instructs search engine crawlers which pages or sections to crawl and which to ignore."
+          },
+          {
+            "question": "Can robots.txt block indexing?",
+            "answer": "No, robots.txt only prevents crawling, not indexing. If external sites link to a blocked page, it may still appear in search results. Use noindex tags to prevent indexing."
+          },
+          {
+            "question": "Where should robots.txt be placed?",
+            "answer": "Robots.txt must be placed in the root directory of your website, typically at example.com/robots.txt. It cannot be placed in subdirectories."
+          },
+          {
+            "question": "Can all crawlers be blocked?",
+            "answer": "While you can set Disallow for all user-agents, malicious crawlers may ignore robots.txt. It is a voluntary protocol and not a security measure."
+          }
+        ]
+      }
+    },
+    "SchemaMarkupGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Schema Markup Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Schema Markup Generator — JSON-LD for Rich Search Results",
+        "description": "Free online schema markup generator to create JSON-LD structured data for rich search results. Supports 14+ schema types including Article, Product, FAQ, LocalBusiness, Recipe, Event, Review, SoftwareApplication, and more. Copy ready-to-use code for Google rich snippets and enhanced SERP listings.",
+        "keywords": "schema markup generator, json-ld generator, structured data generator, rich snippets, schema.org, faq schema, product schema, local business schema"
+      },
+      "schemaType": {
+        "title": "Schema Type",
+        "Article": {
+          "label": "Article",
+          "desc": "Blog posts, news, guides"
+        },
+        "Product": {
+          "label": "Product",
+          "desc": "E-commerce product pages"
+        },
+        "FAQ": {
+          "label": "FAQ",
+          "desc": "Frequently asked questions"
+        },
+        "LocalBusiness": {
+          "label": "Local Business",
+          "desc": "Restaurants, shops, services"
+        },
+        "Recipe": {
+          "label": "Recipe",
+          "desc": "Food recipes with steps"
+        },
+        "JobPosting": {
+          "label": "Job Posting",
+          "desc": "Job vacancy listings"
+        },
+        "Event": {
+          "label": "Event",
+          "desc": "Concerts, webinars, meetups"
+        },
+        "Person": {
+          "label": "Person",
+          "desc": "Author or public figure bio"
+        },
+        "Review": {
+          "label": "Review",
+          "desc": "Product or service review"
+        },
+        "BreadcrumbList": {
+          "label": "Breadcrumbs",
+          "desc": "Navigation breadcrumb trail"
+        },
+        "VideoObject": {
+          "label": "Video",
+          "desc": "YouTube or video content"
+        },
+        "Course": {
+          "label": "Course",
+          "desc": "Online courses and training"
+        },
+        "Organization": {
+          "label": "Organization",
+          "desc": "Company or nonprofit info"
+        },
+        "WebSite": {
+          "label": "WebSite",
+          "desc": "Site-wide + sitelinks searchbox"
+        },
+        "popular": "Popular"
+      },
+      "form": {
+        "articleDetails": "Article Details",
+        "articleType": "Article Type",
+        "headline": "Headline *",
+        "headlinePlaceholder": "Your article title",
+        "articleUrl": "Article URL",
+        "urlPlaceholder": "https://example.com/article",
+        "imageUrl": "Featured Image URL",
+        "imagePlaceholder": "https://…/image.jpg",
+        "publishedDate": "Published Date",
+        "modifiedDate": "Modified Date",
+        "author": "Author",
+        "authorName": "Author Name",
+        "authorPlaceholder": "Jane Smith",
+        "authorUrl": "Author URL",
+        "publisher": "Publisher",
+        "publisherName": "Publisher Name",
+        "publisherNamePlaceholder": "My Blog",
+        "publisherLogo": "Publisher Logo",
+        "publisherLogoPlaceholder": "https://…/logo.png",
+        "productDetails": "Product Details",
+        "productName": "Product Name *",
+        "productNamePlaceholder": "Awesome Widget Pro",
+        "description": "Description",
+        "descriptionPlaceholder": "Product description…",
+        "productUrl": "Product URL",
+        "productImage": "Image URL",
+        "brand": "Brand",
+        "sku": "SKU",
+        "gtin": "GTIN / Barcode",
+        "pricingAvailability": "Pricing & Availability",
+        "price": "Price *",
+        "pricePlaceholder": "29.99",
+        "currency": "Currency",
+        "availability": "Availability",
+        "condition": "Condition",
+        "productRatings": "Ratings (optional)",
+        "avgRating": "Avg Rating (0–5)",
+        "ratingPlaceholder": "4.5",
+        "reviewCount": "Review Count",
+        "faqItems": "FAQ Items",
+        "question": "Question",
+        "questionPlaceholder": "What is…?",
+        "answer": "Answer",
+        "answerPlaceholder": "The answer is…",
+        "addQuestion": "Add Question",
+        "businessInfo": "Business Info",
+        "businessType": "Business Type",
+        "businessName": "Business Name *",
+        "businessNamePlaceholder": "Joe's Pizza",
+        "websiteUrl": "Website URL",
+        "phone": "Phone",
+        "email": "Email",
+        "priceRange": "Price Range",
+        "address": "Address",
+        "streetAddress": "Street Address",
+        "city": "City",
+        "state": "State",
+        "zip": "ZIP",
+        "country": "Country",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "openingHours": "Opening Hours",
+        "addHours": "Add hours",
+        "businessRating": "Rating (optional)",
+        "recipeDetails": "Recipe Details",
+        "recipeName": "Recipe Name *",
+        "recipeNamePlaceholder": "Chocolate Chip Cookies",
+        "prepTime": "Prep Time (min)",
+        "cookTime": "Cook Time (min)",
+        "yield": "Yield",
+        "calories": "Calories",
+        "category": "Category",
+        "cuisine": "Cuisine",
+        "ingredients": "Ingredients",
+        "ingredientPlaceholder": "Ingredient {n}",
+        "addIngredient": "Add ingredient",
+        "instructions": "Instructions",
+        "stepPlaceholder": "Step {n}…",
+        "addStep": "Add step",
+        "jobDetails": "Job Details",
+        "jobTitle": "Job Title *",
+        "jobTitlePlaceholder": "Senior React Developer",
+        "jobDescription": "Description *",
+        "jobDescriptionPlaceholder": "We are looking for…",
+        "jobUrl": "Job URL",
+        "company": "Company",
+        "companyName": "Company Name",
+        "companyUrl": "Company URL",
+        "locationType": "Location & Type",
+        "remotePosition": "Remote position",
+        "location": "Location",
+        "employmentType": "Employment Type",
+        "datePosted": "Date Posted",
+        "validThrough": "Valid Through",
+        "salary": "Salary (optional)",
+        "minSalary": "Min Salary",
+        "maxSalary": "Max Salary",
+        "salaryCurrency": "Currency",
+        "period": "Period",
+        "breadcrumbItems": "Breadcrumb Items",
+        "pageName": "Page name",
+        "addItem": "Add item",
+        "eventDetails": "Event Details",
+        "eventName": "Event Name *",
+        "eventNamePlaceholder": "Annual Tech Conference 2025",
+        "eventUrl": "Event URL",
+        "eventImage": "Image URL",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "status": "Status",
+        "mode": "Mode",
+        "locationOrganizer": "Location & Organizer",
+        "venueName": "Venue Name",
+        "organizerName": "Organizer Name",
+        "pricing": "Pricing (optional)",
+        "reviewDetails": "Review Details",
+        "itemReviewed": "Item Reviewed *",
+        "itemType": "Item Type",
+        "reviewRatingDisplay": "Rating: {n}/5",
+        "reviewBody": "Review Body *",
+        "reviewBodyPlaceholder": "This product is excellent because…",
+        "reviewDate": "Review Date",
+        "reviewUrl": "Review URL",
+        "videoDetails": "Video Details",
+        "videoName": "Video Name *",
+        "videoNamePlaceholder": "How to Build a React App",
+        "contentUrl": "Content URL",
+        "embedUrl": "Embed URL",
+        "thumbnailUrl": "Thumbnail URL",
+        "uploadDate": "Upload Date",
+        "duration": "Duration (ISO)",
+        "durationHint": "PT{H}H{M}M{S}S",
+        "courseDetails": "Course Details",
+        "courseName": "Course Name *",
+        "courseNamePlaceholder": "Complete React Bootcamp",
+        "courseUrl": "Course URL",
+        "providerName": "Provider Name",
+        "organizationDetails": "Organization Details",
+        "name": "Name *",
+        "logoUrl": "Logo URL",
+        "socialProfiles": "Social Profiles (sameAs)",
+        "profilePlaceholder": "https://twitter.com/acme",
+        "addProfile": "Add profile",
+        "personDetails": "Person Details",
+        "fullName": "Full Name *",
+        "profileUrl": "Profile URL",
+        "websiteDetails": "WebSite Details",
+        "siteName": "Site Name *",
+        "url": "URL *",
+        "searchUrl": "Search URL template",
+        "searchUrlPlaceholder": "https://example.com/search?q={search_term_string}",
+        "searchUrlHint": "Enables Google Sitelinks Searchbox. Use {search_term_string} as placeholder."
+      },
+      "reset": {
+        "button": "Reset form"
+      },
+      "info": {
+        "copyScript": "Copy the {script} tag and paste it into the {head} of your page. Test with {test}."
+      },
+      "output": {
+        "scriptTag": "JSON-LD Script Tag",
+        "jsonOnly": "JSON-LD Only",
+        "download": ".html"
+      },
+      "testing": {
+        "title": "Testing Tools",
+        "googleTest": "Google Rich Results Test",
+        "googleTestUrl": "https://search.google.com/test/rich-results",
+        "googleTestDesc": "Official Google validator",
+        "schemaValidator": "Schema.org Validator",
+        "schemaValidatorUrl": "https://validator.schema.org",
+        "schemaValidatorDesc": "Check against schema.org spec",
+        "searchConsole": "Google Search Console",
+        "searchConsoleUrl": "https://search.google.com/search-console",
+        "searchConsoleDesc": "Monitor rich results in production"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "metaTagGenerator": "Meta Tag Generator",
+        "ogPreview": "OG Previewer",
+        "robotsTxt": "robots.txt Generator",
+        "sitemap": "XML Sitemap",
+        "keywordDensity": "Keyword Density"
+      },
+      "howToUse": {
+        "title": "How to Use Schema Markup Generator",
+        "step1Title": "Select Schema Type",
+        "step1Desc": "Choose from 14+ schema types including Article, Product, FAQ, LocalBusiness, and more",
+        "step2Title": "Fill in the Fields",
+        "step2Desc": "Complete the required fields for your selected schema type",
+        "step3Title": "Generate JSON-LD",
+        "step3Desc": "Click to generate the JSON-LD structured data code",
+        "step4Title": "Copy and Implement",
+        "step4Desc": "Copy the script tag and paste it into the <head> of your HTML page"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample JSON-LD for Article",
+        "sampleText": "{ \"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"How to Write SEO-Friendly Content\", \"author\": \"Jane Smith\", \"datePublished\": \"2025-01-15\" }",
+        "stats": "1 JSON-LD block · 5 fields · Article schema type",
+        "result": "✓ Valid schema markup ready for Google Rich Results testing"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is schema markup?",
+            "answer": "Schema markup is structured data vocabulary that helps search engines understand your content and display rich snippets in search results."
+          },
+          {
+            "question": "Does schema markup improve SEO?",
+            "answer": "Schema markup does not directly improve rankings, but it enables rich snippets which can increase click-through rates and visibility in search results."
+          },
+          {
+            "question": "What is JSON-LD?",
+            "answer": "JSON-LD (JavaScript Object Notation for Linked Data) is Google's recommended format for structured data. It is easy to implement and maintain."
+          },
+          {
+            "question": "What schema types are most common?",
+            "answer": "Common schema types include Article, Product, FAQ, LocalBusiness, Recipe, Event, Review, SoftwareApplication, and BreadcrumbList."
+          }
+        ]
+      }
+    },
+    "SERPPreviewTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "Google SERP Preview"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "SERP Preview — See How Your Page Looks in Google Search",
+        "description": "Free Google SERP preview tool to see exactly how your page appears in Google search results on desktop and mobile. Preview title tags, meta descriptions, URLs, and rich snippets including reviews, FAQ, recipes, events, and product markup. Optimize your search listing before publishing.",
+        "keywords": "serp preview, google serp simulator, search result preview, rich snippet preview, google search preview, seo preview tool"
+      },
+      "input": {
+        "title": "Page Title",
+        "titlePlaceholder": "Enter page title...",
+        "url": "Page URL",
+        "urlPlaceholder": "https://example.com/page",
+        "description": "Meta Description",
+        "descriptionPlaceholder": "Enter meta description...",
+        "breadcrumb": "Breadcrumb",
+        "breadcrumbPlaceholder": "example.com › category › page",
+        "favicon": "Favicon URL",
+        "faviconPlaceholder": "https://example.com/favicon.ico",
+        "searchQuery": "Search query",
+        "searchQueryPlaceholder": "best running shoes 2024",
+        "showPublishDate": "Show publish date",
+        "publishDateHint": "Appears before description"
+      },
+      "preview": {
+        "google": "Google",
+        "mobile": "Mobile",
+        "desktop": "Desktop"
+      },
+      "device": {
+        "desktop": "Desktop",
+        "mobile": "Mobile"
+      },
+      "richResult": {
+        "title": "Rich Result Type",
+        "reviewSettings": "Review Settings",
+        "productSettings": "Product Settings",
+        "recipeSettings": "Recipe Settings",
+        "faqSettings": "FAQ Settings",
+        "videoSettings": "Video Settings",
+        "eventSettings": "Event Settings",
+        "rating": "Rating",
+        "reviewCount": "Review count",
+        "price": "Price",
+        "currency": "Currency",
+        "availability": "Availability",
+        "cookTime": "Cook time",
+        "calories": "Calories",
+        "yield": "Yield",
+        "duration": "Duration",
+        "date": "Date",
+        "eventDate": "Event Date",
+        "location": "Location"
+      },
+      "sitelinks": {
+        "title": "Sitelinks"
+      },
+      "livePreview": {
+        "title": "Live Preview"
+      },
+      "metaTags": {
+        "title": "Meta Tags"
+      },
+      "tips": {
+        "title": "SERP Optimization Tips",
+        "list": [
+          "Include your primary keyword near the start of the title",
+          "Make the description a compelling 'ad' for your page — it affects CTR not rankings",
+          "Google may rewrite titles if they're too short, too long, or stuffed with keywords",
+          "Implement structured data to unlock rich results and stand out",
+          "Sitelinks appear for high-authority sites — they can't be directly added",
+          "Mobile descriptions are shorter — around 120 chars is safer",
+          "Avoid duplicate titles and descriptions across pages"
+        ]
+      },
+      "limits": {
+        "title": "Title: 50-60 characters recommended",
+        "url": "URL: Displayed up to ~70 characters",
+        "description": "Description: 150-160 characters recommended"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "metaTagGenerator": "Meta Tag Generator",
+        "characterCounter": "Character Counter",
+        "ogPreview": "OG Previewer"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "resultTypes": {
+        "organic": "Organic",
+        "reviews": "Reviews",
+        "product": "Product",
+        "recipe": "Recipe",
+        "faq": "FAQ",
+        "video": "Video",
+        "event": "Event"
+      },
+      "status": {
+        "idealTitle": "Ideal: 50–60 characters",
+        "tooShort": "Too short — add more detail",
+        "goodLength": "✓ Good length",
+        "nearLimit": "Near limit",
+        "gettingLong": "Getting long — near limit",
+        "tooLong": "✗ Too long by {count} chars",
+        "tooLongTruncated": "✗ Too long by {count} chars — will be truncated",
+        "idealDesc": "Ideal: 150–160 characters"
+      },
+      "labels": {
+        "coreSeo": "Core SEO",
+        "publishDate": "Publish Date",
+        "rating": "Rating: {value}/5",
+        "placeholder": "<!-- Fill in the fields on the left -->",
+        "question": "Question {count}",
+        "answer": "Answer…"
+      },
+      "howToUse": {
+        "title": "How to Use SERP Preview",
+        "step1Title": "Enter Your Details",
+        "step1Desc": "Fill in the page title, URL, and meta description fields",
+        "step2Title": "Add Rich Results",
+        "step2Desc": "Optionally add structured data like reviews, pricing, or FAQ for rich snippet preview",
+        "step3Title": "Toggle Devices",
+        "step3Desc": "Switch between desktop and mobile views to see how your snippet looks on both",
+        "step4Title": "Optimize Your Listing",
+        "step4Desc": "Use the character counters and tips to optimize your title and description"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample SEO title and description",
+        "sampleText": "How to Write SEO Titles That Drive Traffic in 2025",
+        "stats": "52 characters · 9 words · Ideal title length",
+        "result": "✓ 52/60 characters — fits perfectly in Google SERP"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is SERP preview?",
+            "answer": "SERP preview shows how your page will appear in Google search results, including the title tag, URL, and meta description."
+          },
+          {
+            "question": "Why is SERP preview important?",
+            "answer": "SERP preview helps you optimize your title and description to attract clicks. A compelling snippet can significantly improve organic click-through rates."
+          },
+          {
+            "question": "What is the ideal title length for SERP?",
+            "answer": "Google typically displays the first 50-60 characters of a title tag. Keep your primary keywords and value proposition within this range."
+          },
+          {
+            "question": "Can I preview rich results?",
+            "answer": "Yes, SERP preview can show how rich elements like star ratings, FAQs, breadcrumbs, and product information appear in search results when structured data is implemented."
+          }
+        ]
+      }
+    },
+    "SitemapGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "XML Sitemap Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "XML Sitemap Generator — Build Sitemaps for Better Indexing",
+        "description": "Free online XML sitemap generator to build sitemaps for search engines. Add URLs with custom priority, change frequency, and last-modified dates. Supports bulk URL import, image sitemaps, video sitemaps, and sitemap index files. Essential for helping Google discover and index all your important pages.",
+        "keywords": "xml sitemap generator, sitemap generator, seo sitemap, website sitemap, google sitemap, sitemap.xml creator, bulk sitemap generator"
+      },
+      "mode": {
+        "urlSitemap": "URL Sitemap",
+        "sitemapIndex": "Sitemap Index"
+      },
+      "templates": {
+        "title": "Templates",
+        "blog": "Blog",
+        "ecommerce": "E-commerce",
+        "landingPage": "Landing Page"
+      },
+      "defaults": {
+        "title": "Defaults for new rows",
+        "freq": "Freq:",
+        "priority": "Priority:",
+        "applyToAll": "Apply to all:",
+        "freqLabel": "Freq",
+        "priorityLabel": "Priority",
+        "today": "Today"
+      },
+      "imageSitemap": {
+        "title": "Image Sitemap extension",
+        "desc": "Add image URLs per page"
+      },
+      "baseUrl": {
+        "label": "Base URL (for bulk import)",
+        "placeholder": "https://example.com"
+      },
+      "bulkImport": {
+        "show": "Show",
+        "hide": "Hide",
+        "title": "Bulk Import",
+        "desc": "Paste one URL or path per line. Relative paths will be prefixed with base URL.",
+        "placeholder": "/blog/post-1\n/blog/post-2\nhttps://example.com/page",
+        "importBtn": "Import",
+        "urls": "URLs",
+        "cancel": "Cancel"
+      },
+      "urls": {
+        "title": "URLs",
+        "valid": "valid",
+        "clearAll": "Clear all",
+        "addUrl": "Add URL",
+        "addAnother": "Add another URL",
+        "imageUrls": "Image URLs",
+        "addImage": "Add image"
+      },
+      "sitemapIndex": {
+        "info": "A Sitemap Index file points to multiple sitemap files. Use this when you have more than 50,000 URLs or want to split sitemaps by category (products, blog, etc.).",
+        "title": "Sitemap files",
+        "addSitemap": "Add sitemap",
+        "addIndex": "Add sitemap",
+        "placeholder": "https://example.com/sitemap-blog.xml"
+      },
+      "validation": {
+        "title": "Validation",
+        "valid": "Valid sitemap",
+        "noUrls": "No URLs added",
+        "exceedLimit": "Sitemap exceeds 50,000 URL limit per file",
+        "urlMustStart": "Row {row}: URL must start with http(s) — \"{url}\"",
+        "duplicateUrl": "Duplicate URL: \"{url}\"",
+        "priorityRange": "Row {row}: Priority must be 0.0–1.0",
+        "urlCount": "{count} URLs · Google recommends keeping files under 10 MB"
+      },
+      "stats": {
+        "urls": "URLs",
+        "withImages": "With images",
+        "priorityOne": "Priority 1.0",
+        "dailyPlus": "Daily+"
+      },
+      "output": {
+        "fileName": "sitemap.xml",
+        "indexFileName": "sitemap-index.xml",
+        "download": "Download",
+        "empty": "<!-- Add URLs to generate sitemap -->"
+      },
+      "outputFormat": {
+        "htmlTags": "HTML Tags (copy into <head>)",
+        "xmlSitemap": "XML Sitemap Format",
+        "httpHeaders": "HTTP Response Headers"
+      },
+      "implementation": {
+        "reminder": "Implementation Reminder",
+        "description": "These tags must be copied to the {head} of every page in the set — including all language versions. Each page must link to all others, including itself."
+      },
+      "pageSets": {
+        "title": "Page Sets",
+        "addPage": "Add page",
+        "removePage": "Remove page",
+        "addLanguage": "Add language"
+      },
+      "apache": {
+        "label": "Apache .htaccess Example"
+      },
+      "xmlHreflang": {
+        "description": "In the XML sitemap, each {url} block must contain all {xhtmlLink} alternates. Submit this sitemap in Google Search Console."
+      },
+      "tips": {
+        "title": "Submission Tips",
+        "list": [
+          "Upload sitemap.xml to your website root",
+          "Add to robots.txt: Sitemap: https://example.com/sitemap.xml",
+          "Submit in Google Search Console > Sitemaps",
+          "Submit in Bing Webmaster Tools",
+          "Max 50,000 URLs or 50 MB per sitemap file",
+          "Re-submit after major content changes",
+          "Priority 1.0 = most important pages"
+        ]
+      },
+      "frequency": {
+        "always": "Always",
+        "hourly": "Hourly",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "never": "Never"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "metaTagGenerator": "Meta Tag Generator",
+        "robotsTxt": "robots.txt Generator",
+        "slugGenerator": "URL Slug Generator",
+        "keywordDensity": "Keyword Density",
+        "utmBuilder": "UTM Builder"
+      },
+      "howToUse": {
+        "title": "How to Use Sitemap Generator",
+        "step1Title": "Add URLs",
+        "step1Desc": "Add your website URLs one by one or import them in bulk",
+        "step2Title": "Set Metadata",
+        "step2Desc": "Configure priority, change frequency, and last-modified date for each URL",
+        "step3Title": "Choose Output Format",
+        "step3Desc": "Select between URL sitemap, sitemap index, or image sitemap formats",
+        "step4Title": "Download and Submit",
+        "step4Desc": "Download the XML file and submit it to Google Search Console"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample URL to include in sitemap",
+        "sampleText": "https://example.com/page1",
+        "stats": "1 URL · Priority: 0.8 · Frequency: Weekly",
+        "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://example.com/page1</loc></url></urlset>"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is an XML sitemap?",
+            "answer": "An XML sitemap is a file that lists all important pages on your website, helping search engines discover and index your content more efficiently."
+          },
+          {
+            "question": "Do I need a sitemap?",
+            "answer": "Sitemaps are especially useful for large websites, new sites with few backlinks, or sites with complex navigation. Small sites may not need one."
+          },
+          {
+            "question": "How often should I update my sitemap?",
+            "answer": "Update your sitemap whenever you add or remove significant content. Most CMS platforms handle this automatically."
+          },
+          {
+            "question": "What is the maximum size for a sitemap?",
+            "answer": "A sitemap can contain up to 50,000 URLs and must not exceed 50MB (uncompressed). For larger sites, split into multiple sitemap files."
+          }
+        ]
+      }
+    },
+    "URLSlugGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "SEO Tools",
+        "current": "URL Slug Generator"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "URL Slug Generator — Create SEO-Friendly URLs from Any Text",
+        "description": "Free online URL slug generator to convert any title, headline, or phrase into clean, SEO-friendly URL slugs. Supports Latin, Arabic, Cyrillic, and accented characters with proper transliteration. Bulk mode for multiple slugs, real-time URL preview, and customizable separator options.",
+        "keywords": "url slug generator, seo slug generator, permalink generator, url friendly text, create url slug, slug maker, arabic slug"
+      },
+      "input": {
+        "placeholder": "Enter text to convert to URL slug...",
+        "inputText": "Input Text",
+        "pageTitlePlaceholder": "Type or paste a page title…",
+        "quickExamples": "Quick Examples",
+        "bulkInput": "Input Titles (one per line)",
+        "paste": "Paste",
+        "convert": "Convert"
+      },
+      "options": {
+        "separator": "Separator",
+        "lowercase": "Lowercase output",
+        "lowercaseSub": "Recommended for all URLs",
+        "removeStopWords": "Remove stop words",
+        "removeStopWordsSub": "Remove: a, the, and, of…",
+        "trimSeparators": "Trim separators",
+        "trimSeparatorsSub": "Remove leading/trailing",
+        "maxLength": "Max length",
+        "maxLengthSub": "Cut at word boundary"
+      },
+      "customReplacements": {
+        "title": "Custom Replacements",
+        "hint": "One per line: old=new"
+      },
+      "baseUrl": {
+        "title": "Base URL (optional)"
+      },
+      "history": {
+        "title": "History",
+        "clear": "Clear"
+      },
+      "modes": {
+        "single": "Single",
+        "bulk": "Bulk"
+      },
+      "output": {
+        "result": "Generated Slug",
+        "urlPreview": "URL Preview",
+        "transformationSteps": "Transformation Steps",
+        "placeholder": "your-slug-will-appear-here",
+        "chars": "chars",
+        "words": "words",
+        "saveToHistory": "Save to history",
+        "good": "Good",
+        "ok": "OK",
+        "issues": "Issues",
+        "seoFriendly": "SEO-friendly",
+        "slugs": "slugs",
+        "copyAll": "Copy all",
+        "downloadTxt": "Download .txt"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "metaTagGenerator": "Meta Tag Generator",
+        "robotsTxt": "robots.txt Generator",
+        "sitemap": "XML Sitemap Generator",
+        "utmBuilder": "UTM Builder",
+        "keywordDensity": "Keyword Density"
+      },
+      "analysis": {
+        "containsUppercase": "Contains uppercase — lowercase is better",
+        "containsSpecial": "Contains special characters",
+        "containsSpaces": "Contains spaces",
+        "tooLong": "Over 75 chars — consider shortening",
+        "tooManyWords": "Over 6 words — shorter slugs rank better"
+      },
+      "howToUse": {
+        "title": "How to Use URL Slug Generator",
+        "step1Title": "Enter Text",
+        "step1Desc": "Type or paste a page title, headline, or phrase to convert into a URL slug",
+        "step2Title": "Configure Options",
+        "step2Desc": "Set separator type, lowercase conversion, stop word removal, and max length",
+        "step3Title": "View Slug Preview",
+        "step3Desc": "See the generated slug and full URL preview in real-time",
+        "step4Title": "Copy or Save",
+        "step4Desc": "Copy the slug, save to history, or export all slugs in bulk mode"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample page title for slug conversion",
+        "sampleText": "How to Write SEO-Friendly URLs",
+        "stats": "5 words · 30 characters · 1 slug generated",
+        "result": "how-to-write-seo-friendly-urls"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is a URL slug?",
+            "answer": "A URL slug is the part of a URL that identifies a specific page in a human-readable format, typically using lowercase words separated by hyphens."
+          },
+          {
+            "question": "Why are slugs important for SEO?",
+            "answer": "Descriptive slugs containing relevant keywords help search engines understand page content and improve click-through rates when displayed in search results."
+          },
+          {
+            "question": "What is the ideal slug length?",
+            "answer": "Short slugs under 60 characters with 3-5 words are ideal. Remove stop words like 'and', 'the', and 'of' to keep slugs clean."
+          },
+          {
+            "question": "Should slugs use hyphens or underscores?",
+            "answer": "Use hyphens (-) instead of underscores (_) in URLs. Google treats hyphens as word separators but underscores as word joiners."
+          }
+        ]
+      }
+    },
+    "WordFrequencyCounter": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Word Frequency Counter"
+      },
+      "header": {
+        "badge": "SEO Tools",
+        "title": "Word Frequency Counter — Find Most Common Words & Phrases",
+        "description": "Free online word frequency counter to analyze word and phrase occurrences in your content. Identify the most common words, detect overused terms, and discover keyword opportunities for SEO optimization. Supports single words, 2-word phrases, and 3-word phrases. Perfect for content writers and SEO specialists.",
+        "keywords": "word frequency counter, word occurrence counter, most common words, keyword frequency, phrase frequency, seo word analysis"
+      },
+      "input": {
+        "placeholder": "Paste your text here to count words...",
+        "yourText": "Your Text"
+      },
+      "options": {
+        "minLength": "Min word length",
+        "showTop": "Show top",
+        "excludeStopWords": "Exclude stop words",
+        "ignoreCase": "Ignore case",
+        "ignoreNumbers": "Ignore numbers",
+        "ignoreCommon": "Ignore common words"
+      },
+      "viewModes": {
+        "table": "Table",
+        "chart": "Chart",
+        "cloud": "Cloud"
+      },
+      "sort": {
+        "frequency": "Frequency",
+        "density": "Density",
+        "alpha": "A-Z",
+        "length": "Length",
+        "label": "Sort:"
+      },
+      "results": {
+        "totalWords": "Total Words",
+        "uniqueWords": "Unique Words",
+        "topWords": "Top Words",
+        "lexicalDensity": "Lexical density",
+        "avgFrequency": "Avg frequency",
+        "topWord": "Top word",
+        "topCount": "Top count"
+      },
+      "filter": {
+        "placeholder": "Filter words..."
+      },
+      "emptyState": {
+        "title": "Paste text on the left to count word frequencies",
+        "subtitle": "Works with articles, books, scripts, or any written content"
+      },
+      "related": {
+        "title": "Related SEO Tools",
+        "keywordDensity": "Keyword Density",
+        "readability": "Readability Checker",
+        "wordCounter": "Word Counter",
+        "textDiff": "Text Diff",
+        "charFrequency": "Character Frequency"
+      },
+      "csv": {
+        "word": "Word",
+        "count": "Count",
+        "density": "Density (%)",
+        "length": "Char Length",
+        "position": "First Position"
+      },
+      "chart": {
+        "topWords": "Top {count} words"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "table": {
+        "wordCountSummary": "{count} of {total} words",
+        "word": "Word",
+        "bar": "Frequency bar",
+        "count": "Count",
+        "density": "Density"
+      },
+      "cloud": {
+        "title": "Word Cloud",
+        "hint": "Click to highlight in text",
+        "legendSize": "Larger = more frequent",
+        "legendHigh": "■ High",
+        "legendMedium": "■ Medium",
+        "legendLow": "■ Low",
+        "legendRare": "■ Rare"
+      },
+      "density": {
+        "rare": "<0.5% (rare)",
+        "ideal": "0.5–2.5% (ideal)",
+        "frequent": "2.5–4% (frequent)",
+        "overUsed": ">4% (over-used)",
+        "veryRare": "very rare"
+      },
+      "common": {
+        "options": "Options",
+        "excludeHint": "Remove: the, a, and, is, of…",
+        "showIgnore": "Show custom ignore list",
+        "hideIgnore": "Hide custom ignore list",
+        "paste": "Paste",
+        "wordCount": "{count} words",
+        "inContext": "\"{word}\" in context",
+        "ignored": "ignored",
+        "ignorePlaceholder": "Words to ignore, space or comma separated: word1, word2 word3"
+      },
+      "howToUse": {
+        "title": "How to Use Word Frequency Counter",
+        "step1Title": "Paste Your Text",
+        "step1Desc": "Paste any text content into the input area for analysis",
+        "step2Title": "Set Options",
+        "step2Desc": "Configure minimum word length, stop words exclusion, and display settings",
+        "step3Title": "Choose a View",
+        "step3Desc": "Switch between Table, Chart, or Word Cloud views to visualize frequency data",
+        "step4Title": "Export Results",
+        "step4Desc": "Export the frequency analysis as CSV for further processing"
+      },
+      "examples": {
+        "title": "Try an Example",
+        "sampleLabel": "Sample text for word frequency",
+        "sampleText": "the quick brown fox jumps over the lazy dog the fox jumps high",
+        "stats": "12 words · 9 unique words · 2 most frequent: \"the\" (3x)",
+        "result": "\"the\": 3 occurrences (25%) · \"fox\": 2 occurrences (16.7%) · \"jumps\": 2 occurrences (16.7%)"
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is word frequency analysis?",
+            "answer": "Word frequency analysis counts how often each word appears in your text, helping identify overused terms, keyword stuffing, and content focus areas."
+          },
+          {
+            "question": "How can word frequency help SEO?",
+            "answer": "It helps you balance keyword usage, avoid over-optimization, and ensure your content naturally covers relevant terms for better search engine understanding."
+          },
+          {
+            "question": "What are stop words?",
+            "answer": "Stop words are common words like 'the', 'is', 'and', and 'a' that are typically filtered out during frequency analysis since they do not carry significant meaning."
+          },
+          {
+            "question": "Can I customize the word list?",
+            "answer": "Yes, you can add custom words to ignore during analysis, allowing you to focus on meaningful terms and filter out irrelevant or common words."
+          }
+        ]
+      }
+    }
+  },
+  "text-tools": {
+    "CaseConverterTool": {
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Case Converter"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Case Converter — Transform Text to Any Case Instantly",
+        "description": "Free online case converter tool to instantly switch between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. Perfect for developers, writers, and content editors who need consistent text formatting in seconds — no sign-up required.",
+        "keywords": "case converter, text case converter, uppercase to lowercase, lowercase to uppercase, title case converter, camelCase converter, snake_case converter, online text formatter"
+      },
+      "groups": {
+        "Standard": "Standard",
+        "Developer": "Developer"
+      },
+      "cases": {
+        "uppercase": {
+          "label": "UPPER CASE",
+          "description": "All letters capitalized."
+        },
+        "lowercase": {
+          "label": "lower case",
+          "description": "All letters lowercased."
+        },
+        "titleCase": {
+          "label": "Title Case",
+          "description": "Every word starts with a capital."
+        },
+        "sentenceCase": {
+          "label": "Sentence case",
+          "description": "First letter of each sentence."
+        },
+        "invertCase": {
+          "label": "iNVERT cASE",
+          "description": "Flip the case of every letter."
+        },
+        "alternatingCase": {
+          "label": "aLtErNaTiNg",
+          "description": "Alternates lower/UPPER per char."
+        },
+        "camelCase": {
+          "label": "camelCase",
+          "description": "Used in JS variables."
+        },
+        "pascalCase": {
+          "label": "PascalCase",
+          "description": "Used in class names."
+        },
+        "snakeCase": {
+          "label": "snake_case",
+          "description": "Used in Python, databases."
+        },
+        "kebabCase": {
+          "label": "kebab-case",
+          "description": "Used in URLs, CSS."
+        },
+        "constantCase": {
+          "label": "CONSTANT_CASE",
+          "description": "Used for constants and env vars."
+        },
+        "dotCase": {
+          "label": "dot.case",
+          "description": "Used in config keys."
+        }
+      },
+      "activeInfo": {
+        "eg": "e.g."
+      },
+      "input": {
+        "label": "Input",
+        "clear": "Clear",
+        "placeholder": "Type or paste your text here..."
+      },
+      "output": {
+        "label": "Output",
+        "placeholder": "Your converted text will appear here..."
+      },
+      "stats": {
+        "characters": "characters",
+        "words": "words"
+      },
+      "preview": {
+        "title": "All Conversions Preview",
+        "active": "Active"
+      },
+      "howToUse": {
+        "title": "How to Use the Case Converter",
+        "step1Title": "Enter or paste your text",
+        "step1Desc": "Type or paste your text into the input area. The tool supports any text including paragraphs, code, or single words.",
+        "step2Title": "Select your target case",
+        "step2Desc": "Choose from uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. Each option is grouped for quick access.",
+        "step3Title": "Preview all conversions",
+        "step3Desc": "The preview panel shows results for every case type at once. Click any result to apply it as your active conversion instantly.",
+        "step4Title": "Copy the converted text",
+        "step4Desc": "Once satisfied, copy the converted text to your clipboard with one click. No sign-up or data upload needed — everything stays in your browser."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What case formats does this converter support?",
+            "answer": "The case converter supports 12 formats: UPPER CASE, lower case, Title Case, Sentence case, iNVERT cASE, aLtErNaTiNg CaSe, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, and dot.case. This covers standard writing styles as well as common programming conventions."
+          },
+          {
+            "question": "Is my text sent to a server or stored?",
+            "answer": "No. Everything runs entirely in your browser using JavaScript. Your text never leaves your device, making the tool completely private and secure."
+          },
+          {
+            "question": "What is the difference between camelCase and PascalCase?",
+            "answer": "camelCase starts with a lowercase letter and capitalizes each subsequent word (e.g., 'myVariableName'), while PascalCase capitalizes the first letter of every word including the first (e.g., 'MyClassName'). camelCase is common in JavaScript variables, while PascalCase is typical for class names."
+          },
+          {
+            "question": "Can I convert text to multiple cases at once?",
+            "answer": "Yes. The preview panel shows all 12 case conversions simultaneously, so you can see how your text looks in every format. Click any preview to select it as your active conversion, then copy the result."
+          },
+          {
+            "question": "Is the tool free to use?",
+            "answer": "Yes, completely free. There are no usage limits, no sign-up required, and no hidden fees. Use it as many times as you need for any purpose including commercial projects."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet. Typesetters use it to warm up before long writing sessions.",
+        "result": "Paste the sample text into the tool above and select different case types. You'll see it transform into UPPER CASE, lower case, Title Case, camelCase, and more instantly.",
+        "stats": "What you'll see"
+      }
+    },
+    "FindReplaceTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Find & Replace"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Find and Replace Text — Online Search & Replace Tool",
+        "description": "Free online find and replace tool to search and replace text instantly. Supports case-sensitive matching, whole-word search, regex, and batch replacement. Ideal for editing code, cleaning data, and transforming content at scale. Works entirely in your browser with no data uploads — private and secure.",
+        "keywords": "find and replace, search and replace text, regex find replace, online text replacer, bulk text editor, find replace in string, text search tool"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "controls": {
+        "find": "Find",
+        "replaceWith": "Replace with",
+        "options": "Options",
+        "caseSensitive": "Case Sensitive",
+        "wholeWord": "Whole Word",
+        "useRegex": "Use Regex",
+        "matches": "Matches",
+        "notFound": "0 found",
+        "prev": "Prev",
+        "next": "Next",
+        "replaceThis": "Replace This",
+        "replaceAll": "Replace All",
+        "example": "Example",
+        "clearAll": "Clear All"
+      },
+      "placeholders": {
+        "searchRegex": "Enter regex pattern...",
+        "searchText": "Search text...",
+        "replacement": "Replacement text..."
+      },
+      "regexError": "Regex error:",
+      "textarea": {
+        "label": "Your Text",
+        "matchHighlighted": "highlighted",
+        "match": "match",
+        "matches": "matches",
+        "chars": "chars"
+      },
+      "stats": {
+        "characters": "characters",
+        "words": "words",
+        "lines": "lines",
+        "matchesFound": "matches found",
+        "matchFound": "match found"
+      },
+      "howToUse": {
+        "title": "How to Use Find & Replace",
+        "step1Title": "Enter your text",
+        "step1Desc": "Paste or type the text you want to search within the main text area. The tool processes everything client-side for speed and privacy.",
+        "step2Title": "Set your search term",
+        "step2Desc": "Type the word, phrase, or regex pattern you want to find. Enable options like Case Sensitive, Whole Word, or Use Regex for more precise matching.",
+        "step3Title": "Enter replacement text",
+        "step3Desc": "Type the text you want to use as the replacement. Use Replace All to change every match at once, or Replace This to change one match at a time.",
+        "step4Title": "Review and finalize",
+        "step4Desc": "Navigate between matches using Prev/Next buttons. The match count updates in real time. Copy the final text once you're satisfied with the replacements."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Does the find and replace support regular expressions (regex)?",
+            "answer": "Yes. Enable the 'Use Regex' option to use regular expression patterns in your search. This allows powerful pattern matching like wildcards, character classes, quantifiers, and capture groups. If your regex has an error, the tool displays a clear error message."
+          },
+          {
+            "question": "Can I replace text one match at a time?",
+            "answer": "Yes. Use 'Replace This' to replace the currently highlighted match without affecting others. Use Prev/Next to navigate between matches. This gives you full control over which occurrences to replace."
+          },
+          {
+            "question": "Does the tool work with case-sensitive searches?",
+            "answer": "Yes. Toggle the 'Case Sensitive' option to make your search match the exact casing of your query. When disabled, the search ignores case differences, matching both 'Apple' and 'apple'."
+          },
+          {
+            "question": "Is my text uploaded anywhere?",
+            "answer": "No. Everything runs in your browser. Your text is never sent to any server, making the tool completely private and secure for sensitive content."
+          },
+          {
+            "question": "What is the whole word option for?",
+            "answer": "The 'Whole Word' option ensures that your search term only matches complete words, not parts of longer words. For example, searching for 'cat' with Whole Word enabled will match 'cat' but not 'caterpillar' or 'copycat'."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "The cat sat on the mat. The caterpillar copied the cat's style. Every cat lover knows a cat makes a great pet.",
+        "result": "Search for 'cat' with Whole Word enabled and replace with 'dog' using Replace All. The result will be: 'The dog sat on the mat. The caterpillar copied the dog's style. Every dog lover knows a dog makes a great pet.' Note how 'caterpillar' was not affected.",
+        "stats": "What you'll see"
+      }
+    },
+    "LoremIpsumTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Lorem Ipsum Generator"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Lorem Ipsum Generator — Create Dummy Text Instantly",
+        "description": "Free Lorem Ipsum generator to create placeholder text for your designs, mockups, wireframes, and publishing projects. Choose from paragraphs, sentences, or words. Customize length, style, and starting text. Perfect for web designers, graphic artists, typesetters, and developers who need realistic dummy copy on demand.",
+        "keywords": "lorem ipsum generator, dummy text generator, placeholder text, lipsum generator, random text generator, dummy copy, mockup text filler"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy Text"
+      },
+      "types": {
+        "paragraphs": "Paragraphs",
+        "sentences": "Sentences",
+        "words": "Words"
+      },
+      "presets": {
+        "short": "Short",
+        "medium": "Medium",
+        "long": "Long",
+        "50words": "50 Words",
+        "100words": "100 Words",
+        "10sentences": "10 Sentences"
+      },
+      "sidebar": {
+        "generateBy": "Generate by",
+        "exactNumber": "Or type exact number",
+        "startWith": "Start with \"Lorem ipsum\"",
+        "classicOpening": "Classic opening phrase",
+        "quickPresets": "Quick Presets",
+        "regenerate": "Regenerate"
+      },
+      "slider": {
+        "paragraphs": "Paragraphs",
+        "sentences": "Sentences",
+        "words": "Words"
+      },
+      "stats": {
+        "words": "Words",
+        "characters": "Characters",
+        "sentences": "Sentences",
+        "paragraphs": "Paragraphs"
+      },
+      "output": {
+        "label": "Generated Text"
+      },
+      "howToUse": {
+        "title": "How to Use the Lorem Ipsum Generator",
+        "step1Title": "Choose generation type",
+        "step1Desc": "Select whether to generate by paragraphs, sentences, or words. Each option gives you fine control over the volume of dummy text produced.",
+        "step2Title": "Set the quantity",
+        "step2Desc": "Use the slider or type an exact number. Quick presets like Short, Medium, or Long are available for instant results.",
+        "step3Title": "Customize options",
+        "step3Desc": "Toggle 'Start with Lorem ipsum' for the classic opening phrase. The tool instantly updates the generated text based on your preferences.",
+        "step4Title": "Generate and copy",
+        "step4Desc": "Click Regenerate to get fresh dummy text. Copy the result to your clipboard with one click. Use it for mockups, wireframes, typesetting, or design drafts."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is Lorem Ipsum?",
+            "answer": "Lorem Ipsum is placeholder text derived from Latin literature, traditionally used in the printing and typesetting industry since the 1500s. It serves as realistic dummy content that lets designers and developers focus on layout and typography without being distracted by readable content."
+          },
+          {
+            "question": "Can I generate a specific number of words or sentences?",
+            "answer": "Yes. Use the slider or type an exact number into the input field. You can generate paragraphs, sentences, or words in any quantity. Quick presets like 50 Words, 100 Words, and 10 Sentences provide instant common options."
+          },
+          {
+            "question": "What does 'Start with Lorem ipsum' do?",
+            "answer": "When enabled, the generated text begins with the traditional opening 'Lorem ipsum dolor sit amet...' instead of a random starting point. This is useful when you need the classic Lorem Ipsum appearance that readers instantly recognize as placeholder text."
+          },
+          {
+            "question": "Is the generated text real Latin?",
+            "answer": "The text is based on Latin, but it has been altered over centuries. It is not grammatically correct Latin — it is intentionally nonsensical so that it reads like natural language without meaning anything, keeping the focus on visual design."
+          },
+          {
+            "question": "Can I use the generated text commercially?",
+            "answer": "Yes. Lorem Ipsum is public domain placeholder text and has no copyright restrictions. You can use it freely in commercial projects, client presentations, and published materials."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample output",
+        "sampleText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "result": "Set the generator to 2 paragraphs with 'Start with Lorem ipsum' enabled. You'll get classic dummy text starting with the traditional opening, formatted into clean paragraphs ready for copy-pasting into your design.",
+        "stats": "What you'll see"
+      }
+    },
+    "RelatedTools": {
+      "related": {
+        "title": "Related Text Tools",
+        "wordCounter": "Word Counter",
+        "diffChecker": "Diff Checker",
+        "slugGenerator": "Slug Generator",
+        "textRepeater": "Text Repeater",
+        "removeFormatting": "Remove Formatting"
+      }
+    },
+    "RemoveFormattingTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Remove Formatting"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Remove Formatting — Strip HTML, Markdown & Special Chars",
+        "description": "Free online text formatting remover to strip HTML tags, Markdown syntax, invisible Unicode characters, emojis, extra whitespace, and special formatting. Choose exactly what to clean. Ideal for developers copying code, writers pasting from word processors, and anyone who needs clean plain text fast.",
+        "keywords": "remove formatting, strip html tags, remove html formatting, clean text formatter, plain text converter, remove markdown, strip special characters, unicode cleaner"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "controls": {
+        "allOn": "All On",
+        "allOff": "All Off",
+        "reset": "Reset",
+        "loadExample": "Load Example"
+      },
+      "groups": {
+        "Format": "Format",
+        "Content": "Content"
+      },
+      "options": {
+        "html": {
+          "label": "HTML Tags",
+          "description": "Remove <b>, <div>, <span> and all other HTML tags."
+        },
+        "markdown": {
+          "label": "Markdown",
+          "description": "Strip **bold**, # headings, [links](), and other syntax."
+        },
+        "whitespace": {
+          "label": "Extra Whitespace",
+          "description": "Collapse multiple spaces and blank lines."
+        },
+        "invisible": {
+          "label": "Invisible Chars",
+          "description": "Remove zero-width spaces, BOM, and hidden characters."
+        },
+        "urls": {
+          "label": "URLs & Links",
+          "description": "Strip all http:// and https:// URLs."
+        },
+        "emojis": {
+          "label": "Emojis",
+          "description": "Remove all emoji characters from the text."
+        },
+        "numbers": {
+          "label": "Numbers",
+          "description": "Delete all numeric digits."
+        },
+        "punctuation": {
+          "label": "Punctuation",
+          "description": "Remove commas, periods, brackets, and symbols."
+        },
+        "newlines": {
+          "label": "Line Breaks",
+          "description": "Collapse all newlines into a single line of text."
+        }
+      },
+      "stats": {
+        "characters": "Characters",
+        "words": "Words",
+        "removed": "Removed",
+        "chars": "chars",
+        "cleaned": "Cleaned",
+        "reduction": "reduction"
+      },
+      "input": {
+        "label": "Input",
+        "chars": "chars",
+        "clear": "Clear",
+        "placeholder": "Paste your HTML, Markdown, or any messy text here..."
+      },
+      "cleaners": {
+        "active": "cleaner",
+        "activePlural": "cleaners",
+        "activeSuffix": "active"
+      },
+      "output": {
+        "label": "Cleaned Output",
+        "chars": "chars",
+        "placeholderAllRemoved": "All content was removed by the active cleaners.",
+        "placeholderEmpty": "Your cleaned text will appear here..."
+      },
+      "howToUse": {
+        "title": "How to Use Remove Formatting",
+        "step1Title": "Paste your formatted text",
+        "step1Desc": "Paste HTML, Markdown, or any text with special formatting into the input area. The tool instantly detects the content and prepares for cleaning.",
+        "step2Title": "Choose what to remove",
+        "step2Desc": "Toggle individual cleaners: HTML Tags, Markdown, Extra Whitespace, Invisible Chars, URLs, Emojis, Numbers, Punctuation, or Line Breaks. Use All On / All Off for bulk control.",
+        "step3Title": "Get clean output",
+        "step3Desc": "The output area shows your cleaned text in real time. The stats panel shows how many characters were removed and the percentage of reduction."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What types of formatting can this tool remove?",
+            "answer": "The tool removes HTML tags, Markdown syntax, extra whitespace, invisible Unicode characters, URLs, emojis, numbers, punctuation, and line breaks. Each category can be toggled independently so you remove exactly what you want."
+          },
+          {
+            "question": "Can I remove HTML tags while keeping the text content?",
+            "answer": "Yes. Enable the 'HTML Tags' cleaner to strip all <tags> while preserving the visible text between them. This is useful for converting rich HTML content into clean plain text."
+          },
+          {
+            "question": "What are invisible characters?",
+            "answer": "Invisible characters include zero-width spaces (U+200B), BOM marks (U+FEFF), soft hyphens, and other Unicode characters that are present in the text but not visible. These often cause issues in code editors, databases, and text processing pipelines."
+          },
+          {
+            "question": "Does the tool show how much was removed?",
+            "answer": "Yes. The stats panel displays the number of characters removed and the percentage of reduction. This helps you understand how much formatting was stripped from your original text."
+          },
+          {
+            "question": "Can I use this to clean text pasted from Microsoft Word?",
+            "answer": "Absolutely. Text pasted from Word often contains hidden formatting characters, extra whitespace, and special quotes. Enable the 'Extra Whitespace' and 'Invisible Chars' cleaners to get clean plain text."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "<h1>Welcome</h1><p>This is <b>bold</b> text with a <a href='#'>link</a>.</p><p>Extra    spaces   and   👋 emojis.</p>",
+        "result": "Paste the sample HTML and enable HTML Tags + Extra Whitespace + Emojis cleaners. The output will be clean plain text: 'Welcome This is bold text with a link. Extra spaces and emojis.' Notice all tags, extra spaces, and emojis are removed.",
+        "stats": "What you'll see"
+      }
+    },
+    "SlugGeneratorTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Slug Generator"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "URL Slug Generator — Create SEO-Friendly Slugs Online",
+        "description": "Free online slug generator to convert any title, headline, or phrase into a clean, SEO-optimized URL slug. Supports accented characters, Arabic transliteration, custom separators, and lowercase conversion. Perfect for content creators, SEO specialists, and web developers who need consistent, readable URLs.",
+        "keywords": "slug generator, url slug generator, seo slug maker, url friendly text, create url slug, permalink generator, arabic slug converter"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy Slug"
+      },
+      "controls": {
+        "separator": "Separator",
+        "options": "Options",
+        "maxLength": "Max Length",
+        "noLimit": "No limit",
+        "remove": "✕ Remove"
+      },
+      "toggles": {
+        "lowercase": "Lowercase",
+        "lowercaseDesc": "Convert all characters to lowercase.",
+        "transliterate": "Transliterate",
+        "transliterateDesc": "Convert accented & Arabic characters to ASCII equivalents.",
+        "removeStopWords": "Remove Stop Words",
+        "removeStopWordsDesc": "Strip common words like \"the\", \"and\", \"of\".",
+        "trimSeparators": "Trim Separators",
+        "trimSeparatorsDesc": "Remove leading and trailing separator characters."
+      },
+      "input": {
+        "label": "Title or Phrase",
+        "words": "words",
+        "placeholder": "e.g. How to Build a Next.js App in 2026"
+      },
+      "output": {
+        "label": "Generated Slug",
+        "chars": "chars",
+        "placeholder": "your-slug-will-appear-here"
+      },
+      "slugStats": {
+        "characters": "characters",
+        "words": "words",
+        "tooLong": "⚠ Long for SEO (recommended: ≤ 75)",
+        "goodLength": "✓ Good length for SEO"
+      },
+      "urlPreview": {
+        "title": "URL Preview",
+        "placeholder": "your-slug-here"
+      },
+      "howToUse": {
+        "title": "How to Use the Slug Generator",
+        "step1Title": "Enter your title or phrase",
+        "step1Desc": "Type or paste the title, headline, or phrase you want to convert into a URL-friendly slug. The tool processes input in real time.",
+        "step2Title": "Configure slug options",
+        "step2Desc": "Enable Lowercase, Transliterate (for accented/Arabic characters), Remove Stop Words, or Trim Separators. Set a max length limit if needed.",
+        "step3Title": "Preview the generated slug",
+        "step3Desc": "The URL Preview shows how your slug will look in a full URL context. The slug stats indicate if the length is SEO-friendly (recommended: ≤ 75 characters).",
+        "step4Title": "Copy or bulk generate",
+        "step4Desc": "Copy the generated slug with one click. Use the Bulk Generator to convert multiple titles at once, perfect for migrating or creating many pages."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is a URL slug and why is it important for SEO?",
+            "answer": "A URL slug is the part of a URL that identifies a specific page in a human-readable format (e.g., '/how-to-build-a-website'). SEO-friendly slugs improve search rankings by including relevant keywords, being concise, and using hyphens between words. They also help users understand what a page is about before clicking."
+          },
+          {
+            "question": "Does the tool handle Arabic and accented characters?",
+            "answer": "Yes. Enable 'Transliterate' to convert accented Latin characters (é, ñ, ü) and Arabic script to their ASCII equivalents. For example, 'مرحبا بالعالم' becomes 'mrhb-bl-lm' and 'café' becomes 'cafe'. This ensures your slugs are universally compatible."
+          },
+          {
+            "question": "What is the recommended slug length for SEO?",
+            "answer": "The recommended maximum slug length is 50-75 characters. Slugs longer than this may be truncated in search results and dilute SEO value. The tool displays a warning if your slug exceeds 75 characters and a positive indicator when it's within the recommended range."
+          },
+          {
+            "question": "What does 'Remove Stop Words' do?",
+            "answer": "Stop words are common words like 'the', 'and', 'of', 'in', and 'a' that add little SEO value. When enabled, this option strips these words from your slug, making it shorter and more keyword-focused. For example, 'The Best of the World' becomes 'best-world'."
+          },
+          {
+            "question": "Can I generate slugs for multiple titles at once?",
+            "answer": "Yes. The Bulk Generator feature allows you to paste multiple titles (one per line) and generate slugs for all of them instantly. Each title is processed with the same settings, making it easy to create slugs for an entire website or content migration."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample title",
+        "sampleText": "How to Build a Next.js Application in 2026",
+        "result": "Enter 'How to Build a Next.js Application in 2026' and enable Lowercase + Remove Stop Words. The generated slug will be 'build-nextjs-application-2026' — concise, keyword-rich, and SEO-friendly.",
+        "stats": "What you'll see"
+      }
+    },
+    "TextDiffTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Text Diff Checker"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Text Diff Checker — Compare Text Online Side by Side",
+        "description": "Free online text diff checker to compare two blocks of text and instantly highlight every addition, deletion, and unchanged line. Supports word, character, and line-level comparison. Perfect for developers reviewing code, editors comparing drafts, and anyone tracking document revisions — fast, accurate, and private.",
+        "keywords": "text diff checker, compare text online, diff checker, text comparison tool, diff tool, compare documents, code diff, find difference between texts"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "toolbar": {
+        "loadExample": "Load Example",
+        "clearAll": "Clear All",
+        "split": "Split",
+        "unified": "Unified"
+      },
+      "inputs": {
+        "originalText": "Original Text",
+        "modifiedText": "Modified Text",
+        "chars": "chars",
+        "originalPlaceholder": "Paste your original text here...",
+        "modifiedPlaceholder": "Paste your modified text here..."
+      },
+      "stats": {
+        "added": "Added",
+        "removed": "Removed",
+        "unchanged": "Unchanged",
+        "similarity": "Similarity"
+      },
+      "diff": {
+        "result": "Diff Result",
+        "legendAdded": "Added",
+        "legendRemoved": "Removed",
+        "legendUnchanged": "Unchanged",
+        "original": "Original",
+        "modified": "Modified",
+        "identical": "✅ The two texts are identical.",
+        "pasteBoth": "Paste text in both panels to see the diff."
+      },
+      "empty": {
+        "title": "No text to compare yet",
+        "subtitle": "Paste your texts above, or try an example.",
+        "loadExample": "Load Example"
+      },
+      "howToUse": {
+        "title": "How to Use the Text Diff Checker",
+        "step1Title": "Paste the original text",
+        "step1Desc": "Paste your original or older version of the text into the left panel (Original Text). This is your baseline for comparison.",
+        "step2Title": "Paste the modified text",
+        "step2Desc": "Paste the newer or edited version into the right panel (Modified Text). The diff tool compares both texts instantly as you type.",
+        "step3Title": "View the diff result",
+        "step3Desc": "Switch between Split and Unified view modes. Added lines are highlighted in green, removed lines in red, and unchanged lines remain neutral.",
+        "step4Title": "Copy or share the diff",
+        "step4Desc": "Copy the diff result or compare using the shared stats. Use the Load Example button to see how the tool works with sample text."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What types of text comparison does this tool support?",
+            "answer": "The diff checker supports word-level, line-level, and character-level comparison. It highlights every addition, deletion, and unchanged block in color-coded output. You can switch between Split view (side by side) and Unified view (inline) for different comparison perspectives."
+          },
+          {
+            "question": "Can I compare code files with this tool?",
+            "answer": "Yes. The diff checker works well for code comparison. It accurately highlights changed lines, added code, and removed code, making it useful for reviewing code changes, tracking edits, and collaborating on development projects."
+          },
+          {
+            "question": "Is my text uploaded to a server?",
+            "answer": "No. All comparison happens in your browser using client-side JavaScript. Your text remains private and never leaves your device. This makes it safe for comparing sensitive or confidential documents."
+          },
+          {
+            "question": "What do the colors mean in the diff output?",
+            "answer": "Green highlighted sections indicate added text, red sections indicate removed text, and unhighlighted sections are unchanged. The similarity percentage at the top gives you a quick measure of how much the two texts overlap."
+          },
+          {
+            "question": "What is the difference between Split and Unified view?",
+            "answer": "Split view shows the original and modified text side by side, making it easy to scan both versions independently. Unified view combines both versions into a single stream with inline highlights, useful for seeing exactly what changed in context."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample comparison",
+        "sampleText": "Original: 'The quick brown fox jumps over the lazy dog near the riverbank.' Modified: 'The quick brown fox leaps over the sleepy cat near the river.'",
+        "result": "Paste the two sample texts into the panels and click Compare. You'll see 'jumps' highlighted as removed (red), 'leaps' as added (green), plus 'lazy dog' replaced by 'sleepy cat', with the similarity percentage shown.",
+        "stats": "What you'll see"
+      }
+    },
+    "TextRepeaterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Text Repeater"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Text Repeater — Repeat Words or Phrases Any Number of Times",
+        "description": "Free online text repeater tool to repeat any word, sentence, paragraph, or block of text a custom number of times. Add separators, line breaks, numbering, or prefix/suffix text. Perfect for generating test data, fill-in content, typing practice, or bulk text generation. Instant preview with no sign-up required.",
+        "keywords": "text repeater, repeat text online, word repeater, text generator, bulk text creator, repeat string, sentence repeater, test data generator"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "controls": {
+        "repeatCount": "Repeat Count",
+        "separator": "Separator",
+        "numbering": "Numbering",
+        "trimInput": "Trim Input",
+        "trimInputDesc": "Remove leading/trailing spaces from input.",
+        "customSeparatorPlaceholder": "Type your separator..."
+      },
+      "separators": {
+        "none": "None",
+        "space": "Space",
+        "newline": "New Line",
+        "comma": "Comma",
+        "custom": "Custom"
+      },
+      "stats": {
+        "repetitions": "Repetitions",
+        "characters": "Characters",
+        "words": "Words",
+        "lines": "Lines"
+      },
+      "input": {
+        "label": "Text to Repeat",
+        "clear": "Clear",
+        "placeholder": "Type or paste the text you want to repeat...",
+        "charCount": "characters",
+        "repeatedTimes": "will be repeated",
+        "times": "times"
+      },
+      "separator": {
+        "label": "separator",
+        "numbered": "Numbered"
+      },
+      "output": {
+        "label": "Output",
+        "placeholder": "Your repeated text will appear here..."
+      },
+      "howToUse": {
+        "title": "How to Use the Text Repeater",
+        "step1Title": "Enter the text to repeat",
+        "step1Desc": "Type or paste the word, sentence, or paragraph you want to repeat into the input area. The tool handles any text length.",
+        "step2Title": "Set the repeat count",
+        "step2Desc": "Use the slider or type a custom number. The output updates instantly as you adjust the count so you can see the result in real time.",
+        "step3Title": "Choose separator and formatting",
+        "step3Desc": "Select a separator — Space, New Line, Comma, or Custom. Enable numbering to add sequential numbers. Toggle Trim Input to clean up whitespace.",
+        "step4Title": "Copy the repeated text",
+        "step4Desc": "Copy the generated output with one click. Perfect for creating test data, generating practice text, or producing bulk content."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What can I use the text repeater for?",
+            "answer": "The text repeater is useful for generating test data, creating typing practice material, filling templates with repeated content, producing bulk text for layout testing, and generating repeated patterns for formatting experiments."
+          },
+          {
+            "question": "Can I add numbering to the repeated text?",
+            "answer": "Yes. Enable the 'Numbering' option to add sequential numbers (1, 2, 3...) before each repetition. This is especially useful for creating numbered lists, test cases, or indexed entries."
+          },
+          {
+            "question": "What separator options are available?",
+            "answer": "You can choose from None (no separator), Space, New Line, Comma, or Custom where you type your own separator character or string. Each option changes how the repeated blocks are joined together."
+          },
+          {
+            "question": "Is there a limit on how many times I can repeat text?",
+            "answer": "There is no hard limit, but very large outputs may affect browser performance. The tool shows a real-time character count so you can monitor the output size. For most use cases, thousands of repetitions work smoothly."
+          },
+          {
+            "question": "Does the tool trim whitespace from my input?",
+            "answer": "Optionally yes. Toggle the 'Trim Input' option to remove leading and trailing spaces from your text before repeating. This is helpful when pasting text that may have extra whitespace."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "Hello, world!",
+        "result": "Enter 'Hello, world!' as your text, set repeat count to 3, choose New Line as separator, and enable Numbering. The output will be:\n1. Hello, world!\n2. Hello, world!\n3. Hello, world!",
+        "stats": "What you'll see"
+      }
+    },
+    "TextWrapperTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Text Wrapper"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Text Wrapper — Wrap Long Lines at Custom Character Width",
+        "description": "Free online text wrapper to format long lines of text at a custom character width. Choose between hard wrap (inserts line breaks) or soft wrap. Perfect for terminal output, email formatting, code comments, fixed-width documents, and plain text files. Clean formatting in seconds for developers, writers, and sysadmins.",
+        "keywords": "text wrapper, wrap text online, line wrap tool, hard wrap text, soft wrap text, text formatter, character wrap, fixed width text formatter"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "controls": {
+        "lineWidth": "Line Width",
+        "chars": "chars",
+        "breakOn": "Break On",
+        "words": "Words",
+        "wordsDesc": "Break at word boundaries",
+        "characters": "Characters",
+        "charactersDesc": "Break at exact position",
+        "prefixSuffix": "Prefix / Suffix",
+        "prefix": "Prefix",
+        "suffix": "Suffix",
+        "loadExample": "Load Example"
+      },
+      "toggles": {
+        "lineNumbers": "Line Numbers",
+        "lineNumbersDesc": "Prefix each line with its number.",
+        "trimLines": "Trim Lines",
+        "trimLinesDesc": "Remove leading & trailing whitespace from each line.",
+        "preserveBlankLines": "Preserve Blank Lines",
+        "preserveBlankLinesDesc": "Keep empty lines between paragraphs."
+      },
+      "presets": {
+        "narrow": "Narrow / Mobile",
+        "email": "Email / SMS",
+        "terminal": "Terminal",
+        "classic": "Classic / Code",
+        "wide": "Wide",
+        "extraWide": "Extra Wide"
+      },
+      "stats": {
+        "width": "Width",
+        "inputLines": "Input Lines",
+        "outputLines": "Output Lines",
+        "longestLine": "Longest Line"
+      },
+      "input": {
+        "label": "Input Text",
+        "chars": "chars",
+        "clear": "Clear",
+        "placeholder": "Paste your long text here..."
+      },
+      "separator": {
+        "wrapAt": "Wrap at",
+        "by": "by",
+        "prefix": "prefix",
+        "numbered": "numbered"
+      },
+      "output": {
+        "label": "Wrapped Output",
+        "placeholder": "Your wrapped text will appear here..."
+      },
+      "howToUse": {
+        "title": "How to Use the Text Wrapper",
+        "step1Title": "Paste your long text",
+        "step1Desc": "Paste any text with long lines into the input area. The tool analyzes the line lengths and prepares for wrapping.",
+        "step2Title": "Set the line width",
+        "step2Desc": "Adjust the character width using the slider or type a custom value. Common presets like Narrow, Email, Terminal, and Wide are available for quick selection.",
+        "step3Title": "Configure wrapping options",
+        "step3Desc": "Choose between hard wrap (inserts line breaks) or soft wrap. Set break behavior to Words (break at word boundaries) or Characters (exact position). Add prefix/suffix text or line numbers as needed.",
+        "step4Title": "Copy the wrapped output",
+        "step4Desc": "The wrapped text appears instantly. Copy it with one click for use in emails, terminal windows, code comments, or fixed-width documents."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is the difference between hard wrap and soft wrap?",
+            "answer": "Hard wrap inserts actual line break characters at the specified width, modifying the text structure. Soft wrap displays the text as wrapped visually without inserting line breaks, keeping the original text intact. The tool supports both modes."
+          },
+          {
+            "question": "What does 'Break On' Words vs Characters mean?",
+            "answer": "'Break On Words' wraps at word boundaries so whole words are never split across lines. 'Break On Characters' wraps at the exact character position, which may split words but produces perfectly uniform line lengths."
+          },
+          {
+            "question": "Can I add line numbers to the wrapped output?",
+            "answer": "Yes. Enable the 'Line Numbers' toggle to prefix each line with its sequential number. This is useful for code output, logs, and reference documents."
+          },
+          {
+            "question": "What are common use cases for text wrapping?",
+            "answer": "Text wrapping is commonly used for formatting email messages to a readable width, preparing text for terminal/console output, formatting code comments, creating fixed-width documents, and ensuring text fits within specific layout constraints."
+          },
+          {
+            "question": "Can I preserve blank lines between paragraphs?",
+            "answer": "Yes. Enable the 'Preserve Blank Lines' option to keep empty lines between paragraphs. When disabled, blank lines are collapsed for a more compact output."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Results",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "The quick brown fox jumps over the lazy dog near the riverbank. It was a sunny day and the fox was feeling energetic. The lazy dog barely noticed as the fox sprinted past in a blur of orange fur.",
+        "result": "Paste the sample text, set width to 40 characters, choose 'Words' break and Hard wrap. Each line will be at most 40 characters wide, broken cleanly at word boundaries.",
+        "stats": "What you'll see"
+      }
+    },
+    "WordCounterTool": {
+      "breadcrumb": {
+        "allTools": "All Tools",
+        "toolTitle": "Text Tools",
+        "current": "Word Counter"
+      },
+      "header": {
+        "badge": "Text Tools",
+        "title": "Word Counter — Count Words, Characters & Sentences Online",
+        "description": "Free online word counter to instantly count words, characters (with and without spaces), sentences, paragraphs, syllables, and estimated reading and speaking time. Paste any text for detailed real-time statistics. Perfect for writers, students checking essay length, SEO content optimization, and social media posts.",
+        "keywords": "word counter, character counter, count words online, word count tool, character count, sentence counter, reading time calculator, word frequency counter"
+      },
+      "copy": {
+        "copied": "Copied!",
+        "button": "Copy"
+      },
+      "input": {
+        "label": "Your Text",
+        "clear": "Clear",
+        "placeholder": "Start typing or paste your text here..."
+      },
+      "stats": {
+        "chars": "chars",
+        "words": "Words",
+        "characters": "Characters",
+        "sentences": "Sentences",
+        "readingTimeLabel": "Reading time",
+        "min": "min",
+        "noSpaces": "No Spaces",
+        "paragraphs": "Paragraphs",
+        "lines": "Lines"
+      },
+      "sidebar": {
+        "statistics": "Statistics",
+        "timeEstimates": "Time Estimates",
+        "readingTime": "Reading Time",
+        "speakingTime": "Speaking Time",
+        "timeNote": "Based on 200 wpm reading / 130 wpm speaking.",
+        "topKeywords": "Top Keywords",
+        "keywordsEmpty": "Keyword analysis will appear here once you add some text."
+      },
+      "tips": {
+        "title": "Tips & Common Limits",
+        "twitter": "Twitter / X",
+        "linkedin": "LinkedIn Post",
+        "meta": "Meta Description",
+        "pageTitle": "Page Title (SEO)",
+        "over": "Over",
+        "ok": "OK",
+        "limit": "Limit:"
+      },
+      "howToUse": {
+        "title": "How to Use the Word Counter",
+        "step1Title": "Enter or paste your text",
+        "step1Desc": "Type directly into the text area or paste any text from your clipboard. The counter updates in real time as you type.",
+        "step2Title": "Review the statistics",
+        "step2Desc": "Instantly see your word count, character count (with and without spaces), sentences, paragraphs, lines, and more in the sidebar.",
+        "step3Title": "Check reading and speaking time",
+        "step3Desc": "The tool estimates how long it takes to read or speak your text based on average rates — 200 words per minute for reading and 130 for speaking.",
+        "step4Title": "Analyze keyword frequency",
+        "step4Desc": "View your most frequently used keywords ranked by count. Use this to avoid overusing certain terms or to optimize content for SEO.",
+        "step5Title": "Monitor platform limits",
+        "step5Desc": "The tips section shows how your text measures against common limits like Twitter (280 chars), LinkedIn posts (3,000 chars), and SEO meta descriptions (160 chars)."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What is reading time and how is it calculated?",
+            "answer": "Reading time estimates how long an average person takes to read your text. It uses the standard reading speed of 200 words per minute (wpm). The tool divides your total word count by 200. For example, a 600-word article takes about 3 minutes to read."
+          },
+          {
+            "question": "How do you count characters without spaces?",
+            "answer": "Characters without spaces counts every character except space characters. This is particularly useful for platforms like Twitter that enforce character limits, and for SEO meta descriptions where every character counts. The tool shows both counts side by side so you can compare."
+          },
+          {
+            "question": "Why does keyword frequency matter?",
+            "answer": "Keyword frequency analysis shows which words appear most often in your text. This helps writers avoid repetitive language, helps SEO professionals check keyword density, and helps students identify overused terms. The tool ranks keywords by frequency with a visual progress bar."
+          },
+          {
+            "question": "Is my text sent to a server?",
+            "answer": "No, absolutely not. Everything runs locally in your browser using JavaScript. Your text never leaves your device, making the tool completely private and secure. You can use it with sensitive content like passwords or confidential documents."
+          },
+          {
+            "question": "What counts as a word?",
+            "answer": "A word is any sequence of characters separated by spaces or punctuation. Numbers, contractions (like \"don't\"), and hyphenated terms (like \"well-known\") each count as a single word. The tool follows standard word counting conventions used by word processors."
+          }
+        ]
+      },
+      "examples": {
+        "title": "Example Output",
+        "sampleLabel": "Try this sample text",
+        "sampleText": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet. It has been used for typing practice for over 100 years. Typists use it to warm up before long writing sessions. The quick brown fox remains a favorite among writers and designers alike.",
+        "result": "Paste the sample text into the tool above. You should see approximately 55 words, 295 characters, 5 sentences, and an estimated reading time of under 1 minute.",
+        "stats": "What you will see"
+      }
+    }
   }
 }

@@ -3,7 +3,7 @@ import { useT } from "@/context/TranslationProvider";
 
 export default function SEOTips() {
   const t = useT("seo-tools/SERPPreviewTool.json");
-  const tips = t("tips.list", {}, []) as string[];
+  const tips = t.raw("tips.list") as string[];
 
   return (
     <div className="p-4 rounded-2xl border border-border bg-card shadow-sm">

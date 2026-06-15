@@ -1,4 +1,4 @@
-import { Language, getTranslations } from '@/lib/i18n';
+import { getTranslations, getMessages } from 'next-intl/server';
 import {
   buildFaqJsonLd,
   buildToolJsonLd,
@@ -9,55 +9,44 @@ import {
 import WordCounterView from '@/views/text-tools/WordCounterView';
 import ToolJsonLd from '@/components/seo/ToolJsonLd';
 import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
+import { Language } from '@/lib/i18n';
 
 const SEO_CONFIG: ToolPageSeoConfig = {
   path: '/text-tools/word-counter',
   categoryPath: '/text-tools',
-  namespace: 'text-tools/WordCounterTool',
+  namespace: 'text-tools.WordCounterTool',
 };
 
-interface WordCounterToolPageProps {
+interface ToolPageProps {
   params: Promise<{ lang: string }>;
 }
 
 export async function generateMetadata({
   params,
-}: WordCounterToolPageProps): Promise<Metadata> {
+}: ToolPageProps): Promise<Metadata> {
   const { lang } = await params;
   return generateToolPageMetadata(lang as Language, SEO_CONFIG);
 }
 
-export default async function WordCounterToolPage({
-  params,
-}: WordCounterToolPageProps) {
+export default async function ToolPage({ params }: ToolPageProps) {
   const { lang } = await params;
 
-  if (lang === 'en') {
-    notFound();
+  const content = await getToolSeoContent(lang, SEO_CONFIG.namespace);
+  const messages = await getMessages({ locale: lang });
+  const parts = SEO_CONFIG.namespace.split('.');
+  let dict: any = messages;
+  for (const part of parts) {
+    dict = dict?.[part];
   }
+  const faqLd = buildFaqJsonLd(dict?.faq?.items ?? []);
 
-  const safeLang = lang as Language;
-  const content = await getToolSeoContent(
-    safeLang,
-    SEO_CONFIG.namespace
-  );
-  
-  const { toolLd, breadcrumbLd } = buildToolJsonLd(
-    safeLang,
-    SEO_CONFIG.path,
-    SEO_CONFIG.categoryPath,
-    content
-  );
-
-  const dict = await getTranslations(safeLang, SEO_CONFIG.namespace) as Record<string, any>;
-  const faqLd = buildFaqJsonLd(dict.faq.items as { question: string; answer: string }[]);
+  const { toolLd, breadcrumbLd } = buildToolJsonLd(lang as Language, SEO_CONFIG.path, SEO_CONFIG.categoryPath, content);
 
   return (
     <>
       <ToolJsonLd toolLd={toolLd} breadcrumbLd={breadcrumbLd} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <WordCounterView lang={safeLang} />
+      <WordCounterView lang={lang as Language} />
     </>
   );
 }
