@@ -1,0 +1,181 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات SEO",
+    "current": "مولد وسم Meta"
+  },
+  "header": {
+    "badge": "أدوات SEO",
+    "title": "مولد وسوم Meta — إنشاء وسوم SEO ووسائل التواصل الاجتماعي",
+    "description": "أداة مجانية لإنشاء وسوم meta لتحسين محركات البحث ووسائل التواصل الاجتماعي. أنشئ وسوم العنوان ووصف meta ووسوم Open Graph لفيسبوك وبطاقات تويتر وبيانات JSON-LD المنظمة. معاينة كيف تظهر صفحتك في نتائج بحث Google ومنصات التواصل.",
+    "keywords": "مولد وسوم meta, وسوم seo, وسوم open graph, بطاقات تويتر, مولد وصف meta, معاينة وسائل التواصل"
+  },
+  "copy": {
+    "copied": "تم النسخ!",
+    "button": "نسخ",
+    "copyAll": "نسخ الكل"
+  },
+  "tabs": {
+    "basic": "المعلومات الأساسية",
+    "og": "Open Graph",
+    "twitter": "بطاقة Twitter",
+    "advanced": "متقدم"
+  },
+  "basic": {
+    "title": "وسوم Meta الأساسية",
+    "pageTitle": "عنوان الصفحة",
+    "titlePlaceholder": "صفحتي الرائعة — اسم العلامة",
+    "metaDescription": "وصف Meta",
+    "descriptionPlaceholder": "وصف مقنع لصفحتك يظهر في نتائج البحث...",
+    "keywords": "الكلمات المفتاحية",
+    "keywordsPlaceholder": "كلمة مفتاحية1، كلمة مفتاحية2، كلمة مفتاحية3",
+    "author": "المؤلف",
+    "authorPlaceholder": "أحمد محمد",
+    "canonicalURL": "URL cannonical",
+    "urlPlaceholder": "https://example.com/page",
+    "language": "اللغة",
+    "languagePlaceholder": "ar",
+    "viewport": "منطقة العرض",
+    "robots": "الروبوتات",
+    "autoSync": "مزامنة تلقائية مع SEO الأساسي",
+    "autoSyncHint": "اترك الحقول فارغة لوراثة العنوان/الوصف تلقائياً"
+  },
+  "og": {
+    "title": "وسوم Open Graph",
+    "ogTitle": "عنوان OG",
+    "ogTitlePlaceholder": "عنوان الصفحة للمشاركة على التواصل",
+    "ogDescription": "وصف OG",
+    "ogDescriptionPlaceholder": "DESCRIPTION for social sharing...",
+    "ogImage": "رابط صورة OG",
+    "ogImagePlaceholder": "https://example.com/image.jpg",
+    "ogImageHint": "موصى به: 1200×630px، أقل من 8MB، JPG أو PNG",
+    "ogUrl": "رابط OG",
+    "ogUrlPlaceholder": "https://example.com/page",
+    "ogSiteName": "اسم الموقع",
+    "ogSiteNamePlaceholder": "موقعي",
+    "ogLocale": "اللغة",
+    "ogType": "النوع",
+    "ogLocalePlaceholder": "ar_SA"
+  },
+  "twitter": {
+    "title": "وسوم بطاقة Twitter",
+    "cardType": "نوع البطاقة",
+    "siteHandle": "موقع @",
+    "creatorHandle": "منشئ @",
+    "autoSync": "مزامنة تلقائية مع SEO الأساسي",
+    "autoSyncHint": "اترك الحقول فارغة لوراثة العنوان/الوصف تلقائياً",
+    "twitterTitle": "عنوان Twitter",
+    "twitterTitlePlaceholder": "العنوان لـ Twitter/X",
+    "twitterDesc": "وصف Twitter",
+    "twitterDescPlaceholder": "الوصف لـ Twitter/X...",
+    "twitterImage": "رابط صورة Twitter",
+    "twitterImagePlaceholder": "https://example.com/twitter-card.jpg",
+    "twitterImageHint": "الحد الأدنى 144×144px للملخص، 300×157px للصورة الكبيرة"
+  },
+  "advanced": {
+    "title": "الوسوم المتقدمة",
+    "robotsPresets": "إعدادات Robots",
+    "noarchive": "noarchive",
+    "noarchiveDesc": "منع الإصدار المخبّن",
+    "nosnippet": "nosnippet",
+    "nosnippetDesc": "منع مقطع الوصف",
+    "themeColor": "لون السمة",
+    "charset": "ترميز الأحرف",
+    "indexFollow": "فهرسة + تتبع",
+    "noindexFollow": "عدم فهرسة + تتبع",
+    "indexNofollow": "فهرسة + عدم تتبع",
+    "noindexNofollow": "عدم فهرسة + عدم تتبع"
+  },
+  "output": {
+    "title": "وسوم Meta المُنشأة",
+    "htmlCode": "HTML المُنشأ",
+    "preview": "معاينة",
+    "reset": "إعادة تعيين",
+    "copyAll": "نسخ الكل"
+  },
+  "preview": {
+    "google": "معاينة SERP في Google",
+    "googleDescription": "معاينة Google",
+    "facebook": "معاينة Facebook",
+    "openGraph": "معاينة Open Graph",
+    "twitterPreview": "معاينة Twitter / X",
+    "titleTooShort": "قصير جداً",
+    "titleTooLong": "طويل جداً",
+    "titleIdeal": "مثالي",
+    "descTooShort": "قصير جداً",
+    "descTooLong": "طويل جداً",
+    "descIdeal": "مثالي",
+    "imageSize": "1200 × 630 px موصى به",
+    "summaryLarge": "summary_large_image"
+  },
+  "seoScore": {
+    "title": "نتيجة SEO",
+    "great": "ممتاز!",
+    "good": "جيد",
+    "needsWork": "يحتاج عمل",
+    "poor": "ضعيف",
+    "checksPassed": "فحوصات ناجحة"
+  },
+  "tips": {
+    "title": "نصائح SEO",
+    "titleLength": "يجب أن يكون العنوان 50-60 حرفاً",
+    "descriptionLength": "يجب أن يكون الوصف 150-160 حرفاً",
+    "imageSize": "استخدم صوراً بحجم 1200x630px على الأقل",
+    "quickTips": "نصائح سريعة",
+    "tips": [
+      "يجب أن يكون العنوان فريداً على كل صفحة",
+      "أضمّن الكلمة المفتاحية الرئيسية في بداية العنوان",
+      "يجب أن تكون صورة OG 1200×630px لأفضل النتائج",
+      "تحصل بطاقات الصورة الكبيرة على Twitter على تفاعل 3 أضعاف",
+      "الوسوم cannonical تمنع عقوبات المحتوى المكرر",
+      "لا تكثر الكلمات المفتاحية — استخدم لغة طبيعية"
+    ]
+  },
+  "related": {
+    "title": "أدوات SEO ذات الصلة",
+    "ogPreview": "معاين OG",
+    "schemaMarkup": "علامات Schema",
+    "sitemapGenerator": "مولد خريطة الموقع"
+  },
+  "checks": {
+    "titlePresent": "علامة العنوان موجودة",
+    "titleLength": "العنوان 50–60 حرفاً",
+    "descPresent": "الوصف موجود",
+    "descLength": "الوصف 150–160 حرفاً",
+    "keywords": "الكلمات المفتاحية محددة",
+    "canonical": "الرابط الأساسي (Canonical) محدد",
+    "ogTitle": "عنوان Open Graph",
+    "ogDesc": "وصف Open Graph",
+    "ogImage": "صورة Open Graph",
+    "twitterCard": "بطاقة تويتر محددة",
+    "indexing": "لا يحظر الفهرسة",
+    "chars": "{count} أحرف"
+  },
+  "howToUse": {
+    "title": "كيفية استخدام مولد وسوم Meta",
+    "step1Title": "املأ المعلومات الأساسية",
+    "step1Desc": "أدخل عنوان الصفحة ووصف meta والكلمات المفتاحية.",
+    "step2Title": "أضف وسوم Open Graph",
+    "step2Desc": "أضف العنوان والوصف والصورة للمشاركة على وسائل التواصل.",
+    "step3Title": "أضف بطاقة Twitter",
+    "step3Desc": "أضف معلومات بطاقة Twitter لتحسين المشاركة على X.",
+    "step4Title": "انسخ الوسوم",
+    "step4Desc": "انسخ وسوم HTML المُنشأة والصقها في قسم <head> من صفحتك."
+  },
+  "examples": {
+    "title": "جرب مثالاً",
+    "sampleLabel": "مثال إدخال",
+    "sampleText": "عنوان: دليل تحسين محركات البحث الشامل\nوصف: تعلم أساسيات تحسين محركات البحث",
+    "stats": "العنوان: 28 حرفاً · الوصف: 45 حرفاً",
+    "result": "<title>دليل تحسين محركات البحث الشامل</title>"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هي علامات meta؟", "answer": "علامات meta هي عناصر HTML توفر معلومات منظمة حول صفحة الويب لمحركات البحث والمتصفحات، بما في ذلك عنوان meta والوصف وإعدادات منفذ العرض." },
+      { "question": "كم يجب أن يكون طول عنوان meta؟", "answer": "يجب أن تكون عناوين meta بطول 50-60 حرفاً لتظهر بالكامل في نتائج البحث. قد يتم اقتطاع العناوين الأطول بواسطة محركات البحث." },
+      { "question": "كم يجب أن يكون طول وصف meta؟", "answer": "يجب أن تكون أوصاف meta بطول 150-160 حرفاً. على الرغم من أنها ليست عاملاً مباشراً للترتيب، فإن الوصف المقنع يمكن أن يحسن نسب النقر." },
+      { "question": "هل لا تزال كلمات meta المفتاحية مهمة؟", "answer": "لا تستخدم محركات البحث الرئيسية مثل Google و Bing كلمات meta المفتاحية للترتيب بسبب سوء الاستخدام التاريخي، ولكن قد تستخدمها محركات البحث الصغيرة." }
+    ]
+  }
+}

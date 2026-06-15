@@ -1,0 +1,135 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Keyword Density Checker"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Keyword Density Checker — Analyze Keyword Frequency & Density",
+    "description": "Free online keyword density checker to analyze keyword frequency and density in your content. Detect keyword stuffing, identify over-used and under-used terms, and check 2-word and 3-word phrase density. All processing happens client-side — your content stays private. Essential for on-page SEO optimization.",
+    "keywords": "keyword density checker, keyword frequency analyzer, seo keyword analysis, keyword stuffing detector, phrase density checker, on-page seo tool"
+  },
+  "input": {
+    "content": "Content",
+    "contentPlaceholder": "Paste your article, blog post, or any content here to analyze keyword density…",
+    "keyword": "Target Keyword",
+    "keywordPlaceholder": "Enter keyword..."
+  },
+  "options": {
+    "title": "Options",
+    "minWordLength": "Min word length",
+    "showTop": "Show top",
+    "includeStopWords": "Include stop words",
+    "stopWordsHint": "the, a, and, of…",
+    "phraseLength": "Phrase Length"
+  },
+  "densityScale": {
+    "title": "Density Scale",
+    "stopWord": "Stop word",
+    "idealRange": "Ideal range: 1–2.5% for primary keywords",
+    "scale": {
+      "stopWord": "Stop word",
+      "veryLow": "< 0.5%",
+      "ideal": "0.5–2.5% (ideal)",
+      "caution": "2.5–4% (caution)",
+      "stuffing": "> 4% (stuffing)"
+    }
+  },
+  "sort": {
+    "label": "Sort By",
+    "count": "Count",
+    "density": "Density",
+    "alpha": "A-Z"
+  },
+  "tabs": {
+    "keywords": "Keywords",
+    "phrases": "Phrases",
+    "fullStats": "Full Stats"
+  },
+  "results": {
+    "totalWords": "Total Words",
+    "keywordCount": "Keyword Count",
+    "density": "Density",
+    "occurrences": "Occurrences",
+    "words": "Words",
+    "chars": "Chars",
+    "charsNoSpaces": "Chars (no spaces)",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "avgWordLength": "Avg word length",
+    "uniqueKeywords": "Unique keywords",
+    "readTime": "Read time",
+    "minLessThan": "< 1 min",
+    "min": "min",
+    "noKeywords": "No keywords found with current settings",
+    "noPhrases": "No repeated {phraseN}-word phrases found",
+    "tryMoreContent": "Try with more content or a shorter phrase length",
+    "positionsLabel": "Positions (word number in text):",
+    "uniqueWords": "{count} unique words",
+    "stopWordsExcluded": " (stop words excluded)"
+  },
+  "actions": {
+    "exportCsv": "Export CSV",
+    "positions": "Positions",
+    "paste": "Paste"
+  },
+  "tips": {
+    "title": "SEO Tips",
+    "optimalDensity": "Optimal: 1-2% keyword density",
+    "avoidOveruse": "Don't overuse keywords (keyword stuffing)"
+  },
+  "seoInsights": {
+    "title": "SEO Insights",
+    "under300Words": "Content is under 300 words — Google prefers 600–2000+ words",
+    "goodContentLength": "Good content length ({count} words)",
+    "keywordStuffing": "\"{word}\" density is {density}% — possible keyword stuffing",
+    "idealTargetDensity": "Target keyword \"{word}\" is in ideal range ({density}%)",
+    "aimForDensity": "Aim for 1–2.5% density for your primary keyword",
+    "useLsiKeywords": "Use LSI keywords (semantically related terms) to support your main keyword"
+  },
+  "topKeywords": {
+    "title": "Top Keywords",
+    "top5NonStop": "Top 5 Non-Stop Keywords",
+    "word": "Word",
+    "count": "Count",
+    "percentage": "%"
+  },
+  "emptyState": {
+    "title": "Paste your content above to analyze",
+    "subtitle": "Supports any text — articles, blog posts, product descriptions"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "wordFrequency": "Word Frequency",
+    "readability": "Readability Checker",
+    "headingStructure": "Heading Structure"
+  },
+  "howToUse": {
+    "title": "How to Use Keyword Density Checker",
+    "step1Title": "Paste Your Content",
+    "step1Desc": "Paste your article, blog post, or any text content into the input area",
+    "step2Title": "Set Options",
+    "step2Desc": "Configure minimum word length, stop word filtering, and phrase length preferences",
+    "step3Title": "Analyze Results",
+    "step3Desc": "View keyword frequency, density percentages, and phrase occurrences in the results table",
+    "step4Title": "Optimize Based on Insights",
+    "step4Desc": "Use the SEO insights to adjust keyword usage and avoid stuffing"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample article text",
+    "sampleText": "Keyword density is important for SEO. Understanding keyword density helps content writers create better SEO content. The right keyword density improves search rankings and keyword visibility.",
+    "stats": "30 words · keyword appears 3 times · 10% density",
+    "result": "Keyword \"keyword\" appears 3 times (10%) — consider reducing to 1-2.5% ideal range"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is keyword density?", "answer": "Keyword density is the percentage of times a keyword or phrase appears in your content relative to the total word count. It helps gauge keyword relevance." },
+      { "question": "What is the ideal keyword density?", "answer": "There is no fixed ideal density, but a natural 1-3% range is generally recommended. Avoid keyword stuffing as it can lead to search engine penalties." },
+      { "question": "Does keyword density affect rankings?", "answer": "While keyword density is not a direct ranking factor, using keywords naturally in your content helps search engines understand relevance and improves SEO." },
+      { "question": "What is keyword stuffing?", "answer": "Keyword stuffing is the practice of excessively using keywords in content to manipulate rankings. It creates a poor user experience and can result in search engine penalties." }
+    ]
+  }
+}

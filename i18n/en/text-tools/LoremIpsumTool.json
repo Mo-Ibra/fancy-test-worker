@@ -1,0 +1,80 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Lorem Ipsum Generator"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Lorem Ipsum Generator — Create Dummy Text Instantly",
+    "description": "Free Lorem Ipsum generator to create placeholder text for your designs, mockups, wireframes, and publishing projects. Choose from paragraphs, sentences, or words. Customize length, style, and starting text. Perfect for web designers, graphic artists, typesetters, and developers who need realistic dummy copy on demand.",
+    "keywords": "lorem ipsum generator, dummy text generator, placeholder text, lipsum generator, random text generator, dummy copy, mockup text filler"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy Text"
+  },
+  "types": {
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "words": "Words"
+  },
+  "presets": {
+    "short": "Short",
+    "medium": "Medium",
+    "long": "Long",
+    "50words": "50 Words",
+    "100words": "100 Words",
+    "10sentences": "10 Sentences"
+  },
+  "sidebar": {
+    "generateBy": "Generate by",
+    "exactNumber": "Or type exact number",
+    "startWith": "Start with \"Lorem ipsum\"",
+    "classicOpening": "Classic opening phrase",
+    "quickPresets": "Quick Presets",
+    "regenerate": "Regenerate"
+  },
+  "slider": {
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "words": "Words"
+  },
+  "stats": {
+    "words": "Words",
+    "characters": "Characters",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs"
+  },
+  "output": {
+    "label": "Generated Text"
+  },
+  "howToUse": {
+    "title": "How to Use the Lorem Ipsum Generator",
+    "step1Title": "Choose generation type",
+    "step1Desc": "Select whether to generate by paragraphs, sentences, or words. Each option gives you fine control over the volume of dummy text produced.",
+    "step2Title": "Set the quantity",
+    "step2Desc": "Use the slider or type an exact number. Quick presets like Short, Medium, or Long are available for instant results.",
+    "step3Title": "Customize options",
+    "step3Desc": "Toggle 'Start with Lorem ipsum' for the classic opening phrase. The tool instantly updates the generated text based on your preferences.",
+    "step4Title": "Generate and copy",
+    "step4Desc": "Click Regenerate to get fresh dummy text. Copy the result to your clipboard with one click. Use it for mockups, wireframes, typesetting, or design drafts."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is Lorem Ipsum?", "answer": "Lorem Ipsum is placeholder text derived from Latin literature, traditionally used in the printing and typesetting industry since the 1500s. It serves as realistic dummy content that lets designers and developers focus on layout and typography without being distracted by readable content." },
+      { "question": "Can I generate a specific number of words or sentences?", "answer": "Yes. Use the slider or type an exact number into the input field. You can generate paragraphs, sentences, or words in any quantity. Quick presets like 50 Words, 100 Words, and 10 Sentences provide instant common options." },
+      { "question": "What does 'Start with Lorem ipsum' do?", "answer": "When enabled, the generated text begins with the traditional opening 'Lorem ipsum dolor sit amet...' instead of a random starting point. This is useful when you need the classic Lorem Ipsum appearance that readers instantly recognize as placeholder text." },
+      { "question": "Is the generated text real Latin?", "answer": "The text is based on Latin, but it has been altered over centuries. It is not grammatically correct Latin — it is intentionally nonsensical so that it reads like natural language without meaning anything, keeping the focus on visual design." },
+      { "question": "Can I use the generated text commercially?", "answer": "Yes. Lorem Ipsum is public domain placeholder text and has no copyright restrictions. You can use it freely in commercial projects, client presentations, and published materials." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample output",
+    "sampleText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "result": "Set the generator to 2 paragraphs with 'Start with Lorem ipsum' enabled. You'll get classic dummy text starting with the traditional opening, formatted into clean paragraphs ready for copy-pasting into your design.",
+    "stats": "What you'll see"
+  }
+}

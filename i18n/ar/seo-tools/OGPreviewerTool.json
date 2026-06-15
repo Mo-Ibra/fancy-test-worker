@@ -1,0 +1,116 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات SEO",
+    "current": "معاين Open Graph"
+  },
+  "header": {
+    "badge": "أدوات SEO",
+    "title": "معاين Open Graph — شاهد معاينة المشاركة الاجتماعية فوراً",
+    "description": "أداة مجانية لمعاينة Open Graph لرؤية كيف تبدو صفحتك عند مشاركتها على Facebook وTwitter/X وLinkedIn وWhatsApp وDiscord وSlack والمزيد. احصل على وسوم OG من أي رابط أو الصق وسوم meta الخاصة بك. اختبر og:title وog:description وog:image وبطاقات Twitter.",
+    "keywords": "معاين open graph, معاينة og, معاينة المشاركة, معاينة فيسبوك, بطاقات تويتر, فحص og, معاينة وسائل التواصل"
+  },
+  "input": {
+    "fetchUrl": "جلب الرابط",
+    "pasteTags": "لصق الوسوم",
+    "websiteUrl": "رابط الموقع",
+    "urlPlaceholder": "https://example.com",
+    "fetch": "جلب",
+    "loading": "جاري التحميل...",
+    "pasteHtml": "لصق HTML / وسوم Meta",
+    "htmlPlaceholder": "<meta property=\"og:title\" content=\"My Page\">\n<meta property=\"og:description\" content=\"...\">\n<meta property=\"og:image\" content=\"https://...\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">",
+    "parsePreview": "تحليل ومعاينة",
+    "editTags": "تحرير الوسوم يدوياً",
+    "ogTitle": "og:title",
+    "titlePlaceholder": "عنوان الصفحة",
+    "ogDescription": "og:description",
+    "descriptionPlaceholder": "وصف الصفحة",
+    "ogImage": "og:image",
+    "imagePlaceholder": "https://…/image.jpg",
+    "ogUrl": "og:url",
+    "urlFieldPlaceholder": "https://example.com/page",
+    "ogSiteName": "og:site_name",
+    "siteNamePlaceholder": "موقعي",
+    "twitterCard": "twitter:card",
+    "twitterTitle": "twitter:title",
+    "twitterTitlePlaceholder": "عنوان Twitter",
+    "twitterDesc": "twitter:description",
+    "twitterDescPlaceholder": "وصف Twitter",
+    "twitterImage": "twitter:image",
+    "twitterImagePlaceholder": "https://…/twitter.jpg",
+    "twitterSite": "twitter:site",
+    "twitterSitePlaceholder": "@YourSite"
+  },
+  "preview": {
+    "tabs": {
+      "facebook": "Facebook",
+      "twitter": "Twitter/X",
+      "linkedin": "LinkedIn",
+      "whatsapp": "WhatsApp",
+      "discord": "Discord",
+      "slack": "Slack"
+    },
+    "device": {
+      "desktop": "سطح المكتب",
+      "mobile": "الهاتف"
+    },
+    "previewOn": "معاينة على",
+    "allPlatforms": "جميع المنصات",
+    "enterUrlOrTags": "أدخل رابطاً أو لصق وسوم meta للمعاينة",
+    "facebook": "Facebook",
+    "twitterX": "Twitter/X",
+    "linkedIn": "LinkedIn",
+    "whatsApp": "WhatsApp",
+    "discordLabel": "Discord",
+    "slackLabel": "Slack"
+  },
+  "score": {
+    "title": "نتيجة OG",
+    "tagsSet": "وسوم محددة",
+    "noImage": "لا توجد صورة",
+    "recommendedSize": "موصى به: 1200×630px (نسبة 1.91:1)",
+    "ogImage": "صورة OG"
+  },
+  "tips": {
+    "corsProxy": "يستخدم وكيل CORS لجلب وسوم meta. قد تحظر بعض المواقع الطلبات الخارجية — استخدم \"لصق الوسوم\" بدلاً من ذلك."
+  },
+  "copy": {
+    "copied": "تم النسخ!",
+    "button": "نسخ"
+  },
+  "related": {
+    "title": "أدوات SEO ذات الصلة",
+    "metaTagGenerator": "مولد وسم Meta",
+    "robotsTxt": "مولد robots.txt",
+    "sitemap": "مولد خريطة الموقع XML",
+    "slugGenerator": "مولد URL Slug",
+    "keywordDensity": "كثافة الكلمات المفتاحية"
+  },
+  "howToUse": {
+    "title": "كيفية استخدام معاين Open Graph",
+    "step1Title": "أدخل رابطاً أو وسوماً",
+    "step1Desc": "الصق رابط صفحة ويب أو وسوم Open Graph HTML في حقل الإدخال.",
+    "step2Title": "جلب البيانات",
+    "step2Desc": "انقر على زر الجلب لاستخراج وسوم OG من الرابط تلقائياً.",
+    "step3Title": "حرر الوسوم",
+    "step3Desc": "عدل وسوم OG يدوياً لاختبار سيناريوهات مختلفة.",
+    "step4Title": "شاهد المعاينة",
+    "step4Desc": "اطلع على معاينة مباشرة لمشاركتك على Facebook وTwitter وLinkedIn وWhatsApp."
+  },
+  "examples": {
+    "title": "جرب مثالاً",
+    "sampleLabel": "مثال رابط",
+    "sampleText": "https://example.com/article/seo-guide",
+    "stats": "og:title ✓ · og:description ✓ · og:image ✓ · twitter:card ✓",
+    "result": "✓ جميع وسوم OG الأساسية موجودة — المعاينة جاهزة"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هو بروتوكول Open Graph؟", "answer": "Open Graph هو بروتوكول يمكّن صفحات الويب من أن تصبح كائنات غنية في وسائل التواصل الاجتماعي عن طريق التحكم في كيفية ظهور العناوين والأوصاف والصور وعناوين URL عند المشاركة." },
+      { "question": "لماذا تعتبر معاينة OG مهمة؟", "answer": "تضمن معاينة OG أن يبدو المحتوى الخاص بك جذاباً عند المشاركة على منصات مثل Facebook و LinkedIn و Twitter، مما يمكن أن يحسن بشكل كبير التفاعل ونسب النقر." },
+      { "question": "ما هو الحجم المثالي لصورة OG؟", "answer": "الحجم الموصى به لصورة OG هو 1200×630 بكسل بنسبة عرض إلى ارتفاع 1.91:1. يجب أن تكون الصور أقل من 5MB وبصيغة PNG أو JPG." },
+      { "question": "هل أحتاج إلى علامات OG لتحسين محركات البحث؟", "answer": "لا تؤثر علامات OG بشكل مباشر على ترتيب البحث، لكنها تحسن رؤية المشاركة الاجتماعية، مما يمكن أن يؤدي إلى المزيد من الزيارات وفوائد غير مباشرة لتحسين محركات البحث." }
+    ]
+  }
+}

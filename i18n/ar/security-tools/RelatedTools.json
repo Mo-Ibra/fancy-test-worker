@@ -1,0 +1,9 @@
+{
+  "related": {
+    "title": "أدوات أمان ذات صلة",
+    "passwordGenerator": "مولد كلمات المرور",
+    "passwordStrengthChecker": "فاحص قوة كلمة المرور",
+    "md5HashGenerator": "مولد تجزئة MD5",
+    "bcrypt": "Bcrypt"
+  }
+}

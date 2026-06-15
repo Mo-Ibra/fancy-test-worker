@@ -1,0 +1,181 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Meta Tag Generator"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Meta Tag Generator — Create SEO & Social Media Meta Tags",
+    "description": "Free online meta tag generator to create SEO meta tags and social media preview tags. Generate title tags, meta descriptions, Open Graph tags for Facebook, Twitter Cards, and JSON-LD structured data. Preview how your page appears in Google search results and social media feeds. Essential for every webmaster.",
+    "keywords": "meta tag generator, meta tags generator, seo meta tags, open graph tags, twitter cards generator, meta description generator, social media preview"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy",
+    "copyAll": "Copy all"
+  },
+  "tabs": {
+    "basic": "Basic Info",
+    "og": "Open Graph",
+    "twitter": "Twitter Card",
+    "advanced": "Advanced"
+  },
+  "basic": {
+    "title": "Basic Meta Tags",
+    "pageTitle": "Page Title",
+    "titlePlaceholder": "My Awesome Page — Brand Name",
+    "metaDescription": "Meta Description",
+    "descriptionPlaceholder": "A compelling description of your page that appears in search results…",
+    "keywords": "Keywords",
+    "keywordsPlaceholder": "keyword1, keyword2, keyword3",
+    "author": "Author",
+    "authorPlaceholder": "John Smith",
+    "canonicalURL": "Canonical URL",
+    "urlPlaceholder": "https://example.com/page",
+    "language": "Language",
+    "languagePlaceholder": "en",
+    "viewport": "Viewport",
+    "robots": "Robots",
+    "autoSync": "Auto-sync with Basic SEO",
+    "autoSyncHint": "Leave fields empty to inherit title/description automatically"
+  },
+  "og": {
+    "title": "Open Graph Tags",
+    "ogTitle": "OG Title",
+    "ogTitlePlaceholder": "Page title for social sharing",
+    "ogDescription": "OG Description",
+    "ogDescriptionPlaceholder": "Description for social sharing…",
+    "ogImage": "OG Image URL",
+    "ogImagePlaceholder": "https://example.com/image.jpg",
+    "ogImageHint": "Recommended: 1200×630px, under 8MB, JPG or PNG",
+    "ogUrl": "OG URL",
+    "ogUrlPlaceholder": "https://example.com/page",
+    "ogSiteName": "Site Name",
+    "ogSiteNamePlaceholder": "My Website",
+    "ogLocale": "Locale",
+    "ogType": "Type",
+    "ogLocalePlaceholder": "en_US"
+  },
+  "twitter": {
+    "title": "Twitter Card Tags",
+    "cardType": "Card Type",
+    "siteHandle": "Site @",
+    "creatorHandle": "Creator @",
+    "autoSync": "Auto-sync with Basic SEO",
+    "autoSyncHint": "Leave fields empty to inherit title/description automatically",
+    "twitterTitle": "Twitter Title",
+    "twitterTitlePlaceholder": "Title for Twitter/X",
+    "twitterDesc": "Twitter Description",
+    "twitterDescPlaceholder": "Description for Twitter/X…",
+    "twitterImage": "Twitter Image URL",
+    "twitterImagePlaceholder": "https://example.com/twitter-card.jpg",
+    "twitterImageHint": "Min 144×144px for summary, 300×157px for summary_large_image"
+  },
+  "advanced": {
+    "title": "Advanced Tags",
+    "robotsPresets": "Robots Presets",
+    "noarchive": "noarchive",
+    "noarchiveDesc": "Prevent cached version",
+    "nosnippet": "nosnippet",
+    "nosnippetDesc": "Prevent description snippet",
+    "themeColor": "Theme Color",
+    "charset": "Charset",
+    "indexFollow": "Index + Follow",
+    "noindexFollow": "No Index + Follow",
+    "indexNofollow": "Index + No Follow",
+    "noindexNofollow": "No Index + No Follow"
+  },
+  "output": {
+    "title": "Generated Meta Tags",
+    "htmlCode": "Generated HTML",
+    "preview": "Preview",
+    "reset": "Reset",
+    "copyAll": "Copy all"
+  },
+  "preview": {
+    "google": "Google SERP Preview",
+    "googleDescription": "Google Preview",
+    "facebook": "Facebook Preview",
+    "openGraph": "Open Graph Preview",
+    "twitterPreview": "Twitter / X Preview",
+    "titleTooShort": "too short",
+    "titleTooLong": "too long",
+    "titleIdeal": "ideal",
+    "descTooShort": "too short",
+    "descTooLong": "too long",
+    "descIdeal": "ideal",
+    "imageSize": "1200 × 630 px recommended",
+    "summaryLarge": "summary_large_image"
+  },
+  "seoScore": {
+    "title": "SEO Score",
+    "great": "Great!",
+    "good": "Good",
+    "needsWork": "Needs work",
+    "poor": "Poor",
+    "checksPassed": "checks passed"
+  },
+  "tips": {
+    "title": "SEO Tips",
+    "titleLength": "Title should be 50-60 characters",
+    "descriptionLength": "Description should be 150-160 characters",
+    "imageSize": "Use images at least 1200x630px",
+    "quickTips": "Quick Tips",
+    "tips": [
+      "Title should be unique on every page",
+      "Include primary keyword near start of title",
+      "OG image should be 1200×630px for best results",
+      "Twitter large image cards get 3× more engagement",
+      "Canonical tag prevents duplicate content penalties",
+      "Don't stuff keywords — use natural language"
+    ]
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "ogPreview": "OG Previewer",
+    "schemaMarkup": "Schema Markup",
+    "sitemapGenerator": "Sitemap Generator"
+  },
+  "checks": {
+    "titlePresent": "Title tag present",
+    "titleLength": "Title 50–60 chars",
+    "descPresent": "Description present",
+    "descLength": "Description 150–160 chars",
+    "keywords": "Keywords defined",
+    "canonical": "Canonical URL set",
+    "ogTitle": "Open Graph title",
+    "ogDesc": "Open Graph description",
+    "ogImage": "Open Graph image",
+    "twitterCard": "Twitter Card set",
+    "indexing": "Not blocking indexing",
+    "chars": "{count} chars"
+  },
+  "howToUse": {
+    "title": "How to Use Meta Tag Generator",
+    "step1Title": "Fill in Basic Info",
+    "step1Desc": "Enter your page title, meta description, keywords, and canonical URL",
+    "step2Title": "Add Social Media Tags",
+    "step2Desc": "Configure Open Graph tags for Facebook and Twitter Card tags",
+    "step3Title": "Configure Advanced Options",
+    "step3Desc": "Set robots directives, theme color, and character encoding",
+    "step4Title": "Copy the Generated Code",
+    "step4Desc": "Copy all generated meta tags and paste them into the <head> of your HTML page"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample meta tag input",
+    "sampleText": "<meta name=\"description\" content=\"Learn how to write compelling meta descriptions that boost click-through rates and improve SEO performance.\">",
+    "stats": "1 meta tag · 120 characters · Valid HTML",
+    "result": "✓ Well-formed meta tag ready for <head> insertion"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What are meta tags?", "answer": "Meta tags are HTML elements that provide structured information about a webpage to search engines and browsers, including meta title, description, and viewport settings." },
+      { "question": "How long should a meta title be?", "answer": "Meta titles should be 50-60 characters to display fully in search results. Longer titles may be truncated by search engines." },
+      { "question": "How long should a meta description be?", "answer": "Meta descriptions should be 150-160 characters. While not a direct ranking factor, a compelling description can improve click-through rates." },
+      { "question": "Do meta keywords still matter?", "answer": "Major search engines like Google and Bing do not use meta keywords for ranking due to historical abuse, but they may still be used by smaller search engines." }
+    ]
+  }
+}

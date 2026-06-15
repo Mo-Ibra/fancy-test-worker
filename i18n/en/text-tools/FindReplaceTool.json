@@ -1,0 +1,81 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Find & Replace"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Find and Replace Text — Online Search & Replace Tool",
+    "description": "Free online find and replace tool to search and replace text instantly. Supports case-sensitive matching, whole-word search, regex, and batch replacement. Ideal for editing code, cleaning data, and transforming content at scale. Works entirely in your browser with no data uploads — private and secure.",
+    "keywords": "find and replace, search and replace text, regex find replace, online text replacer, bulk text editor, find replace in string, text search tool"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "controls": {
+    "find": "Find",
+    "replaceWith": "Replace with",
+    "options": "Options",
+    "caseSensitive": "Case Sensitive",
+    "wholeWord": "Whole Word",
+    "useRegex": "Use Regex",
+    "matches": "Matches",
+    "notFound": "0 found",
+    "prev": "Prev",
+    "next": "Next",
+    "replaceThis": "Replace This",
+    "replaceAll": "Replace All",
+    "example": "Example",
+    "clearAll": "Clear All"
+  },
+  "placeholders": {
+    "searchRegex": "Enter regex pattern...",
+    "searchText": "Search text...",
+    "replacement": "Replacement text..."
+  },
+  "regexError": "Regex error:",
+  "textarea": {
+    "label": "Your Text",
+    "matchHighlighted": "highlighted",
+    "match": "match",
+    "matches": "matches",
+    "chars": "chars"
+  },
+  "stats": {
+    "characters": "characters",
+    "words": "words",
+    "lines": "lines",
+    "matchesFound": "matches found",
+    "matchFound": "match found"
+  },
+  "howToUse": {
+    "title": "How to Use Find & Replace",
+    "step1Title": "Enter your text",
+    "step1Desc": "Paste or type the text you want to search within the main text area. The tool processes everything client-side for speed and privacy.",
+    "step2Title": "Set your search term",
+    "step2Desc": "Type the word, phrase, or regex pattern you want to find. Enable options like Case Sensitive, Whole Word, or Use Regex for more precise matching.",
+    "step3Title": "Enter replacement text",
+    "step3Desc": "Type the text you want to use as the replacement. Use Replace All to change every match at once, or Replace This to change one match at a time.",
+    "step4Title": "Review and finalize",
+    "step4Desc": "Navigate between matches using Prev/Next buttons. The match count updates in real time. Copy the final text once you're satisfied with the replacements."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Does the find and replace support regular expressions (regex)?", "answer": "Yes. Enable the 'Use Regex' option to use regular expression patterns in your search. This allows powerful pattern matching like wildcards, character classes, quantifiers, and capture groups. If your regex has an error, the tool displays a clear error message." },
+      { "question": "Can I replace text one match at a time?", "answer": "Yes. Use 'Replace This' to replace the currently highlighted match without affecting others. Use Prev/Next to navigate between matches. This gives you full control over which occurrences to replace." },
+      { "question": "Does the tool work with case-sensitive searches?", "answer": "Yes. Toggle the 'Case Sensitive' option to make your search match the exact casing of your query. When disabled, the search ignores case differences, matching both 'Apple' and 'apple'." },
+      { "question": "Is my text uploaded anywhere?", "answer": "No. Everything runs in your browser. Your text is never sent to any server, making the tool completely private and secure for sensitive content." },
+      { "question": "What is the whole word option for?", "answer": "The 'Whole Word' option ensures that your search term only matches complete words, not parts of longer words. For example, searching for 'cat' with Whole Word enabled will match 'cat' but not 'caterpillar' or 'copycat'." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "The cat sat on the mat. The caterpillar copied the cat's style. Every cat lover knows a cat makes a great pet.",
+    "result": "Search for 'cat' with Whole Word enabled and replace with 'dog' using Replace All. The result will be: 'The dog sat on the mat. The caterpillar copied the dog's style. Every dog lover knows a dog makes a great pet.' Note how 'caterpillar' was not affected.",
+    "stats": "What you'll see"
+  }
+}

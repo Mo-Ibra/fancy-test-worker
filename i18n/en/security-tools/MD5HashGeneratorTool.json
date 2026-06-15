@@ -1,0 +1,108 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Security Tools",
+    "current": "Hash Generator"
+  },
+  "header": {
+    "badge": "Security Tools",
+    "title": "Hash Generator — MD5, SHA-1, SHA-256 & SHA-3 Online",
+    "description": "Free online hash generator supporting MD5, SHA-1, SHA-256, SHA-384, SHA-512, SHA3-256, and SHA3-512. Generate hashes from text or files with HMAC mode and hash verification. Compare hash algorithms and verify file integrity — 100% client-side and private.",
+    "keywords": "hash generator, md5 hash generator, sha256 hash, sha1 hash, sha512 hash, sha3 hash generator, hmac calculator, hash verifier, file hash checker"
+  },
+  "privacy": {
+    "notice": "100% client-side. Your data never leaves the browser. MD5 and SHA-3 use pure JS; SHA-1/2 use the Web Crypto API."
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy",
+    "copyAll": "Copy all"
+  },
+  "input": {
+    "textTab": "Text Input",
+    "fileTab": "File Upload",
+    "textPlaceholder": "Enter text to hash…",
+    "dropFile": "Drop a file here or click to upload",
+    "fileSelected": "File selected",
+    "fileSize": "Size",
+    "clear": "Clear",
+    "paste": "Paste",
+    "inputLabel": "Input Text",
+    "chars": "chars"
+  },
+  "algo": {
+    "label": "Algorithm",
+    "lowerCase": "Lowercase",
+    "upperCase": "Uppercase",
+    "meta": {
+      "MD5": "Fast but broken — never use for security",
+      "SHA-1": "Deprecated — collisions found in 2017",
+      "SHA-256": "Industry standard — recommended",
+      "SHA-384": "SHA-2 family — high security",
+      "SHA-512": "SHA-2 family — maximum SHA-2 security",
+      "SHA3-256": "SHA-3 (Keccak) — different structure",
+      "SHA3-512": "SHA-3 maximum — post-quantum resistant"
+    }
+  },
+  "verify": {
+    "title": "Verify Hash",
+    "placeholder": "Paste expected hash to verify…",
+    "match": "✓ Match — ",
+    "noMatch": "✗ No match found"
+  },
+  "examples": {
+    "title": "Examples",
+    "emptyString": "Empty string",
+    "helloLower": "\"hello\"",
+    "helloWorld": "\"Hello World\"",
+    "password": "\"password\"",
+    "lorem": "The quick brown fox…",
+    "sampleLabel": "Text Hash Example",
+    "sampleText": "Hello World",
+    "stats": "SHA-256 | 256-bit | Lowercase",
+    "result": "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e"
+  },
+  "output": {
+    "label": "Hash Results",
+    "empty": "Enter text or upload a file to generate hashes",
+    "hashLength": "hash length",
+    "time": "time",
+    "computing": "Computing…",
+    "generate": "Generate Hash",
+    "insecure": "Insecure",
+    "match": "✓ Match",
+    "bits": "-bit"
+  },
+  "hmac": {
+    "title": "HMAC Mode",
+    "keyPlaceholder": "HMAC secret key…"
+  },
+  "related": {
+    "title": "Related Security Tools",
+    "passwordGenerator": "Password Generator",
+    "passwordStrength": "Password Strength Checker",
+    "bcrypt": "Bcrypt Hash",
+    "base64": "Base64 Encoder"
+  },
+  "howToUse": {
+    "title": "How to Use",
+    "step1Title": "Enter Input",
+    "step1Desc": "Type or paste text in the Text Input tab, or upload a file using the File Upload tab.",
+    "step2Title": "Select Algorithm",
+    "step2Desc": "Choose MD5, SHA-1, SHA-256, SHA-384, SHA-512, SHA3-256, or SHA3-512.",
+    "step3Title": "Generate Hash",
+    "step3Desc": "Hashes are computed instantly. Optionally enable HMAC mode and enter a secret key.",
+    "step4Title": "Verify or Copy",
+    "step4Desc": "Paste an expected hash to verify, or copy the generated hash values to your clipboard."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Is MD5 still secure?", "answer": "No. MD5 is broken — it has known collision attacks. Use SHA-256 for security and SHA-3 for post-quantum readiness." },
+      { "question": "What is HMAC and when should I use it?", "answer": "HMAC is a keyed-hash message authentication code. Use it to verify both integrity and authenticity with a shared secret key." },
+      { "question": "Can hashes be reversed?", "answer": "No, hashes are one-way functions. However, unsalted hashes of common passwords can be looked up in rainbow tables." },
+      { "question": "What is the difference between SHA-2 and SHA-3?", "answer": "SHA-2 (SHA-256, SHA-512) uses a Merkle-Damgård structure. SHA-3 uses a sponge construction (Keccak) with a fundamentally different design." },
+      { "question": "Can I hash files with this tool?", "answer": "Yes. Switch to the File Upload tab and select any file. The hash is computed locally — your file never leaves your device." }
+    ]
+  }
+}

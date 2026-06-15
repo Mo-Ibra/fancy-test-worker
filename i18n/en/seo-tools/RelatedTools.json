@@ -1,0 +1,19 @@
+{
+  "related": {
+    "title": "Related SEO Tools",
+    "metaGenerator": "Meta Tag Generator",
+    "ogPreviewer": "OG Previewer",
+    "robotsGenerator": "Robots.txt Generator",
+    "sitemapGenerator": "Sitemap Generator",
+    "canonicalGenerator": "Canonical Tag Generator",
+    "schemaGenerator": "Schema Markup Generator",
+    "hreflangGenerator": "Hreflang Tags Generator",
+    "serpPreview": "SERP Preview Tool",
+    "keywordDensity": "Keyword Density Checker",
+    "slugGenerator": "URL Slug Generator",
+    "characterCounter": "SEO Character Counter",
+    "wordFrequency": "Word Frequency Counter",
+    "readability": "Readability Checker",
+    "headingAnalyzer": "Heading Structure Analyzer"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Character Counter"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Character Counter — Count Characters, Words & Lines for SEO",
+    "description": "Free online character counter for SEO to count characters, words, lines, and paragraphs in real-time. Perfect for optimizing meta descriptions, title tags, and social media posts to stay within length limits. Works entirely in your browser with no data uploads.",
+    "keywords": "character counter, seo character counter, count characters online, meta description counter, title tag counter, word counter seo"
+  },
+  "input": {
+    "placeholder": "Enter text to count..."
+  },
+  "counts": {
+    "characters": "Characters",
+    "words": "Words",
+    "lines": "Lines",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "noSpaces": "No spaces",
+    "remaining": "Remaining",
+    "overBy": "Over by",
+    "chars": "chars"
+  },
+  "status": {
+    "empty": "Start typing…",
+    "tooShort": "Too short",
+    "ideal": "Ideal length ✓",
+    "warning": "Getting long",
+    "over": "Over limit ✗"
+  },
+  "platforms": {
+    "seo-title": "SEO Title Tag",
+    "seo-description": "Meta Description",
+    "og-title": "OG Title",
+    "og-description": "OG Description",
+    "tweet": "Tweet / X Post",
+    "facebook": "Facebook Post",
+    "linkedin-post": "LinkedIn Post",
+    "linkedin-headline": "LinkedIn Headline",
+    "instagram": "Instagram Caption",
+    "email-subject": "Email Subject Line",
+    "custom": "Custom Limit"
+  },
+  "hints": {
+    "seo-title": "Google truncates titles over ~60 chars. Keep primary keyword near the start.",
+    "seo-description": "Google truncates around 155–160 chars on desktop. Use the full limit.",
+    "og-title": "Open Graph title used by Facebook & LinkedIn. ~95 chars before truncation.",
+    "og-description": "Open Graph description. Facebook shows ~200 chars.",
+    "tweet": "Twitter/X limits posts to 280 characters. URLs count as 23 chars.",
+    "facebook": "Optimal length is under 80 chars for max engagement. Facebook shows 'See more' after ~280 chars on mobile.",
+    "linkedin-post": "LinkedIn shows 'See more' after ~210 chars on mobile, ~700 on desktop. Ideal: 150–300 chars.",
+    "linkedin-headline": "LinkedIn profile headline has a 220 char limit. Around 120 chars shows without truncation in search.",
+    "instagram": "Instagram caps at 2200 chars but 'More' appears after ~125 chars. Keep captions punchy.",
+    "email-subject": "Most email clients show 40–60 chars. Mobile shows even fewer (~30). Keep it under 50.",
+    "custom": "Set your own character limit."
+  },
+  "categories": {
+    "seo": "SEO",
+    "social": "Social",
+    "email": "Email",
+    "custom": "Custom"
+  },
+  "custom": {
+    "title": "Custom Limits",
+    "softLabel": "Ideal max (soft)",
+    "hardLabel": "Hard limit"
+  },
+  "mode": {
+    "single": "Single",
+    "bulk": "Bulk",
+    "bulkDesc": "Check multiple items at once",
+    "singleDesc": "ideal ≤"
+  },
+  "bulk": {
+    "pasteLabel": "Paste items (one per line)",
+    "paste": "Paste",
+    "placeholder": "Paste items, one per line:",
+    "total": "Total",
+    "ideal": "✓ Ideal",
+    "warn": "⚠ Warn",
+    "over": "✗ Over",
+    "bulkCheck": "Bulk Check",
+    "items": "items"
+  },
+  "preview": {
+    "title": "Preview",
+    "desktop": "Desktop",
+    "mobile": "Mobile",
+    "mobileInbox": "📱 Mobile inbox",
+    "desktopInbox": "🖥️ Desktop inbox",
+    "senderName": "Sender Name",
+    "previewText": "Preview text would appear here after the subject…",
+    "yourSubject": "Your subject line…",
+    "yourName": "Your Name",
+    "yourHandle": "@yourhandle",
+    "composeTweet": "Compose your tweet…",
+    "yourPhoto": "Your photo",
+    "yourCaption": "Your caption will appear here…",
+    "yourHeadline": "Your headline will appear here…",
+    "yourSeoTitle": "Your SEO title will appear here…",
+    "yourMetaDesc": "Your meta description will appear here in search results…"
+  },
+  "warnings": {
+    "limitReached": "Character limit reached ({max} max).",
+    "overLimit": "Over recommended limit by {count} character{plural}. Consider shortening.",
+    "tooShort": "Too short — aim for at least {min} characters for best results.",
+    "perfectLength": "Perfect length for {label}. {remain}",
+    "remainText": "{count} characters remaining."
+  },
+  "reference": {
+    "title": "Quick Reference",
+    "min": "min",
+    "ideal": "ideal",
+    "max": "max",
+    "hard": "HARD"
+  },
+  "empty": {
+    "title": "Start typing to count",
+    "desc": "Paste or type text to see real-time character and word counts"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "serpPreview": "SERP Preview",
+    "metaTagGenerator": "Meta Tag Generator",
+    "ogPreview": "OG Previewer",
+    "wordCounter": "Word Counter",
+    "keywordDensity": "Keyword Density"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "howToUse": {
+    "title": "How to Use Character Counter",
+    "step1Title": "Type or Paste Text",
+    "step1Desc": "Enter your text in the input area — the counter updates in real-time",
+    "step2Title": "Select a Platform",
+    "step2Desc": "Choose a platform preset like SEO Title, Meta Description, or Tweet to see specific limits",
+    "step3Title": "Check the Stats",
+    "step3Desc": "View character count, word count, sentence count, and more at a glance",
+    "step4Title": "Optimize Your Content",
+    "step4Desc": "Use the remaining count indicator to trim or expand your text to fit platform limits"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample meta description text",
+    "sampleText": "How to Write Perfect Meta Descriptions for Better SEO Rankings",
+    "stats": "57 characters · 8 words · Ideal for SEO title tags",
+    "result": "✓ Perfect length — 57/60 characters used"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Why are character counts important for SEO?", "answer": "Search engines truncate meta titles over 60 characters and meta descriptions over 160 characters. Keeping within limits ensures your snippets display fully in search results." },
+      { "question": "Does word count affect SEO ranking?", "answer": "While word count alone is not a direct ranking factor, comprehensive content that covers a topic in depth tends to perform better in search results." },
+      { "question": "What is keyword density?", "answer": "Keyword density is the percentage of times a keyword appears in your content compared to the total word count. A natural density of 1-3% is generally recommended." },
+      { "question": "Are spaces counted as characters?", "answer": "Yes, most character counters include spaces in the total character count. Meta descriptions typically have a 160-character limit including spaces." }
+    ]
+  }
+}

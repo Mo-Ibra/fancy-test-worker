@@ -1,0 +1,136 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Word Frequency Counter"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Word Frequency Counter — Find Most Common Words & Phrases",
+    "description": "Free online word frequency counter to analyze word and phrase occurrences in your content. Identify the most common words, detect overused terms, and discover keyword opportunities for SEO optimization. Supports single words, 2-word phrases, and 3-word phrases. Perfect for content writers and SEO specialists.",
+    "keywords": "word frequency counter, word occurrence counter, most common words, keyword frequency, phrase frequency, seo word analysis"
+  },
+  "input": {
+    "placeholder": "Paste your text here to count words...",
+    "yourText": "Your Text"
+  },
+  "options": {
+    "minLength": "Min word length",
+    "showTop": "Show top",
+    "excludeStopWords": "Exclude stop words",
+    "ignoreCase": "Ignore case",
+    "ignoreNumbers": "Ignore numbers",
+    "ignoreCommon": "Ignore common words"
+  },
+  "viewModes": {
+    "table": "Table",
+    "chart": "Chart",
+    "cloud": "Cloud"
+  },
+  "sort": {
+    "frequency": "Frequency",
+    "density": "Density",
+    "alpha": "A-Z",
+    "length": "Length",
+    "label": "Sort:"
+  },
+  "results": {
+    "totalWords": "Total Words",
+    "uniqueWords": "Unique Words",
+    "topWords": "Top Words",
+    "lexicalDensity": "Lexical density",
+    "avgFrequency": "Avg frequency",
+    "topWord": "Top word",
+    "topCount": "Top count"
+  },
+  "filter": {
+    "placeholder": "Filter words..."
+  },
+  "emptyState": {
+    "title": "Paste text on the left to count word frequencies",
+    "subtitle": "Works with articles, books, scripts, or any written content"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "keywordDensity": "Keyword Density",
+    "readability": "Readability Checker",
+    "wordCounter": "Word Counter",
+    "textDiff": "Text Diff",
+    "charFrequency": "Character Frequency"
+  },
+  "csv": {
+    "word": "Word",
+    "count": "Count",
+    "density": "Density (%)",
+    "length": "Char Length",
+    "position": "First Position"
+  },
+  "chart": {
+    "topWords": "Top {count} words"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "table": {
+    "wordCountSummary": "{count} of {total} words",
+    "word": "Word",
+    "bar": "Frequency bar",
+    "count": "Count",
+    "density": "Density"
+  },
+  "cloud": {
+    "title": "Word Cloud",
+    "hint": "Click to highlight in text",
+    "legendSize": "Larger = more frequent",
+    "legendHigh": "■ High",
+    "legendMedium": "■ Medium",
+    "legendLow": "■ Low",
+    "legendRare": "■ Rare"
+  },
+  "density": {
+    "rare": "<0.5% (rare)",
+    "ideal": "0.5–2.5% (ideal)",
+    "frequent": "2.5–4% (frequent)",
+    "overUsed": ">4% (over-used)",
+    "veryRare": "very rare"
+  },
+  "common": {
+    "options": "Options",
+    "excludeHint": "Remove: the, a, and, is, of…",
+    "showIgnore": "Show custom ignore list",
+    "hideIgnore": "Hide custom ignore list",
+    "paste": "Paste",
+    "wordCount": "{count} words",
+    "inContext": "\"{word}\" in context",
+    "ignored": "ignored",
+    "ignorePlaceholder": "Words to ignore, space or comma separated: word1, word2 word3"
+  },
+  "howToUse": {
+    "title": "How to Use Word Frequency Counter",
+    "step1Title": "Paste Your Text",
+    "step1Desc": "Paste any text content into the input area for analysis",
+    "step2Title": "Set Options",
+    "step2Desc": "Configure minimum word length, stop words exclusion, and display settings",
+    "step3Title": "Choose a View",
+    "step3Desc": "Switch between Table, Chart, or Word Cloud views to visualize frequency data",
+    "step4Title": "Export Results",
+    "step4Desc": "Export the frequency analysis as CSV for further processing"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample text for word frequency",
+    "sampleText": "the quick brown fox jumps over the lazy dog the fox jumps high",
+    "stats": "12 words · 9 unique words · 2 most frequent: \"the\" (3x)",
+    "result": "\"the\": 3 occurrences (25%) · \"fox\": 2 occurrences (16.7%) · \"jumps\": 2 occurrences (16.7%)"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is word frequency analysis?", "answer": "Word frequency analysis counts how often each word appears in your text, helping identify overused terms, keyword stuffing, and content focus areas." },
+      { "question": "How can word frequency help SEO?", "answer": "It helps you balance keyword usage, avoid over-optimization, and ensure your content naturally covers relevant terms for better search engine understanding." },
+      { "question": "What are stop words?", "answer": "Stop words are common words like 'the', 'is', 'and', and 'a' that are typically filtered out during frequency analysis since they do not carry significant meaning." },
+      { "question": "Can I customize the word list?", "answer": "Yes, you can add custom words to ignore during analysis, allowing you to focus on meaningful terms and filter out irrelevant or common words." }
+    ]
+  }
+}

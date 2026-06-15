@@ -1,0 +1,110 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "URL Slug Generator"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "URL Slug Generator — Create SEO-Friendly URLs from Any Text",
+    "description": "Free online URL slug generator to convert any title, headline, or phrase into clean, SEO-friendly URL slugs. Supports Latin, Arabic, Cyrillic, and accented characters with proper transliteration. Bulk mode for multiple slugs, real-time URL preview, and customizable separator options.",
+    "keywords": "url slug generator, seo slug generator, permalink generator, url friendly text, create url slug, slug maker, arabic slug"
+  },
+  "input": {
+    "placeholder": "Enter text to convert to URL slug...",
+    "inputText": "Input Text",
+    "pageTitlePlaceholder": "Type or paste a page title…",
+    "quickExamples": "Quick Examples",
+    "bulkInput": "Input Titles (one per line)",
+    "paste": "Paste",
+    "convert": "Convert"
+  },
+  "options": {
+    "separator": "Separator",
+    "lowercase": "Lowercase output",
+    "lowercaseSub": "Recommended for all URLs",
+    "removeStopWords": "Remove stop words",
+    "removeStopWordsSub": "Remove: a, the, and, of…",
+    "trimSeparators": "Trim separators",
+    "trimSeparatorsSub": "Remove leading/trailing",
+    "maxLength": "Max length",
+    "maxLengthSub": "Cut at word boundary"
+  },
+  "customReplacements": {
+    "title": "Custom Replacements",
+    "hint": "One per line: old=new"
+  },
+  "baseUrl": {
+    "title": "Base URL (optional)"
+  },
+  "history": {
+    "title": "History",
+    "clear": "Clear"
+  },
+  "modes": {
+    "single": "Single",
+    "bulk": "Bulk"
+  },
+  "output": {
+    "result": "Generated Slug",
+    "urlPreview": "URL Preview",
+    "transformationSteps": "Transformation Steps",
+    "placeholder": "your-slug-will-appear-here",
+    "chars": "chars",
+    "words": "words",
+    "saveToHistory": "Save to history",
+    "good": "Good",
+    "ok": "OK",
+    "issues": "Issues",
+    "seoFriendly": "SEO-friendly",
+    "slugs": "slugs",
+    "copyAll": "Copy all",
+    "downloadTxt": "Download .txt"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "metaTagGenerator": "Meta Tag Generator",
+    "robotsTxt": "robots.txt Generator",
+    "sitemap": "XML Sitemap Generator",
+    "utmBuilder": "UTM Builder",
+    "keywordDensity": "Keyword Density"
+  },
+  "analysis": {
+    "containsUppercase": "Contains uppercase — lowercase is better",
+    "containsSpecial": "Contains special characters",
+    "containsSpaces": "Contains spaces",
+    "tooLong": "Over 75 chars — consider shortening",
+    "tooManyWords": "Over 6 words — shorter slugs rank better"
+  },
+  "howToUse": {
+    "title": "How to Use URL Slug Generator",
+    "step1Title": "Enter Text",
+    "step1Desc": "Type or paste a page title, headline, or phrase to convert into a URL slug",
+    "step2Title": "Configure Options",
+    "step2Desc": "Set separator type, lowercase conversion, stop word removal, and max length",
+    "step3Title": "View Slug Preview",
+    "step3Desc": "See the generated slug and full URL preview in real-time",
+    "step4Title": "Copy or Save",
+    "step4Desc": "Copy the slug, save to history, or export all slugs in bulk mode"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample page title for slug conversion",
+    "sampleText": "How to Write SEO-Friendly URLs",
+    "stats": "5 words · 30 characters · 1 slug generated",
+    "result": "how-to-write-seo-friendly-urls"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is a URL slug?", "answer": "A URL slug is the part of a URL that identifies a specific page in a human-readable format, typically using lowercase words separated by hyphens." },
+      { "question": "Why are slugs important for SEO?", "answer": "Descriptive slugs containing relevant keywords help search engines understand page content and improve click-through rates when displayed in search results." },
+      { "question": "What is the ideal slug length?", "answer": "Short slugs under 60 characters with 3-5 words are ideal. Remove stop words like 'and', 'the', and 'of' to keep slugs clean." },
+      { "question": "Should slugs use hyphens or underscores?", "answer": "Use hyphens (-) instead of underscores (_) in URLs. Google treats hyphens as word separators but underscores as word joiners." }
+    ]
+  }
+}

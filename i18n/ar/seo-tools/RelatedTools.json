@@ -1,0 +1,19 @@
+{
+  "related": {
+    "title": "أدوات تحسين محركات البحث ذات صلة",
+    "metaGenerator": "مولد وسم Meta",
+    "ogPreviewer": "معاين Open Graph",
+    "robotsGenerator": "مولد Robots.txt",
+    "sitemapGenerator": "مولد خريطة الموقع",
+    "canonicalGenerator": "مولد وسم Canonical",
+    "schemaGenerator": "مولد علامات Schema",
+    "hreflangGenerator": "مولد وسوم Hreflang",
+    "serpPreview": "أداة معاينة SERP",
+    "keywordDensity": "فاحص كثافة الكلمات",
+    "slugGenerator": "مولد Slug للروابط",
+    "characterCounter": "عداد حروف SEO",
+    "wordFrequency": "عداد تردد الكلمات",
+    "readability": "فاحص سهولة القراءة",
+    "headingAnalyzer": "محلل هيكل العناوين"
+  }
+}

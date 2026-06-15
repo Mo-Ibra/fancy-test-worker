@@ -1,0 +1,82 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Word Counter"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Word Counter — Count Words, Characters & Sentences Online",
+    "description": "Free online word counter to instantly count words, characters (with and without spaces), sentences, paragraphs, syllables, and estimated reading and speaking time. Paste any text for detailed real-time statistics. Perfect for writers, students checking essay length, SEO content optimization, and social media posts.",
+    "keywords": "word counter, character counter, count words online, word count tool, character count, sentence counter, reading time calculator, word frequency counter"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "input": {
+    "label": "Your Text",
+    "clear": "Clear",
+    "placeholder": "Start typing or paste your text here..."
+  },
+  "stats": {
+    "chars": "chars",
+    "words": "Words",
+    "characters": "Characters",
+    "sentences": "Sentences",
+    "readingTimeLabel": "Reading time",
+    "min": "min",
+    "noSpaces": "No Spaces",
+    "paragraphs": "Paragraphs",
+    "lines": "Lines"
+  },
+  "sidebar": {
+    "statistics": "Statistics",
+    "timeEstimates": "Time Estimates",
+    "readingTime": "Reading Time",
+    "speakingTime": "Speaking Time",
+    "timeNote": "Based on 200 wpm reading / 130 wpm speaking.",
+    "topKeywords": "Top Keywords",
+    "keywordsEmpty": "Keyword analysis will appear here once you add some text."
+  },
+  "tips": {
+    "title": "Tips & Common Limits",
+    "twitter": "Twitter / X",
+    "linkedin": "LinkedIn Post",
+    "meta": "Meta Description",
+    "pageTitle": "Page Title (SEO)",
+    "over": "Over",
+    "ok": "OK",
+    "limit": "Limit:"
+  },
+  "howToUse": {
+    "title": "How to Use the Word Counter",
+    "step1Title": "Enter or paste your text",
+    "step1Desc": "Type directly into the text area or paste any text from your clipboard. The counter updates in real time as you type.",
+    "step2Title": "Review the statistics",
+    "step2Desc": "Instantly see your word count, character count (with and without spaces), sentences, paragraphs, lines, and more in the sidebar.",
+    "step3Title": "Check reading and speaking time",
+    "step3Desc": "The tool estimates how long it takes to read or speak your text based on average rates — 200 words per minute for reading and 130 for speaking.",
+    "step4Title": "Analyze keyword frequency",
+    "step4Desc": "View your most frequently used keywords ranked by count. Use this to avoid overusing certain terms or to optimize content for SEO.",
+    "step5Title": "Monitor platform limits",
+    "step5Desc": "The tips section shows how your text measures against common limits like Twitter (280 chars), LinkedIn posts (3,000 chars), and SEO meta descriptions (160 chars)."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is reading time and how is it calculated?", "answer": "Reading time estimates how long an average person takes to read your text. It uses the standard reading speed of 200 words per minute (wpm). The tool divides your total word count by 200. For example, a 600-word article takes about 3 minutes to read." },
+      { "question": "How do you count characters without spaces?", "answer": "Characters without spaces counts every character except space characters. This is particularly useful for platforms like Twitter that enforce character limits, and for SEO meta descriptions where every character counts. The tool shows both counts side by side so you can compare." },
+      { "question": "Why does keyword frequency matter?", "answer": "Keyword frequency analysis shows which words appear most often in your text. This helps writers avoid repetitive language, helps SEO professionals check keyword density, and helps students identify overused terms. The tool ranks keywords by frequency with a visual progress bar." },
+      { "question": "Is my text sent to a server?", "answer": "No, absolutely not. Everything runs locally in your browser using JavaScript. Your text never leaves your device, making the tool completely private and secure. You can use it with sensitive content like passwords or confidential documents." },
+      { "question": "What counts as a word?", "answer": "A word is any sequence of characters separated by spaces or punctuation. Numbers, contractions (like \"don't\"), and hyphenated terms (like \"well-known\") each count as a single word. The tool follows standard word counting conventions used by word processors." }
+    ]
+  },
+  "examples": {
+    "title": "Example Output",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet. It has been used for typing practice for over 100 years. Typists use it to warm up before long writing sessions. The quick brown fox remains a favorite among writers and designers alike.",
+    "result": "Paste the sample text into the tool above. You should see approximately 55 words, 295 characters, 5 sentences, and an estimated reading time of under 1 minute.",
+    "stats": "What you will see"
+  }
+}

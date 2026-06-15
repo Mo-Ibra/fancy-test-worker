@@ -1,0 +1,96 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Text Wrapper"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Text Wrapper — Wrap Long Lines at Custom Character Width",
+    "description": "Free online text wrapper to format long lines of text at a custom character width. Choose between hard wrap (inserts line breaks) or soft wrap. Perfect for terminal output, email formatting, code comments, fixed-width documents, and plain text files. Clean formatting in seconds for developers, writers, and sysadmins.",
+    "keywords": "text wrapper, wrap text online, line wrap tool, hard wrap text, soft wrap text, text formatter, character wrap, fixed width text formatter"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "controls": {
+    "lineWidth": "Line Width",
+    "chars": "chars",
+    "breakOn": "Break On",
+    "words": "Words",
+    "wordsDesc": "Break at word boundaries",
+    "characters": "Characters",
+    "charactersDesc": "Break at exact position",
+    "prefixSuffix": "Prefix / Suffix",
+    "prefix": "Prefix",
+    "suffix": "Suffix",
+    "loadExample": "Load Example"
+  },
+  "toggles": {
+    "lineNumbers": "Line Numbers",
+    "lineNumbersDesc": "Prefix each line with its number.",
+    "trimLines": "Trim Lines",
+    "trimLinesDesc": "Remove leading & trailing whitespace from each line.",
+    "preserveBlankLines": "Preserve Blank Lines",
+    "preserveBlankLinesDesc": "Keep empty lines between paragraphs."
+  },
+  "presets": {
+    "narrow": "Narrow / Mobile",
+    "email": "Email / SMS",
+    "terminal": "Terminal",
+    "classic": "Classic / Code",
+    "wide": "Wide",
+    "extraWide": "Extra Wide"
+  },
+  "stats": {
+    "width": "Width",
+    "inputLines": "Input Lines",
+    "outputLines": "Output Lines",
+    "longestLine": "Longest Line"
+  },
+  "input": {
+    "label": "Input Text",
+    "chars": "chars",
+    "clear": "Clear",
+    "placeholder": "Paste your long text here..."
+  },
+  "separator": {
+    "wrapAt": "Wrap at",
+    "by": "by",
+    "prefix": "prefix",
+    "numbered": "numbered"
+  },
+  "output": {
+    "label": "Wrapped Output",
+    "placeholder": "Your wrapped text will appear here..."
+  },
+  "howToUse": {
+    "title": "How to Use the Text Wrapper",
+    "step1Title": "Paste your long text",
+    "step1Desc": "Paste any text with long lines into the input area. The tool analyzes the line lengths and prepares for wrapping.",
+    "step2Title": "Set the line width",
+    "step2Desc": "Adjust the character width using the slider or type a custom value. Common presets like Narrow, Email, Terminal, and Wide are available for quick selection.",
+    "step3Title": "Configure wrapping options",
+    "step3Desc": "Choose between hard wrap (inserts line breaks) or soft wrap. Set break behavior to Words (break at word boundaries) or Characters (exact position). Add prefix/suffix text or line numbers as needed.",
+    "step4Title": "Copy the wrapped output",
+    "step4Desc": "The wrapped text appears instantly. Copy it with one click for use in emails, terminal windows, code comments, or fixed-width documents."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is the difference between hard wrap and soft wrap?", "answer": "Hard wrap inserts actual line break characters at the specified width, modifying the text structure. Soft wrap displays the text as wrapped visually without inserting line breaks, keeping the original text intact. The tool supports both modes." },
+      { "question": "What does 'Break On' Words vs Characters mean?", "answer": "'Break On Words' wraps at word boundaries so whole words are never split across lines. 'Break On Characters' wraps at the exact character position, which may split words but produces perfectly uniform line lengths." },
+      { "question": "Can I add line numbers to the wrapped output?", "answer": "Yes. Enable the 'Line Numbers' toggle to prefix each line with its sequential number. This is useful for code output, logs, and reference documents." },
+      { "question": "What are common use cases for text wrapping?", "answer": "Text wrapping is commonly used for formatting email messages to a readable width, preparing text for terminal/console output, formatting code comments, creating fixed-width documents, and ensuring text fits within specific layout constraints." },
+      { "question": "Can I preserve blank lines between paragraphs?", "answer": "Yes. Enable the 'Preserve Blank Lines' option to keep empty lines between paragraphs. When disabled, blank lines are collapsed for a more compact output." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "The quick brown fox jumps over the lazy dog near the riverbank. It was a sunny day and the fox was feeling energetic. The lazy dog barely noticed as the fox sprinted past in a blur of orange fur.",
+    "result": "Paste the sample text, set width to 40 characters, choose 'Words' break and Hard wrap. Each line will be at most 40 characters wide, broken cleanly at word boundaries.",
+    "stats": "What you'll see"
+  }
+}

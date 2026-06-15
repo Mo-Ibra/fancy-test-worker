@@ -1,0 +1,192 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Canonical Tag Generator"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Canonical Tag Generator — Prevent Duplicate Content Issues",
+    "description": "Free online canonical tag generator to create canonical URL tags that prevent duplicate content issues. Specify the preferred version of any webpage with automatic HTTPS conversion, trailing slash normalization, and query parameter stripping. Essential SEO tool for webmasters and content managers.",
+    "keywords": "canonical tag generator, canonical url generator, canonical tag, duplicate content fix, canonical url, seo canonical tag"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy",
+    "copyAll": "Copy all"
+  },
+  "tabs": {
+    "single": "Single",
+    "bulk": "Bulk",
+    "crossDomain": "Hreflang"
+  },
+  "normalization": {
+    "title": "Normalization",
+    "forceHttps": "Force HTTPS",
+    "forceHttpsSub": "Recommended for all canonical URLs",
+    "lowercasePath": "Lowercase path",
+    "lowercasePathSub": "Avoids case-sensitive duplicates",
+    "stripParams": "Strip query parameters",
+    "stripParamsSub": "Remove ?utm_source=… etc.",
+    "removeTrailingSlash": "Remove trailing slash",
+    "removeTrailingSlashSub": "example.com/page/ → /page"
+  },
+  "www": {
+    "title": "www preference",
+    "keep": "Keep",
+    "www": "www",
+    "nonWww": "non-www"
+  },
+  "about": {
+    "title": "What is a Canonical Tag?",
+    "desc": "A canonical tag tells search engines which URL is the \"preferred\" version of a page, preventing duplicate content penalties.",
+    "useCases": "Common use cases:",
+    "wwwVsNonWww": "www vs non-www versions",
+    "httpVsHttps": "HTTP vs HTTPS pages",
+    "trailingSlash": "URLs with/without trailing slashes",
+    "utmParams": "Pages with UTM parameters",
+    "paginated": "Paginated pages",
+    "syndicated": "Syndicated content",
+    "printerFriendly": "Printer-friendly pages"
+  },
+  "mistakes": {
+    "title": "Common Mistakes",
+    "redirectChain": "Canonical pointing to a redirect chain",
+    "relativeUrls": "Using relative URLs instead of absolute",
+    "noindexPage": "Canonical on a noindex page",
+    "mismatchedHreflang": "Mismatched canonical and hreflang URLs",
+    "inBody": "Canonical in the body instead of <head>"
+  },
+  "single": {
+    "pageTitle": "Page URL",
+    "pagePlaceholder": "https://example.com/page?utm_source=google",
+    "quickExamples": "Quick Examples",
+    "urlAnalysis": "URL Analysis",
+    "https": "HTTPS",
+    "fragment": "Fragment (#)",
+    "query": "Query params",
+    "trailing": "Trailing slash",
+    "httpsDetected": "✗ HTTP detected",
+    "fragmentFound": "Found",
+    "fragmentNone": "None",
+    "queryStrip": "Strip?",
+    "queryClean": "Clean",
+    "trailingPresent": "Present",
+    "trailingNone": "None",
+    "normalizedUrl": "Normalized Canonical URL",
+    "normalizedFromOriginal": "↑ URL was normalized from the original",
+    "customCanonical": "Use custom canonical URL",
+    "customCanonicalSub": "Override the normalized URL (e.g. cross-domain canonical)",
+    "customPlaceholder": "https://example.com/canonical-page",
+    "canonicalTag": "Canonical Tag (paste in <head>)",
+    "urlTransformation": "URL Transformation",
+    "original": "Original",
+    "canonical": "Canonical",
+    "httpsLabel": "HTTPS",
+    "noParams": "No params",
+    "noTrailingSlash": "No trailing slash",
+    "lowercase": "Lowercase",
+    "wwwLabel": "www",
+    "nonWwwLabel": "non-www",
+    "fullHtmlExample": "Full HTML Example",
+    "analysisMessages": {
+      "notHttps": "URL is not HTTPS — canonical should use HTTPS",
+      "hasFragment": "URL contains a fragment (#) — canonical tags should not include fragments",
+      "considerWww": "Consider whether www or non-www is your canonical preference",
+      "trailingSlashConsistency": "Trailing slash — be consistent across all canonical URLs",
+      "queryParameters": "URL contains query parameters — canonical should usually point to the clean URL"
+    }
+  },
+  "bulk": {
+    "urlsLabel": "URLs (one per line)",
+    "placeholder": "https://example.com/page?utm_source=google\nhttps://www.example.com/page/\nhttp://example.com/Page",
+    "paste": "Paste",
+    "generate": "Generate",
+    "canonicalTags": "Canonical Tags",
+    "results": "Results",
+    "urls": "URLs",
+    "copyAll": "Copy all",
+    "downloadCsv": "CSV",
+    "changed": "changed",
+    "allTags": "All Canonical Tags",
+    "originalUrl": "Original URL",
+    "canonicalUrl": "Canonical URL",
+    "tag": "Tag"
+  },
+  "languages": {
+    "en": "English",
+    "en-US": "English (US)",
+    "en-GB": "English (UK)",
+    "ar": "Arabic",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "zh": "Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "tr": "Turkish",
+    "sv": "Swedish"
+  },
+  "crossDomain": {
+    "description": "Hreflang tags tell Google which language/region version to show users. Every page in the set must reference all other versions, including itself.",
+    "languageVersions": "Language Versions",
+    "addLanguage": "Add language",
+    "xDefault": "Add x-default hreflang",
+    "xDefaultSub": "Points to the fallback version (usually English or the homepage)",
+    "xDefaultPlaceholder": "https://example.com/page (default language URL)",
+    "hreflangPlaceholder": "https://example.com/page",
+    "outputLabel": "Hreflang Tags (add to every page in the set)",
+    "important": "Important",
+    "importantDesc": "These tags must be added to ALL pages in the set. Each page must reference all other language versions, not just the main page."
+  },
+  "howToUse": {
+    "title": "How to Use Canonical Tag Generator",
+    "step1Title": "Enter URL",
+    "step1Desc": "Paste the page URL you want to generate a canonical tag for",
+    "step2Title": "Configure Options",
+    "step2Desc": "Set normalization preferences like HTTPS enforcement, trailing slash handling, and www preference",
+    "step3Title": "Review Analysis",
+    "step3Desc": "Check the URL analysis for potential issues like query parameters or fragments",
+    "step4Title": "Copy the Tag",
+    "step4Desc": "Copy the generated canonical tag and paste it into the <head> section of your page"
+  },
+  "examples": {
+    "removeUtm": "Remove UTM params",
+    "wwwVsNonWww": "WWW vs non-WWW",
+    "trailingSlash": "Trailing slash",
+    "httpToHttps": "HTTP → HTTPS",
+    "mixedCase": "Mixed case path",
+    "fragmentUrl": "Fragment URL",
+    "sampleLabel": "Example URL with UTM",
+    "sampleText": "https://example.com/page?utm_source=google",
+    "stats": "Original: 48 chars → Canonical: 28 chars",
+    "result": "https://example.com/page"
+  },
+  "testing": {
+    "title": "Test & Validate",
+    "searchConsole": "Google Search Console — URL Inspection",
+    "hreflangTest": "Hreflang Tag Testing Tool",
+    "richResults": "Google Rich Results Test"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "metaTagGenerator": "Meta Tag Generator",
+    "schemaMarkup": "Schema Markup",
+    "robotsTxt": "robots.txt Generator",
+    "sitemapGenerator": "Sitemap Generator"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is a canonical tag?", "answer": "A canonical tag (rel=\"canonical\") is an HTML element that helps prevent duplicate content issues by specifying the preferred version of a webpage to search engines." },
+      { "question": "When should I use a canonical tag?", "answer": "Use canonical tags when you have duplicate or similar content across multiple URLs, such as printer-friendly versions, session IDs, or multiple category paths." },
+      { "question": "Does a canonical tag guarantee ranking?", "answer": "No, the canonical tag is a hint, not a directive. Search engines may choose a different URL if they believe it better represents the content." },
+      { "question": "Can I use canonical tags across domains?", "answer": "Yes, cross-domain canonical tags tell search engines that a piece of content on another domain is the preferred version, useful for syndicated content." }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "related": {
+    "title": "Related Text Tools",
+    "wordCounter": "Word Counter",
+    "diffChecker": "Diff Checker",
+    "slugGenerator": "Slug Generator",
+    "textRepeater": "Text Repeater",
+    "removeFormatting": "Remove Formatting"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات SEO",
+    "current": "مولد وسم Hreflang"
+  },
+  "header": {
+    "badge": "أدوات SEO",
+    "title": "مولد Hreflang — تحسين SEO للمواقع متعددة اللغات",
+    "description": "أداة مجانية لإنشاء وسوم hreflang للمواقع متعددة اللغات والمناطق. أنشئ وسوم HTML وخرائط موقع XML وتعليقات رؤوس HTTP. يدعم أكثر من 70 لغة و60 منطقة مع خيار x-default الاحتياطي. أساسي لتحسين SEO الدولي وتجنب المحتوى المكرر عبر إصدارات اللغة.",
+    "keywords": "مولد hreflang, وسوم hreflang, seo متعدد اللغات, تحسين دولي, وسوم اللغة, مواقع متعددة المناطق"
+  },
+  "mode": {
+    "single": "صفحة واحدة",
+    "multi": "متعددة الصفحات"
+  },
+  "outputFormat": {
+    "title": "تنسيق الإخراج",
+    "html": "وسوم HTML <link>",
+    "htmlSub": "أضف إلى <head> من كل صفحة",
+    "xml": "خريطة موقع XML",
+    "xmlSub": "أضف إلى sitemap.xml",
+    "http": "رأس استجابة HTTP",
+    "httpSub": "تنفيذ على جانب الخادم"
+  },
+  "quickAdd": {
+    "title": "إضافة سريعة"
+  },
+  "validation": {
+    "title": "التحقق"
+  },
+  "whatIsHreflang": {
+    "title": "ما هو hreflang؟",
+    "description": "يخبر hreflang محركات البحث أي لغة ومنطقة تستهدفها الصفحة، والتي توجد بدائل لها لمناطقLocale أخرى.",
+    "whenToUse": "متى تستخدم:",
+    "uses": [
+      "نفس المحتوى بلغات متعددة",
+      "نفس اللغة، مناطق مختلفة (en-US مقابل en-GB)",
+      "إصدارات بديلة بمحتوى إقليمي مختلف"
+    ],
+    "xDefault": "x-default = صفحة البديل التي تُعرض عندما لا تتطابق لغة المستخدم مع أي hreflang آخر."
+  },
+  "rules": {
+    "title": "قواعد يجب اتباعها",
+    "items": [
+      "يجب أن تشير كل صفحة إلى جميع إصدارات اللغات الأخرى",
+      "يجب أن تشير كل صفحة أيضاً إلى نفسها",
+      "يجب أن تكون جميع الروابط مطلقة (مع https://)",
+      "يجب أن تكون الوسوم في <head> من كل صفحة",
+      "أو استخدم خريطة موقع XML / رؤوس HTTP بدلاً من ذلك",
+      "تم تأكيد hreflang — Google لا يزال يقرر أيهما يُعرض"
+    ]
+  },
+  "validate": {
+    "title": "تحقق",
+    "hreflangTest": "أداة اختبار وسوم Hreflang",
+    "searchConsole": "Google Search Console",
+    "merkle": "مدقق Hreflang من Merkle"
+  },
+  "entries": {
+    "title": "إدخالات اللغة / المنطقة",
+    "reset": "إعادة تعيين",
+    "addEntry": "إضافة إدخال",
+    "addLanguage": "إضافة إصدار لغة",
+    "addPage": "إضافة صفحة"
+  },
+  "summary": {
+    "languages": "اللغات",
+    "withUrl": "مع رابط",
+    "xDefault": "x-default",
+    "errors": "الأخطاء"
+  },
+  "implementation": {
+    "reminder": "تذكير التنفيذ",
+    "description": "يجب نسخ هذه الوسوم إلى {head} من كل صفحة في المجموعة — بما في ذلك جميع إصدارات اللغات. يجب أن ترتبط كل صفحة بجميع الأخرى بما في ذلك نفسها."
+  },
+  "apache": {
+    "label": "مثال Apache .htaccess"
+  },
+  "pageSets": {
+    "title": "مجموعات الصفحات",
+    "addPage": "إضافة صفحة",
+    "removePage": "إزالة صفحة",
+    "addLanguage": "إضافة لغة",
+    "pagePlaceholder": "اسم الصفحة / مسار الرابط"
+  },
+  "xmlOutput": {
+    "title": "خريطة موقع XML مع Hreflang"
+  },
+  "xmlHint": {
+    "description": "في خريطة موقع XML، يجب أن تحتوي كل كتلة {url} على جميع البديلات {xhtmlLink}. تقديم خريطة الموقع هذه في Google Search Console."
+  },
+  "download": {
+    "xml": ".xml",
+    "csv": "CSV"
+  },
+  "copy": {
+    "copied": "تم النسخ!",
+    "button": "نسخ"
+  },
+  "related": {
+    "title": "أدوات SEO ذات الصلة",
+    "canonicalTag": "مولد وسم Canonical",
+    "metaTagGenerator": "مولد وسم Meta",
+    "sitemap": "خريطة الموقع XML",
+    "robotsTxt": "مولد robots.txt",
+    "schema": "Schema Markup"
+  },
+  "howToUse": {
+    "title": "كيفية استخدام مولد Hreflang",
+    "step1Title": "أضف إصدارات اللغة",
+    "step1Desc": "أضف إصدارات اللغات المختلفة لموقعك مع الروابط المقابلة لكل منها.",
+    "step2Title": "حدد x-default",
+    "step2Desc": "اختر رابط اللغة الافتراضي للمستخدمين الذين لا تتطابق لغتهم.",
+    "step3Title": "اختر تنسيق الإخراج",
+    "step3Desc": "اختر بين وسوم HTML أو خريطة موقع XML أو رؤوس HTTP.",
+    "step4Title": "انسخ الوسوم",
+    "step4Desc": "انسخ وسوم hreflang الناتجة وأضفها إلى جميع الصفحات في المجموعة."
+  },
+  "examples": {
+    "title": "جرب مثالاً",
+    "sampleLabel": "مثال إصدارات لغة",
+    "sampleText": "https://example.com (الإنجليزية)\nhttps://example.com/ar (العربية)\nhttps://example.com/fr (الفرنسية)",
+    "stats": "3 لغات · x-default: https://example.com",
+    "result": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://example.com\" />"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هو استخدام hreflang؟", "answer": "تخبر علامات hreflang محركات البحث بنسخة اللغة أو المنطقة التي يجب تقديمها للمستخدمين بناءً على تفضيلات اللغة والموقع." },
+      { "question": "هل أحتاج إلى hreflang لنفس اللغة في بلدان مختلفة؟", "answer": "نعم، إذا كان لديك محتوى مشابه يستهدف مناطق مختلفة (مثل الإنجليزية الأمريكية مقابل الإنجليزية البريطانية)، تساعد علامات hreflang في تقديم النسخة الإقليمية الصحيحة." },
+      { "question": "هل يمكن استخدام hreflang بدون مرجع ذاتي؟", "answer": "لا، يجب أن يتضمن كل تعليق hreflang رابطاً أساسياً مرجعياً ذاتياً. يجب أن يشير كل عنوان URL في المجموعة إلى نفسه كرابط أساسي." },
+      { "question": "ما هي علامة hreflang الافتراضية (x-default)؟", "answer": "تحدد علامة hreflang الافتراضية (x-default) صفحة احتياطية للمستخدمين الذين لا تتطابق لغتهم أو منطقتهم مع أي إدخال hreflang محدد." }
+    ]
+  }
+}

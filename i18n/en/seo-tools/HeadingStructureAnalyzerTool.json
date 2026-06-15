@@ -1,0 +1,171 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Heading Structure Analyzer"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Heading Structure Analyzer — Audit H1-H6 Hierarchy for SEO",
+    "description": "Free online heading structure analyzer to audit the H1-H6 hierarchy of your HTML content. Detect missing headings, improper nesting, multiple H1 tags, and empty headings. Ensure proper heading structure for better SEO rankings and WCAG accessibility compliance.",
+    "keywords": "heading structure analyzer, h1 h2 h3 checker, heading hierarchy audit, seo heading checker, html heading analyzer, accessibility heading audit"
+  },
+  "input": {
+    "placeholder": "Paste HTML or text content here...",
+    "analyze": "Analyze",
+    "htmlLabel": "HTML",
+    "markdownLabel": "Markdown",
+    "pasteHtml": "Paste HTML",
+    "pasteMarkdown": "Paste Markdown",
+    "htmlPlaceholder": "<h1>Main Title</h1>\n<h2>Section</h2>\n<h3>Subsection</h3>",
+    "markdownPlaceholder": "# Main Title\n## Section\n### Subsection",
+    "loadSampleHtml": "Load sample HTML",
+    "loadSampleMarkdown": "Load sample Markdown"
+  },
+  "results": {
+    "h1": "H1 Tags",
+    "h2": "H2 Tags",
+    "h3": "H3 Tags",
+    "h4": "H4 Tags",
+    "h5": "H5 Tags",
+    "h6": "H6 Tags"
+  },
+  "issues": {
+    "title": "Issues Found",
+    "multipleH1": "Multiple H1 tags found",
+    "noH1": "No H1 tag found",
+    "skipLevel": "Skipped heading level (e.g., H1 to H3)",
+    "emptyHeading": "Empty heading tag",
+    "duplicateHeading": "Duplicate heading",
+    "analysis": "Analysis",
+    "empty": "Empty heading",
+    "duplicate": "Duplicate heading",
+    "emptyHeadingMessage": "H{level} at position {position} is empty.",
+    "longHeading": "Heading is {length} chars — consider shortening to under 70",
+    "longHeadingMessage": "H{level} \"{text}…\" is {length} characters (recommended: under 70)",
+    "duplicateMessage": "Duplicate H{level}: \"{text}\" appears more than once.",
+    "goodStructure": "Heading structure looks good! Proper H1–H6 hierarchy with no major issues.",
+    "noH1Found": "No H1 heading found. Every page should have exactly one H1 for SEO.",
+    "multipleH1Found": "Multiple H1 headings ({count}). Best practice: use only one H1 per page.",
+    "firstNotH1": "First heading is H{level}, not H1. Consider starting with H1 for proper hierarchy.",
+    "skipLevelFound": "H{prevLevel} → H{level} skips a level (missing H{missing}). Found: \"{text}\""
+  },
+  "score": {
+    "good": "Good structure",
+    "needsImprovement": "Needs improvement",
+    "poor": "Poor structure",
+    "headingLabel": "heading",
+    "headingsLabel": "headings",
+    "foundLabel": "found",
+    "errorLabel": "error",
+    "errorsLabel": "errors",
+    "warningLabel": "warning",
+    "warningsLabel": "warnings",
+    "headingsCount": "{count} {label} found",
+    "statsCount": "{errors} {errorsLabel} · {warnings} {warningsLabel}"
+  },
+  "distribution": {
+    "title": "Heading Distribution"
+  },
+  "export": {
+    "title": "Export",
+    "outline": "Outline .txt",
+    "json": "Export .json"
+  },
+  "view": {
+    "issuesOnly": "Issues only",
+    "allHeadings": "All headings",
+    "idAttrs": "ID Attributes",
+    "headingTree": "Heading Tree",
+    "contentOutline": "Content Outline",
+    "tree": "Tree",
+    "outline": "Outline",
+    "table": "Table",
+    "chart": "Chart"
+  },
+  "table": {
+    "position": "#",
+    "level": "Lvl",
+    "text": "Text",
+    "characters": "Chars",
+    "ok": "OK"
+  },
+  "chart": {
+    "headingDistribution": "Heading Distribution",
+    "nestingDepth": "Nesting Depth per Heading",
+    "position1": "Position 1",
+    "positionTotal": "Position {total}",
+    "heading": "heading",
+    "headings": "headings",
+    "percentOfTotal": "{pct}% of total"
+  },
+  "headingLevels": {
+    "1": "Page title",
+    "2": "Main section",
+    "3": "Subsection",
+    "4": "Sub-subsection",
+    "5": "Minor",
+    "6": "Smallest"
+  },
+  "tips": {
+    "title": "SEO Tips",
+    "oneH1": "Use only one H1 per page",
+    "sequential": "Use headings in sequential order",
+    "descriptive": "Use descriptive heading text",
+    "primaryKeyword": "Include your primary keyword in the H1",
+    "contentHierarchy": "Headings help Google understand content hierarchy",
+    "usersScan": "Users scan headings — make them descriptive",
+    "headingLength": "Heading length: H1 ≤ 70 chars, H2 ≤ 60 chars",
+    "h2Section": "H2s are your main section headings — use 2–5 per page"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "readability": "Readability Checker",
+    "keywordDensity": "Keyword Density",
+    "metaTagGenerator": "Meta Tag Generator",
+    "schemaMarkup": "Schema Markup",
+    "serpPreview": "SERP Preview",
+    "ogPreviewer": "OG Previewer"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "emptyState": {
+    "instruction": "Paste HTML or Markdown on the left",
+    "description": "The tool will extract and visualize your H1–H6 heading structure with SEO analysis"
+  },
+  "ui": {
+    "emptyHeading": "Empty heading",
+    "noIssues": "No issues found",
+    "sampleHtml": "<h1>The Complete Guide to React Development</h1>\n<h2>Getting Started</h2>\n<h3>Installing Node.js and npm</h3>\n<h3>Creating Your First Project</h3>\n<h2>Core Concepts</h2>\n<h3>Components and Props</h3>\n<h4>Functional Components</h4>\n<h4>Class Components</h4>\n<h3>State and Lifecycle</h3>\n<h5>useState Hook</h5>\n<h5>useEffect Hook</h5>\n<h2>Advanced Topics</h2>\n<h3>Context API</h3>\n<h3>Performance Optimization</h3>\n<h2>Conclusion</h2>",
+    "sampleMd": "# The Complete Guide to React\n## Getting Started\n### Prerequisites\n### Installation\n## Core Concepts\n### Components\n#### Functional Components\n#### Class Components\n### Hooks\n## Deployment\n### Build Process\n### Hosting Options"
+  },
+  "howToUse": {
+    "title": "How to Use Heading Structure Analyzer",
+    "step1Title": "Paste Your Content",
+    "step1Desc": "Paste HTML or Markdown content into the input area",
+    "step2Title": "Choose Input Format",
+    "step2Desc": "Select HTML or Markdown mode depending on your content type",
+    "step3Title": "Analyze the Structure",
+    "step3Desc": "Click Analyze to extract all H1-H6 headings and detect issues",
+    "step4Title": "Review Issues",
+    "step4Desc": "Check for missing H1, skipped levels, empty headings, or duplicate headings"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample HTML with headings",
+    "sampleText": "H1 Sample Page Title\nH2 Introduction\nH3 Background\nH2 Main Content\nH3 Section One\nH4 Subsection",
+    "stats": "6 headings found · 1 H1 · 2 H2 · 2 H3 · 1 H4",
+    "result": "Good structure — sequential hierarchy with no skipped levels"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Why is heading structure important for SEO?", "answer": "Proper heading structure (H1-H6) helps search engines understand the hierarchy and relevance of your content, improving readability and keyword relevance signals." },
+      { "question": "How many H1 tags should a page have?", "answer": "Best practice is to use one H1 tag per page that describes the main topic. Multiple H1s can confuse search engines about the primary subject." },
+      { "question": "What is a heading structure skip?", "answer": "A heading skip occurs when you jump from an H2 to an H4 without an H3 in between. This breaks the logical hierarchy and can confuse both users and search engines." },
+      { "question": "Can headings contain keywords?", "answer": "Yes, using relevant keywords in your headings helps search engines understand your content structure and can improve rankings for those terms." }
+    ]
+  }
+}

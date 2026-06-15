@@ -1,0 +1,82 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Text Repeater"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Text Repeater — Repeat Words or Phrases Any Number of Times",
+    "description": "Free online text repeater tool to repeat any word, sentence, paragraph, or block of text a custom number of times. Add separators, line breaks, numbering, or prefix/suffix text. Perfect for generating test data, fill-in content, typing practice, or bulk text generation. Instant preview with no sign-up required.",
+    "keywords": "text repeater, repeat text online, word repeater, text generator, bulk text creator, repeat string, sentence repeater, test data generator"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "controls": {
+    "repeatCount": "Repeat Count",
+    "separator": "Separator",
+    "numbering": "Numbering",
+    "trimInput": "Trim Input",
+    "trimInputDesc": "Remove leading/trailing spaces from input.",
+    "customSeparatorPlaceholder": "Type your separator..."
+  },
+  "separators": {
+    "none": "None",
+    "space": "Space",
+    "newline": "New Line",
+    "comma": "Comma",
+    "custom": "Custom"
+  },
+  "stats": {
+    "repetitions": "Repetitions",
+    "characters": "Characters",
+    "words": "Words",
+    "lines": "Lines"
+  },
+  "input": {
+    "label": "Text to Repeat",
+    "clear": "Clear",
+    "placeholder": "Type or paste the text you want to repeat...",
+    "charCount": "characters",
+    "repeatedTimes": "will be repeated",
+    "times": "times"
+  },
+  "separator": {
+    "label": "separator",
+    "numbered": "Numbered"
+  },
+  "output": {
+    "label": "Output",
+    "placeholder": "Your repeated text will appear here..."
+  },
+  "howToUse": {
+    "title": "How to Use the Text Repeater",
+    "step1Title": "Enter the text to repeat",
+    "step1Desc": "Type or paste the word, sentence, or paragraph you want to repeat into the input area. The tool handles any text length.",
+    "step2Title": "Set the repeat count",
+    "step2Desc": "Use the slider or type a custom number. The output updates instantly as you adjust the count so you can see the result in real time.",
+    "step3Title": "Choose separator and formatting",
+    "step3Desc": "Select a separator — Space, New Line, Comma, or Custom. Enable numbering to add sequential numbers. Toggle Trim Input to clean up whitespace.",
+    "step4Title": "Copy the repeated text",
+    "step4Desc": "Copy the generated output with one click. Perfect for creating test data, generating practice text, or producing bulk content."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What can I use the text repeater for?", "answer": "The text repeater is useful for generating test data, creating typing practice material, filling templates with repeated content, producing bulk text for layout testing, and generating repeated patterns for formatting experiments." },
+      { "question": "Can I add numbering to the repeated text?", "answer": "Yes. Enable the 'Numbering' option to add sequential numbers (1, 2, 3...) before each repetition. This is especially useful for creating numbered lists, test cases, or indexed entries." },
+      { "question": "What separator options are available?", "answer": "You can choose from None (no separator), Space, New Line, Comma, or Custom where you type your own separator character or string. Each option changes how the repeated blocks are joined together." },
+      { "question": "Is there a limit on how many times I can repeat text?", "answer": "There is no hard limit, but very large outputs may affect browser performance. The tool shows a real-time character count so you can monitor the output size. For most use cases, thousands of repetitions work smoothly." },
+      { "question": "Does the tool trim whitespace from my input?", "answer": "Optionally yes. Toggle the 'Trim Input' option to remove leading and trailing spaces from your text before repeating. This is helpful when pasting text that may have extra whitespace." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "Hello, world!",
+    "result": "Enter 'Hello, world!' as your text, set repeat count to 3, choose New Line as separator, and enable Numbering. The output will be:\n1. Hello, world!\n2. Hello, world!\n3. Hello, world!",
+    "stats": "What you'll see"
+  }
+}

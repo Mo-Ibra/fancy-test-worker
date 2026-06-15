@@ -1,0 +1,136 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Hreflang Tag Generator"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Hreflang Tag Generator — Multilingual SEO Made Simple",
+    "description": "Free online hreflang tag generator for multilingual and multi-regional websites. Generate HTML link tags, XML sitemap hreflang annotations, and HTTP headers. Supports 70+ languages and 60+ regions with x-default fallback. Essential for international SEO and avoiding duplicate content across language versions.",
+    "keywords": "hreflang generator, hreflang tag generator, multilingual seo, hreflang tags, international seo, language tags, multi-regional seo"
+  },
+  "mode": {
+    "single": "Single Page",
+    "multi": "Multi-Page"
+  },
+  "outputFormat": {
+    "title": "Output Format",
+    "html": "HTML <link> Tags",
+    "htmlSub": "Add to <head> of every page",
+    "xml": "XML Sitemap",
+    "xmlSub": "Add to sitemap.xml",
+    "http": "HTTP Response Header",
+    "httpSub": "Server-side implementation"
+  },
+  "quickAdd": {
+    "title": "Quick Add"
+  },
+  "validation": {
+    "title": "Validation"
+  },
+  "whatIsHreflang": {
+    "title": "What is hreflang?",
+    "description": "Hreflang tells search engines which language and region a page targets, and which alternate versions exist for other locales.",
+    "whenToUse": "When to use:",
+    "uses": [
+      "Same content in multiple languages",
+      "Same language, different regions (en-US vs en-GB)",
+      "Alternate versions with different regional content"
+    ],
+    "xDefault": "x-default = the fallback page shown when no other hreflang matches the user's language."
+  },
+  "rules": {
+    "title": "Must-follow Rules",
+    "items": [
+      "Every page must reference ALL other language versions",
+      "Every page must also reference itself",
+      "All URLs must be absolute (with https://)",
+      "Tags must be in the <head> of every page",
+      "Or use XML sitemap / HTTP headers instead",
+      "Hreflang is confirmed — Google still decides which to show"
+    ]
+  },
+  "validate": {
+    "title": "Validate",
+    "hreflangTest": "Hreflang Tag Testing Tool",
+    "searchConsole": "Google Search Console",
+    "merkle": "Merkle Hreflang Checker"
+  },
+  "entries": {
+    "title": "Language / Region Entries",
+    "reset": "Reset",
+    "addEntry": "Add entry",
+    "addLanguage": "Add language version",
+    "addPage": "Add page"
+  },
+  "summary": {
+    "languages": "Languages",
+    "withUrl": "With URL",
+    "xDefault": "x-default",
+    "errors": "Errors"
+  },
+  "implementation": {
+    "reminder": "Implementation Reminder",
+    "description": "These tags must be copied to the {head} of every page in the set — including all language versions. Each page must link to all others, including itself."
+  },
+  "apache": {
+    "label": "Apache .htaccess Example"
+  },
+  "pageSets": {
+    "title": "Page Sets",
+    "addPage": "Add page",
+    "removePage": "Remove page",
+    "addLanguage": "Add language",
+    "pagePlaceholder": "Page name / URL path"
+  },
+  "xmlOutput": {
+    "title": "XML Sitemap with Hreflang"
+  },
+  "xmlHint": {
+    "description": "In the XML sitemap, each {url} block must contain all {xhtmlLink} alternates. Submit this sitemap in Google Search Console."
+  },
+  "download": {
+    "xml": ".xml",
+    "csv": "CSV"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "canonicalTag": "Canonical Tag Generator",
+    "metaTagGenerator": "Meta Tag Generator",
+    "sitemap": "XML Sitemap Generator",
+    "robotsTxt": "robots.txt Generator",
+    "schema": "Schema Markup"
+  },
+  "howToUse": {
+    "title": "How to Use Hreflang Tag Generator",
+    "step1Title": "Enter Page URL",
+    "step1Desc": "Paste the URL of the page you want to create hreflang tags for",
+    "step2Title": "Add Language Versions",
+    "step2Desc": "Add all language and regional versions of the page with their URLs",
+    "step3Title": "Select Output Format",
+    "step3Desc": "Choose between HTML link tags, XML sitemap annotations, or HTTP headers",
+    "step4Title": "Copy and Implement",
+    "step4Desc": "Copy the generated tags and add them to the <head> of every page in the set"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample multilingual URL",
+    "sampleText": "https://example.com/page",
+    "stats": "3 language versions (en, es, fr) · x-default configured",
+    "result": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://example.com/en/page\" />"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is hreflang used for?", "answer": "Hreflang tags tell search engines which language or regional version of a page to serve to users based on their language and location preferences." },
+      { "question": "Do I need hreflang for same-language different countries?", "answer": "Yes, if you have similar content targeting different regions (e.g., US English vs UK English), hreflang tags help serve the correct regional version." },
+      { "question": "Can I use hreflang without a self-reference?", "answer": "No, each hreflang annotation must include a self-referencing canonical link. Every URL in the group must reference itself as a canonical." },
+      { "question": "What is the x-default hreflang tag?", "answer": "The x-default hreflang tag specifies a fallback page for users whose language or region does not match any specific hreflang entry." }
+    ]
+  }
+}

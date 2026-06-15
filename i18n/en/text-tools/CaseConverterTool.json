@@ -1,0 +1,119 @@
+{
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Case Converter"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Case Converter — Transform Text to Any Case Instantly",
+    "description": "Free online case converter tool to instantly switch between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. Perfect for developers, writers, and content editors who need consistent text formatting in seconds — no sign-up required.",
+    "keywords": "case converter, text case converter, uppercase to lowercase, lowercase to uppercase, title case converter, camelCase converter, snake_case converter, online text formatter"
+  },
+  "groups": {
+    "Standard": "Standard",
+    "Developer": "Developer"
+  },
+  "cases": {
+    "uppercase": {
+      "label": "UPPER CASE",
+      "description": "All letters capitalized."
+    },
+    "lowercase": {
+      "label": "lower case",
+      "description": "All letters lowercased."
+    },
+    "titleCase": {
+      "label": "Title Case",
+      "description": "Every word starts with a capital."
+    },
+    "sentenceCase": {
+      "label": "Sentence case",
+      "description": "First letter of each sentence."
+    },
+    "invertCase": {
+      "label": "iNVERT cASE",
+      "description": "Flip the case of every letter."
+    },
+    "alternatingCase": {
+      "label": "aLtErNaTiNg",
+      "description": "Alternates lower/UPPER per char."
+    },
+    "camelCase": {
+      "label": "camelCase",
+      "description": "Used in JS variables."
+    },
+    "pascalCase": {
+      "label": "PascalCase",
+      "description": "Used in class names."
+    },
+    "snakeCase": {
+      "label": "snake_case",
+      "description": "Used in Python, databases."
+    },
+    "kebabCase": {
+      "label": "kebab-case",
+      "description": "Used in URLs, CSS."
+    },
+    "constantCase": {
+      "label": "CONSTANT_CASE",
+      "description": "Used for constants and env vars."
+    },
+    "dotCase": {
+      "label": "dot.case",
+      "description": "Used in config keys."
+    }
+  },
+  "activeInfo": {
+    "eg": "e.g."
+  },
+  "input": {
+    "label": "Input",
+    "clear": "Clear",
+    "placeholder": "Type or paste your text here..."
+  },
+  "output": {
+    "label": "Output",
+    "placeholder": "Your converted text will appear here..."
+  },
+  "stats": {
+    "characters": "characters",
+    "words": "words"
+  },
+  "preview": {
+    "title": "All Conversions Preview",
+    "active": "Active"
+  },
+  "howToUse": {
+    "title": "How to Use the Case Converter",
+    "step1Title": "Enter or paste your text",
+    "step1Desc": "Type or paste your text into the input area. The tool supports any text including paragraphs, code, or single words.",
+    "step2Title": "Select your target case",
+    "step2Desc": "Choose from uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. Each option is grouped for quick access.",
+    "step3Title": "Preview all conversions",
+    "step3Desc": "The preview panel shows results for every case type at once. Click any result to apply it as your active conversion instantly.",
+    "step4Title": "Copy the converted text",
+    "step4Desc": "Once satisfied, copy the converted text to your clipboard with one click. No sign-up or data upload needed — everything stays in your browser."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What case formats does this converter support?", "answer": "The case converter supports 12 formats: UPPER CASE, lower case, Title Case, Sentence case, iNVERT cASE, aLtErNaTiNg CaSe, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, and dot.case. This covers standard writing styles as well as common programming conventions." },
+      { "question": "Is my text sent to a server or stored?", "answer": "No. Everything runs entirely in your browser using JavaScript. Your text never leaves your device, making the tool completely private and secure." },
+      { "question": "What is the difference between camelCase and PascalCase?", "answer": "camelCase starts with a lowercase letter and capitalizes each subsequent word (e.g., 'myVariableName'), while PascalCase capitalizes the first letter of every word including the first (e.g., 'MyClassName'). camelCase is common in JavaScript variables, while PascalCase is typical for class names." },
+      { "question": "Can I convert text to multiple cases at once?", "answer": "Yes. The preview panel shows all 12 case conversions simultaneously, so you can see how your text looks in every format. Click any preview to select it as your active conversion, then copy the result." },
+      { "question": "Is the tool free to use?", "answer": "Yes, completely free. There are no usage limits, no sign-up required, and no hidden fees. Use it as many times as you need for any purpose including commercial projects." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet. Typesetters use it to warm up before long writing sessions.",
+    "result": "Paste the sample text into the tool above and select different case types. You'll see it transform into UPPER CASE, lower case, Title Case, camelCase, and more instantly.",
+    "stats": "What you'll see"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Google SERP Preview"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "SERP Preview — See How Your Page Looks in Google Search",
+    "description": "Free Google SERP preview tool to see exactly how your page appears in Google search results on desktop and mobile. Preview title tags, meta descriptions, URLs, and rich snippets including reviews, FAQ, recipes, events, and product markup. Optimize your search listing before publishing.",
+    "keywords": "serp preview, google serp simulator, search result preview, rich snippet preview, google search preview, seo preview tool"
+  },
+  "input": {
+    "title": "Page Title",
+    "titlePlaceholder": "Enter page title...",
+    "url": "Page URL",
+    "urlPlaceholder": "https://example.com/page",
+    "description": "Meta Description",
+    "descriptionPlaceholder": "Enter meta description...",
+    "breadcrumb": "Breadcrumb",
+    "breadcrumbPlaceholder": "example.com › category › page",
+    "favicon": "Favicon URL",
+    "faviconPlaceholder": "https://example.com/favicon.ico",
+    "searchQuery": "Search query",
+    "searchQueryPlaceholder": "best running shoes 2024",
+    "showPublishDate": "Show publish date",
+    "publishDateHint": "Appears before description"
+  },
+  "preview": {
+    "google": "Google",
+    "mobile": "Mobile",
+    "desktop": "Desktop"
+  },
+  "device": {
+    "desktop": "Desktop",
+    "mobile": "Mobile"
+  },
+  "richResult": {
+    "title": "Rich Result Type",
+    "reviewSettings": "Review Settings",
+    "productSettings": "Product Settings",
+    "recipeSettings": "Recipe Settings",
+    "faqSettings": "FAQ Settings",
+    "videoSettings": "Video Settings",
+    "eventSettings": "Event Settings",
+    "rating": "Rating",
+    "reviewCount": "Review count",
+    "price": "Price",
+    "currency": "Currency",
+    "availability": "Availability",
+    "cookTime": "Cook time",
+    "calories": "Calories",
+    "yield": "Yield",
+    "duration": "Duration",
+    "date": "Date",
+    "eventDate": "Event Date",
+    "location": "Location"
+  },
+  "sitelinks": {
+    "title": "Sitelinks"
+  },
+  "livePreview": {
+    "title": "Live Preview"
+  },
+  "metaTags": {
+    "title": "Meta Tags"
+  },
+  "tips": {
+    "title": "SERP Optimization Tips",
+    "list": [
+      "Include your primary keyword near the start of the title",
+      "Make the description a compelling 'ad' for your page — it affects CTR not rankings",
+      "Google may rewrite titles if they're too short, too long, or stuffed with keywords",
+      "Implement structured data to unlock rich results and stand out",
+      "Sitelinks appear for high-authority sites — they can't be directly added",
+      "Mobile descriptions are shorter — around 120 chars is safer",
+      "Avoid duplicate titles and descriptions across pages"
+    ]
+  },
+  "limits": {
+    "title": "Title: 50-60 characters recommended",
+    "url": "URL: Displayed up to ~70 characters",
+    "description": "Description: 150-160 characters recommended"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "metaTagGenerator": "Meta Tag Generator",
+    "characterCounter": "Character Counter",
+    "ogPreview": "OG Previewer"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "resultTypes": {
+    "organic": "Organic",
+    "reviews": "Reviews",
+    "product": "Product",
+    "recipe": "Recipe",
+  "faq": "FAQ",
+    "video": "Video",
+    "event": "Event"
+  },
+  "status": {
+    "idealTitle": "Ideal: 50–60 characters",
+    "tooShort": "Too short — add more detail",
+    "goodLength": "✓ Good length",
+    "nearLimit": "Near limit",
+    "gettingLong": "Getting long — near limit",
+    "tooLong": "✗ Too long by {count} chars",
+    "tooLongTruncated": "✗ Too long by {count} chars — will be truncated",
+    "idealDesc": "Ideal: 150–160 characters"
+  },
+  "labels": {
+    "coreSeo": "Core SEO",
+    "publishDate": "Publish Date",
+    "rating": "Rating: {value}/5",
+    "placeholder": "<!-- Fill in the fields on the left -->",
+    "question": "Question {count}",
+    "answer": "Answer…"
+  },
+  "howToUse": {
+    "title": "How to Use SERP Preview",
+    "step1Title": "Enter Your Details",
+    "step1Desc": "Fill in the page title, URL, and meta description fields",
+    "step2Title": "Add Rich Results",
+    "step2Desc": "Optionally add structured data like reviews, pricing, or FAQ for rich snippet preview",
+    "step3Title": "Toggle Devices",
+    "step3Desc": "Switch between desktop and mobile views to see how your snippet looks on both",
+    "step4Title": "Optimize Your Listing",
+    "step4Desc": "Use the character counters and tips to optimize your title and description"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample SEO title and description",
+    "sampleText": "How to Write SEO Titles That Drive Traffic in 2025",
+    "stats": "52 characters · 9 words · Ideal title length",
+    "result": "✓ 52/60 characters — fits perfectly in Google SERP"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is SERP preview?", "answer": "SERP preview shows how your page will appear in Google search results, including the title tag, URL, and meta description." },
+      { "question": "Why is SERP preview important?", "answer": "SERP preview helps you optimize your title and description to attract clicks. A compelling snippet can significantly improve organic click-through rates." },
+      { "question": "What is the ideal title length for SERP?", "answer": "Google typically displays the first 50-60 characters of a title tag. Keep your primary keywords and value proposition within this range." },
+      { "question": "Can I preview rich results?", "answer": "Yes, SERP preview can show how rich elements like star ratings, FAQs, breadcrumbs, and product information appear in search results when structured data is implemented." }
+    ]
+  }
+}

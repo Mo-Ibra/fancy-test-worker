@@ -1,0 +1,79 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Text Diff Checker"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Text Diff Checker — Compare Text Online Side by Side",
+    "description": "Free online text diff checker to compare two blocks of text and instantly highlight every addition, deletion, and unchanged line. Supports word, character, and line-level comparison. Perfect for developers reviewing code, editors comparing drafts, and anyone tracking document revisions — fast, accurate, and private.",
+    "keywords": "text diff checker, compare text online, diff checker, text comparison tool, diff tool, compare documents, code diff, find difference between texts"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "toolbar": {
+    "loadExample": "Load Example",
+    "clearAll": "Clear All",
+    "split": "Split",
+    "unified": "Unified"
+  },
+  "inputs": {
+    "originalText": "Original Text",
+    "modifiedText": "Modified Text",
+    "chars": "chars",
+    "originalPlaceholder": "Paste your original text here...",
+    "modifiedPlaceholder": "Paste your modified text here..."
+  },
+  "stats": {
+    "added": "Added",
+    "removed": "Removed",
+    "unchanged": "Unchanged",
+    "similarity": "Similarity"
+  },
+  "diff": {
+    "result": "Diff Result",
+    "legendAdded": "Added",
+    "legendRemoved": "Removed",
+    "legendUnchanged": "Unchanged",
+    "original": "Original",
+    "modified": "Modified",
+    "identical": "✅ The two texts are identical.",
+    "pasteBoth": "Paste text in both panels to see the diff."
+  },
+  "empty": {
+    "title": "No text to compare yet",
+    "subtitle": "Paste your texts above, or try an example.",
+    "loadExample": "Load Example"
+  },
+  "howToUse": {
+    "title": "How to Use the Text Diff Checker",
+    "step1Title": "Paste the original text",
+    "step1Desc": "Paste your original or older version of the text into the left panel (Original Text). This is your baseline for comparison.",
+    "step2Title": "Paste the modified text",
+    "step2Desc": "Paste the newer or edited version into the right panel (Modified Text). The diff tool compares both texts instantly as you type.",
+    "step3Title": "View the diff result",
+    "step3Desc": "Switch between Split and Unified view modes. Added lines are highlighted in green, removed lines in red, and unchanged lines remain neutral.",
+    "step4Title": "Copy or share the diff",
+    "step4Desc": "Copy the diff result or compare using the shared stats. Use the Load Example button to see how the tool works with sample text."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What types of text comparison does this tool support?", "answer": "The diff checker supports word-level, line-level, and character-level comparison. It highlights every addition, deletion, and unchanged block in color-coded output. You can switch between Split view (side by side) and Unified view (inline) for different comparison perspectives." },
+      { "question": "Can I compare code files with this tool?", "answer": "Yes. The diff checker works well for code comparison. It accurately highlights changed lines, added code, and removed code, making it useful for reviewing code changes, tracking edits, and collaborating on development projects." },
+      { "question": "Is my text uploaded to a server?", "answer": "No. All comparison happens in your browser using client-side JavaScript. Your text remains private and never leaves your device. This makes it safe for comparing sensitive or confidential documents." },
+      { "question": "What do the colors mean in the diff output?", "answer": "Green highlighted sections indicate added text, red sections indicate removed text, and unhighlighted sections are unchanged. The similarity percentage at the top gives you a quick measure of how much the two texts overlap." },
+      { "question": "What is the difference between Split and Unified view?", "answer": "Split view shows the original and modified text side by side, making it easy to scan both versions independently. Unified view combines both versions into a single stream with inline highlights, useful for seeing exactly what changed in context." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample comparison",
+    "sampleText": "Original: 'The quick brown fox jumps over the lazy dog near the riverbank.' Modified: 'The quick brown fox leaps over the sleepy cat near the river.'",
+    "result": "Paste the two sample texts into the panels and click Compare. You'll see 'jumps' highlighted as removed (red), 'leaps' as added (green), plus 'lazy dog' replaced by 'sleepy cat', with the similarity percentage shown.",
+    "stats": "What you'll see"
+  }
+}

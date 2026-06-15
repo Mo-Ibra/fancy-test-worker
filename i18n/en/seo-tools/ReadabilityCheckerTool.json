@@ -1,0 +1,204 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Readability Checker"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Readability Checker — Test Content with 8 Readability Formulas",
+    "description": "Free online readability checker to analyze your content with 8 industry-standard formulas: Flesch-Kincaid, Gunning Fog, SMOG Index, Coleman-Liau, ARI, and more. Get actionable tips to simplify language, improve clarity, and boost reader engagement. Ideal for SEO content writers, educators, and bloggers.",
+    "keywords": "readability checker, readability score, flesch kincaid calculator, readability test, content readability, smog index, seo readability"
+  },
+  "input": {
+    "placeholder": "Paste your article, blog post, or any written content here to check readability…",
+    "yourContent": "Your Content",
+    "paste": "Paste",
+    "words": "words"
+  },
+  "flesch": {
+    "title": "Flesch Reading Ease",
+    "readingLevel": "Reading level",
+    "targetAudience": "Target audience",
+    "scoreDesc": "Score 0–100, higher = easier. Most common readability formula."
+  },
+  "gradeLevel": {
+    "title": "Consensus Grade Level",
+    "averageAcross": "Average across 4 algorithms",
+    "scoreInfo": "Grade level scores represent the US school grade a reader needs. Grade 8 = an 8th-grader can understand. Lower is generally more accessible."
+  },
+  "quickStats": {
+    "words": "Words",
+    "sentences": "Sentences",
+    "readTime": "Read time",
+    "avgSentence": "Avg sentence",
+    "avgWord": "Avg word",
+    "complex": "Complex",
+    "lessThanMin": "<1 min",
+    "min": "~{min} min",
+    "wordsUnit": "words",
+    "syllsUnit": "sylls",
+    "complexSub": "words 3+ sylls"
+  },
+  "suggestions": {
+    "title": "Suggestions",
+    "avgLength": "Average sentence length is {count} words — aim for 15–20 words per sentence.",
+    "complexWords": "{pct}% of words have 3+ syllables — try simpler alternatives.",
+    "longSentences": "{count} sentence{plural} over 25 words — consider splitting them.",
+    "lowReadability": "Overall readability is low — try shorter sentences and simpler words.",
+    "noParagraphs": "No paragraph breaks detected — break content into smaller chunks.",
+    "highSyllables": "Average syllables per word is high — use shorter words where possible."
+  },
+  "allGood": {
+    "message": "Great readability! Your content looks clear and accessible."
+  },
+  "tabs": {
+    "overview": "Overview",
+    "allScores": "All Scores",
+    "sentences": "Sentences",
+    "words": "Words"
+  },
+  "gradeEstimates": {
+    "title": "Grade Level Estimates",
+    "legend": "FK = Flesch-Kincaid · Fog = Gunning Fog · CL = Coleman-Liau · ARI = Automated Readability · LW = Linsear Write · D-C = Dale-Chall"
+  },
+  "fullStats": {
+    "title": "Full Statistics",
+    "words": "Words",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "characters": "Characters",
+    "charsNoSpace": "Chars (no space)",
+    "syllables": "Syllables",
+    "uniqueWords": "Unique words",
+    "complexWords": "Complex words",
+    "longWords": "Long words (7+c)",
+    "longSentences": "Long sentences",
+    "avgWordsSent": "Avg words/sent",
+    "avgSyllW": "Avg syllables/w"
+  },
+  "toneIndicator": {
+    "title": "Tone Indicator",
+    "negative": "Negative",
+    "neutral": "Neutral",
+    "positive": "Positive",
+    "positiveMsg": "✓ Generally positive tone",
+    "negativeMsg": "⚠ Generally negative tone",
+    "neutralMsg": "→ Neutral tone",
+    "basedOn": "based on word sentiment"
+  },
+  "topKeywords": {
+    "title": "Top Keywords",
+    "desc": "Top Keywords (stop words excluded)",
+    "count": "×{count}"
+  },
+  "sentenceAnalysis": {
+    "title": "Sentence Analysis",
+    "longSentenceHint": "{count} long sentence{plural} (>25 words) highlighted in amber",
+    "allGood": "All sentences are within recommended length",
+    "highlightOn": "Highlighting on",
+    "highlightLong": "Highlight long"
+  },
+  "sentenceDistribution": {
+    "title": "Sentence Length Distribution",
+    "ideal": "ideal",
+    "ok": "ok",
+    "long": "long",
+    "andMore": "…and {count} more sentences"
+  },
+  "longSentences": {
+    "title": "Long Sentences ({count})",
+    "wordsConsider": "{count} words — consider splitting"
+  },
+  "emptyState": {
+    "title": "Paste content above to analyze",
+    "analyze": "Paste content above to analyze",
+    "subtitle": "Supports articles, blog posts, product descriptions, and more"
+  },
+  "formula": {
+    "fleschKincaid": {
+      "label": "Flesch-Kincaid Grade",
+      "desc": "US school grade level"
+    },
+    "gunningFog": {
+      "label": "Gunning Fog",
+      "desc": "Years of education needed"
+    },
+    "smog": {
+      "label": "SMOG Index",
+      "desc": "Needs 30+ sentences"
+    },
+    "colemanLiau": {
+      "label": "Coleman-Liau",
+      "desc": "Based on chars per word"
+    },
+    "automated": {
+      "label": "Automated Readability",
+      "desc": "Based on chars & words"
+    },
+    "linsear": {
+      "label": "Linsear Write",
+      "desc": "Grade level (technical docs)"
+    },
+    "daleChall": {
+      "label": "Dale-Chall",
+      "desc": "% unfamiliar words (approx.)"
+    },
+    "approxGrade": "≈ grade {grade}"
+  },
+  "writingTips": {
+    "title": "Writing Tips",
+    "list": [
+      "Use active voice instead of passive voice",
+      "Prefer short words over long synonyms",
+      "One idea per sentence",
+      "Use bullet points to break up dense paragraphs",
+      "Aim for a Flesch score above 60 for general audiences",
+      "Read your content aloud — awkward = edit it",
+      "Avoid nominalization (e.g., 'make a decision' → 'decide')"
+    ]
+  },
+  "wordStats": {
+    "title": "Word Statistics",
+    "totalWords": "Total words",
+    "uniqueWords": "Unique words",
+    "lexicalDensity": "Lexical density",
+    "complex3syll": "Complex (3+ syll)",
+    "long7chars": "Long (7+ chars)",
+    "avgSyllables": "Avg syllables"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "keywordDensity": "Keyword Density",
+    "metaTagGenerator": "Meta Tag Generator",
+    "robotsTxt": "robots.txt Generator",
+    "slugGenerator": "URL Slug Generator"
+  },
+  "howToUse": {
+    "title": "How to Use Readability Checker",
+    "step1Title": "Paste Your Content",
+    "step1Desc": "Paste your article, blog post, or any text into the input area",
+    "step2Title": "Review Scores",
+    "step2Desc": "View Flesch Reading Ease, grade level, and consensus scores across 8 formulas",
+    "step3Title": "Check Suggestions",
+    "step3Desc": "Review actionable suggestions to simplify language and improve clarity",
+    "step4Title": "Apply Improvements",
+    "step4Desc": "Use the sentence and word analysis to rewrite complex passages"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample text for analysis",
+    "sampleText": "The quick brown fox jumps over the lazy dog. This simple sentence contains every letter of the alphabet. Readability tools help writers create content that is easy to understand for a broad audience.",
+    "stats": "29 words · 3 sentences · Flesch score: 85 (Easy)",
+    "result": "Grade level: 3 · Very easy to read · Suitable for general audience"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is readability in SEO?", "answer": "Readability measures how easy your content is to understand. Search engines favor content that is accessible to a wider audience, making readability an important SEO factor." },
+      { "question": "What is a good Flesch Reading Ease score?", "answer": "A score of 60-70 is considered standard and understandable by 13-15 year olds. Scores above 70 are fairly easy to read, while scores below 30 are very difficult." },
+      { "question": "How can I improve readability?", "answer": "Use shorter sentences, simpler words, active voice, bullet points, and clear headings. Break long paragraphs into smaller chunks." },
+      { "question": "Does readability affect rankings?", "answer": "Yes, search engines like Google consider user engagement signals. Content that is easy to read keeps users on the page longer, reducing bounce rates and improving rankings." }
+    ]
+  }
+}

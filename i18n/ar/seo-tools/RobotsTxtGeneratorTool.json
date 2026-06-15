@@ -1,0 +1,128 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات SEO",
+    "current": "مولد robots.txt"
+  },
+  "header": {
+    "badge": "أدوات SEO",
+    "title": "مولد robots.txt — تحكم في زحف محركات البحث لموقعك",
+    "description": "أداة مجانية لإنشاء ملف robots.txt للتحكم في كيفية زحف محركات البحث وفهرستها لموقعك. أضف قواعد السماح والمنع لمسارات محددة وحدد تأخير الزحف وعنوان خريطة الموقع وأضف قواعد لوكلاء مستخدمين مثل Googlebot وBingbot.",
+    "keywords": "مولد robots.txt, ملف robots.txt, التحكم في الزحف, إنشاء robots.txt, قواعد googlebot, منع الزحف"
+  },
+  "rules": {
+    "title": "قواعد الزحف",
+    "addRule": "إضافة قاعدة",
+    "userAgent": "User-Agent",
+    "userAgentPlaceholder": "اسم User-agent",
+    "disallow": "Disallow (حظر)",
+    "allow": "Allow (سماح صريح)",
+    "disallowPlaceholder": "/admin/",
+    "allowPlaceholder": "/public/",
+    "add": "إضافة",
+    "noBlocked": "لا توجد مسارات محجوبة — أضف واحداً أعلاه",
+    "noAllows": "لا توجد تصاريح صريحة — تجاوز اختياري",
+    "crawlDelay": "Crawl-delay (ثواني، اختياري)",
+    "crawlDelayNote": "ملاحظة: Googlebot يتجاهل crawl-delay",
+    "crawlDelayPlaceholder": "مثال 10",
+    "moreBots": "المزيد من البوتات...",
+    "newRule": "قاعدة جديدة",
+    "disallowCount": "disallow",
+    "allowCount": "allow"
+  },
+  "sitemaps": {
+    "title": "خرائط الموقع",
+    "add": "إضافة خريطة موقع",
+    "placeholder": "https://example.com/sitemap.xml",
+    "noSitemaps": "لا توجد خرائط موقع مضافة — موصى به بتضمين رابط خريطة الموقع"
+  },
+  "host": {
+    "label": "Host (اختياري — لـ Yandex)",
+    "placeholder": "example.com"
+  },
+  "validation": {
+    "title": "التحقق",
+    "noErrors": "لا توجد أخطاء أو تحذيرات",
+    "noUserAgent": "لم يتم العثور على توجيه User-agent",
+    "orphanDirective": "تم العثور على توجيه Disallow/Allow بدون User-agent يسبقه",
+    "relativeSitemap": "يجب أن يكون رابط خريطة الموقع مطلقاً: \"{url}\"",
+    "invalidDelay": "يجب أن يكون Crawl-delay رقماً موجباً",
+    "highDelay": "قيمة Crawl-delay ({val} ثانية) عالية جداً — قد تضر بالأرشفة",
+    "emptyDisallow": "Disallow فارغ يعني السماح بالزحف للكل (هذا صحيح)",
+    "blockAllWarning": "Disallow: / يحظر الزحف تماماً — تأكد أن هذا مقصود"
+  },
+  "output": {
+    "title": "robots.txt",
+    "download": "تحميل"
+  },
+  "howToUse": {
+    "title": "كيفية استخدام مولد robots.txt",
+    "step1Title": "أضف User-Agent",
+    "step1Desc": "حدد زاحف محرك البحث (مثل Googlebot أو Bingbot أو * للجميع).",
+    "step2Title": "اضبط قواعد الزحف",
+    "step2Desc": "أضف قواعد Disallow وAllow للتحكم في المسارات التي يمكن لكل زاحف الوصول إليها.",
+    "step3Title": "أضف خرائط الموقع",
+    "step3Desc": "أضف روابط خرائط الموقع XML لمساعدة الزواحف في العثور على صفحاتك.",
+    "step4Title": "حمّل أو انسخ",
+    "step4Desc": "حمّل ملف robots.txt الناتج وارفعه إلى الدليل الجذر لموقعك."
+  },
+  "deployment": {
+    "tip": "ارفع robots.txt إلى جذر موقعك على {url}. تسري التغييرات في الزحف التالي."
+  },
+  "presets": {
+    "title": "إعدادات سريعة",
+    "allowAll": {
+      "label": "السماح للجميع",
+      "desc": "السماح لجميع الروبوتات بالزحف لكل شيء"
+    },
+    "blockAll": {
+      "label": "حظر الجميع",
+      "desc": "حظر جميع الروبوتات من جميع الصفحات"
+    },
+    "blockAi": {
+      "label": "حظر بوتات الذكاء الاصطناعي",
+      "desc": "حظر زواحف تدريب الذكاء الاصطناعي"
+    },
+    "wordpress": {
+      "label": "ووردبريس",
+      "desc": "إعدادات ووردبريس القياسية"
+    },
+    "ecommerce": {
+      "label": "التجارة الإلكترونية",
+      "desc": "حظر السلة، الدفع، والبحث"
+    },
+    "blockSeo": {
+      "label": "حظر أدوات SEO",
+      "desc": "حظر زواحف أدوات SEO الشائعة"
+    }
+  },
+  "related": {
+    "title": "أدوات SEO ذات الصلة",
+    "sitemapGenerator": "مولد خريطة الموقع",
+    "canonicalTag": "مولد وسم Canonical",
+    "metaTagGenerator": "مولد وسم Meta",
+    "slugGenerator": "مولد URL Slug",
+    "keywordDensity": "كثافة الكلمات المفتاحية",
+    "utmBuilder": "مولد UTM"
+  },
+  "copy": {
+    "copied": "تم النسخ!",
+    "button": "نسخ"
+  },
+  "examples": {
+    "title": "جرب مثالاً",
+    "sampleLabel": "مثال محتوى robots.txt",
+    "sampleText": "User-agent: *\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://example.com/sitemap.xml",
+    "stats": "3 توجيهات · وكيلان · رابط خريطة موقع واحد",
+    "result": "✓ robots.txt صالح — يسمح لجميع الزواحف باستثناء GPTBot"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هو ملف robots.txt؟", "answer": "ملف robots.txt هو ملف نصي يوضع في الدليل الجذر للموقع يوجه برامج زحف محركات البحث بالصفحات أو الأقسام التي يجب زحفها والتي يجب تجاهلها." },
+      { "question": "هل يمكن لـ robots.txt منع الفهرسة؟", "answer": "لا، robots.txt يمنع الزحف فقط وليس الفهرسة. إذا كانت المواقع الخارجية ترتبط بصفحة محظورة، فقد تظهر في نتائج البحث. استخدم علامات noindex لمنع الفهرسة." },
+      { "question": "أين يجب وضع ملف robots.txt؟", "answer": "يجب وضع ملف robots.txt في الدليل الجذر لموقع الويب، عادةً على example.com/robots.txt. لا يمكن وضعه في أدلة فرعية." },
+      { "question": "هل يمكن حظر جميع برامج الزحف؟", "answer": "بينما يمكنك تعيين Disallow لجميع وكلاء المستخدم، قد تتجاهل برامج الزحف الضارة robots.txt. إنه بروتوكول طوعي وليس إجراءً أمنياً." }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات SEO",
+    "current": "مولد وسم Canonical"
+  },
+  "header": {
+    "badge": "أدوات SEO",
+    "title": "مولد وسم Canonical — منع المحتوى المكرر في SEO",
+    "description": "أداة مجانية لإنشاء وسوم canonical URL لمنع مشاكل المحتوى المكرر في محركات البحث. حدد الإصدار المفضل لأي صفحة ويب مع تحويل تلقائي لـ HTTPS وتسوية الشرطة المائلة وإزالة معلمات الاستعلام. أداة SEO أساسية لمشرفي المواقع ومديري المحتوى.",
+    "keywords": "مولد canonical, وسم canonical, رابط canonical, منع المحتوى المكرر, seo, تحسين محركات البحث"
+  },
+  "copy": {
+    "copied": "تم النسخ!",
+    "button": "نسخ",
+    "copyAll": "نسخ الكل"
+  },
+  "tabs": {
+    "single": "فردي",
+    "bulk": "بالجملة",
+    "crossDomain": "Hreflang"
+  },
+  "normalization": {
+    "title": "التطبيع",
+    "forceHttps": "فرض HTTPS",
+    "forceHttpsSub": "موصى به لجميع الروابطCanonical",
+    "lowercasePath": "مسار بالحروف الصغيرة",
+    "lowercasePathSub": "يتجنب التكرارات الحساسة لحالة الأحرف",
+    "stripParams": "إزالة معلمات الاستعلام",
+    "stripParamsSub": "إزالة ?utm_source=… إلخ",
+    "removeTrailingSlash": "إزالةشرطة مائلة زائدة",
+    "removeTrailingSlashSub": "example.com/page/ → /page"
+  },
+  "www": {
+    "title": "تفضيل www",
+    "keep": "الحفاظ",
+    "www": "www",
+    "nonWww": "بدون www"
+  },
+  "about": {
+    "title": "ما هو وسم Canonical؟",
+    "desc": "يخبر وسمCanonical محركات البحث أي رابط هو الإصدار \"المفضل\" للصفحة، مما يمنع عقوبات المحتوى المكرر.",
+    "useCases": "حالات الاستخدام الشائعة:",
+    "wwwVsNonWww": "الإصدارات www مقابل غير www",
+    "httpVsHttps": "صفحات HTTP مقابل HTTPS",
+    "trailingSlash": "الروابط مع/بدونشرطة مائلة زائدة",
+    "utmParams": "الصفحات مع معلمات UTM",
+    "paginated": "الصفحات المقسمة",
+    "syndicated": "المحتوى المُوزع",
+    "printerFriendly": "صفحات الطباعة"
+  },
+  "mistakes": {
+    "title": "الأخطاء الشائعة",
+    "redirectChain": "Canonical يشير إلى سلسلة إعادة توجيه",
+    "relativeUrls": "استخدام روابط نسبية بدلاً من المطلقة",
+    "noindexPage": "Canonical على صفحة noindex",
+    "mismatchedHreflang": "عدم تطابقCanonical وروابط hreflang",
+    "inBody": "Canonical في الجسم بدلاً من <head>"
+  },
+  "single": {
+    "pageTitle": "رابط الصفحة",
+    "pagePlaceholder": "https://example.com/page?utm_source=google",
+    "quickExamples": "أمثلة سريعة",
+    "urlAnalysis": "تحليل الرابط",
+    "https": "HTTPS",
+    "fragment": "التجزئة (#)",
+    "query": "معلمات الاستعلام",
+    "trailing": "شرطة مائلة زائدة",
+    "httpsDetected": "✗ تم اكتشاف HTTP",
+    "fragmentFound": "تم العثور عليه",
+    "fragmentNone": "لا شيء",
+    "queryStrip": "إزالة؟",
+    "queryClean": "نظيف",
+    "trailingPresent": "موجود",
+    "trailingNone": "لا شيء",
+    "normalizedUrl": "الرابطCanonical المُطبيع",
+    "normalizedFromOriginal": "↑ تم تطبيع الرابط من الأصلي",
+    "customCanonical": "استخدام رابطCanonical مخصص",
+    "customCanonicalSub": "تجاوز الرابطالمُتصاص (مثلCanonical عبر النطاق)",
+    "customPlaceholder": "https://example.com/canonical-page",
+    "canonicalTag": "وسم Canonical (الصق في <head>)",
+    "urlTransformation": "تحويل الرابط",
+    "original": "الأصلي",
+    "canonical": "Canonical",
+    "httpsLabel": "HTTPS",
+    "noParams": "بدون معلمات",
+    "noTrailingSlash": "بدونشرطة مائلةزائدة",
+    "lowercasePath": "حروف صغيرة",
+    "wwwLabel": "www",
+    "nonWwwLabel": "بدون www",
+    "fullHtmlExample": "مثال HTML الكامل",
+    "analysisMessages": {
+      "notHttps": "الرابط ليس HTTPS — يجب أن يستخدم الرابط الأساسي (canonical) بروتوكول HTTPS",
+      "hasFragment": "الرابط يحتوي على تجزئة (#) — لا يجب أن تتضمن وسوم canonical التجزئات",
+      "considerWww": "حدد ما إذا كنت تفضل استخدام www أو بدون www كخيار أساسي لك",
+      "trailingSlashConsistency": "الشرطة المائلة في النهاية — تأكد من الاتساق عبر جميع روابط canonical",
+      "queryParameters": "الرابط يحتوي على معلمات استعلام — يجب أن يشير وسم canonical عادةً إلى الرابط النظيف"
+    }
+  },
+  "bulk": {
+    "urlsLabel": "الروابط (واحد في كل سطر)",
+    "placeholder": "https://example.com/page?utm_source=google\nhttps://www.example.com/page/\nhttp://example.com/Page",
+    "paste": "لصق",
+    "generate": "إنشاء",
+    "canonicalTags": "وسوم Canonical",
+    "results": "النتائج",
+    "urls": "الروابط",
+    "copyAll": "نسخ الكل",
+    "downloadCsv": "CSV",
+    "changed": "تم التغيير",
+    "allTags": "جميع وسوم Canonical",
+    "originalUrl": "الرابط الأصلي",
+    "canonicalUrl": "رابط Canonical",
+    "tag": "الوسم"
+  },
+  "languages": {
+    "en": "الإنجليزية",
+    "en-US": "الإنجليزية (الولايات المتحدة)",
+    "en-GB": "الإنجليزية (المملكة المتحدة)",
+    "ar": "العربية",
+    "fr": "الفرنسية",
+    "de": "الألمانية",
+    "es": "الإسبانية",
+    "it": "الإيطالية",
+    "pt": "البرتغالية",
+    "ru": "الروسية",
+    "zh": "الصينية",
+    "ja": "اليابانية",
+    "ko": "الكورية",
+    "nl": "الهولندية",
+    "pl": "البولندية",
+    "tr": "التركية",
+    "sv": "السويدية"
+  },
+  "crossDomain": {
+    "description": "تخبر وسوم hreflang Google أي إصدار اللغة/المنطقة يجب إظهاره للمستخدمين. يجب أن تشير كل صفحة في المجموعة إلى جميع الإصدارات الأخرى بما في ذلك نفسها.",
+    "languageVersions": "إصدارات اللغة",
+    "addLanguage": "إضافة لغة",
+    "xDefault": "إضافة hreflang x-default",
+    "xDefaultSub": "يشير إلى الإصدار البديل (عادةً الإنجليزية أو الصفحة الرئيسية)",
+    "xDefaultPlaceholder": "https://example.com/page (رابط اللغة الافتراضية)",
+    "hreflangPlaceholder": "https://example.com/page",
+    "outputLabel": "وسوم Hreflang (أضف إلى كل صفحة في المجموعة)",
+    "important": "مهم",
+    "importantDesc": "يجب إضافة هذه الوسوم إلى جميع الصفحات في المجموعة. يجب أن تشير كل صفحة إلى جميع إصدارات اللغات الأخرى، وليس فقط الصفحة الرئيسية."
+  },
+  "howToUse": {
+    "title": "كيفية استخدام مولد وسم Canonical",
+    "step1Title": "أدخل رابط الصفحة",
+    "step1Desc": "الصق رابط الصفحة التي تريد إنشاء وسم canonical لها في حقل الإدخال.",
+    "step2Title": "ضبط خيارات التطبيع",
+    "step2Desc": "اختر خيارات مثل فرض HTTPS وإزالة معلمات UTM ومعالجة الشرطة المائلة.",
+    "step3Title": "مراجعة التحليل",
+    "step3Desc": "راجع تحليل الرابط لرؤية التغييرات المطبقة على الرابط الأصلي.",
+    "step4Title": "انسخ الوسم",
+    "step4Desc": "انسخ وسم canonical الناتج والصقه في قسم <head> من صفحتك."
+  },
+  "examples": {
+    "removeUtm": "إزالة معلمات UTM",
+    "wwwVsNonWww": "WWW مقابل non-WWW",
+    "trailingSlash": "شرطة مائلة زائدة",
+    "httpToHttps": "HTTP ← HTTPS",
+    "mixedCase": "مسار بحالة مختلطة",
+    "fragmentUrl": "رابط بتجزئة",
+    "sampleLabel": "مثال رابط مع UTM",
+    "sampleText": "https://example.com/page?utm_source=google",
+    "stats": "الأصلي: 48 حرف ← Canonical: 28 حرف",
+    "result": "https://example.com/page"
+  },
+  "testing": {
+    "title": "اختبار والتحقق",
+    "searchConsole": "Google Search Console — فحص الرابط",
+    "hreflangTest": "أداة اختبار وسوم Hreflang",
+    "richResults": "اختبار النتائج الغنية من Google"
+  },
+  "related": {
+    "title": "أدوات SEO ذات الصلة",
+    "metaTagGenerator": "مولد وسم Meta",
+    "schemaMarkup": "Schema Markup",
+    "robotsTxt": "مولد robots.txt",
+    "sitemapGenerator": "مولد خريطة الموقع"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هي العلامة الأساسية (canonical tag)؟", "answer": "العلامة الأساسية (rel=\"canonical\") هي عنصر HTML يساعد في منع مشاكل المحتوى المكرر عن طريق تحديد الإصدار المفضل لصفحة الويب لمحركات البحث." },
+      { "question": "متى يجب استخدام العلامة الأساسية؟", "answer": "استخدم العلامات الأساسية عندما يكون لديك محتوى مكرر أو مشابه عبر عناوين URL متعددة، مثل إصدارات الطباعة أو معرفات الجلسة أو مسارات الفئات المتعددة." },
+      { "question": "هل تضمن العلامة الأساسية الترتيب في محركات البحث؟", "answer": "لا، العلامة الأساسية هي تلميح وليست توجيهاً. قد تختار محركات البحث عنوان URL مختلفاً إذا اعتقدت أنه يمثل المحتوى بشكل أفضل." },
+      { "question": "هل يمكن استخدام العلامات الأساسية عبر النطاقات؟", "answer": "نعم، تخبر العلامات الأساسية عبر النطاقات محركات البحث بأن قطعة محتوى على نطاق آخر هي الإصدار المفضل، وهو مفيد للمحتوى المنشور في عدة مواقع." }
+    ]
+  }
+}

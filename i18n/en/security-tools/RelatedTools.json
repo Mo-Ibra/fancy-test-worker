@@ -1,0 +1,9 @@
+{
+  "related": {
+    "title": "Related Security Tools",
+    "passwordGenerator": "Password Generator",
+    "passwordStrengthChecker": "Password Strength Checker",
+    "md5HashGenerator": "MD5 Hash Generator",
+    "bcrypt": "Bcrypt"
+  }
+}

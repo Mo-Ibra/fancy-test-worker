@@ -1,0 +1,169 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "XML Sitemap Generator"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "XML Sitemap Generator — Build Sitemaps for Better Indexing",
+    "description": "Free online XML sitemap generator to build sitemaps for search engines. Add URLs with custom priority, change frequency, and last-modified dates. Supports bulk URL import, image sitemaps, video sitemaps, and sitemap index files. Essential for helping Google discover and index all your important pages.",
+    "keywords": "xml sitemap generator, sitemap generator, seo sitemap, website sitemap, google sitemap, sitemap.xml creator, bulk sitemap generator"
+  },
+  "mode": {
+    "urlSitemap": "URL Sitemap",
+    "sitemapIndex": "Sitemap Index"
+  },
+  "templates": {
+    "title": "Templates",
+    "blog": "Blog",
+    "ecommerce": "E-commerce",
+    "landingPage": "Landing Page"
+  },
+  "defaults": {
+    "title": "Defaults for new rows",
+    "freq": "Freq:",
+    "priority": "Priority:",
+    "applyToAll": "Apply to all:",
+    "freqLabel": "Freq",
+    "priorityLabel": "Priority",
+    "today": "Today"
+  },
+  "imageSitemap": {
+    "title": "Image Sitemap extension",
+    "desc": "Add image URLs per page"
+  },
+  "baseUrl": {
+    "label": "Base URL (for bulk import)",
+    "placeholder": "https://example.com"
+  },
+  "bulkImport": {
+    "show": "Show",
+    "hide": "Hide",
+    "title": "Bulk Import",
+    "desc": "Paste one URL or path per line. Relative paths will be prefixed with base URL.",
+    "placeholder": "/blog/post-1\n/blog/post-2\nhttps://example.com/page",
+    "importBtn": "Import",
+    "urls": "URLs",
+    "cancel": "Cancel"
+  },
+  "urls": {
+    "title": "URLs",
+    "valid": "valid",
+    "clearAll": "Clear all",
+    "addUrl": "Add URL",
+    "addAnother": "Add another URL",
+    "imageUrls": "Image URLs",
+    "addImage": "Add image"
+  },
+  "sitemapIndex": {
+    "info": "A Sitemap Index file points to multiple sitemap files. Use this when you have more than 50,000 URLs or want to split sitemaps by category (products, blog, etc.).",
+    "title": "Sitemap files",
+    "addSitemap": "Add sitemap",
+    "addIndex": "Add sitemap",
+    "placeholder": "https://example.com/sitemap-blog.xml"
+  },
+  "validation": {
+    "title": "Validation",
+    "valid": "Valid sitemap",
+    "noUrls": "No URLs added",
+    "exceedLimit": "Sitemap exceeds 50,000 URL limit per file",
+    "urlMustStart": "Row {row}: URL must start with http(s) — \"{url}\"",
+    "duplicateUrl": "Duplicate URL: \"{url}\"",
+    "priorityRange": "Row {row}: Priority must be 0.0–1.0",
+    "urlCount": "{count} URLs · Google recommends keeping files under 10 MB"
+  },
+  "stats": {
+    "urls": "URLs",
+    "withImages": "With images",
+    "priorityOne": "Priority 1.0",
+    "dailyPlus": "Daily+"
+  },
+  "output": {
+    "fileName": "sitemap.xml",
+    "indexFileName": "sitemap-index.xml",
+    "download": "Download",
+    "empty": "<!-- Add URLs to generate sitemap -->"
+  },
+  "outputFormat": {
+    "htmlTags": "HTML Tags (copy into <head>)",
+    "xmlSitemap": "XML Sitemap Format",
+    "httpHeaders": "HTTP Response Headers"
+  },
+  "implementation": {
+    "reminder": "Implementation Reminder",
+    "description": "These tags must be copied to the {head} of every page in the set — including all language versions. Each page must link to all others, including itself."
+  },
+  "pageSets": {
+    "title": "Page Sets",
+    "addPage": "Add page",
+    "removePage": "Remove page",
+    "addLanguage": "Add language"
+  },
+  "apache": {
+    "label": "Apache .htaccess Example"
+  },
+  "xmlHreflang": {
+    "description": "In the XML sitemap, each {url} block must contain all {xhtmlLink} alternates. Submit this sitemap in Google Search Console."
+  },
+  "tips": {
+    "title": "Submission Tips",
+    "list": [
+      "Upload sitemap.xml to your website root",
+      "Add to robots.txt: Sitemap: https://example.com/sitemap.xml",
+      "Submit in Google Search Console > Sitemaps",
+      "Submit in Bing Webmaster Tools",
+      "Max 50,000 URLs or 50 MB per sitemap file",
+      "Re-submit after major content changes",
+      "Priority 1.0 = most important pages"
+    ]
+  },
+  "frequency": {
+    "always": "Always",
+    "hourly": "Hourly",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "never": "Never"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "metaTagGenerator": "Meta Tag Generator",
+    "robotsTxt": "robots.txt Generator",
+    "slugGenerator": "URL Slug Generator",
+    "keywordDensity": "Keyword Density",
+    "utmBuilder": "UTM Builder"
+  },
+  "howToUse": {
+    "title": "How to Use Sitemap Generator",
+    "step1Title": "Add URLs",
+    "step1Desc": "Add your website URLs one by one or import them in bulk",
+    "step2Title": "Set Metadata",
+    "step2Desc": "Configure priority, change frequency, and last-modified date for each URL",
+    "step3Title": "Choose Output Format",
+    "step3Desc": "Select between URL sitemap, sitemap index, or image sitemap formats",
+    "step4Title": "Download and Submit",
+    "step4Desc": "Download the XML file and submit it to Google Search Console"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample URL to include in sitemap",
+    "sampleText": "https://example.com/page1",
+    "stats": "1 URL · Priority: 0.8 · Frequency: Weekly",
+    "result": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"><url><loc>https://example.com/page1</loc></url></urlset>"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is an XML sitemap?", "answer": "An XML sitemap is a file that lists all important pages on your website, helping search engines discover and index your content more efficiently." },
+      { "question": "Do I need a sitemap?", "answer": "Sitemaps are especially useful for large websites, new sites with few backlinks, or sites with complex navigation. Small sites may not need one." },
+      { "question": "How often should I update my sitemap?", "answer": "Update your sitemap whenever you add or remove significant content. Most CMS platforms handle this automatically." },
+      { "question": "What is the maximum size for a sitemap?", "answer": "A sitemap can contain up to 50,000 URLs and must not exceed 50MB (uncompressed). For larger sites, split into multiple sitemap files." }
+    ]
+  }
+}

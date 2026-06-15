@@ -1,0 +1,128 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "SEO Tools",
+    "current": "Robots.txt Generator"
+  },
+  "header": {
+    "badge": "SEO Tools",
+    "title": "Robots.txt Generator — Control Search Engine Crawling Easily",
+    "description": "Free online robots.txt generator to create robots.txt files that control how search engines crawl and index your website. Add allow and disallow rules for specific paths, set crawl delay, specify sitemap location, and add rules for individual user-agents like Googlebot and Bingbot.",
+    "keywords": "robots.txt generator, robots txt file, seo crawl control, robots txt creator, googlebot rules, block search engine crawling"
+  },
+  "rules": {
+    "title": "Crawl Rules",
+    "addRule": "Add Rule",
+    "userAgent": "User-Agent",
+    "userAgentPlaceholder": "User-agent name",
+    "disallow": "Disallow (block)",
+    "allow": "Allow (explicit allow)",
+    "disallowPlaceholder": "/admin/",
+    "allowPlaceholder": "/public/",
+    "add": "Add",
+    "noBlocked": "No blocked paths — add one above",
+    "noAllows": "No explicit allows — optional override",
+    "crawlDelay": "Crawl-delay (seconds, optional)",
+    "crawlDelayNote": "Note: Googlebot ignores crawl-delay",
+    "crawlDelayPlaceholder": "e.g. 10",
+    "moreBots": "More bots…",
+    "newRule": "New Rule",
+    "disallowCount": "disallow",
+    "allowCount": "allow"
+  },
+  "sitemaps": {
+    "title": "Sitemaps",
+    "add": "Add sitemap",
+    "placeholder": "https://example.com/sitemap.xml",
+    "noSitemaps": "No sitemaps added — recommended to include your sitemap URL"
+  },
+  "host": {
+    "label": "Host (optional — for Yandex)",
+    "placeholder": "example.com"
+  },
+  "validation": {
+    "title": "Validation",
+    "noErrors": "No errors or warnings",
+    "noUserAgent": "No User-agent directive found",
+    "orphanDirective": "Disallow/Allow directive found without a preceding User-agent",
+    "relativeSitemap": "Sitemap URL should be absolute: \"{url}\"",
+    "invalidDelay": "Crawl-delay must be a positive number",
+    "highDelay": "Crawl-delay of {val}s is very high — may hurt indexing",
+    "emptyDisallow": "Empty Disallow means allow all crawling (this is correct)",
+    "blockAllWarning": "Disallow: / blocks all crawling — make sure this is intentional"
+  },
+  "output": {
+    "title": "robots.txt",
+    "download": "Download"
+  },
+  "howToUse": {
+    "title": "How to Use Robots.txt Generator",
+    "step1Title": "Add User-Agent",
+    "step1Desc": "Specify the search engine crawler (e.g., Googlebot, Bingbot, or * for all)",
+    "step2Title": "Set Crawl Rules",
+    "step2Desc": "Add Disallow and Allow rules to control which paths each crawler can access",
+    "step3Title": "Add Sitemaps",
+    "step3Desc": "Include your sitemap URLs so crawlers can discover all your pages",
+    "step4Title": "Download or Copy",
+    "step4Desc": "Download the robots.txt file and upload it to your website root directory"
+  },
+  "deployment": {
+    "tip": "Upload robots.txt to your website root at {url}. Changes take effect on next crawl."
+  },
+  "presets": {
+    "title": "Quick Presets",
+    "allowAll": {
+      "label": "Allow all",
+      "desc": "Allow all robots to crawl everything"
+    },
+    "blockAll": {
+      "label": "Block all",
+      "desc": "Block all robots from all pages"
+    },
+    "blockAi": {
+      "label": "Block AI bots",
+      "desc": "Block AI training crawlers"
+    },
+    "wordpress": {
+      "label": "WordPress",
+      "desc": "Standard WordPress setup"
+    },
+    "ecommerce": {
+      "label": "E-commerce",
+      "desc": "Block cart, checkout, search"
+    },
+    "blockSeo": {
+      "label": "Block SEO tools",
+      "desc": "Block common SEO crawlers"
+    }
+  },
+  "related": {
+    "title": "Related SEO Tools",
+    "sitemapGenerator": "Sitemap Generator",
+    "canonicalTag": "Canonical Tag Generator",
+    "metaTagGenerator": "Meta Tag Generator",
+    "slugGenerator": "URL Slug Generator",
+    "keywordDensity": "Keyword Density",
+    "utmBuilder": "UTM Builder"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "examples": {
+    "title": "Try an Example",
+    "sampleLabel": "Sample robots.txt content",
+    "sampleText": "User-agent: *\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nSitemap: https://example.com/sitemap.xml",
+    "stats": "3 directives · 2 user-agents · 1 sitemap reference",
+    "result": "✓ Valid robots.txt — allows all crawlers except GPTBot"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is robots.txt?", "answer": "Robots.txt is a text file placed in a website's root directory that instructs search engine crawlers which pages or sections to crawl and which to ignore." },
+      { "question": "Can robots.txt block indexing?", "answer": "No, robots.txt only prevents crawling, not indexing. If external sites link to a blocked page, it may still appear in search results. Use noindex tags to prevent indexing." },
+      { "question": "Where should robots.txt be placed?", "answer": "Robots.txt must be placed in the root directory of your website, typically at example.com/robots.txt. It cannot be placed in subdirectories." },
+      { "question": "Can all crawlers be blocked?", "answer": "While you can set Disallow for all user-agents, malicious crawlers may ignore robots.txt. It is a voluntary protocol and not a security measure." }
+    ]
+  }
+}

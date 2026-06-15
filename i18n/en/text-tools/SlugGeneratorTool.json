@@ -1,0 +1,82 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Slug Generator"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "URL Slug Generator — Create SEO-Friendly Slugs Online",
+    "description": "Free online slug generator to convert any title, headline, or phrase into a clean, SEO-optimized URL slug. Supports accented characters, Arabic transliteration, custom separators, and lowercase conversion. Perfect for content creators, SEO specialists, and web developers who need consistent, readable URLs.",
+    "keywords": "slug generator, url slug generator, seo slug maker, url friendly text, create url slug, permalink generator, arabic slug converter"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy Slug"
+  },
+  "controls": {
+    "separator": "Separator",
+    "options": "Options",
+    "maxLength": "Max Length",
+    "noLimit": "No limit",
+    "remove": "✕ Remove"
+  },
+  "toggles": {
+    "lowercase": "Lowercase",
+    "lowercaseDesc": "Convert all characters to lowercase.",
+    "transliterate": "Transliterate",
+    "transliterateDesc": "Convert accented & Arabic characters to ASCII equivalents.",
+    "removeStopWords": "Remove Stop Words",
+    "removeStopWordsDesc": "Strip common words like \"the\", \"and\", \"of\".",
+    "trimSeparators": "Trim Separators",
+    "trimSeparatorsDesc": "Remove leading and trailing separator characters."
+  },
+  "input": {
+    "label": "Title or Phrase",
+    "words": "words",
+    "placeholder": "e.g. How to Build a Next.js App in 2026"
+  },
+  "output": {
+    "label": "Generated Slug",
+    "chars": "chars",
+    "placeholder": "your-slug-will-appear-here"
+  },
+  "slugStats": {
+    "characters": "characters",
+    "words": "words",
+    "tooLong": "⚠ Long for SEO (recommended: ≤ 75)",
+    "goodLength": "✓ Good length for SEO"
+  },
+  "urlPreview": {
+    "title": "URL Preview",
+    "placeholder": "your-slug-here"
+  },
+  "howToUse": {
+    "title": "How to Use the Slug Generator",
+    "step1Title": "Enter your title or phrase",
+    "step1Desc": "Type or paste the title, headline, or phrase you want to convert into a URL-friendly slug. The tool processes input in real time.",
+    "step2Title": "Configure slug options",
+    "step2Desc": "Enable Lowercase, Transliterate (for accented/Arabic characters), Remove Stop Words, or Trim Separators. Set a max length limit if needed.",
+    "step3Title": "Preview the generated slug",
+    "step3Desc": "The URL Preview shows how your slug will look in a full URL context. The slug stats indicate if the length is SEO-friendly (recommended: ≤ 75 characters).",
+    "step4Title": "Copy or bulk generate",
+    "step4Desc": "Copy the generated slug with one click. Use the Bulk Generator to convert multiple titles at once, perfect for migrating or creating many pages."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is a URL slug and why is it important for SEO?", "answer": "A URL slug is the part of a URL that identifies a specific page in a human-readable format (e.g., '/how-to-build-a-website'). SEO-friendly slugs improve search rankings by including relevant keywords, being concise, and using hyphens between words. They also help users understand what a page is about before clicking." },
+      { "question": "Does the tool handle Arabic and accented characters?", "answer": "Yes. Enable 'Transliterate' to convert accented Latin characters (é, ñ, ü) and Arabic script to their ASCII equivalents. For example, 'مرحبا بالعالم' becomes 'mrhb-bl-lm' and 'café' becomes 'cafe'. This ensures your slugs are universally compatible." },
+      { "question": "What is the recommended slug length for SEO?", "answer": "The recommended maximum slug length is 50-75 characters. Slugs longer than this may be truncated in search results and dilute SEO value. The tool displays a warning if your slug exceeds 75 characters and a positive indicator when it's within the recommended range." },
+      { "question": "What does 'Remove Stop Words' do?", "answer": "Stop words are common words like 'the', 'and', 'of', 'in', and 'a' that add little SEO value. When enabled, this option strips these words from your slug, making it shorter and more keyword-focused. For example, 'The Best of the World' becomes 'best-world'." },
+      { "question": "Can I generate slugs for multiple titles at once?", "answer": "Yes. The Bulk Generator feature allows you to paste multiple titles (one per line) and generate slugs for all of them instantly. Each title is processed with the same settings, making it easy to create slugs for an entire website or content migration." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample title",
+    "sampleText": "How to Build a Next.js Application in 2026",
+    "result": "Enter 'How to Build a Next.js Application in 2026' and enable Lowercase + Remove Stop Words. The generated slug will be 'build-nextjs-application-2026' — concise, keyword-rich, and SEO-friendly.",
+    "stats": "What you'll see"
+  }
+}

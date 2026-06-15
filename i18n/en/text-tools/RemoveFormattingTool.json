@@ -1,0 +1,116 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Text Tools",
+    "current": "Remove Formatting"
+  },
+  "header": {
+    "badge": "Text Tools",
+    "title": "Remove Formatting — Strip HTML, Markdown & Special Chars",
+    "description": "Free online text formatting remover to strip HTML tags, Markdown syntax, invisible Unicode characters, emojis, extra whitespace, and special formatting. Choose exactly what to clean. Ideal for developers copying code, writers pasting from word processors, and anyone who needs clean plain text fast.",
+    "keywords": "remove formatting, strip html tags, remove html formatting, clean text formatter, plain text converter, remove markdown, strip special characters, unicode cleaner"
+  },
+  "copy": {
+    "copied": "Copied!",
+    "button": "Copy"
+  },
+  "controls": {
+    "allOn": "All On",
+    "allOff": "All Off",
+    "reset": "Reset",
+    "loadExample": "Load Example"
+  },
+  "groups": {
+    "Format": "Format",
+    "Content": "Content"
+  },
+  "options": {
+    "html": {
+      "label": "HTML Tags",
+      "description": "Remove <b>, <div>, <span> and all other HTML tags."
+    },
+    "markdown": {
+      "label": "Markdown",
+      "description": "Strip **bold**, # headings, [links](), and other syntax."
+    },
+    "whitespace": {
+      "label": "Extra Whitespace",
+      "description": "Collapse multiple spaces and blank lines."
+    },
+    "invisible": {
+      "label": "Invisible Chars",
+      "description": "Remove zero-width spaces, BOM, and hidden characters."
+    },
+    "urls": {
+      "label": "URLs & Links",
+      "description": "Strip all http:// and https:// URLs."
+    },
+    "emojis": {
+      "label": "Emojis",
+      "description": "Remove all emoji characters from the text."
+    },
+    "numbers": {
+      "label": "Numbers",
+      "description": "Delete all numeric digits."
+    },
+    "punctuation": {
+      "label": "Punctuation",
+      "description": "Remove commas, periods, brackets, and symbols."
+    },
+    "newlines": {
+      "label": "Line Breaks",
+      "description": "Collapse all newlines into a single line of text."
+    }
+  },
+  "stats": {
+    "characters": "Characters",
+    "words": "Words",
+    "removed": "Removed",
+    "chars": "chars",
+    "cleaned": "Cleaned",
+    "reduction": "reduction"
+  },
+  "input": {
+    "label": "Input",
+    "chars": "chars",
+    "clear": "Clear",
+    "placeholder": "Paste your HTML, Markdown, or any messy text here..."
+  },
+  "cleaners": {
+    "active": "cleaner",
+    "activePlural": "cleaners",
+    "activeSuffix": "active"
+  },
+  "output": {
+    "label": "Cleaned Output",
+    "chars": "chars",
+    "placeholderAllRemoved": "All content was removed by the active cleaners.",
+    "placeholderEmpty": "Your cleaned text will appear here..."
+  },
+  "howToUse": {
+    "title": "How to Use Remove Formatting",
+    "step1Title": "Paste your formatted text",
+    "step1Desc": "Paste HTML, Markdown, or any text with special formatting into the input area. The tool instantly detects the content and prepares for cleaning.",
+    "step2Title": "Choose what to remove",
+    "step2Desc": "Toggle individual cleaners: HTML Tags, Markdown, Extra Whitespace, Invisible Chars, URLs, Emojis, Numbers, Punctuation, or Line Breaks. Use All On / All Off for bulk control.",
+    "step3Title": "Get clean output",
+    "step3Desc": "The output area shows your cleaned text in real time. The stats panel shows how many characters were removed and the percentage of reduction."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What types of formatting can this tool remove?", "answer": "The tool removes HTML tags, Markdown syntax, extra whitespace, invisible Unicode characters, URLs, emojis, numbers, punctuation, and line breaks. Each category can be toggled independently so you remove exactly what you want." },
+      { "question": "Can I remove HTML tags while keeping the text content?", "answer": "Yes. Enable the 'HTML Tags' cleaner to strip all <tags> while preserving the visible text between them. This is useful for converting rich HTML content into clean plain text." },
+      { "question": "What are invisible characters?", "answer": "Invisible characters include zero-width spaces (U+200B), BOM marks (U+FEFF), soft hyphens, and other Unicode characters that are present in the text but not visible. These often cause issues in code editors, databases, and text processing pipelines." },
+      { "question": "Does the tool show how much was removed?", "answer": "Yes. The stats panel displays the number of characters removed and the percentage of reduction. This helps you understand how much formatting was stripped from your original text." },
+      { "question": "Can I use this to clean text pasted from Microsoft Word?", "answer": "Absolutely. Text pasted from Word often contains hidden formatting characters, extra whitespace, and special quotes. Enable the 'Extra Whitespace' and 'Invisible Chars' cleaners to get clean plain text." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "<h1>Welcome</h1><p>This is <b>bold</b> text with a <a href='#'>link</a>.</p><p>Extra    spaces   and   👋 emojis.</p>",
+    "result": "Paste the sample HTML and enable HTML Tags + Extra Whitespace + Emojis cleaners. The output will be clean plain text: 'Welcome This is bold text with a link. Extra spaces and emojis.' Notice all tags, extra spaces, and emojis are removed.",
+    "stats": "What you'll see"
+  }
+}
