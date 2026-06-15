@@ -1,0 +1,10 @@
+{
+  "related": {
+    "title": "أدوات المطورين ذات الصلة",
+    "jsonFormatter": "منسق JSON",
+    "jsonDiff": "مقارنة JSON",
+    "csvToJson": "تحويل CSV إلى JSON",
+    "regexTester": "اختبار Regex",
+    "jwtDecoder": "مفكك تشفير JWT"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "Changelog — What's New at Fancy Toolbox | Product Updates",
+    "description": "Stay up to date with the latest Fancy Toolbox updates. See new tools, feature improvements, bug fixes, and product announcements all in one place.",
+    "keywords": "changelog, product updates, new tools, feature releases, fancy toolbox updates"
+  },
+  "content": {
+    "title": "Changelog",
+    "subtitle": "What's new at Fancy Toolbox",
+    "sections": [
+      {
+        "version": "1.0.0",
+        "date": "January 2026",
+        "heading": "Initial Release",
+        "body": "We're excited to launch Fancy Toolbox with a comprehensive collection of free online tools including text manipulation, image editing, PDF processing, developer utilities, math converters, and security tools. All tools run entirely in your browser with no sign-up required."
+      }
+    ]
+  }
+}

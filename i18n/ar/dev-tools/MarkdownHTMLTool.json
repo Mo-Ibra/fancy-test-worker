@@ -1,0 +1,100 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "Markdown إلى HTML"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "محول Markdown إلى HTML — تحويل MD إلى HTML والعكس أونلاين",
+    "description": "أداة مجانية لتحويل Markdown إلى HTML أونلاين مع معاينة مباشرة. اكتب Markdown وشاهد HTML المُنشأ في الوقت الفعلي. حول بين تنسيقي Markdown وHTML مع تمييز الصياغة.",
+    "keywords": "تحويل markdown إلى html, md إلى html, محول markdown, معاينة markdown, html إلى markdown"
+  },
+  "layout": {
+    "split": "عرض منقسم",
+    "markdown": "Markdown فقط",
+    "html": "HTML فقط"
+  },
+  "input": {
+    "placeholder": "أدخل Markdown هنا..."
+  },
+  "options": {
+    "wrapDoc": "تغليف في مستند HTML"
+  },
+  "toolbar": {
+    "bold": "عريض",
+    "italic": "مائل",
+    "heading": "عنوان",
+    "link": "رابط",
+    "image": "صورة",
+    "list": "قائمة",
+    "code": "كود",
+    "quote": "اقتباس",
+    "table": "جدول",
+    "hr": "خط أفقي"
+  },
+  "stats": {
+    "words": "الكلمات",
+    "chars": "الأحرف",
+    "lines": "الأسطر"
+  },
+  "actions": {
+    "convert": "تحويل",
+    "clear": "مسح",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "download": "تحميل HTML"
+  },
+  "words": "الكلمات",
+  "headings": "العناوين",
+  "links": "الروابط",
+  "images": "الصور",
+  "tables": "الجداول",
+  "codeBlocks": "كتل الكود",
+  "mdChars": "حرف md",
+  "htmlChars": "حرف html",
+  "editor": "المحرر",
+  "preview": "المعاينة",
+  "htmlOutput": "إخراج HTML",
+  "paste": "لصق",
+  "example": "مثال",
+  "fullDocument": "المستند الكامل",
+  "copyHtml": "نسخ HTML",
+  "copyFullHtml": "نسخ مستند HTML الكامل",
+  "copyHtmlFragment": "نسخ جزء HTML",
+  "downloadHtml": "تحميل .html",
+  "syntax": "الصياغة",
+  "output": "الإخراج",
+  "element": "العنصر",
+  "syntaxReference": "مرجع صياغة Markdown",
+  "extensions": "الامتدادات المدعومة",
+  "syntaxNot": "غير مدعوم بعد",
+  "notSupported": "غير مدعوم",
+  "howToUse": {
+    "title": "كيفية استخدام محول Markdown إلى HTML",
+    "step1Title": "اكتب أو الصق Markdown",
+    "step1Desc": "اكتب أو الصق محتوى Markdown في المحرر على الجانب الأيسر.",
+    "step2Title": "اختر تخطيطاً",
+    "step2Desc": "اختر العرض المقسم لرؤية Markdown وHTML معاً، أو ركز على جانب واحد فقط.",
+    "step3Title": "استخدم شريط الأدوات للتنسيق",
+    "step3Desc": "انقر على أزرار شريط الأدوات لإدراج عريض ومائل وعناوين وروابط وقوائم والمزيد بسرعة.",
+    "step4Title": "انسخ أو حمل النتيجة",
+    "step4Desc": "انسخ HTML المُنشأ أو حمّله كملف .html لاستخدامه في مشروعك."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "هل يمكنني تحويل HTML إلى Markdown؟", "answer": "نعم. هذه الأداة تدعم التحويل ثنائي الاتجاه — الصق HTML على الجانب الأيمن لتحويله إلى Markdown." },
+      { "question": "ما هي صيغ Markdown المدعومة؟", "answer": "صيغ Markdown القياسية بالإضافة إلى الصيغ الموسعة مثل الجداول وكتل الكود وقوائم المهام والتشطيب." },
+      { "question": "هل المعاينة مباشرة؟", "answer": "نعم. معاينة HTML تتحدث في الوقت الفعلي أثناء كتابة أو تعديل محتوى Markdown." },
+      { "question": "هل يمكنني تحميل الإخراج؟", "answer": "نعم. يمكنك تحميل HTML المُنشأ كملف .html أو نسخ جزء HTML مباشرة." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب هذا النص النموذجي",
+    "sampleText": "# مرحباً بالعالم\n\nهذا **عريض** و*مائل*.\n\n- عنصر قائمة 1\n- عنصر قائمة 2",
+    "result": "<h1>مرحباً بالعالم</h1>\n<p>هذا <strong>عريض</strong> و<em>مائل</em>.</p>\n<ul>\n<li>عنصر قائمة 1</li>\n<li>عنصر قائمة 2</li>\n</ul>",
+    "stats": "ما ستراه"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Contact Us — Get in Touch with the Fancy Toolbox Team",
+    "description": "Have a question, suggestion, or bug report? Contact the Fancy Toolbox team. We'd love to hear your feedback about our free online tools.",
+    "keywords": "contact fancy toolbox, support, feedback, bug report, feature request"
+  },
+  "content": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "sections": [
+      {
+        "heading": "Get in Touch",
+        "body": "Have a question, suggestion, or feedback? We'd love to hear from you. Whether it's a bug report, feature request, or just a friendly hello — don't hesitate to reach out."
+      },
+      {
+        "heading": "Report an Issue",
+        "body": "If you've encountered a bug or something isn't working as expected, please let us know. Include as much detail as possible, such as the tool you were using, your browser, and steps to reproduce the issue."
+      },
+      {
+        "heading": "Feature Requests",
+        "body": "Can't find a tool you need? Let us know what you'd like to see added to Fancy Toolbox. We're always looking for ideas to make our platform more useful."
+      }
+    ],
+    "email": "contact@fancytoolbox.com"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "Scientific Calculator"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "Scientific Calculator — Advanced Math with History & Memory",
+    "description": "Free online scientific calculator with advanced mathematical functions, calculation history, and memory storage. Perform trigonometric, logarithmic, exponential, and statistical calculations with a clean developer-friendly interface.",
+    "keywords": "scientific calculator, advanced calculator, math calculator, trig calculator, calc with history, online calculator, developer calculator, memory calculator"
+  },
+  "modes": {
+    "basic": "Basic",
+    "scientific": "Scientific"
+  },
+  "angle": {
+    "deg": "DEG",
+    "rad": "RAD",
+    "grad": "GRAD"
+  },
+  "actions": {
+    "clear": "AC",
+    "delete": "DEL",
+    "equals": "="
+  },
+  "memory": {
+    "MC": "MC",
+    "MR": "MR",
+    "M+": "M+",
+    "M-": "M-"
+  },
+  "history": {
+    "title": "History",
+    "clear": "Clear History",
+    "empty": "No history yet"
+  },
+  "keyboardHint": "Keyboard supported · Enter = · Esc = AC · Backspace = DEL",
+  "trigonometric": "Trigonometric",
+  "hyperbolic": "Hyperbolic",
+  "logExp": "Logarithm & Exponential",
+  "rootsPowers": "Roots & Powers",
+  "combinatorics": "Combinatorics",
+  "constants": "Constants",
+  "functionReference": "Function Reference",
+  "exampleExpressions": "Example Expressions",
+  "circleArea": "Circle area",
+  "pythagoras": "Pythagoras",
+  "sin30": "sin 30°",
+  "cos60Sin30": "cos 60° + sin 30°",
+  "logBase10": "log₁₀(1000)",
+  "eToPi": "e^π",
+  "combinations": "combinations {n}",
+  "factorial": "Factorial {n}",
+  "goldenRatio": "Golden ratio squared",
+  "compoundInterest": "Compound interest",
+  "sine": "Sine (respects DEG/RAD/GRAD)",
+  "cosine": "Cosine",
+  "tangent": "Tangent",
+  "invSine": "Inverse sine",
+  "invCosine": "Inverse cosine",
+  "invTangent": "Inverse tangent",
+  "hypSine": "Hyperbolic sine",
+  "hypCosine": "Hyperbolic cosine",
+  "hypTangent": "Hyperbolic tangent",
+  "log10": "Base-10 logarithm",
+  "ln": "Natural logarithm",
+  "log2": "Base-2 logarithm",
+  "exp": "eˣ",
+  "sqrt": "Square root",
+  "cbrt": "Cube root",
+  "power": "Power: 2^8 = 256",
+  "factorialN": "Factorial: 5! = 120",
+  "nCr": "Combinations",
+  "nPr": "Permutations",
+  "pi": "3.14159265...",
+  "eConst": "2.71828182...",
+  "phi": "Golden ratio 1.618..."
+}

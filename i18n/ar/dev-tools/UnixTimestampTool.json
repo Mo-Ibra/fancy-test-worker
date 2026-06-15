@@ -1,0 +1,106 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "طابع Unix الزمني"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "محول Unix Timestamp — تحويل الوقت إلى تاريخ أونلاين",
+    "description": "أداة مجانية لتحويل طوابع Unix الزمنية أونلاين للتحويل بين التوقيت الرقمي والتواريخ البشرية. اعرض وقت Unix الحالي وحول بين المناطق الزمنية بتنسيق ISO وUTC. أساسية للمطورين.",
+    "keywords": "محول unix timestamp, تحويل الوقت, epoch, unix time, تحويل التاريخ, timestamp"
+  },
+  "tabs": {
+    "toDate": "طابع زمني إلى تاريخ",
+    "toTimestamp": "تاريخ إلى طابع زمني"
+  },
+  "unit": {
+    "seconds": "ثواني",
+    "milliseconds": "ميلي ثانية"
+  },
+  "date": {
+    "year": "السنة",
+    "month": "الشهر",
+    "day": "اليوم",
+    "hour": "الساعة",
+    "minute": "الدقيقة",
+    "second": "الثانية",
+    "millisecond": "الميلي ثانية",
+    "utc": "UTC",
+    "local": "المحلي"
+  },
+  "result": {
+    "timestamp": "الطابع الزمني",
+    "now": "الآن"
+  },
+  "actions": {
+    "copy": "نسخ",
+    "copied": "تم النسخ!"
+  },
+  "currentTime": "وقت Unix الحالي",
+  "timestampToDate": "طابع زمني → تاريخ",
+  "dateToTimestamp": "تاريخ ← طابع زمني",
+  "swap": "تبديل",
+  "useNow": "استخدم الآن",
+  "notableTimestamps": "طوابع زمنية بارزة",
+  "dateAndTime": "التاريخ والوقت",
+  "year": "السنة",
+  "month": "الشهر",
+  "day": "اليوم",
+  "hour": "الساعة",
+  "minute": "الدقيقة",
+  "ms": "مللي ثانية",
+  "unixSeconds": "ثواني Unix",
+  "unixMilliseconds": "ميلي ثانية Unix",
+  "iso8601": "ISO 8601",
+  "week": "الأسبوع",
+  "dayOfYear": "اليوم {n} من السنة",
+  "weekN": "الأسبوع {n}",
+  "leapYear": "سنة كبيسة",
+  "nonLeapYear": "سنة غير كبيسة",
+  "worldClocks": "ساعات العالم",
+  "convertedResult": "النتيجة المحولة",
+  "dateComponents": "مكونات التاريخ (UTC)",
+  "enterTimestamp": "أدخل طابعاً زمنياً أو اختر واحداً بارزاً",
+  "localTime": "وقتك المحلي",
+  "commonFormats": "تنسيقات الطابع الزمني الشائعة",
+  "unixSecondsLabel": "ثواني Unix",
+  "unixMsLabel": "ميلي ثانية Unix",
+  "iso8601Label": "ISO 8601",
+  "rfc2822": "RFC 2822",
+  "humanReadable": "قابل للقراءة البشرية",
+  "standardApis": "قياسي؛ معظم واجهات برمجة التطبيقات",
+  "jsDatenow": "Date.now() في JavaScript",
+  "webStandards": "معايير الويب",
+  "emailHeaders": "رؤوس البريد الإلكتروني",
+  "displayOnly": "عرض فقط",
+  "yourLocalTime": "وقتك المحلي",
+  "unixTimeMilestones": "معالم وقت Unix",
+  "howToUse": {
+    "title": "كيفية استخدام محول Unix Timestamp",
+    "step1Title": "اختر اتجاه التحويل",
+    "step1Desc": "اختر طابع زمني إلى تاريخ أو تاريخ إلى طابع زمني حسب ما تريد تحويله.",
+    "step2Title": "أدخل القيمة",
+    "step2Desc": "اكتب طابعاً زمنياً لـ Unix أو اختر تاريخاً باستخدام منتقي التاريخ.",
+    "step3Title": "اختر وحدة الوقت",
+    "step3Desc": "اختر بين الثواني (Unix القياسي) أو الميلي ثانية (نمط JavaScript).",
+    "step4Title": "اقرأ النتائج",
+    "step4Desc": "عرض الإخراج المحول بالتوقيت المحلي و UTC و ISO 8601 وتنسيقات أخرى شائعة."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هو طابع Unix الزمني؟", "answer": "طابع Unix الزمني هو عدد الثواني (أو الميلي ثانية) التي انقضت منذ 1 يناير 1970 00:00:00 UTC." },
+      { "question": "هل هناك فرق بين الثواني والميلي ثانية؟", "answer": "نعم. JavaScript's Date.now() ترجع ميلي ثانية (13 رقماً)، بينما معظم واجهات API تستخدم الثواني (10 أرقام)." },
+      { "question": "هل يمكنني رؤية طابع Unix الحالي؟", "answer": "نعم. الأداة تعرض وقت Unix الحالي في الوقت الفعلي في أعلى الصفحة." },
+      { "question": "هل تدعم هذه الأداة المناطق الزمنية؟", "answer": "نعم. يمكنك عرض النتائج بمنطقتك الزمنية المحلية و UTC، بالإضافة إلى تنسيقي ISO 8601 و RFC 2822." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب هذا الطابع الزمني",
+    "sampleText": "1718198400",
+    "result": "UTC: 2024-06-12 12:00:00 · المحلي: 2024-06-12 14:00:00",
+    "stats": "ما ستراه"
+  }
+}

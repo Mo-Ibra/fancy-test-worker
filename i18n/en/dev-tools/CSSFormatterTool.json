@@ -1,0 +1,109 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "CSS Formatter"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "CSS Formatter — Format, Minify & Beautify CSS Online",
+    "description": "Free online CSS formatter to format, minify, and beautify CSS code with customizable indentation and style options. Validate syntax, compress for production, or expand for readability. Perfect for front-end developers.",
+    "keywords": "css formatter, css beautifier, css minifier, format css online, css pretty print, css style formatter, css code formatter, css validator"
+  },
+  "input": {
+    "title": "CSS Input",
+    "placeholder": "Paste your CSS here..."
+  },
+  "options": {
+    "title": "Options",
+    "indentChar": "Indentation",
+    "indentSpaces": "Spaces",
+    "indentTabs": "Tabs",
+    "braceStyle": "Opening Brace",
+    "sameLine": "Same Line",
+    "sameLinePreview": "selector {",
+    "newLine": "New Line",
+    "newLinePreview": "selector\n{",
+    "propSort": "Property Sort",
+    "none": "None",
+    "noneDesc": "Keep original order",
+    "alpha": "Alphabetical",
+    "alphaDesc": "a–z property order",
+    "grouped": "Grouped",
+    "groupedDesc": "Layout → Typography → Effects…",
+    "colorFormat": "Color Format",
+    "keep": "Keep",
+    "hex": "HEX",
+    "rgb": "RGB",
+    "hsl": "HSL",
+    "removeComments": "Remove Comments",
+    "removeCommentsDesc": "Strip all /* … */ comments",
+    "singleLineRules": "Collapse Single Rules",
+    "singleLineRulesDesc": ".sel { prop: val; } on one line",
+    "spaceAfterColon": "Space After Colon",
+    "spaceAfterColonDesc": "prop: value vs prop:value"
+  },
+  "viewMode": {
+    "formatted": "Formatted",
+    "minified": "Minified"
+  },
+  "stats": {
+    "title": "Stats",
+    "rules": "Rules",
+    "declarations": "Declarations",
+    "input": "Input",
+    "output": "Output",
+    "saved": "Saved",
+    "lines": "Lines"
+  },
+  "issues": {
+    "title": "Issues",
+    "noIssues": "No issues detected",
+    "error": "{count} error",
+    "errors": "{count} errors",
+    "warning": "{count} warning",
+    "warnings": "{count} warnings",
+    "more": "+{count} more…"
+  },
+  "howToUse": {
+    "title": "How to Use the CSS Formatter",
+    "step1Title": "Paste your CSS",
+    "step1Desc": "Paste your CSS code into the input area on the left side.",
+    "step2Title": "Configure formatting options",
+    "step2Desc": "Adjust indentation, brace style, property sorting, and color format to match your preferences.",
+    "step3Title": "Choose output mode",
+    "step3Desc": "Switch between Formatted (pretty-print) and Minified (compressed) views.",
+    "step4Title": "Review and copy",
+    "step4Desc": "Check the stats and fix any detected issues, then copy or download the result."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Can this tool detect CSS errors?", "answer": "Yes. The tool highlights syntax issues including missing braces, invalid property values, and duplicate selectors." },
+      { "question": "What indentation options are available?", "answer": "You can choose between spaces (2 or 4) or tabs, and decide whether opening braces go on the same line or a new line." },
+      { "question": "Can I sort CSS properties alphabetically?", "answer": "Yes. Enable the Alphabetical sort option to reorder properties from a to z, or use Grouped for logical ordering." },
+      { "question": "Does the tool remove comments?", "answer": "Yes. Toggle the Remove Comments option to strip all CSS comments from the output." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "body{margin:0;padding:0}h1{color:red;font-size:24px}",
+    "result": "body {\n  margin: 0;\n  padding: 0;\n}\nh1 {\n  color: red;\n  font-size: 24px;\n}",
+    "stats": "What you'll see"
+  },
+  "output": {
+    "formatted": "Formatted CSS",
+    "minified": "Minified CSS",
+    "empty": "Output will appear here"
+  },
+  "actions": {
+    "paste": "Paste",
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": ".txt"
+  },
+  "syntaxHighlight": "Syntax highlighting",
+  "processing": "Processing…"
+}

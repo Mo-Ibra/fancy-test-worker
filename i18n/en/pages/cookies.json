@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Cookie Policy — How Fancy Toolbox Uses Cookies",
+    "description": "Fancy Toolbox uses minimal essential cookies only — no tracking, no advertising, no third-party cookies. Learn how we manage cookies on our site.",
+    "keywords": "cookie policy, essential cookies, no tracking cookies, browser cookies, privacy"
+  },
+  "content": {
+    "title": "Cookie Policy",
+    "subtitle": "How we use cookies",
+    "lastUpdated": "Last updated: January 2026",
+    "sections": [
+      {
+        "heading": "What Are Cookies",
+        "body": "Cookies are small text files stored on your device by your web browser. They are widely used to make websites work efficiently and provide information to site owners."
+      },
+      {
+        "heading": "How We Use Cookies",
+        "body": "Fancy Toolbox uses minimal cookies that are strictly necessary for the website to function. We do not use tracking cookies, advertising cookies, or any third-party cookies that collect personal information."
+      },
+      {
+        "heading": "Essential Cookies",
+        "body": "We may use essential cookies to remember your language preference and theme selection (light/dark mode). These cookies are necessary for the site to function properly and do not collect any personal data."
+      },
+      {
+        "heading": "Managing Cookies",
+        "body": "You can control and manage cookies in your browser settings. Please note that disabling certain cookies may affect the functionality of the website."
+      },
+      {
+        "heading": "Updates",
+        "body": "We may update this cookie policy from time to time. Any changes will be posted on this page."
+      }
+    ]
+  }
+}

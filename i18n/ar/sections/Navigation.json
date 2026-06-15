@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "tools": "الأدوات",
+    "articles": "المقالات",
+    "about": "عن المنصة"
+  },
+  "toolsList": {
+    "textTitle": "أدوات النصوص",
+    "text": {
+      "wordCounter": {
+        "label": "عداد الكلمات",
+        "description": "احسب الكلمات والأحرف والجمل ووقت القراءة فوراً."
+      },
+      "caseConverter": {
+        "label": "محول الحالة",
+        "description": "التبديل بين كبير وصغير والعنوان وcamelCase والمزيد."
+      },
+      "loremIpsum": {
+        "label": "مولد لوريم إيبسوم",
+        "description": "أنشئ نصاً بديلاً بفقرات أو جمل أو كلمات."
+      },
+      "diff": {
+        "label": "فاحص فرق النص",
+        "description": "قارن بين نصين وأبرز الاختلافات."
+      },
+      "all": "جميع أدوات النصوص"
+    },
+    "devTitle": "أدوات المطورين",
+    "dev": {
+      "jsonFormatter": {
+        "label": "منسق JSON",
+        "description": "جمّل أو صغر JSON مع تمييز الصياغة وكشف الأخطاء."
+      },
+      "base64": {
+        "label": "مشفر Base64",
+        "description": "شفر سلاسل أو ملفات إلى Base64، أو فك تشفير Base64 إلى نص."
+      },
+      "regex": {
+        "label": "مختبئ التعبيرات النمطية",
+        "description": "اكتب واختبر وتصحيح التعبيرات النمطية مع تمييز المطابقات الفوري."
+      },
+      "uuid": {
+        "label": "مولد UUID",
+        "description": "أنشئ UUID من الإصدار 1 أو 4 أو بكميات لقواعد البيانات وواجهات برمجة التطبيقات."
+      },
+      "all": "جميع أدوات المطورين"
+    },
+    "imageTitle": "أدوات الصور",
+    "image": {
+      "resizer": {
+        "label": "تغيير حجم الصورة",
+        "description": "غيّر حجم الصور إلى أبعاد محددة أو بنسبة مئوية — بدون فقدان الجودة."
+      },
+      "compressor": {
+        "label": "ضغط الصورة",
+        "description": "اضغط ملفات JPG وPNG وWebP مع الحفاظ على الجودة المرئية."
+      },
+      "converter": {
+        "label": "محول الصيغ",
+        "description": "حوّل الصور بين JPG وPNG وWebP وGIF وBMP والمزيد."
+      },
+      "colorPicker": {
+        "label": "منتقي الألوان",
+        "description": "استخرج رموز الألوان الدقيقة (HEX وRGB وHSL) من أي صورة."
+      },
+      "all": "جميع أدوات الصور"
+    },
+    "pdfTitle": "أدوات PDF",
+    "pdf": {
+      "merger": {
+        "label": "دمج PDF",
+        "description": "ادمج عدة ملفات PDF في ملف واحد في ثوانٍ."
+      },
+      "splitter": {
+        "label": "تقسيم PDF",
+        "description": "قسّم PDF إلى صفحات فردية أو نطاقات صفحات مخصصة."
+      },
+      "compressor": {
+        "label": "ضغط PDF",
+        "description": "قلل حجم ملف PDF دون التضحية بالوضوح."
+      },
+      "toWord": {
+        "label": "PDF إلى Word",
+        "description": "حوّل مستندات PDF إلى ملفات .docx قابلة للتحرير فوراً."
+      },
+      "all": "جميع أدوات PDF"
+    },
+    "seoTitle": "أدوات SEO",
+    "seo": {
+      "metaGenerator": {
+        "label": "مولد وسم Meta",
+        "description": "أنشئ علامات meta محسّنة للعنوان والوصف وOpen Graph."
+      },
+      "slug": {
+        "label": "مولد Slug",
+        "description": "أنشئ slug URL نظيف ومُحسّن لـ SEO من أي عنوان أو عبارة."
+      },
+      "keywordDensity": {
+        "label": "فاحص كثافة الكلمات المفتاحية",
+        "description": "حلّل تكرار الكلمات المفتاحية وكثافتها في أي محتوى."
+      },
+      "robotsTxt": {
+        "label": "مولد Robots.txt",
+        "description": "أنشئ ملف robots.txt صالح لموقعك باستخدام محرر مرئي."
+      },
+      "all": "جميع أدوات SEO"
+    },
+    "mathTitle": "الرياضيات والمحولات",
+    "math": {
+      "unitConverter": {
+        "label": "محول الوحدات",
+        "description": "حوّل الطول والوزن والسرعة والمساحة والمزيد."
+      },
+      "percentage": {
+        "label": "حاسبة النسبة المئوية",
+        "description": "احسب النسب المئوية والزيادات والانخفاظات والنسب."
+      },
+      "numberBase": {
+        "label": "محول الأساس",
+        "description": "حوّل بين الثنائي والثماني والعشري والسداسي عشر."
+      },
+      "scientific": {
+        "label": "الآلة الحاسبة العلمية",
+        "description": "آلة حاسبة كاملة الميزات مع الدوال المثلثية واللوغاريتمية والجبرية."
+      },
+      "all": "جميع أدوات الرياضيات والمحولات"
+    },
+    "securityTitle": "أدوات الأمان",
+    "security": {
+      "passwordGenerator": {
+        "label": "مولد كلمات المرور",
+        "description": "أنشئ كلمات مرور قوية وعشوائية بطول مخصص وقواعد الأحرف."
+      },
+      "md5": {
+        "label": "مولد تجزئة MD5",
+        "description": "أنشئ مجاميع التحقق MD5 للسلاسل أو تحقق من سلامة البيانات."
+      },
+      "bcrypt": {
+        "label": "تجزئة Bcrypt",
+        "description": "شغّل كلمات المرور باستخدام Bcrypt مع جولات ملح قابلة للتعديل."
+      },
+      "passwordStrength": {
+        "label": "فاحص كلمة المرور",
+        "description": "تحقق من قوة كلمة المرور واحصل على اقتراحات لتحسينها."
+      },
+      "all": "جميع أدوات الأمان"
+    }
+  },
+  "featured": {
+    "title": "متميز",
+    "mostPopular": "الأكثر شعبية",
+    "pdfCompressor": {
+      "label": "ضغط PDF",
+      "description": "قلل حجم ملف PDF دون التضحية بالوضوح.",
+      "tryItNow": "جرب الآن",
+      "badge": "مجاني"
+    }
+  },
+  "browseAllTools": "تصفح جميع الأدوات",
+  "allToolsAreFree": "جميع الأدوات مجانية 100% — بدون تسجيل، بدون حدود، بدون رفع للخادم.",
+  "newThisMonth": "أدوات جديدة هذا الشهر",
+  "mobileLanguageSwitcher": "اللغة"
+}

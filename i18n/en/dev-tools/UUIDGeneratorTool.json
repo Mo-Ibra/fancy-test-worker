@@ -1,0 +1,105 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "UUID Generator"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "UUID Generator — Generate UUIDs, ULIDs & Nanoids Online",
+    "description": "Free online UUID generator to create UUID v4, UUID v7, ULIDs, Nanoids, and custom identifiers. Generate bulk IDs, validate UUID formats, and copy with one click. Perfect for database keys, distributed systems, and unique identifiers.",
+    "keywords": "uuid generator, generate uuid, uuid v4, ulid generator, nanoid generator, unique id generator, uuid online, random id generator"
+  },
+  "options": {
+    "version": "ID Type",
+    "v5Settings": "v5 Settings",
+    "namespaceUuid": "Namespace UUID",
+    "name": "Name",
+    "nanoidLength": "NanoID Length",
+    "default": "Default: 21",
+    "outputOptions": "Output Options",
+    "case": "Case",
+    "format": "Format",
+    "bulkCount": "Count"
+  },
+  "tabs": {
+    "single": "Single",
+    "bulk": "Bulk",
+    "validate": "Validate",
+    "history": "History"
+  },
+  "stats": {
+    "type": "Type",
+    "length": "Length",
+    "format": "Format",
+    "outputChars": "{count} chars"
+  },
+  "output": {
+    "generatedId": "Generated ID",
+    "empty": "Click \"Generate\" to create an ID",
+    "idsGenerated": "{count} IDs generated",
+    "formatted": "Formatted CSS",
+    "minified": "Minified CSS",
+    "standard": "Standard",
+    "braces": "Braces",
+    "urn": "URN"
+  },
+  "generate": {
+    "button": "Generate",
+    "buttonWithType": "Generate {type}",
+    "generating": "Generating…",
+    "bulkButton": "Generate {count} IDs"
+  },
+  "validation": {
+    "placeholder": "Paste a UUID, ULID, or URN here...",
+    "valid": "Valid",
+    "invalid": "Invalid",
+    "detectedType": "Detected Type",
+    "length": "Length",
+    "emptyHint": "Paste a UUID or ULID above to validate it",
+    "examples": "Valid Format Examples"
+  },
+  "history": {
+    "title": "IDs generated this session",
+    "title1": "1 ID generated this session",
+    "empty": "Generated IDs will appear here"
+  },
+  "actions": {
+    "paste": "Paste",
+    "clear": "Clear",
+    "copy": "Copy",
+    "copyAll": "Copy all",
+    "download": ".txt",
+    "downloadFull": "Download",
+    "copyId": "Copy {type}"
+  },
+  "v5note": "v5 is deterministic — the same namespace + name always produces the same UUID.",
+  "howToUse": {
+    "title": "How to Use the UUID Generator",
+    "step1Title": "Select an ID type",
+    "step1Desc": "Choose from UUID v4, UUID v7, ULID, NanoID, or custom formats from the dropdown.",
+    "step2Title": "Configure options",
+    "step2Desc": "Adjust settings like case (upper/lower), format (standard/braces/URN), and bulk count.",
+    "step3Title": "Generate the ID",
+    "step3Desc": "Click Generate to create a unique identifier. For bulk mode, specify how many IDs you need.",
+    "step4Title": "Copy or download",
+    "step4Desc": "Copy individual IDs or all generated IDs at once. Download bulk results as a .txt file."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is the difference between UUID v4 and v7?", "answer": "UUID v4 is randomly generated, while UUID v7 is time-ordered, making it better for database indexing." },
+      { "question": "What is a ULID?", "answer": "ULID is a lexicographically sortable unique identifier that is URL-safe and case-insensitive." },
+      { "question": "Can I generate multiple IDs at once?", "answer": "Yes. Switch to the Bulk tab and enter a count to generate multiple IDs simultaneously." },
+      { "question": "Can I validate an existing UUID?", "answer": "Yes. Switch to the Validate tab and paste a UUID, ULID, or URN to check its format and type." },
+      { "question": "What is NanoID?", "answer": "NanoID is a compact, URL-safe unique identifier that is shorter than UUID and customizable in length." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try generating a UUID",
+    "sampleText": "Click Generate with UUID v4 selected",
+    "result": "550e8400-e29b-41d4-a716-446655440000",
+    "stats": "What you'll see"
+  }
+}

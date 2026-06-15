@@ -1,0 +1,103 @@
+{
+  "categories": {
+    "badge": "Explore Categories",
+    "titleFirst": "The right tool for",
+    "titleSecond": "every job",
+    "description": "Browse our growing collection of free online tools, organized by category. No sign-up, no installs — just open and use.",
+    "exploreTools": "Explore Tools",
+    "ctaButton": {
+      "description": "Can't find what you're looking for?",
+      "text": "Browse All Tools"
+    },
+    "tools": {
+      "text": {
+        "title": "Text Tools",
+        "description": "Word counters, case converters, text diff, lorem ipsum generators, and more.",
+        "tools": "Word Counter, Case Converter, Text Diff",
+        "meta": {
+          "title": "Text Tools — Free Online Text Utilities: Counter, Converter, Diff & More",
+          "description": "Count words, convert case, compare text, generate lorem ipsum, and more with our free online text tools. No sign-up, works in your browser.",
+          "keywords": "text tools online, word counter, case converter, text diff checker, lorem ipsum generator, free text utilities"
+        }
+      },
+      "image": {
+        "title": "Image Tools",
+        "description": "Resize, compress, convert, and edit images — all without leaving your browser.",
+        "tools": "Image Resizer, Image Compressor, Image Converter",
+        "meta": {
+          "title": "Image Tools — Free Online Image Editor: Resize, Compress, Convert",
+          "description": "Resize, compress, convert, rotate, flip, and edit images online for free. All processing happens in your browser — no uploads, no sign-up.",
+          "keywords": "image tools online, free image editor, image resizer, image compressor, image converter, online photo editor"
+        }
+      },
+      "pdf": {
+        "title": "PDF Tools",
+        "description": "Merge, split, compress, and convert PDF files instantly and securely.",
+        "tools": "PDF Merger, PDF Splitter, PDF Compressor",
+        "meta": {
+          "title": "PDF Tools — Free Online PDF Editor: Merge, Split, Compress & Convert",
+          "description": "Merge, split, compress, rotate, unlock, and convert PDF files online for free. Your files never leave your device — 100% secure and private.",
+          "keywords": "PDF tools online, free PDF editor, PDF merger, PDF splitter, PDF compressor, PDF converter, PDF unlocker"
+        }
+      },
+      "developer": {
+        "title": "Developer Tools",
+        "description": "JSON formatter, Base64 encoder, regex tester, and other dev essentials.",
+        "tools": "JSON Formatter, Base64 Encoder, Regex Tester",
+        "meta": {
+          "title": "Developer Tools — Free Online Code Utilities: JSON, Regex, Base64 & More",
+          "description": "Format JSON, test regular expressions, encode/decode Base64, generate UUIDs, and more free online tools for developers. Browser-based, no sign-up.",
+          "keywords": "developer tools online, JSON formatter, regex tester, Base64 encoder, UUID generator, code utilities"
+        }
+      },
+      "math": {
+        "title": "Math & Converters",
+        "description": "Unit converters, percentage calculators, currency tools, and number utilities.",
+        "tools": "Unit Converter, Percentage Calculator, Currency Converter",
+        "meta": {
+          "title": "Math Tools — Free Online Calculators, Unit Converters & Number Tools",
+          "description": "Calculate percentages, convert units, compute date differences, convert number bases, and more free math tools online. Fast, accurate, browser-based.",
+          "keywords": "math tools online, unit converter, percentage calculator, date difference calculator, number base converter, free online calculator"
+        }
+      },
+      "security": {
+        "title": "Security Tools",
+        "description": "Password generators, hash tools, and encryption utilities for everyday use.",
+        "tools": "Password Generator, Hash Generator, Encryption Tool",
+        "meta": {
+          "title": "Security Tools — Free Online Password Generator, Hash & Encryption Tools",
+          "description": "Generate strong passwords, check password strength, compute MD5 hashes, and more free security tools. Everything runs locally in your browser.",
+          "keywords": "security tools online, password generator, password strength checker, MD5 hash generator, free security tools"
+        }
+      },
+      "seo": {
+        "title": "SEO Tools",
+        "description": "Meta tag generators, SERP preview, sitemap generators, schema markup tools, and more SEO utilities.",
+        "tools": "Meta Tag Generator, SERP Preview, Sitemap Generator",
+        "meta": {
+          "title": "SEO Tools — Free Online SEO Analyzer, Meta Tag & Sitemap Generator",
+          "description": "Generate meta tags, preview SERP snippets, create sitemaps and robots.txt, analyze keyword density, and more free SEO tools. No sign-up required.",
+          "keywords": "SEO tools online, meta tag generator, SERP preview, sitemap generator, robots.txt generator, keyword density checker, schema markup generator"
+        }
+      },
+      "all": {
+        "title": "All Tools",
+        "description": "Browse all free online tools in one place.",
+        "meta": {
+          "title": "All Tools — Free Online Tools Collection",
+          "description": "Browse all free online tools at Fancy Toolbox. Text, image, PDF, developer, math, and security tools — all in one place.",
+          "keywords": "all tools, online tools, free tools, browser tools"
+        }
+      },
+      "popular": {
+        "title": "Popular Tools",
+        "description": "Most popular tools used by our community.",
+        "meta": {
+          "title": "Popular Tools — Most Used Free Online Tools",
+          "description": "Discover the most popular free online tools. Word counter, image resizer, PDF merger, and more favorites used by thousands.",
+          "keywords": "popular tools, trending tools, most used tools"
+        }
+      }
+    }
+  }
+}

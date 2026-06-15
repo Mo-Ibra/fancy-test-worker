@@ -1,0 +1,94 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "HTML Formatter"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "HTML Formatter — Format, Minify & Beautify HTML Online",
+    "description": "Free online HTML formatter to format, minify, and beautify HTML code with customizable indentation. Validate syntax, compress for production, or expand for readability. Essential tool for web developers.",
+    "keywords": "html formatter, html beautifier, html minifier, format html online, html pretty print, html code formatter, html validator, html indentation"
+  },
+  "indent": {
+    "title": "Indentation"
+  },
+  "options": {
+    "title": "Options",
+    "sortAttrs": "Sort Attributes",
+    "sortAttrsDesc": "Alphabetically sort tag attributes",
+    "removeComments": "Remove Comments",
+    "removeCommentsDesc": "Strip all HTML comments",
+    "collapseWhitespace": "Collapse Whitespace",
+    "collapseWhitespaceDesc": "Merge multiple spaces into one"
+  },
+  "validation": {
+    "noIssues": "No issues found",
+    "issues": "{count} issue found",
+    "issues_plural": "{count} issues detected"
+  },
+  "stats": {
+    "title": "Stats",
+    "tags": "Tags",
+    "attrs": "Attrs",
+    "comments": "Comments",
+    "input": "Input",
+    "output": "Output",
+    "saved": "Saved",
+    "lines": "Lines"
+  },
+  "howToUse": {
+    "title": "How to Use the HTML Formatter",
+    "step1Title": "Paste your HTML",
+    "step1Desc": "Paste your HTML code into the input area. The tool works with full documents or fragments.",
+    "step2Title": "Choose formatting options",
+    "step2Desc": "Adjust indentation, toggle attribute sorting, comment removal, and whitespace collapsing.",
+    "step3Title": "Select a view mode",
+    "step3Desc": "Switch between Formatted, Minified, or Preview to see the rendered HTML in a sandboxed iframe.",
+    "step4Title": "Copy the result",
+    "step4Desc": "Copy the formatted or minified HTML, or download it for use in your project."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Can this tool validate my HTML?", "answer": "Yes. The tool checks for unclosed tags, invalid attributes, and other common syntax issues." },
+      { "question": "What is the Preview mode?", "answer": "Preview mode renders your HTML inside a sandboxed iframe so you can see the live result." },
+      { "question": "Can I remove HTML comments?", "answer": "Yes. Enable the Remove Comments option to strip all HTML comments from the output." },
+      { "question": "Does the tool support attribute sorting?", "answer": "Yes. When enabled, attributes within each tag are sorted alphabetically for consistency." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "<div><p>Hello World</p><ul><li>Item 1</li><li>Item 2</li></ul></div>",
+    "result": "<div>\n  <p>Hello World</p>\n  <ul>\n    <li>Item 1</li>\n    <li>Item 2</li>\n  </ul>\n</div>",
+    "stats": "What you'll see"
+  },
+  "viewMode": {
+    "formatted": "Formatted",
+    "minified": "Minified",
+    "preview": "Preview"
+  },
+  "input": {
+    "label": "HTML Input",
+    "placeholder": "Paste your HTML here...\n\n<!DOCTYPE html>\n<html>\n  <body><p>Hello</p></body>\n</html>"
+  },
+  "output": {
+    "formatted": "Formatted HTML",
+    "minified": "Minified HTML",
+    "preview": "Live Preview",
+    "sandboxNote": "Rendered in sandbox iframe",
+    "emptyProcessing": "Processing…",
+    "emptyOutput": "Output will appear here",
+    "emptyPreview": "Paste HTML to see a live preview",
+    "copyFormatted": "Copy Formatted HTML",
+    "copyMinified": "Copy Minified HTML"
+  },
+  "actions": {
+    "paste": "Paste",
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "error": "Invalid HTML"
+}

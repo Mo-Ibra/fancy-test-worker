@@ -1,0 +1,80 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "JSON Diff"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "JSON Diff — Compare & Highlight JSON Differences Online",
+    "description": "Free online JSON diff tool to compare two JSON objects and instantly see differences. Highlights additions, deletions, and modifications with color-coded side-by-side view. Essential for debugging API responses and JSON configuration changes.",
+    "keywords": "json diff, compare json, json comparison, json difference checker, diff json files, json comparator, json diff tool, json side by side"
+  },
+  "panels": {
+    "left": "Left (original)",
+    "right": "Right (modified)"
+  },
+  "howToUse": {
+    "title": "How to Use the JSON Diff Tool",
+    "step1Title": "Paste JSON on both sides",
+    "step1Desc": "Paste the original JSON on the left and the modified JSON on the right.",
+    "step2Title": "Review the differences",
+    "step2Desc": "The tool highlights additions in green, removals in red, and changes in yellow.",
+    "step3Title": "Use controls to navigate",
+    "step3Desc": "Toggle Hide Unchanged to focus only on differences, or expand/collapse all nodes.",
+    "step4Title": "Generate a report",
+    "step4Desc": "Click Report to generate a summary of all changes between the two JSON objects."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What types of differences can this tool detect?", "answer": "It detects added, removed, and changed values, as well as type changes (e.g., string to number)." },
+      { "question": "Can I copy the diff results?", "answer": "Yes. The tool provides a Report feature that generates a text summary of all differences." },
+      { "question": "Does the tool support nested JSON?", "answer": "Yes. The diff view supports deeply nested objects and arrays with expandable tree nodes." },
+      { "question": "Is there a way to hide unchanged values?", "answer": "Yes. Toggle Hide Unchanged to show only the properties that differ between the two JSON objects." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample",
+    "sampleText": "Left: {\"name\":\"Alice\",\"age\":25} · Right: {\"name\":\"Alice\",\"age\":30,\"city\":\"NYC\"}",
+    "result": "age changed (25 → 30) · city added (\"NYC\") — 2 changes found",
+    "stats": "What you'll see"
+  },
+  "stats": {
+    "identical": "Objects are identical",
+    "changes": "{count} change found",
+    "changes_plural": "{count} changes found",
+    "added": "Added",
+    "removed": "Removed",
+    "changed": "Changed",
+    "unchanged": "Unchanged"
+  },
+  "controls": {
+    "hideUnchanged": "Hide unchanged",
+    "showUnchanged": "Show unchanged",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "report": "Report"
+  },
+  "legend": {
+    "added": "Added",
+    "removed": "Removed",
+    "changed": "Changed",
+    "typeChanged": "Type changed",
+    "unchanged": "Unchanged"
+  },
+  "diffView": {
+    "title": "Diff View",
+    "nodes": "{count} nodes"
+  },
+  "empty": {
+    "message": "Paste two JSON objects above to compare them"
+  },
+  "actions": {
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "error": "Invalid JSON"
+}

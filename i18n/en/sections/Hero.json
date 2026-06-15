@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Fancy Toolbox — Free Online Tools for Text, Images, PDFs & More",
+    "description": "50+ free online tools for text processing, image editing, PDF manipulation, code formatting, and more. No sign-up, no uploads — everything runs in your browser.",
+    "keywords": "free online tools, online text tools, free image editor, PDF tools online, free utility tools, browser-based tools, no sign-up tools"
+  },
+  "hero": {
+    "badge": "100% Free • No Sign-up • Works in Your Browser",
+    "titleFirst": "Every Tool You Need,",
+    "titleSecond": "All in One Place",
+    "description": "A powerful suite of free online tools for text, images, PDFs, and more — running directly in your browser with zero data sent to any server.",
+    "ctaButtons": {
+      "getStartedFree": "Get Started Free",
+      "browseAllTools": "Browse All Tools"
+    },
+    "trustIndicators": {
+      "dataStaysOnDevice": "Your data stays on your device",
+      "fastAndNoInstallation": "Fast & no installation",
+      "constantlyUpdated": "Constantly updated"
+    },
+    "floatingTools": {
+      "pdfMerger": "PDF Merger",
+      "imageResizer": "Image Resizer",
+      "wordCounter": "Word Counter",
+      "jsonFormatter": "JSON Formatter",
+      "pdfSplitter": "PDF Splitter",
+      "fileConverter": "File Converter"
+    },
+    "categoryBadges": {
+      "textTools": "Text Tools",
+      "imageTools": "Image Tools",
+      "pdfTools": "PDF Tools",
+      "codeTools": "Code Tools"
+    }
+  }
+}

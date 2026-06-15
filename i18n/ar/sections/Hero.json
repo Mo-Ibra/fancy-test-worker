@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Fancy Toolbox — أدوات مجانية على الإنترنت للنصوص والصور و PDF والمزيد",
+    "description": "أكثر من 50 أداة مجانية على الإنترنت لمعالجة النصوص وتحرير الصور والتعامل مع PDF وتنسيق البرمجة والمزيد. بدون تسجيل، كل شيء يعمل في متصفحك.",
+    "keywords": "أدوات مجانية على الإنترنت, أدوات نصوص, محرر صور, أدوات PDF, أدوات برمجية, أدوات مجانية بدون تسجيل"
+  },
+  "hero": {
+    "badge": "مجاني 100% • بدون تسجيل • يعمل في متصفحك",
+    "titleFirst": "كل الأدوات التي تحتاجها،",
+    "titleSecond": "في مكان واحد",
+    "description": "مجموعة قوية من الأدوات المجانية عبر الإنترنت للنصوص والصور وملفات PDF والمزيد — تعمل مباشرة في متصفحك دون إرسال أي بيانات إلى أي خادم.",
+    "ctaButtons": {
+      "getStartedFree": "ابدأ مجاناً",
+      "browseAllTools": "تصفح جميع الأدوات"
+    },
+    "trustIndicators": {
+      "dataStaysOnDevice": "بياناتك تظل على جهازك",
+      "fastAndNoInstallation": "سريع ولا يتطلب تثبيت",
+      "constantlyUpdated": "يتحدث باستمرار"
+    },
+    "floatingTools": {
+      "pdfMerger": "دمج PDF",
+      "imageResizer": "تغيير حجم الصورة",
+      "wordCounter": "عداد الكلمات",
+      "jsonFormatter": "منسق JSON",
+      "pdfSplitter": "تقسيم PDF",
+      "fileConverter": "محول الملفات"
+    },
+    "categoryBadges": {
+      "textTools": "أدوات النصوص",
+      "imageTools": "أدوات الصور",
+      "pdfTools": "أدوات PDF",
+      "codeTools": "أدوات البرمجة"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "فك تشفير JWT"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "فك تشفير JWT — افحص رموز JWT واعرض الحمولة أونلاين",
+    "description": "أداة مجانية لفك تشفير JWT أونلاين لفحص رموز JSON Web Tokens دون إرسال البيانات. اعرض الرأس والحمولة والتوقيع بواجهة نظيفة. تحقق من بنية token وافحص المطالبات — 100% على جانب العميل.",
+    "keywords": "فك تشفير jwt, jwt decoder, jwt inspector, فحص jwt, json web token, token decoder"
+  },
+  "input": {
+    "placeholder": "الصق رمز JWT هنا..."
+  },
+  "tabs": {
+    "decoded": "مفكك",
+    "raw": "JSON خام"
+  },
+  "sections": {
+    "header": "الرأس",
+    "payload": "الحمولة",
+    "signature": "التوقيع"
+  },
+  "claims": {
+    "issuedAt": "تاريخ الإصدار",
+    "expiresAt": "تاريخ الانتهاء",
+    "notBefore": "غير صالحة قبل",
+    "issuer": "المُصدر",
+    "subject": "الموضوع",
+    "audience": "الجمهور"
+  },
+  "clientSide": "100% على جانب العميل.",
+  "privacyNotice": "رمز JWT الخاص بك لا يُرسل أبداً إلى أي خادم. جميع فك التشفير يحدث في متصفحك.",
+  "jwtToken": "رمز JWT",
+  "paste": "لصق",
+  "tokenExpired": "انتهت صلاحية الرمز {relative}",
+  "tokenValid": "الرمز صالح · تنتهي صلاحيته {relative}",
+  "decodedSuccessfully": "تم فك تشفير الرمز بنجاح",
+  "algorithm": "الخوارزمية",
+  "securityRisk": "خطر أمني:",
+  "noneAlgorithm": "هذا الرمز يستخدم خوارزمية 'none' التي لا توفر أمناً. لا تثق أبداً بالرموز الموقوعة بـ 'none'.",
+  "hmacNote": "رموز HMAC تستخدم سراً مشتركاً. نفس المفتاح يستخدم للتوقيع والتحقق. اجعله سراً!",
+  "secretKey": "المفتاح السري / العام",
+  "displayOnly": "عرض فقط",
+  "pasteSecret": "الصق المفتاح السري أو العام…",
+  "signatureNote": "التحقق من التوقيع يعمل على جانب العميل فقط — هذا الحقل للمرجع فقط.",
+  "exampleTokens": "رموز نموذجية",
+  "payloadClaims": "مطالب الحمولة",
+  "claimCount": "{n} مطالبة",
+  "cannotVerify": "لا يمكن التحقق من التوقيع على جانب العميل بدون المفتاح السري أو العام. فك التشفير يؤكد فقط أن الرمز بصيغة صحيحة — وليس أنه موثوق.",
+  "copySignature": "نسخ التوقيع",
+  "headerJson": "رأس JSON",
+  "payloadJson": "حمولة JSON",
+  "copyFullJson": "نسخ JSON المفكك بالكامل",
+  "pasteJwt": "الصق رمز JWT لفك تشفيره",
+  "jwtFormat": "رمز JWT بالتنسيق xxxxx.yyyyy.zzzzz — ثلاثة أجزاء base64url مفصولة بنقاط",
+  "jwtStructure": "بنية JWT",
+  "headerPart": "الرأس",
+  "payloadPart": "الحمولة",
+  "signaturePart": "التوقيع",
+  "algoType": "الخوارزمية ونوع الرمز",
+  "claimsData": "المطالب (البيانات)",
+  "integrity": "التحقق من السلامة",
+  "howToUse": {
+    "title": "كيفية استخدام فك تشفير JWT",
+    "step1Title": "الصق رمز JWT",
+    "step1Desc": "انسخ رمز JWT والصقه في حقل الإدخال. الأداة تكتشف بنية الرمز تلقائياً.",
+    "step2Title": "مراجعة الأجزاء المفككة",
+    "step2Desc": "عرض أقسام الرأس والحمولة والتوقيع مفككة بتنسيق قابل للقراءة.",
+    "step3Title": "فحص المطالبات",
+    "step3Desc": "تحقق من المطالبات القياسية مثل المُصدر والموضوع وتاريخ الانتهاء والمطالبات المخصصة.",
+    "step4Title": "التحقق باستخدام مفتاح سري",
+    "step4Desc": "يمكنك لصق المفتاح السري أو العام للتحقق من توقيع الرمز على جانب العميل."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما هو رمز JWT؟", "answer": "JWT (JSON Web Token) هو تنسيق رمز مضغوط وآمن لـ URL يستخدم لنقل المعلومات بشكل آمن بين الأطراف." },
+      { "question": "هل يتم إرسال بيانات JWT إلى الخادم؟", "answer": "لا. كل عملية فك التشفير تتم بالكامل في متصفحك. لا يتم إرسال رمزك أبداً إلى أي خادم." },
+      { "question": "ماذا يتحقق التوقيع؟", "answer": "التوقيع يؤكد أن الرمز لم يتم العبث به منذ توقيعه من قبل المُصدر." },
+      { "question": "ماذا يعني 'alg: none'؟", "answer": "يعني أن الرمز ليس له توقيع، وهو خطر أمني. لا تثق أبداً بالرموز التي تستخدم خوارزمية 'none'." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب هذا الرمز النموذجي",
+    "sampleText": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+    "result": "الرأس: {\"alg\":\"HS256\",\"typ\":\"JWT\"} · الحمولة: {\"sub\":\"1234567890\",\"name\":\"John Doe\",\"iat\":1516239022}",
+    "stats": "ما ستراه"
+  }
+}

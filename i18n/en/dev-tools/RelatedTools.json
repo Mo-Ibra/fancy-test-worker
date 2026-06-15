@@ -1,0 +1,10 @@
+{
+  "related": {
+    "title": "Related Developer Tools",
+    "jsonFormatter": "JSON Formatter",
+    "jsonDiff": "JSON Diff",
+    "csvToJson": "CSV to JSON",
+    "regexTester": "Regex Tester",
+    "jwtDecoder": "JWT Decoder"
+  }
+}

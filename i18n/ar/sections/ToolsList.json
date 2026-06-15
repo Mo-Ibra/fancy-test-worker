@@ -1,0 +1,298 @@
+{
+  "toolsList": {
+    "text": {
+      "wordCounter": {
+        "label": "عداد الكلمات",
+        "description": "احسب الكلمات والأحرف والجمل ووقت القراءة فوراً."
+      },
+      "caseConverter": {
+        "label": "محول الحالة",
+        "description": "التبديل بين كبير وصغير والعنوان وcamelCase والمزيد."
+      },
+      "loremIpsum": {
+        "label": "مولد لوريم إيبسوم",
+        "description": "أنشئ نصاً بديلاً بفقرات أو جمل أو كلمات."
+      },
+      "diff": {
+        "label": "فاحص فرق النص",
+        "description": "قارن بين نصين وأبرز الاختلافات."
+      },
+      "findReplace": {
+        "label": "بحث واستبدال",
+        "description": "ابحث عن أي نص واستبدله بكميات كبيرة — مع دعم التعبيرات النمطية."
+      },
+      "repeater": {
+        "label": "مكرر النص",
+        "description": "كرر أي نص أو حرف عدداً مخصصاً من المرات."
+      },
+      "removeFormatting": {
+        "label": "إزالة التنسيق",
+        "description": "أزل علامات HTML والعلامات التنسيقية والحروف غير المرئية من النص."
+      },
+      "wrapper": {
+        "label": "غلاف النص",
+        "description": "لف الأسطر الطويلة من النص عند عرض أحرف مخصص."
+      },
+      "slugGenerator": {
+        "label": "مولد Slug",
+        "description": "حوّل أي نص إلى slug نظيف ومناسب لـ URL."
+      }
+    },
+    "dev": {
+      "jsonFormatter": {
+        "label": "منسق JSON",
+        "description": "جمّل أو صغر JSON مع تمييز الصياغة وكشف الأخطاء."
+      },
+      "base64": {
+        "label": "مشفر/فك تشفير Base64",
+        "description": "مشفر سلاسل أو ملفات إلى Base64، أو فك تشفير Base64 إلى نص."
+      },
+      "regex": {
+        "label": "مختبر التعبيرات النمطية",
+        "description": "اكتب واختبر وتصحيح التعبيرات النمطية مع تمييز المطابقات الفوري."
+      },
+      "uuid": {
+        "label": "مولد UUID",
+        "description": "أنشئ UUID من الإصدار 1 أو 4 أو بكميات لقواعد البيانات وواجهات برمجة التطبيقات."
+      },
+      "htmlFormatter": {
+        "label": "منسق HTML",
+        "description": "مسافة بادئة ونظف ترميز HTML الفوضوي تلقائياً."
+      },
+      "cssFormatter": {
+        "label": "منسق CSS",
+        "description": "جمّل أو صغر أوراق أنماط CSS بنقرة واحدة."
+      },
+      "urlEncoder": {
+        "label": "مشفر/فك تشفير URL",
+        "description": "مشفر الأحرف الخاصة في URLs أو فك تشفير السلعات المشفرة."
+      },
+      "timestamp": {
+        "label": "محول طابع Unix الزمني",
+        "description": "حوّل طوابع Unix الزمنية إلى تواريخ قابلة للقراءة والعكس."
+      },
+      "jwt": {
+        "label": "فك تشفير JWT",
+        "description": "فك تشفير وفحص رموز الويب JSON — الرأس والحمولة والتوقيع."
+      },
+      "markdownToHtml": {
+        "label": "Markdown إلى HTML",
+        "description": "حوّل صيغة Markdown إلى كود HTML نظيف وجاهز للاستخدام."
+      },
+      "csvToJson": {
+        "label": "CSV إلى JSON",
+        "description": "حوّل بيانات CSV إلى JSON منظم فوراً."
+      },
+      "jsonDiff": {
+        "label": "قارن بين JSON",
+        "description": "قارن بين كائنين JSON وأبرز الفروق الهيكلية."
+      }
+    },
+    "seo": {
+      "metaGenerator": {
+        "label": "مولد وسم Meta",
+        "description": "أنشئ علامات meta محسّنة للعنوان والوصف وOpen Graph."
+      },
+      "slug": {
+        "label": "مولد Slug",
+        "description": "أنشئ slug URL نظيف ومُحسّن لـ SEO من أي عنوان أو عبارة."
+      },
+      "keywordDensity": {
+        "label": "فاحص كثافة الكلمات المفتاحية",
+        "description": "حلّل تكرار الكلمات المفتاحية وكثافتها في أي محتوى."
+      },
+      "robotsTxt": {
+        "label": "مولد Robots.txt",
+        "description": "أنشئ ملف robots.txt صالح لموقعك باستخدام محرر مرئي."
+      },
+      "sitemap": {
+        "label": "مولد خريطة الموقع",
+        "description": "أنشئ خريطة موقع XML من قائمة من URLs لزحف محركات البحث."
+      },
+      "ogPreview": {
+        "label": "معاينة Open Graph",
+        "description": "معاينة كيف ستظهر صفحتك عند مشاركتها على Facebook وTwitter وLinkedIn."
+      },
+      "readability": {
+        "label": "فاحص قابلية القراءة",
+        "description": "قيّم قابلية قراءة المحتوى باستخدام Flesch-Kincaid ومقاييس أخرى."
+      },
+      "schema": {
+        "label": "مولد Schema Markup",
+        "description": "أنشئ بيانات JSON-LD المهيكلة للمقالات والمنتجات والأسئلة الشائعة والمزيد."
+      },
+      "serpPreview": {
+        "label": "معاينة SERP",
+        "description": "شاهد بالضبط كيف سيظهر عنوان ووصف صفحتك في نتائج Google."
+      },
+      "wordFrequency": {
+        "label": "عداد تكرار الكلمات",
+        "description": "اعثر على أكثر الكلمات تكراراً في المحتوى لتحسين SEO."
+      },
+      "canonical": {
+        "label": "مولد وسم Canonical",
+        "description": "أنشئ وسوم URL الأساسية لمنع عقوبات المحتوى المكرر."
+      },
+      "characterCounter": {
+        "label": "عداد حروف SEO",
+        "description": "احسب الحروف والكلمات مع مؤشرات حدود SEO في الوقت الفعلي."
+      },
+      "headingAnalyzer": {
+        "label": "محلل هيكل العناوين",
+        "description": "معاينة وتحليل هيكل العناوين (H1-H6) لأي صفحة ويب."
+      },
+      "hreflang": {
+        "label": "مولد وسوم Hreflang",
+        "description": "أنشئ وسوم hreflang للمواقع متعددة اللغات والمناطق."
+      }
+    },
+    "pdf": {
+      "merger": {
+        "label": "دمج PDF",
+        "description": "ادمج عدة ملفات PDF في ملف واحد في ثوانٍ."
+      },
+      "splitter": {
+        "label": "تقسيم PDF",
+        "description": "قسّم PDF إلى صفحات فردية أو نطاقات صفحات مخصصة."
+      },
+      "compressor": {
+        "label": "ضغط PDF",
+        "description": "قلل حجم ملف PDF دون التضحية بالوضوح."
+      },
+      "toWord": {
+        "label": "PDF إلى Word",
+        "description": "حوّل مستندات PDF إلى ملفات .docx قابلة للتحرير فوراً."
+      },
+      "toImages": {
+        "label": "PDF إلى صور",
+        "description": "صدّر كل صفحة من PDF كملفات JPG أو PNG عالية الجودة."
+      },
+      "fromImages": {
+        "label": "صور إلى PDF",
+        "description": "اجمّع عدة صور في مستند PDF منظم واحد."
+      },
+      "rotate": {
+        "label": "تدوير PDF",
+        "description": "دوّر جميع الصفحات أو صفحات محددة من PDF بـ 90° أو 180° أو 270°."
+      },
+      "protect": {
+        "label": "حماية PDF",
+        "description": "أضف كلمة مرور إلى PDF لمنع الوصول غير المصرح به."
+      },
+      "unlock": {
+        "label": "إلغاء حماية PDF",
+        "description": "أزل حماية كلمة المرور من PDF تملكه."
+      },
+      "ocr": {
+        "label": "OCR PDF",
+        "description": "استخرج نصاً قابلاً للتحديد من مستندات PDF الممسوحة ضوئياً."
+      }
+    },
+    "image": {
+      "resizer": {
+        "label": "تغيير حجم الصورة",
+        "description": "غيّر حجم الصور إلى أبعاد محددة أو بنسبة مئوية — بدون فقدان الجودة."
+      },
+      "compressor": {
+        "label": "ضغط الصورة",
+        "description": "اضغط ملفات JPG وPNG وWebP مع الحفاظ على الجودة المرئية."
+      },
+      "converter": {
+        "label": "محول الصيغ",
+        "description": "حوّل الصور بين JPG وPNG وWebP وGIF وBMP والمزيد."
+      },
+      "colorPicker": {
+        "label": "منتقي الألوان",
+        "description": "استخرج رموز الألوان الدقيقة (HEX وRGB وHSL) من أي صورة."
+      },
+      "flipper": {
+        "label": "قلب الصورة",
+        "description": "قلب الصور أفقياً أو عمودياً بنقرة واحدة."
+      },
+      "rotator": {
+        "label": "تدوير الصورة",
+        "description": "دوّر الصور بـ 90° أو 180° أو أي زاوية مخصصة."
+      },
+      "toBase64": {
+        "label": "صورة إلى Base64",
+        "description": "شفر أي صورة إلى سلسلة Base64 للاستخدام في HTML أو CSS."
+      },
+      "grayscale": {
+        "label": "محول الرمادي",
+        "description": "حوّل أي صورة ملونة إلى نسخة نظيفة بالأبيض والأسود."
+      },
+      "watermark": {
+        "label": "إضافة علامة مائية",
+        "description": "ضع علامات مائية نصية أو صورية على صورك — قابلة للتخصيص بالكامل."
+      },
+      "merger": {
+        "label": "دمج الصور",
+        "description": "اجمّع عدة صور جنباً إلى جنب أو مكدسة عمودياً."
+      }
+    },
+    "math": {
+      "unitConverter": {
+        "label": "محول الوحدات",
+        "description": "حوّل الطول والوزن والسرعة والمساحة والمزيد."
+      },
+      "percentage": {
+        "label": "حاسبة النسبة المئوية",
+        "description": "احسب النسب المئوية والزيادات والانخفاظات والنسب."
+      },
+      "numberBase": {
+        "label": "محول الأساس",
+        "description": "حوّل بين الثنائي والثماني والعشري والسداسي عشر."
+      },
+      "scientific": {
+        "label": "الآلة الحاسبة العلمية",
+        "description": "آلة حاسبة كاملة الميزات مع الدوال المثلثية واللوغاريتمية والجبرية."
+      },
+      "currency": {
+        "label": "محول العملات",
+        "description": "أسعار الصرف لأكثر من 150 عملة حول العالم."
+      },
+      "age": {
+        "label": "حاسبة العمر",
+        "description": "احسب العمر الدقيق بالسنوات والأشهر والأيام من تاريخ الميلاد."
+      },
+      "dateDiff": {
+        "label": "فرق التواريخ",
+        "description": "اعثر على عدد الأيام والأسابيع أو الأشهر بين تاريخين."
+      },
+      "average": {
+        "label": "حاسبة المتوسط",
+        "description": "احسب المتوسط والوسيط والمنوال والمدى من قائمة أرقام."
+      }
+    },
+    "security": {
+      "passwordGenerator": {
+        "label": "مولد كلمات المرور",
+        "description": "أنشئ كلمات مرور قوية وعشوائية بطول مخصص وقواعد الأحرف."
+      },
+      "md5": {
+        "label": "مولد تجزئة MD5",
+        "description": "أنشئ مجاميع التحقق MD5 للسلاسل أو تحقق من سلامة البيانات."
+      },
+      "sha256": {
+        "label": "تجزئة SHA-256",
+        "description": "احسب التجزئات التشفيرية SHA-256 لأي سلسلة إدخال."
+      },
+      "bcrypt": {
+        "label": "تجزئة Bcrypt",
+        "description": "شغّل كلمات المرور باستخدام Bcrypt مع جولات ملح قابلة للتعديل."
+      },
+      "base64File": {
+        "label": "مشفر ملفات Base64",
+        "description": "شفر الملفات الحساسة إلى Base64 للإرسال الآمن."
+      },
+      "passwordStrength": {
+        "label": "فاحص قوة كلمة المرور",
+        "description": "حلّل مدى قوة كلمة المرور ضد هجمات شائعة."
+      },
+      "hmac": {
+        "label": "مولد HMAC",
+        "description": "أنشئ توقيعات HMAC باستخدام SHA-256 أو SHA-512 ومفتاح سري."
+      }
+    }
+  }
+}

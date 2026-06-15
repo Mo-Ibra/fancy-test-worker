@@ -1,0 +1,106 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "Unix Timestamp"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "Unix Timestamp Converter — Epoch to Date & Time Online",
+    "description": "Free online Unix timestamp converter to convert between epoch timestamps and human-readable dates. View current Unix time, convert across time zones, and format dates in ISO, UTC, and local time. Essential for developers working with APIs and databases.",
+    "keywords": "unix timestamp converter, epoch converter, convert unix timestamp, epoch to date, timestamp to date, unix time converter, epoch time online, date to timestamp"
+  },
+  "tabs": {
+    "toDate": "Timestamp to Date",
+    "toTimestamp": "Date to Timestamp"
+  },
+  "unit": {
+    "seconds": "Seconds",
+    "milliseconds": "Milliseconds"
+  },
+  "date": {
+    "year": "Year",
+    "month": "Month",
+    "day": "Day",
+    "hour": "Hour",
+    "minute": "Minute",
+    "second": "Second",
+    "millisecond": "Millisecond",
+    "utc": "UTC",
+    "local": "Local"
+  },
+  "result": {
+    "timestamp": "Timestamp",
+    "now": "Now"
+  },
+  "actions": {
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "currentTime": "Current Unix Time",
+  "timestampToDate": "Timestamp → Date",
+  "dateToTimestamp": "Date → Timestamp",
+  "swap": "Swap",
+  "useNow": "Use Now",
+  "notableTimestamps": "Notable Timestamps",
+  "dateAndTime": "Date & Time",
+  "year": "Year",
+  "month": "Month",
+  "day": "Day",
+  "hour": "Hour",
+  "minute": "Minute",
+  "ms": "Ms",
+  "unixSeconds": "Unix Seconds",
+  "unixMilliseconds": "UnixMilliseconds",
+  "iso8601": "ISO 8601",
+  "week": "Week",
+  "dayOfYear": "Day {n} of year",
+  "weekN": "Week {n}",
+  "leapYear": "Leap year",
+  "nonLeapYear": "Non-leap year",
+  "worldClocks": "World Clocks",
+  "convertedResult": "Converted Result",
+  "dateComponents": "Date Components (UTC)",
+  "enterTimestamp": "Enter a timestamp or pick a notable one",
+  "localTime": "Your Local Time",
+  "commonFormats": "Common Timestamp Formats",
+  "unixSecondsLabel": "Unix seconds",
+  "unixMsLabel": "Unix milliseconds",
+  "iso8601Label": "ISO 8601",
+  "rfc2822": "RFC 2822",
+  "humanReadable": "Human readable",
+  "standardApis": "Standard; most APIs",
+  "jsDatenow": "JavaScript Date.now()",
+  "webStandards": "Web standards",
+  "emailHeaders": "Email headers",
+  "displayOnly": "Display only",
+  "yourLocalTime": "Your Local Time",
+  "unixTimeMilestones": "Unix Time Milestones",
+  "howToUse": {
+    "title": "How to Use the Unix Timestamp Converter",
+    "step1Title": "Choose a conversion direction",
+    "step1Desc": "Select Timestamp to Date or Date to Timestamp depending on what you want to convert.",
+    "step2Title": "Enter your value",
+    "step2Desc": "Type a Unix timestamp or pick a date using the date picker fields.",
+    "step3Title": "Select time unit",
+    "step3Desc": "Choose between Seconds (standard Unix) or Milliseconds (JavaScript-style).",
+    "step4Title": "Read the results",
+    "step4Desc": "View the converted output in local time, UTC, ISO 8601, and other common formats."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is a Unix timestamp?", "answer": "A Unix timestamp is the number of seconds (or milliseconds) that have elapsed since January 1, 1970 00:00:00 UTC." },
+      { "question": "Is there a difference between seconds and milliseconds?", "answer": "Yes. JavaScript's Date.now() returns milliseconds (13 digits), while most APIs use seconds (10 digits)." },
+      { "question": "Can I see the current Unix timestamp?", "answer": "Yes. The tool displays the current Unix time in real-time at the top of the page." },
+      { "question": "Does this support time zones?", "answer": "Yes. You can view results in both your local time zone and UTC, along with ISO 8601 and RFC 2822 formats." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample timestamp",
+    "sampleText": "1718198400",
+    "result": "UTC: 2024-06-12 12:00:00 · Local: 2024-06-12 14:00:00",
+    "stats": "What you'll see"
+  }
+}

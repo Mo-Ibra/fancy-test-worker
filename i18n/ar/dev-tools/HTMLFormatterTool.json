@@ -1,0 +1,94 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "منسق HTML"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "منسق HTML — صياغة وتصغير وتجميل HTML أونلاين",
+    "description": "أداة مجانية لتنسيق HTML أونلاين لصياغة وتصغير وتجميل كود HTML مع مسافة بادئة قابلة للتخصيص. تحقق من الصياغة وضغط للإنتاج أو توسيع للقراءة. أداة أساسية لمطوري الويب.",
+    "keywords": "منسق html, تنسيق html, تجميل html, تصغير html, html formatter, html beautifier"
+  },
+  "indent": {
+    "title": "المسافة البادئة"
+  },
+  "options": {
+    "title": "الخيارات",
+    "sortAttrs": "ترتيب الخصائص",
+    "sortAttrsDesc": "ترتيب خصائص الوسوم أبجدياً",
+    "removeComments": "إزالة التعليقات",
+    "removeCommentsDesc": "إزالة جميع تعليقات HTML",
+    "collapseWhitespace": "طي المسافات",
+    "collapseWhitespaceDesc": "دمج مسافات متعددة في واحدة"
+  },
+  "validation": {
+    "noIssues": "لا توجد مشاكل",
+    "issues": "تم العثور على {count} مشكلة",
+    "issues_plural": "تم العثور على {count} مشاكل"
+  },
+  "stats": {
+    "title": "الإحصائيات",
+    "tags": "الوسوم",
+    "attrs": "الخصائص",
+    "comments": "التعليقات",
+    "input": "الإدخال",
+    "output": "الإخراج",
+    "saved": "تم التوفير",
+    "lines": "الأسطر"
+  },
+  "howToUse": {
+    "title": "كيفية استخدام منسق HTML",
+    "step1Title": "الصق HTML الخاص بك",
+    "step1Desc": "الصق كود HTML في منطقة الإدخال. الأداة تعمل مع المستندات الكاملة أو الأجزاء.",
+    "step2Title": "اختر خيارات التنسيق",
+    "step2Desc": "ضبط المسافة البادئة وترتيب الخصائص وإزالة التعليقات وطي المسافات.",
+    "step3Title": "اختر وضع العرض",
+    "step3Desc": "التبديل بين منسق أو مصغر أو معاينة لرؤية HTML في iframe محمي.",
+    "step4Title": "انسخ النتيجة",
+    "step4Desc": "انسخ HTML المنسق أو المصغر، أو حمّله لاستخدامه في مشروعك."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "هل يمكن لهذه الأداة التحقق من صحة HTML؟", "answer": "نعم. الأداة تتحقق من الوسوم غير المغلقة والخصائص غير الصالحة ومشاكل الصياغة الأخرى." },
+      { "question": "ما هو وضع المعاينة؟", "answer": "وضع المعاينة يعرض HTML داخل iframe محمي لرؤية النتيجة الحية." },
+      { "question": "هل يمكنني إزالة تعليقات HTML؟", "answer": "نعم. فعّل خيار إزالة التعليقات لإزالة جميع تعليقات HTML من الإخراج." },
+      { "question": "هل تدعم الأداة ترتيب الخصائص؟", "answer": "نعم. عند التفعيل، يتم ترتيب الخصائص داخل كل وسم أبجدياً للاتساق." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب هذا النص النموذجي",
+    "sampleText": "<div><p>مرحباً بالعالم</p><ul><li>عنصر 1</li><li>عنصر 2</li></ul></div>",
+    "result": "<div>\n  <p>مرحباً بالعالم</p>\n  <ul>\n    <li>عنصر 1</li>\n    <li>عنصر 2</li>\n  </ul>\n</div>",
+    "stats": "ما ستراه"
+  },
+  "viewMode": {
+    "formatted": "مُنسق",
+    "minified": "مُصغر",
+    "preview": "معاينة"
+  },
+  "input": {
+    "label": "إدخال HTML",
+    "placeholder": "الصق HTML هنا...\n\n<!DOCTYPE html>\n<html>\n  <body><p>مرحبا</p></body>\n</html>"
+  },
+  "output": {
+    "formatted": "HTML مُنسق",
+    "minified": "HTML مُصغر",
+    "preview": "معاينة مباشرة",
+    "sandboxNote": "مُعرض في iframe محمي",
+    "emptyProcessing": "جاري المعالجة...",
+    "emptyOutput": "سيظهر الإخراج هنا",
+    "emptyPreview": "الصق HTML لرؤية معاينة مباشرة",
+    "copyFormatted": "نسخ HTML المُنسق",
+    "copyMinified": "نسخ HTML المُصغر"
+  },
+  "actions": {
+    "paste": "لصق",
+    "clear": "مسح",
+    "copy": "نسخ",
+    "copied": "تم النسخ!"
+  },
+  "error": "HTML غير صالح"
+}

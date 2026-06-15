@@ -1,0 +1,31 @@
+{
+  "footer": {
+    "websitename": "Fancy Toolbox",
+    "description": "A free, fast, and privacy-first suite of online tools — built for everyone. No sign-up. No limits. Just tools that work.",
+    "subscribe": "Get new updates",
+    "tools": {
+      "heading": "Tools",
+      "texttools": "Text Tools",
+      "imagetools": "Image Tools",
+      "pdftools": "PDF Tools",
+      "devtools": "Developer Tools",
+      "mathtools": "Math & Converters",
+      "securitytools": "Security Tools"
+    },
+    "alltools": "All tools",
+    "company": {
+      "heading": "Company",
+      "about": "About us",
+      "blog": "Blog",
+      "changelog": "Changelog",
+      "contact": "Contact"
+    },
+    "legal": {
+      "heading": "Legal",
+      "privacy": "Privace Policy",
+      "termsofservices": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "disclaimer": "Your files are never uploaded to our servers. All processing happens locally in your browser."
+  }
+}

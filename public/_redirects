@@ -1,0 +1,2 @@
+# Redirect /en/* to root (those pages render 404)
+/en*  /  301

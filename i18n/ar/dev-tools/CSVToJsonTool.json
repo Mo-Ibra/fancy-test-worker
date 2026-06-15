@@ -1,0 +1,124 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "CSV إلى JSON"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "محول CSV إلى JSON — تحويل CSV إلى JSON والعكس أونلاين",
+    "description": "أداة مجانية لتحويل CSV إلى JSON أونلاين لتحويل بيانات CSV إلى تنسيق JSON والعكس. يدعم محددات مخصصة ورؤوس أعمدة وتحليل الكائنات المتداخلة. مثالية لنقل البيانات وتكامل API.",
+    "keywords": "تحويل csv إلى json, csv to json, تحويل json إلى csv, محلل csv, تحويل البيانات"
+  },
+  "direction": {
+    "csv2json": "CSV ← JSON",
+    "json2csv": "JSON ← CSV",
+    "swap": "تبديل"
+  },
+  "delimiter": {
+    "title": "المحدد",
+    "autoDetect": "اكتشاف تلقائي",
+    "detected": "تم الاكتشاف:",
+    "comma": "فاصلة (,)",
+    "semicolon": "فاصلة منقوطة (;)",
+    "tab": "علامة تبويب (\\t)",
+    "pipe": "خط (|)",
+    "space": "مسافة"
+  },
+  "parseOptions": {
+    "title": "خيارات التحليل",
+    "hasHeader": "الصف الأول هو العنوان",
+    "trimSpaces": "قص المسافات",
+    "skipEmpty": "تخطي الأسطر الفارغة",
+    "detectTypes": "اكتشاف تلقائي للأنواع (أرقام، منطقية)",
+    "quoteChar": "حرف الاقتباس",
+    "emptyHandling": "معالجة الحقل الفارغ",
+    "nullEmpty": "\"\"",
+    "nullNull": "null",
+    "nullSkip": "تخطي"
+  },
+  "output": {
+    "title": "تنسيق الإخراج",
+    "object": "مصفوفة من الكائنات",
+    "objectDesc": "[{\"key\":\"val\"}, …]",
+    "array": "مصفوفة من المصفوفات",
+    "arrayDesc": "[[\"h1\",\"h2\"], …]",
+    "grouped": "مجمّع حسب العمود الأول",
+    "groupedDesc": "{\"key\": [{…}, …]}",
+    "indent": "مسافة بادئة JSON",
+    "minified": "مُصغر",
+    "spaces2": "مسافتان",
+    "spaces4": "4 مسافات"
+  },
+  "stats": {
+    "title": "الإحصائيات",
+    "rows": "الصفوف",
+    "columns": "الأعمدة",
+    "cells": "الخلايا",
+    "output": "الإخراج"
+  },
+  "howToUse": {
+    "title": "كيفية استخدام محول CSV إلى JSON",
+    "step1Title": "اختر اتجاه التحويل",
+    "step1Desc": "اختر CSV ← JSON لتحويل CSV إلى JSON، أو JSON ← CSV للعكس.",
+    "step2Title": "حدد المحدد",
+    "step2Desc": "اختر المحدد الذي يستخدمه ملف CSV — فاصلة أو فاصلة منقوطة أو علامة تبويب أو دع الأداة تكتشفه تلقائياً.",
+    "step3Title": "تكوين خيارات التحليل",
+    "step3Desc": "فعّل خيارات مثل الصف الأول كعنوان وقص المسافات وتخطي الأسطر الفارغة واكتشاف الأنواع.",
+    "step4Title": "اختر تنسيق الإخراج",
+    "step4Desc": "اختر من مصفوفة كائنات أو مصفوفة مصفوفات أو مجمّع حسب العمود الأول، ثم انسخ أو حمل."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "هل يمكنني تحويل JSON إلى CSV؟", "answer": "نعم. غيّر الاتجاه إلى JSON ← CSV والصق مصفوفة JSON لتحويلها إلى تنسيق CSV." },
+      { "question": "ما المحددات المدعومة؟", "answer": "فاصلة وفاصلة منقوطة وعلامة تبويب وخط ومسافة. يمكنك أيضاً تفعيل الاكتشاف التلقائي." },
+      { "question": "هل ستكتشف الأداة أنواع البيانات تلقائياً؟", "answer": "نعم. عند التفعيل، ستقوم الأداة بتحليل الأرقام والقيم المنطقية من السلاسل النصية تلقائياً." },
+      { "question": "هل يمكنني معاينة البيانات كجدول؟", "answer": "نعم. انتقل إلى عرض الجدول لرؤية بياناتك المحللة بتخطيط جدولي قبل النسخ." },
+      { "question": "ماذا يحدث إذا لم يكن لملف CSV صف عنوان؟", "answer": "عطّل خيار الصف الأول هو عنوان وستقوم الأداة بإنشاء مفاتيح تلقائياً مثل field1 و field2 إلخ." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب هذا النص النموذجي",
+    "sampleText": "name,age,city\nAlice,30,New York\nBob,25,Los Angeles",
+    "result": "[{\"name\":\"Alice\",\"age\":30,\"city\":\"New York\"},{\"name\":\"Bob\",\"age\":25,\"city\":\"Los Angeles\"}]",
+    "stats": "ما ستراه"
+  },
+  "input": {
+    "csvLabel": "إدخال CSV",
+    "jsonLabel": "إدخال JSON",
+    "csvPlaceholder": "الصق CSV هنا أو انقر على الملف للرفع…\n\nid,name,email\n1,أحمد,ahmed@example.com",
+    "jsonPlaceholder": "الصق مصفوفة JSON هنا…\n\n[{\"id\": 1, \"name\": \"أحمد\"}]",
+    "csvInput": "إدخال CSV",
+    "jsonInput": "إدخال JSON"
+  },
+  "viewMode": {
+    "json": "JSON",
+    "table": "جدول",
+    "csv": "CSV"
+  },
+  "mapping": {
+    "title": "تعيين الأعمدة ({count} أعمدة)",
+    "csvHeader": "عنوان CSV",
+    "jsonKey": "مفتاح JSON",
+    "sampleValue": "قيمة نموذجية"
+  },
+  "outputEmpty": "سيظهر الإخراج هنا",
+  "csvOutputEmpty": "سيظهر إخراج CSV هنا",
+  "tableEmpty": "لا توجد بيانات للعرض",
+  "tableShowing": "عرض 50 من {count} صف",
+  "actions": {
+    "paste": "لصق",
+    "file": "ملف",
+    "clear": "مسح",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "download": "تحميل",
+    "copyJson": "نسخ JSON",
+    "copyCsv": "نسخ CSV"
+  },
+  "generatedId": "المعرف المُنشأ",
+  "error": "إدخال غير صالح",
+  "generatingIdle": "انقر \"إنشاء\" لإنشاء معرف"
+}

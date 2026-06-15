@@ -1,0 +1,94 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "Base64 Encoder/Decoder"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "Base64 Encoder/Decoder — Encode & Decode Base64 Online",
+    "description": "Free online Base64 encoder and decoder to encode text or files to Base64 format and decode Base64 strings back to original. Supports text, images, and binary data with live conversion. Ideal for data transmission and web development.",
+    "keywords": "base64 encoder, base64 decoder, encode base64, decode base64, base64 converter, base64 encode online, base64 decode online, base64 string converter"
+  },
+  "mode": {
+    "title": "Mode",
+    "encode": "Encode →",
+    "decode": "← Decode"
+  },
+  "inputType": {
+    "title": "Input Type",
+    "text": "Text",
+    "file": "File"
+  },
+  "variant": {
+    "title": "Base64 Variant"
+  },
+  "stats": {
+    "input": "Input",
+    "output": "Output",
+    "ratio": "Ratio",
+    "overhead": "Overhead"
+  },
+  "howToUse": {
+    "title": "How to Use the Base64 Encoder/Decoder",
+    "step1Title": "Choose mode",
+    "step1Desc": "Select Encode to convert text to Base64, or Decode to convert Base64 back to text.",
+    "step2Title": "Select input type",
+    "step2Desc": "Choose Text for typing or pasting content, or File for uploading a file to encode.",
+    "step3Title": "Choose a variant",
+    "step3Desc": "Select Standard, URL-safe, or MIME Base64 variant depending on your use case.",
+    "step4Title": "Copy the result",
+    "step4Desc": "The output updates automatically. Click Copy to copy the encoded or decoded result."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is Base64 used for?", "answer": "Base64 is commonly used to transmit binary data over text-based protocols like email or HTTP, and to embed images in HTML or CSS." },
+      { "question": "Is Base64 encoding the same as encryption?", "answer": "No. Base64 is an encoding scheme, not encryption. It does not provide any security; it only transforms data into a text-safe format." },
+      { "question": "What is the difference between standard and URL-safe Base64?", "answer": "URL-safe Base64 replaces + with - and / with _ so the encoded string can be used in URLs and filenames without escaping." },
+      { "question": "Does Base64 increase file size?", "answer": "Yes. Base64 encoding increases data size by approximately 33% due to the way binary data is represented as text." },
+      { "question": "Can I decode Base64 without internet?", "answer": "Yes. This tool runs entirely in your browser. No data is sent to any server." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "Hello, World!",
+    "result": "SGVsbG8sIFdvcmxkIQ==",
+    "stats": "What you'll see"
+  },
+  "swap": {
+    "label": "Swap — use output as input"
+  },
+  "input": {
+    "fileInput": "File Input",
+    "textToEncode": "Text to Encode",
+    "base64ToDecode": "Base64 to Decode",
+    "encodePlaceholder": "Type or paste text to encode...",
+    "decodePlaceholder": "Paste a Base64 string to decode...\n\nSupports Standard, URL-safe, and MIME formats."
+  },
+  "output": {
+    "base64Output": "Base64 Output",
+    "decodedText": "Decoded Text",
+    "emptyError": "Fix the error above",
+    "emptyProcessing": "Processing…",
+    "emptyOutput": "Output will appear here",
+    "copyBase64": "Copy Base64 String",
+    "copyDecoded": "Copy Decoded Text"
+  },
+  "quickRef": {
+    "title": "Base64 Quick Reference",
+    "standardAlphabet": "Standard alphabet",
+    "urlSafeAlphabet": "URL-safe alphabet",
+    "sizeOverhead": "Size overhead",
+    "commonUses": "Common uses"
+  },
+  "actions": {
+    "paste": "Paste",
+    "clear": "Clear",
+    "download": "Download",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "error": "Invalid Base64 string"
+}

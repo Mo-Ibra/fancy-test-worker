@@ -1,0 +1,109 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "منسق CSS"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "منسق CSS — صياغة وتصغير وتجميل CSS أونلاين",
+    "description": "أداة مجانية لتنسيق CSS أونلاين لصياغة وتصغير وتجميل كود CSS مع مسافة بادئة وخيارات تخصيص. تحقق من الصياغة وضغط للإنتاج أو توسيع للقراءة. مثالية لمطوري الواجهات.",
+    "keywords": "منسق css, تنسيق css, تجميل css, تصغير css, css formatter, css beautifier"
+  },
+  "input": {
+    "title": "إدخال CSS",
+    "placeholder": "الصق CSS هنا..."
+  },
+  "options": {
+    "title": "الخيارات",
+    "indentChar": "المسافة البادئة",
+    "indentSpaces": "مسافات",
+    "indentTabs": "علامات تبويب",
+    "braceStyle": "قوس الفتح",
+    "sameLine": "السطر نفسه",
+    "sameLinePreview": "المحدد {",
+    "newLine": "سطر جديد",
+    "newLinePreview": "المحدد\n{",
+    "propSort": "ترتيب الخصائص",
+    "none": "بدون",
+    "noneDesc": "الحفاظ على الترتيب الأصلي",
+    "alpha": "أبجدي",
+    "alphaDesc": "ترتيب الخصائص أ–z",
+    "grouped": "مجمّع",
+    "groupedDesc": "التخطيط → الطباعة → التأثيرات…",
+    "colorFormat": "تنسيق الألوان",
+    "keep": "الحفاظ",
+    "hex": "HEX",
+    "rgb": "RGB",
+    "hsl": "HSL",
+    "removeComments": "إزالة التعليقات",
+    "removeCommentsDesc": "إزالة جميع /* … */ التعليقات",
+    "singleLineRules": "طي القواعد المفردة",
+    "singleLineRulesDesc": ".sel { prop: val; } في سطر واحد",
+    "spaceAfterColon": "مسافة بعد النقطتين",
+    "spaceAfterColonDesc": "prop: value vs prop:value"
+  },
+  "viewMode": {
+    "formatted": "مُنسق",
+    "minified": "مُصغر"
+  },
+  "stats": {
+    "title": "الإحصائيات",
+    "rules": "القواعد",
+    "declarations": "التصريحات",
+    "input": "الإدخال",
+    "output": "الإخراج",
+    "saved": "تم التوفير",
+    "lines": "الأسطر"
+  },
+  "issues": {
+    "title": "المشاكل",
+    "noIssues": "لم يتم اكتشاف مشاكل",
+    "error": "خطأ {count}",
+    "errors": "{count} أخطاء",
+    "warning": "تحذير {count}",
+    "warnings": "{count} تحذيرات",
+    "more": "+{count} أكثر..."
+  },
+  "howToUse": {
+    "title": "كيفية استخدام منسق CSS",
+    "step1Title": "الصق CSS الخاص بك",
+    "step1Desc": "الصق كود CSS في منطقة الإدخال على الجانب الأيسر.",
+    "step2Title": "تكوين خيارات التنسيق",
+    "step2Desc": "ضبط المسافة البادئة ونمط القوس وترتيب الخصائص وتنسيق الألوان حسب تفضيلاتك.",
+    "step3Title": "اختر وضع الإخراج",
+    "step3Desc": "التبديل بين منسق (طباعة جميلة) ومصغر (مضغوط).",
+    "step4Title": "مراجعة ونسخ",
+    "step4Desc": "تحقق من الإحصائيات وأصلح أي مشاكل مكتشفة، ثم انسخ أو حمل النتيجة."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "هل يمكن لهذه الأداة اكتشاف أخطاء CSS؟", "answer": "نعم. الأداة تبرز مشاكل الصياغة بما في ذلك الأقواس المفقودة وقيم الخصائص غير الصالحة والمحددات المكررة." },
+      { "question": "ما خيارات المسافة البادئة المتاحة؟", "answer": "يمكنك الاختيار بين المسافات (2 أو 4) أو علامات التبويب، وتقرير ما إذا كانت الأقواس المفتوحة في نفس السطر أم سطر جديد." },
+      { "question": "هل يمكنني ترتيب خصائص CSS أبجدياً؟", "answer": "نعم. فعّل خيار الترتيب الأبجدي لإعادة ترتيب الخصائص من أ إلى ي، أو استخدم مجمّع للترتيب المنطقي." },
+      { "question": "هل تزيل الأداة التعليقات؟", "answer": "نعم. فعّل خيار إزالة التعليقات لإزالة جميع تعليقات CSS من الإخراج." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب هذا النص النموذجي",
+    "sampleText": "body{margin:0;padding:0}h1{color:red;font-size:24px}",
+    "result": "body {\n  margin: 0;\n  padding: 0;\n}\nh1 {\n  color: red;\n  font-size: 24px;\n}",
+    "stats": "ما ستراه"
+  },
+  "output": {
+    "formatted": "CSS مُنسق",
+    "minified": "CSS مُصغر",
+    "empty": "سيظهر الإخراج هنا"
+  },
+  "actions": {
+    "paste": "لصق",
+    "clear": "مسح",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "download": ".txt"
+  },
+  "syntaxHighlight": "تمييز الصياغة",
+  "processing": "جاري المعالجة..."
+}

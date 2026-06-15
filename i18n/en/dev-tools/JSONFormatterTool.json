@@ -1,0 +1,95 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "JSON Formatter"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "JSON Formatter — Format, Validate & Beautify JSON Online",
+    "description": "Free online JSON formatter and validator to format, minify, and beautify JSON data. Parse JSON with an interactive tree view, search through keys, and validate syntax instantly. Perfect for developers debugging JSON APIs and configuration files.",
+    "keywords": "json formatter, json validator, beautify json, json pretty print, json parser, format json online, json tree view, json syntax checker"
+  },
+  "validation": {
+    "valid": "Valid JSON",
+    "invalid": "Invalid JSON",
+    "line": "line"
+  },
+  "options": {
+    "indent": "Indent Size",
+    "viewMode": "View Mode",
+    "formatted": "Formatted",
+    "formattedDesc": "Pretty-printed with indentation",
+    "tree": "Tree View",
+    "treeDesc": "Interactive collapsible tree",
+    "minified": "Minified",
+    "minifiedDesc": "Compact single-line output",
+    "sortKeys": "Sort Keys",
+    "sortKeysDesc": "Alphabetically sort object keys.",
+    "spaces": "spaces"
+  },
+  "search": {
+    "placeholder": "Search keys or values...",
+    "matches": "{count} match found",
+    "matches_plural": "{count} matches found",
+    "noMatches": "No matches"
+  },
+  "stats": {
+    "nodes": "Nodes",
+    "inputLines": "Input Lines",
+    "outputLines": "Output Lines",
+    "size": "Size"
+  },
+  "howToUse": {
+    "title": "How to Use the JSON Formatter",
+    "step1Title": "Paste your JSON",
+    "step1Desc": "Paste any JSON string into the input area. The tool validates and formats it instantly.",
+    "step2Title": "Choose a view mode",
+    "step2Desc": "Switch between Formatted (pretty-print), Tree View (interactive), or Minified (compact).",
+    "step3Title": "Adjust options",
+    "step3Desc": "Customize indent size, enable sorting keys, or use the search bar to find specific keys and values.",
+    "step4Title": "Copy or explore",
+    "step4Desc": "Copy the formatted or minified JSON, or explore the tree view by expanding and collapsing nodes."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What happens if my JSON is invalid?", "answer": "The tool highlights syntax errors and indicates the line number where the issue was found." },
+      { "question": "Can I search through large JSON files?", "answer": "Yes. Use the search bar to find matching keys or values throughout the entire JSON structure." },
+      { "question": "What is Tree View mode?", "answer": "Tree View presents JSON as an interactive collapsible tree, making it easier to navigate large nested structures." },
+      { "question": "Can I sort JSON keys alphabetically?", "answer": "Yes. Enable Sort Keys to reorder all object keys alphabetically in the output." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "{\"name\":\"John\",\"age\":30,\"city\":\"New York\"}",
+    "result": "{\n  \"name\": \"John\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}",
+    "stats": "What you'll see"
+  },
+  "input": {
+    "label": "JSON Input",
+    "placeholder": "Paste your JSON here...\n\n{\"key\": \"value\"}"
+  },
+  "output": {
+    "formatted": "Formatted",
+    "minified": "Minified",
+    "treeView": "Tree View",
+    "emptyProcessing": "...",
+    "emptyFixErrors": "Fix the JSON errors above",
+    "emptyOutput": "Output will appear here",
+    "treeEmptyFix": "Fix the JSON errors to view tree",
+    "treeEmptyInput": "Paste valid JSON to explore the tree"
+  },
+  "actions": {
+    "paste": "Paste",
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyFormatted": "Copy Formatted JSON",
+    "copyMinified": "Copy Minified JSON",
+    "copyFormattedShort": "Copy Formatted",
+    "copyMinifiedShort": "Copy Minified",
+    "chars": "chars"
+  }
+}

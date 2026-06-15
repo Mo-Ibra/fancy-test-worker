@@ -1,0 +1,103 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "Regex Tester"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "Regex Tester — Test & Debug Regular Expressions Online Free",
+    "description": "Free online regex tester to test and debug regular expressions with live matching. Visualize pattern matches, test replacements, and explore regex syntax with detailed explanations. Supports flags, groups, lookaheads, and backreferences.",
+    "keywords": "regex tester, regular expression tester, regex debugger, test regex online, regex matcher, regex pattern tester, regular expression checker, regex tool"
+  },
+  "pattern": {
+    "placeholder": "Enter regex pattern...",
+    "flags": "Flags",
+    "global": "Global",
+    "caseInsensitive": "Case Insensitive",
+    "multiline": "Multiline",
+    "dotAll": "Dot All",
+    "unicode": "Unicode",
+    "sticky": "Sticky"
+  },
+  "testText": {
+    "placeholder": "Enter test text..."
+  },
+  "replace": {
+    "placeholder": "Replacement text..."
+  },
+  "tabs": {
+    "matches": "Matches",
+    "groups": "Groups",
+    "replace": "Replace",
+    "cheatsheet": "Cheat Sheet"
+  },
+  "match": {
+    "count": "{count} match(es)",
+    "noMatches": "No matches found",
+    "group": "Group"
+  },
+  "testString": "Test String",
+  "chars": "chars",
+  "highlighted": "Highlighted Preview",
+  "yellowMatch": "Yellow = match",
+  "examplePatterns": "Example Patterns",
+  "startTyping": "Start typing a pattern above",
+  "enterPattern": "Enter a pattern above",
+  "enterTestText": "Enter test text on the left",
+  "noMatchesFound": "No matches found",
+  "emptyMatch": "empty match",
+  "position": "position {start}–{end}",
+  "length": "length {len}",
+  "groups": "Groups",
+  "captureGroups": "No capture groups in pattern — use (group) syntax",
+  "enableFlag": "Enable the d flag to see group indices",
+  "replaceWith": "Replace With",
+  "replacementTip": "use $1, $2 for groups, $& for full match",
+  "result": "Result",
+  "resultPlaceholder": "Result will appear here",
+  "fullMatch": "full match",
+  "groupN": "group {n}",
+  "before": "before",
+  "after": "after",
+  "groupsTab": "Groups",
+  "atPosition": "at {start}–{end}",
+  "tokenStructure": "Token Structure",
+  "error": "Invalid regex",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "regex": "Regex",
+  "flagsLabel": "Flags",
+  "valid": "Valid",
+  "invalid": "Invalid",
+  "noMatches": "No matches",
+  "copyResult": "Copy result",
+  "copyRegex": "Copy regex",
+  "howToUse": {
+    "title": "How to Use the Regex Tester",
+    "step1Title": "Enter your regex pattern",
+    "step1Desc": "Type or paste a regular expression pattern into the Pattern field.",
+    "step2Title": "Choose flags",
+    "step2Desc": "Toggle flags like Global, Case Insensitive, and Multiline to control matching behavior.",
+    "step3Title": "Enter test text",
+    "step3Desc": "Paste the text you want to test against in the Test String area.",
+    "step4Title": "Review matches and groups",
+    "step4Desc": "View highlighted matches, capture groups, and use the Replace tab to test substitutions."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What regex engine does this tool use?", "answer": "It uses JavaScript's built-in RegExp engine, supporting standard ECMAScript regex syntax." },
+      { "question": "Can I test regex replacement?", "answer": "Yes. Switch to the Replace tab, enter a replacement pattern, and see the result instantly." },
+      { "question": "What do the flags mean?", "answer": "Flags modify how the pattern matches: g (global), i (case insensitive), m (multiline), s (dotAll), u (unicode), y (sticky)." },
+      { "question": "How do I reference captured groups in replacement?", "answer": "Use $1, $2, etc. for numbered groups, $& for the full match, and $` or $' for text before or after the match." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "The quick brown fox jumps over the lazy dog.",
+    "result": "Pattern /the/gi → 2 matches at positions 31 and 40",
+    "stats": "What you'll see"
+  }
+}

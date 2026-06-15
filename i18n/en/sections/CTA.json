@@ -1,0 +1,16 @@
+{
+  "cta": {
+    "badge": "Ready to get started?",
+    "titleFirst": "Stop searching.",
+    "titleSecond": "Start doing.",
+    "description": "Everything you need is already here — free, fast, and ready to use. No accounts. No limits. No excuses.",
+    "exploreall": "Explore All Tools",
+    "mostpopular": "Explore Most Popular",
+    "features": {
+      "1": "Instant Access",
+      "2": "No Sign-up",
+      "3": "Unlimited Free",
+      "4": "50+ Tools"
+    }
+  }
+}

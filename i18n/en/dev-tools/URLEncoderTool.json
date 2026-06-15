@@ -1,0 +1,103 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "URL Encoder/Decoder"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "URL Encoder/Decoder — Encode & Decode URLs Online Free",
+    "description": "Free online URL encoder and decoder to encode and decode URLs with special characters. Handle query parameters, URL components, and full URLs. Essential for web development and API testing — encode or decode instantly.",
+    "keywords": "url encoder, url decoder, encode url, decode url, url encoding, url decoding, url encode online, percent encoding"
+  },
+  "tabs": {
+    "encode": "Encode",
+    "decode": "Decode"
+  },
+  "mode": {
+    "component": "URL Component",
+    "full": "Full URL"
+  },
+  "input": {
+    "placeholder": "Enter URL or text..."
+  },
+  "stats": {
+    "encodedChars": "Encoded characters",
+    "ratio": "Ratio"
+  },
+  "actions": {
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "error": "Invalid URL",
+  "encoding": {
+    "method": "Encoding Method",
+    "toEncode": "Text / URL to Encode",
+    "encoded": "Encoded String to Decode",
+    "output": "Encoded Output",
+    "outputDecoded": "Decoded Output",
+    "swap": "Swap — use output as input",
+    "processing": "Processing…",
+    "fixError": "Fix the error above",
+    "outputPlaceholder": "Output will appear here",
+    "copyEncoded": "Copy Encoded URL",
+    "copyDecoded": "Copy Decoded Text",
+    "encodingReference": "Percent-Encoding Reference Table",
+    "char": "Char",
+    "encodedChars": "Encoded",
+    "description": "Description",
+    "whenToUse": "When to Use Which Method",
+    "examples": "Examples",
+    "stats": "Stats",
+    "inputLength": "Input length",
+    "outputLength": "Output length",
+    "chars": "chars",
+    "encodedCountLabel": "Encoded chars",
+    "sizeRatio": "Size ratio",
+    "decodedCountLabel": "Decoded chars",
+    "urlBreakdown": "URL Breakdown",
+    "protocol": "Protocol",
+    "host": "Host",
+    "port": "Port",
+    "path": "Path",
+    "query": "Query",
+    "hash": "Hash",
+    "parameters": "Query Parameters",
+    "paste": "Paste",
+    "pasteUrl": "Paste a URL or text to encode…",
+    "pasteEncoded": "Paste an encoded URL or string to decode…",
+    "exampleUrl": "e.g. https://example.com/search?q=hello world",
+    "exampleEncoded": "e.g. https%3A%2F%2Fexample.com%2F%3Fq%3Dhello%20world",
+    "highlighted": "Highlighted —",
+    "blueEncoded": "blue = %XX encoded",
+    "orangeSpace": "orange = + (space)"
+  },
+  "howToUse": {
+    "title": "How to Use the URL Encoder/Decoder",
+    "step1Title": "Choose encode or decode",
+    "step1Desc": "Select Encode to percent-encode a URL, or Decode to convert encoded text back to readable form.",
+    "step2Title": "Pick an encoding method",
+    "step2Desc": "Choose URL Component to encode parts like query parameters, or Full URL for complete URLs.",
+    "step3Title": "Enter your text",
+    "step3Desc": "Paste the URL or text into the input area. The output updates automatically as you type.",
+    "step4Title": "Copy the encoded or decoded result",
+    "step4Desc": "Click Copy to copy the result to your clipboard, or use Swap to feed the output back as input."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What is URL encoding?", "answer": "URL encoding converts special characters into a percent-sign (%) followed by two hex digits so they can be safely transmitted in URLs." },
+      { "question": "When should I use URL Component vs Full URL?", "answer": "Use URL Component to encode only a query parameter value. Use Full URL to encode an entire URL safely." },
+      { "question": "Why does a space encode as + or %20?", "answer": "application/x-www-form-urlencoded encodes spaces as +, while URL percent-encoding uses %20. Both are valid depending on context." },
+      { "question": "Can I decode a URL that I encoded?", "answer": "Yes. Switch to Decode mode and paste the encoded string to get back the original text." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "hello world & goodbye",
+    "result": "hello%20world%20%26%20goodbye",
+    "stats": "What you'll see"
+  }
+}

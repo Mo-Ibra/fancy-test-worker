@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "About Us — Free Online Tools Built for Everyone | Fancy Toolbox",
+    "description": "Learn about Fancy Toolbox: a privacy-first, browser-based suite of 50+ free online tools. No sign-up, no uploads — every tool runs locally on your device.",
+    "keywords": "about fancy toolbox, free online tools, browser-based tools, privacy tools"
+  },
+  "content": {
+    "title": "About Fancy Toolbox",
+    "subtitle": "Free online tools for everyone",
+    "sections": [
+      {
+        "heading": "Our Mission",
+        "body": "Fancy Toolbox is a comprehensive collection of free online tools designed to help you get things done quickly and efficiently. From text manipulation to image editing, PDF processing to developer utilities — we've got you covered."
+      },
+      {
+        "heading": "Why Fancy Toolbox?",
+        "body": "We believe that powerful tools should be accessible to everyone. That's why all our tools are completely free, work directly in your browser, and require no sign-up or personal information. Your privacy is our priority — all processing happens locally on your device."
+      },
+      {
+        "heading": "What Makes Us Different",
+        "body": "Our tools are built with modern web technologies, ensuring fast performance and a seamless user experience across all devices. We're constantly adding new tools and improving existing ones based on user feedback."
+      }
+    ]
+  }
+}

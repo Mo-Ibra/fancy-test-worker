@@ -1,0 +1,29 @@
+{
+  "howitworks": {
+    "badge": "How It Works",
+    "titleFirst": "Simple as",
+    "titleSecond": "1, 2, 3",
+    "description": "No tutorials needed. Every tool is designed to be intuitive and ready to use in seconds.",
+    "whyus": "Why thousands trust us",
+    "steps": {
+      "first": "Find Your Tool",
+      "firstDescription": "Browse by category or use the search bar to instantly find the right tool for your task.",
+      "second": "Open & Use",
+      "secondDescription": "Click any tool and start using it immediately — no loading screens, no account creation, no friction.",
+      "third": "Customize & Process",
+      "thirdDescription": "Adjust settings to fit your needs. Everything runs locally in your browser for maximum speed and privacy.",
+      "forth": "Download & Done",
+      "forthDescription": "Get your result instantly. Copy, download, or share — your workflow, your way."
+    },
+    "perks": {
+      "first": "No Sign-up Required",
+      "firstDescription": "Zero accounts, zero emails, zero passwords. Just open a tool and get to work.",
+      "second": "Unlimited Usage",
+      "secondDescription": "Use any tool as many times as you need. No daily limits, no credit systems, no paywalls.",
+      "third": "100% Free, Forever",
+      "thirdDescription": "Every tool on the platform is completely free. No hidden fees, no premium tiers.",
+      "forth": "Private by Design",
+      "forthDescription": "Your files never leave your device. All processing happens in your browser — we see nothing."
+    }
+  }
+}

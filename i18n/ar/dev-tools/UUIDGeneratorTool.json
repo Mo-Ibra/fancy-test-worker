@@ -1,0 +1,105 @@
+{
+  "breadcrumb": {
+    "allTools": "جميع الأدوات",
+    "toolTitle": "أدوات المطورين",
+    "current": "مولد UUID"
+  },
+  "header": {
+    "badge": "أدوات المطورين",
+    "title": "مولد UUID — أنشئ معرفات UUID و ULIDs و Nanoids أونلاين",
+    "description": "أداة مجانية لإنشاء UUID أونلاين لإنشاء UUID v4 وUUID v7 وULIDs وNanoids ومعرفات مخصصة. أنشئ معرفات متعددة وتحقق من صيغة UUID وانسخ بنقرة واحدة. مثالية لمفاتيح قواعد البيانات والأنظمة الموزعة.",
+    "keywords": "مولد uuid, إنشاء uuid, uuid, ulid, nanoid, مولد معرفات فريدة, uuid v4"
+  },
+  "options": {
+    "version": "نوع المعرف",
+    "v5Settings": "إعدادات v5",
+    "namespaceUuid": "UUID Namespace",
+    "name": "الاسم",
+    "nanoidLength": "طول NanoID",
+    "default": "الافتراضي: 21",
+    "outputOptions": "خيارات الإخراج",
+    "case": "الحالة",
+    "format": "التنسيق",
+    "bulkCount": "العدد"
+  },
+  "tabs": {
+    "single": "فردي",
+    "bulk": "كمي",
+    "validate": "تحقق",
+    "history": "السجل"
+  },
+  "stats": {
+    "type": "النوع",
+    "length": "الطول",
+    "format": "التنسيق",
+    "outputChars": "{count} حرف"
+  },
+  "output": {
+    "generatedId": "المعرف المُنشأ",
+    "empty": "انقر \"إنشاء\" لإنشاء معرف",
+    "idsGenerated": "تم إنشاء {count} معرّف",
+    "formatted": "CSS مُنسق",
+    "minified": "CSS مُصغر",
+    "standard": "قياسي",
+    "braces": "أقواس",
+    "urn": "URN"
+  },
+  "generate": {
+    "button": "إنشاء",
+    "buttonWithType": "إنشاء {type}",
+    "generating": "جاري الإنشاء...",
+    "bulkButton": "إنشاء {count} معرّف"
+  },
+  "validation": {
+    "placeholder": "الصق UUID أو ULID أو URN هنا...",
+    "valid": "صالح",
+    "invalid": "غير صالح",
+    "detectedType": "النوع المكتشف",
+    "length": "الطول",
+    "emptyHint": "الصق UUID أو ULID أعلاه للتحقق منه",
+    "examples": "أمثلة التنسيق الصالحة"
+  },
+  "history": {
+    "title": "المعرّفات المُنشأة في هذه الجلسة",
+    "title1": "معرف واحد مُنشأ في هذه الجلسة",
+    "empty": "ستظهر المعرّفات المُنشأة هنا"
+  },
+  "actions": {
+    "paste": "لصق",
+    "clear": "مسح",
+    "copy": "نسخ",
+    "copyAll": "نسخ الكل",
+    "download": ".txt",
+    "downloadFull": "تحميل",
+    "copyId": "نسخ {type}"
+  },
+  "v5note": "v5 محدد — نفس namespace + الاسم يُنتج دائماً نفس UUID.",
+  "howToUse": {
+    "title": "كيفية استخدام مولد UUID",
+    "step1Title": "اختر نوع المعرف",
+    "step1Desc": "اختر من UUID v4 أو UUID v7 أو ULID أو NanoID أو تنسيقات مخصصة من القائمة المنسدلة.",
+    "step2Title": "تكوين الخيارات",
+    "step2Desc": "اضبط الإعدادات مثل حالة الأحرف (كبير/صغير) والتنسيق (قياسي/أقواس/URN) وعدد الدفعة.",
+    "step3Title": "إنشاء المعرف",
+    "step3Desc": "انقر إنشاء لإنشاء معرف فريد. في وضع الدفعة، حدد عدد المعرفات التي تحتاجها.",
+    "step4Title": "انسخ أو حمل",
+    "step4Desc": "انسخ معرفات فردية أو جميع المعرفات المُنشأة دفعة واحدة. حمل نتائج الدفعة كملف .txt."
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة",
+    "items": [
+      { "question": "ما الفرق بين UUID v4 و v7؟", "answer": "UUID v4 يتم إنشاؤه عشوائياً، بينما UUID v7 مرتب زمنياً، مما يجعله أفضل لفهرسة قواعد البيانات." },
+      { "question": "ما هو ULID؟", "answer": "ULID هو معرف فريد قابل للفرز معجمياً وهو آمن لـ URL وغير حساس لحالة الأحرف." },
+      { "question": "هل يمكنني إنشاء معرفات متعددة دفعة واحدة؟", "answer": "نعم. انتقل إلى علامة التبويب دفعة وأدخل عدداً لإنشاء معرفات متعددة في وقت واحد." },
+      { "question": "هل يمكنني التحقق من UUID موجود؟", "answer": "نعم. انتقل إلى علامة التبويب تحقق والصق UUID أو ULID أو URN للتحقق من تنسيقه ونوعه." },
+      { "question": "ما هو NanoID؟", "answer": "NanoID هو معرف فريد مضغوط وآمن لـ URL وأقصر من UUID وقابل لتخصيص الطول." }
+    ]
+  },
+  "examples": {
+    "title": "نتائج مثال",
+    "sampleLabel": "جرب إنشاء UUID",
+    "sampleText": "انقر إنشاء مع اختيار UUID v4",
+    "result": "550e8400-e29b-41d4-a716-446655440000",
+    "stats": "ما ستراه"
+  }
+}

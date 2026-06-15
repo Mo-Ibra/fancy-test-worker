@@ -1,0 +1,124 @@
+{
+  "breadcrumb": {
+    "allTools": "All Tools",
+    "toolTitle": "Developer Tools",
+    "current": "CSV to JSON"
+  },
+  "header": {
+    "badge": "Developer Tools",
+    "title": "CSV to JSON — Convert CSV to JSON & JSON to CSV Online",
+    "description": "Free online CSV to JSON converter to transform CSV data into JSON format and vice versa. Supports custom delimiters, headers, nested object parsing, and encoding options. Ideal for data migration and API integration.",
+    "keywords": "csv to json, convert csv to json, csv to json converter, json to csv, csv parser, csv to json online, json converter, data format converter"
+  },
+  "direction": {
+    "csv2json": "CSV → JSON",
+    "json2csv": "JSON → CSV",
+    "swap": "Swap"
+  },
+  "delimiter": {
+    "title": "Delimiter",
+    "autoDetect": "Auto-detect",
+    "detected": "Detected:",
+    "comma": "Comma (,)",
+    "semicolon": "Semicolon (;)",
+    "tab": "Tab (\\t)",
+    "pipe": "Pipe (|)",
+    "space": "Space"
+  },
+  "parseOptions": {
+    "title": "Parse Options",
+    "hasHeader": "First row is header",
+    "trimSpaces": "Trim whitespace",
+    "skipEmpty": "Skip empty lines",
+    "detectTypes": "Auto-detect types (numbers, booleans)",
+    "quoteChar": "Quote character",
+    "emptyHandling": "Empty field handling",
+    "nullEmpty": "\"\"",
+    "nullNull": "null",
+    "nullSkip": "skip"
+  },
+  "output": {
+    "title": "Output Format",
+    "object": "Array of Objects",
+    "objectDesc": "[{\"key\":\"val\"}, …]",
+    "array": "Array of Arrays",
+    "arrayDesc": "[[\"h1\",\"h2\"], …]",
+    "grouped": "Grouped by 1st col",
+    "groupedDesc": "{\"key\": [{…}, …]}",
+    "indent": "JSON Indent",
+    "minified": "Minified",
+    "spaces2": "2 spaces",
+    "spaces4": "4 spaces"
+  },
+  "stats": {
+    "title": "Stats",
+    "rows": "Rows",
+    "columns": "Columns",
+    "cells": "Cells",
+    "output": "Output"
+  },
+  "howToUse": {
+    "title": "How to Use the CSV to JSON Converter",
+    "step1Title": "Select conversion direction",
+    "step1Desc": "Choose CSV → JSON to convert CSV data to JSON, or JSON → CSV for the reverse.",
+    "step2Title": "Set the delimiter",
+    "step2Desc": "Pick the delimiter your CSV uses — comma, semicolon, tab, or let the tool auto-detect it.",
+    "step3Title": "Configure parse options",
+    "step3Desc": "Toggle options like first-row-as-header, trim whitespace, skip empty lines, and type detection.",
+    "step4Title": "Choose output format",
+    "step4Desc": "Select from Array of Objects, Array of Arrays, or Grouped output, then copy or download."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "Can I convert JSON back to CSV?", "answer": "Yes. Switch the direction to JSON → CSV and paste a JSON array to convert it back to CSV format." },
+      { "question": "What delimiters are supported?", "answer": "Comma, semicolon, tab, pipe, and space. You can also enable auto-detect to let the tool figure it out." },
+      { "question": "Will the tool auto-detect data types?", "answer": "Yes. When enabled, the tool will parse numbers and booleans from string values automatically." },
+      { "question": "Can I preview the data as a table?", "answer": "Yes. Switch to Table view to see your parsed data in a tabular layout before copying." },
+      { "question": "What happens if my CSV has no header row?", "answer": "Disable the First row is header option and the tool will auto-generate keys like field1, field2, etc." }
+    ]
+  },
+  "examples": {
+    "title": "Example Results",
+    "sampleLabel": "Try this sample text",
+    "sampleText": "name,age,city\nAlice,30,New York\nBob,25,Los Angeles",
+    "result": "[{\"name\":\"Alice\",\"age\":30,\"city\":\"New York\"},{\"name\":\"Bob\",\"age\":25,\"city\":\"Los Angeles\"}]",
+    "stats": "What you'll see"
+  },
+  "input": {
+    "csvLabel": "CSV Input",
+    "jsonLabel": "JSON Input",
+    "csvPlaceholder": "Paste CSV here or click File to upload…\n\nid,name,email\n1,Ahmed,ahmed@example.com",
+    "jsonPlaceholder": "Paste JSON array here…\n\n[{\"id\": 1, \"name\": \"Ahmed\"}]",
+    "csvInput": "CSV Input",
+    "jsonInput": "JSON Input"
+  },
+  "viewMode": {
+    "json": "JSON",
+    "table": "Table",
+    "csv": "CSV"
+  },
+  "mapping": {
+    "title": "Column Mapping ({count} columns)",
+    "csvHeader": "CSV Header",
+    "jsonKey": "JSON Key",
+    "sampleValue": "Sample Value"
+  },
+  "outputEmpty": "Output will appear here",
+  "csvOutputEmpty": "CSV output will appear here",
+  "tableEmpty": "No data to display",
+  "tableShowing": "Showing 50 of {count} rows",
+  "actions": {
+    "paste": "Paste",
+    "file": "File",
+    "clear": "Clear",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download",
+    "copyJson": "Copy JSON",
+    "copyCsv": "Copy CSV"
+  },
+  "generatedId": "Generated ID",
+  "error": "Invalid input",
+  "generatingIdle": "Click \"Generate\" to create an ID"
+}
