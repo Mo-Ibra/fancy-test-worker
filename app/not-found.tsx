@@ -24,7 +24,7 @@ export default function NotFound() {
           </p>
 
           <Link
-            href="/"
+            href="/en"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold shadow-lg shadow-blue-500/10 hover:shadow-blue-500/20 hover:-translate-y-0.5 transition-all duration-300"
           >
             Go Home
