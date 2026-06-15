@@ -32,7 +32,7 @@ export default async function Layout({
     notFound();
   }
 
-  const messages = await getMessages();
+  const messages = await getMessages({ locale: lang });
 
   return (
     <NextIntlClientProvider messages={messages} locale={lang}>

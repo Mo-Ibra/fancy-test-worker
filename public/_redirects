@@ -1,2 +1,16 @@
-# Redirect /en/* to root (those pages render 404)
-/en*  /  301
+# Static assets — serve directly
+/robots.txt       /robots.txt       200
+/sitemap.xml      /sitemap.xml      200
+/_next/*          /_next/:splat     200
+/favicon*         /favicon:splat    200
+/manifest.json    /manifest.json    200
+/.well-known/*    /.well-known/:splat  200
+
+# Arabic — unchanged
+/ar/*             /ar/:splat        200
+
+# English — unchanged
+/en/*             /en/:splat        200
+
+# Everything else → permanent redirect to /en/
+/*                /en/:splat        301
