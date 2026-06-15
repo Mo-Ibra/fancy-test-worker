@@ -25,9 +25,6 @@ export function stripLanguageFromPath(pathname: string): string {
 }
 
 export function getLocalizedPath(path: string, language: string): string {
-  if (language === DEFAULT_LANGUAGE) {
-    return path;
-  }
   return `/${language}${path}`;
 }
 

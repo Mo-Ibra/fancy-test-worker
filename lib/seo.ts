@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import { getTranslations, getMessages } from 'next-intl/server';
 import {
-  DEFAULT_LANGUAGE,
   Language,
   getMetadata,
 } from '@/lib/i18n';
@@ -28,7 +27,7 @@ export interface ToolPageSeoConfig {
 }
 
 export function getLangPath(lang: Language): string {
-  return lang === DEFAULT_LANGUAGE ? '' : `/${lang}`;
+  return `/${lang}`;
 }
 
 export async function getToolSeoContent(
